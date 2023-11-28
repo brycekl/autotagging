@@ -1,0 +1,338 @@
+import os 
+import gradio as gr
+import pandas as pd
+import os
+import copy
+import json 
+
+# from tagging import InitQwen
+from tagging_llava import InitLLA
+
+from utils import load_config,find_element_in_list,res_post_process,find_eles_in_list
+# import log
+from log_config import get_logger
+import cv2
+
+logger = get_logger()
+
+
+class Service:
+    def __init__(self,questionjson) :
+        # self.initqw = InitQwen(iftest=False)
+        self.initqw = InitLLA(iftest=False,)
+        self.question = None
+        self.category = None
+        self.tag = None
+        self.question = self.load_configs(questionjson)["qs"]
+        self.utilquestion = self.load_configs(questionjson.replace('quesion','utils_question'))["Normalization"]
+        self.q1_info =  self.question[0]["first question"]
+        self.version = None
+        self.label_explain = pd.read_csv(questionjson.replace('quesion.json','label_quesion.csv'),header=0)
+        print('self.label_explain',self.label_explain.columns.tolist())
+        self.about_category = None
+        self.about_label = None
+        self.about_option = None
+        self.if_multi = None
+    def load_configs(self,questionjson):
+        # load question.json
+        with open(questionjson, 'r') as f:
+            question = json.load(f)
+        f.close()
+        return question
+    
+
+
+    def load_label(self,version,categorycsv='category',tagcsv='tag'):
+
+        if version == self.version:
+            # load category and tag
+            if self.category is  None :
+                self.category = load_config(version,categorycsv)
+            if self.tag is None :
+                self.tag = load_config(version,tagcsv)
+            if self.main_item_tag is None:
+                # self.main_item_tag = load_config(version,'main_item_tag')
+                self.main_item_tag= {"item_main_key": {"cate_key": "subcategory","label_key": "top key"}}
+            if self.cate_key is None:
+                self.cate_key = self.main_item_tag['item_main_key']['cate_key']
+            if self.label_key is None:
+                self.label_key = self.main_item_tag['item_main_key']['label_key']
+        else :
+            # load category and tag
+            self.category = load_config(version,categorycsv)
+            self.tag = load_config(version,tagcsv)
+            # self.main_item_tag = load_config(version,'item_main_key')
+            self.main_item_tag= {"item_main_key": {"cate_key": "subcategory","label_key": "top key"}}
+            self.cate_key = self.main_item_tag['item_main_key']['cate_key']
+            self.label_key = self.main_item_tag['item_main_key']['label_key']
+            self.version = version
+
+        # if self.about_category is  None :
+        #     self.about_category = pd.read_csv('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/about_category2.csv',skipinitialspace=True)
+        # if self.about_label is None :
+        #     self.about_label = pd.read_csv('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/about_label.csv',skipinitialspace=True)
+        # if self.about_option is None :
+        #     self.about_option =pd.read_csv('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/about_label.csv',skipinitialspace=True)
+        
+
+        if self.about_category is  None :
+            self.about_category = pd.read_csv('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_ab_fc.csv',skipinitialspace=True)
+        if self.about_label is None :
+            self.about_label = pd.read_csv('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/about_option.csv',skipinitialspace=True)
+        if self.about_option is None :
+            self.about_option =pd.read_csv('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_ab_sc.csv',skipinitialspace=True)
+        if self.if_multi is None :
+            self.if_multi = pd.read_csv('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_if_multi.csv',skipinitialspace=True)
+            self.if_multi = self.if_multi[self.if_multi["is_multi"]==True]
+            logger.info(f'self.if_multi:{self.if_multi["label"].tolist()}')
+
+        print('============================self.category',self.category)
+
+        
+    
+    def single_com(self,imagedir,info):
+        # start handle img
+        # start from top category
+        q1_info =  copy.deepcopy(self.q1_info)
+
+        tag_res = []
+
+        # ask first quesion 
+        stepstr = q1_info["steps"].replace("refer_infomation",f'refer info:{info}')
+        q1 = q1_info["role"]+stepstr+q1_info["question"]
+        # check imagedir
+        imgs = os.listdir(imagedir)
+        to_del = []
+        if imgs != []:
+            for img in imgs:
+                img_res = cv2.imread(os.path.join(imagedir,img))
+                if img_res is None:
+                    to_del.append(os.path.join(imagedir,img))
+            img_res = None
+            for i in to_del:
+                os.remove(i)
+
+        res = self.initqw.tag_main(imagedir,q1)
+        # get categorys
+        main_key = ''
+        curtag = ''
+        print('self.category type',type(self.category),'self.category',self.category)
+        logger.info(f'self.category type:{type(self.category)}','self.category:{self.category}')
+        for t_c_key in self.category.keys():
+            print('t_c_key',t_c_key)
+            print('self.category[t_c_key]',self.category[t_c_key])
+            logger.info(f't_c_key:{t_c_key}',f'self.category[t_c_key]:{self.category[t_c_key]}')
+            
+            if isinstance((self.category[t_c_key][0]), str):
+                curtag = self.single_label(t_c_key,curtag, self.category[t_c_key])
+            elif isinstance((self.category[t_c_key][0]), list):
+                curtag = self.single_label(t_c_key,curtag, self.category[t_c_key][curtag])
+            elif isinstance((self.category[t_c_key][0]), dict):
+                top_cs = [list(i.keys())[0] for i in self.category[t_c_key]]
+                if curtag in top_cs:
+                    curtag = self.single_label(t_c_key,curtag, self.category[t_c_key][top_cs.index(curtag)][curtag])
+                # curtag = self.single_label(t_c_key,curtag,self.category[t_c_key][curtag])
+
+            tag_res.append({"label":t_c_key,"value":curtag})
+            # print('tag_res',tag_res)
+            logger.info(f'tag_res:{tag_res}')
+
+
+            # label_key_lowers = [i.lower() for i in self.tag[self.label_key]]
+            print('[self.tag] type',type(self.tag))
+            print('self.tag[self.label_key]',self.tag[self.label_key])
+
+            for ll_label  in self.tag[self.label_key]:
+                
+                if curtag.lower() == ll_label.lower():
+                    main_key = ll_label
+                    break
+
+            
+            # if curtag.lower() in  label_key_lowers:
+            #     # print('curtag found for the current category',curtag)
+            #     logger.info(f'curtag found for the current category:{curtag}')
+            #     main_key = curtag
+            #     main_key =self.tag[label_key_lowers.index(curtag.lower())]
+        # get label
+        if main_key== '':
+            # TODO if no features found for the current category, search all label 
+            tag_res.append({"label":'eror happend',"value":'No features found for the current category'})
+
+            return tag_res
+        
+        curtag = main_key
+
+        print('dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd')
+
+        top_ls = [list(i.keys())[0] for i in self.tag['type']]
+        if curtag in top_ls:
+            l_index = top_ls.index(curtag)
+        label_options = self.tag['type'][top_ls.index(curtag)][curtag]
+
+        for t_l_index,t_l_key_option in enumerate(label_options):
+            print('t_l_key_option',t_l_key_option)
+
+            if  isinstance(t_l_key_option, dict):
+                t_l_key = list(t_l_key_option.keys())[0] 
+                # print('t_l_keyt_l_keyt_l_keyt_l_keyt_l_keyt_l_key',t_l_key)
+                if  isinstance((t_l_key_option[t_l_key]), list):
+                    curtag = self.single_label(t_l_key,main_key, t_l_key_option[t_l_key])
+
+                tag_res.append({"label":t_l_key,"value":curtag})
+        
+        return tag_res
+
+    def check_about(self,t_key ,curtag):
+        t_key_desc = ''
+        print('t_keyt_keyt_keyt_keyt_key',t_key)
+        if t_key in self.about_label["label"].tolist():
+            print('t_key in self.about_label["label"].tolist():', self.about_label.columns.tolist())
+            
+            # label_desc = self.about_label[self.about_label["label"]==t_key]["explain"].dropna().tolist()
+
+            # if label_desc != []:
+            #     t_key_desc = t_key+" means "+ label_desc[0]
+            label_desc = self.about_label[self.about_label["label"]==t_key]
+            if label_desc.shape[0] != 0:
+               for  index, row in label_desc.iterrows():
+                    logger.info('get row["options"]',row["options"],'row["explain"]',row["explain"])
+                    t_key_desc += str(row["options"]) +" means " + str(row["explain"]) +"\n"  
+
+        print(f'{t_key} ==first category',t_key == 'first category','curtag',curtag)
+        if t_key == 'first category':
+            category_desc = self.about_category
+            print("category_desc",self.about_category.shape)
+            if category_desc.shape[0] != 0:
+                for  index, row in  self.about_category.iterrows():
+                    print('row["category"]',row["category"])
+                    t_key_desc += row["category"] +" means " + row["explain"] +"\n"
+        if t_key == 'subcategory':
+            # print('t_key  in self.option["label"].tolist()',self.about_option.columns.tolist())
+            all_attr = self.about_option[self.about_option["label"]==curtag]
+            if all_attr.shape[0] != 0:
+               for  index, row in all_attr.iterrows():
+                    t_key_desc += row["options"] +" means " + row["explain"] +"\n"  
+        return t_key_desc
+
+
+
+    def single_label(self,t_key ,curtag,options):
+    
+        question_list  = [copy.deepcopy(j) for j in self.question][1:]
+        label_res = 'none'
+        i = 0
+
+        for question_i in question_list:
+            lb = t_key+str(i)
+            question =list(question_i.values())[0]
+
+            # t_key_ex = self.label_explain[self.label_explain["label"]==t_key][" explain"].dropna().tolist()
+            # if t_key_ex != []:
+            #     t_key_ex = t_key_ex[0]
+            # else:
+            #     t_key_ex = ''
+            # t_key = t_key_ex if t_key_ex != '' else t_key
+
+            # print('t_key',t_key)
+            t_key_desc = ''
+
+            t_key_desc = self.check_about(t_key,curtag)
+           
+            if t_key_desc != "":
+                qinfo = question["known_infomation"].replace("known_infomation",t_key_desc)
+                qinfo += question["question"].replace("to_determin_attribute",t_key)
+            else:
+                qinfo = question["question"].replace("to_determin_attribute",t_key)
+            if curtag != '':
+                qinfo = qinfo.replace("merchandise",curtag.lower())
+            
+            qinfo = qinfo.replace("options",f"options:{str(options).lower()}")
+            qinfo =  qinfo+question["constrains"]
+
+            if t_key in self.if_multi["label"].tolist():
+           
+                qinfo = qinfo.replace("if_multi","appropriate options")
+                qinfo = qinfo.replace("an answer","one or more answer you think is correct")
+            else:
+                qinfo = qinfo.replace("if_multi","one option")
+            
+            tmpres = self.initqw.tag_main(lb,qinfo)
+            tmpres = res_post_process(tmpres)
+            if t_key in self.if_multi["label"].tolist():
+                label_res = find_eles_in_list(tmpres,options)
+            else:
+                label_res = find_element_in_list(tmpres,options)
+
+            logger.info('---------------------------')
+            logger.info(f'tmpres:{tmpres}')
+            logger.info(f'label_res:{label_res}')
+            logger.info('---------------------------')      
+            if label_res:
+                break
+            else:
+                qa = copy.deepcopy(self.utilquestion).replace("to_determain_sentence",tmpres)
+                qa = qa.replace("to_chose_options",f'options:{str(options).lower()}')
+                label_res = self.initqw.quick_qa(qa)
+                print('label_res',label_res)
+                label_res = res_post_process(label_res)
+                label_res2 = find_element_in_list(label_res,options)
+                 
+                if t_key in self.if_multi["label"].tolist():
+                    label_res2 = find_eles_in_list(label_res,options)
+                else:
+                    label_res2 = find_element_in_list(label_res,options)
+
+                print('label_res2',label_res2)
+                logger.info('---------------------------')
+                logger.info(f'label_res:{label_res}')
+                logger.info(f'label_res2:{label_res2}')
+                logger.info('---------------------------')  
+                if  label_res2:
+                    label_res= label_res2
+                    break
+                else:
+                    i += 1
+                    if i>= len(question_list):
+                        label_res= ' '
+        return label_res
+
+    def tag_main(self,imagedirs,product_info,version,categorycsv='category',tagcsv='label'):
+
+        try:
+            print('=========start labeling==========')
+            print('=======================================get labels==================================================')
+            # load category and tag
+            self.load_label(version,categorycsv,tagcsv)
+            print('=======================================start labeling==============================================')
+            logger.info('=======================================start labeling==============================================')
+            # get tag
+            print('imgdir',imagedirs)
+            logger.info(f'imgdir:{imagedirs}')
+            # if imagedirs  no img 
+            tag =[]
+            if os.listdir(imagedirs) == []:
+                logger.info(f'no image found in {imagedirs}')
+                tag = []
+                return tag 
+            else:
+
+                tag = self.single_com(imagedirs,product_info)
+
+                if type(tag) == str:
+                    tag = []
+                if 'eror happend' in [i['label'] for i in tag]:
+                    tag = []
+
+            print('=======================')
+            print('tag',tag)
+            logger.info('=======================')
+            logger.info(f'tag:{tag}')
+            return tag
+        except Exception as e:
+            # print('error',e)
+            logger.info(f'error:{e}')
+            logger.info(f'{e.__traceback__.tb_frame.f_globals["__file__"]}')
+            logger.info(f'{e.__traceback__.tb_lineno}')
+            return []
+

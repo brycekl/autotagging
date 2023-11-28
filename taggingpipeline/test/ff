@@ -1,0 +1,303 @@
+# role
+you are a professional fashion consultant,you answer a series of information about clothing characteristics,follow these steps to complete
+ first : observethe clothes in the pictures 
+ second: Take a deep breath and read the refer information carefully,refer info:"商品信息"
+ third: answer the questions
+
+# 衣服种类
+question: what kind of this clothed is this?Introduce it briefly
+
+# top category
+
+question:what is the top category  of this clothes?
+options: ['TOP', 'DRESS', 'SWEATER','JACKET', 'OUTWEAR','BOTTOMS','PANTS'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+# 元素
+
+third question：If this piece of clothing is a top, from what angle should this piece of clothing be introduced?
+
+# 领型
+
+What's the collar on this clothes,describe it briefly，refer info:'Color: " Green
+Take your collared look up a notch. We made this notch collar blouse with a relaxed, slim fit with a clean and crisp look for an everyday appeal. Perfectly made to be layered or worn solo. Plus, silk fiber contains 18 kinds of amino acids that make it amazing for skin nourishment, hypo-allergenic, and naturally thermoregulating to help maintain body temperature.'
+
+# 确定领型
+question:Based on your answer just now, what type of collar does this dress belong to?
+options: ['Notched Collar','Peak Lapel','Shawl Collar','Mandarin','Biker Collar','Funnel Collar','Spread Collar','Bermuda Collar'm,'Sailor Collar','Storm Collar','Draped Collar','Convertible Collar'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+# 确定领型2
+question: what type of collar does this clothes belong to?
+options: ['Notched Collar','Peak Lapel','Shawl Collar','Mandarin','Biker Collar','Funnel Collar','Spread Collar','Bermuda Collar'm,'Sailor Collar','Storm Collar','Draped Collar','Convertible Collar'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+'Skinny','Wide','Slim','Tailored','Flared','Utility','Chinos','Trousers','Cropped','Low-risel','Mid-rise','High-rise' ,'Joggers'
+
+# 袖长
+question:Based on your answer just now and refer info, what type of sleeve  length does this clothes belong to?
+options: ['Sleeveless','Cap','Short','Half','3/4','Bracelet','3/4'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+# 
+Your answer is not among the above options. Please take a deep breath, think carefully, and answer
+
+
+# 袖长
+you are a professional fashion consultant,observethe clothes in the pictures and answer the questions：
+question:Based on your answer just now and refer info, what type of sleeve  length does this clothes belong to?
+options: ['Sleeveless','Cap','Short','Half','3/4','Bracelet','3/4'，'long sleeves'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+# 袖长2
+question:what type of sleeve  length does this clothes belong to?
+options: ['Sleeveless','Cap','Short','Half','3/4','Bracelet','3/4'，'long sleeves'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+# 袖型
+you are a professional fashion consultant,observethe clothes in the pictures and answer the questions：
+question:Based on your answer just now and refer info, what type of sleeve  type does this clothes belong to?
+options: ['Bell Sleeve','Bishop Sleeve','Balloon Sleeve','Dolman Sleeve','Butterfly Sleeve','Raglan Sleeve','Juliet Sleeve','Kimono Sleeve','Poet Sleeve,'Puff Sleeve','Flutter Sleeve','Petal Sleeve','Rolled Sleeve','Cold-Shoulder Sleeve','Off-the-Shoulder Sleeve','Split Sleeve','Ruffle sleeves','Tapered Sleeve','Lantern Sleeve','Leg-of-Mutton Sleeve','Cuffed Sleeve','Peasant Sleeve''Two-Piece Sleeve','Roll-tab sleeve'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+# 袖型2
+question:what type of sleeve  shape does this clothes belong to?
+options: ['Regular sleeve','Bell Sleeve','Bishop Sleeve','Balloon Sleeve','Dolman Sleeve','Butterfly Sleeve','Raglan Sleeve','Juliet Sleeve','Kimono Sleeve','Poet Sleeve,'Puff Sleeve','Flutter Sleeve','Petal Sleeve','Rolled Sleeve','Cold-Shoulder Sleeve','Off-the-Shoulder Sleeve','Split Sleeve','Ruffle sleeves','Tapered Sleeve','Lantern Sleeve','Leg-of-Mutton Sleeve','Cuffed Sleeve','Peasant Sleeve''Two-Piece Sleeve','Roll-tab sleeve'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+A:Long
+
+
+# 袖型2
+question:what type of material does this clothes belong to?
+options: ['Regular sleeve','Bell Sleeve','Bishop Sleeve','Balloon Sleeve','Dolman Sleeve','Butterfly Sleeve','Raglan Sleeve','Juliet Sleeve','Kimono Sleeve','Poet Sleeve,'Puff Sleeve','Flutter Sleeve','Petal Sleeve','Rolled Sleeve','Cold-Shoulder Sleeve','Off-the-Shoulder Sleeve','Split Sleeve','Ruffle sleeves','Tapered Sleeve','Lantern Sleeve','Leg-of-Mutton Sleeve','Cuffed Sleeve','Peasant Sleeve''Two-Piece Sleeve','Roll-tab sleeve'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+# 袖型3
+question:what type of sleeve  shape does this clothes belong to?
+options: ['Bell Sleeve','Bishop Sleeve','Balloon Sleeve','Dolman Sleeve','Butterfly Sleeve','Raglan Sleeve','Juliet Sleeve','Kimono Sleeve','Poet Sleeve,'Puff Sleeve','Flutter Sleeve','Petal Sleeve','Rolled Sleeve','Cold-Shoulder Sleeve','Off-the-Shoulder Sleeve','Split Sleeve','Ruffle sleeves','Tapered Sleeve','Lantern Sleeve','Leg-of-Mutton Sleeve','Cuffed Sleeve','Peasant Sleeve''Two-Piece Sleeve','Roll-tab sleeve'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+# 材质
+question:what type of material does this clothes belong to?
+
+options: ['Cotton','Linen',Silk
+Wool,Cashmere,Mohair,Hemp,Jute,Bamboo,Leather,Suede
+Denim,Polyester,Nylon,Acrylic,Rayon,Viscose,Elastane,Latex,PVC,Teflon,Kevlar
+Gore-Tex
+Neoprene
+Rubber
+Fleece
+Satin
+Velvet
+Chiffon
+Tulle
+Organza
+Brocade
+Tencel
+Modal
+Polyurethane
+Polyamide
+Shearling
+Recycled
+Water-resistent
+Organic],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+Cotton,Spandex/Elastane/Lycra
+
+A:Long
+
+# 袖型4
+
+## role:
+    a professional fashion consultant,
+## Goals:
+    first: carefully observethe clothes in the pictures
+    second: you need to determine the selling points and features of clothes
+    third :Please think  step by step,recognize the shape of the sleeves of this clothes,and the reson why 
+    fourth: please select an answer from the following sleeve_options,answer "none" if there is no match in the options
+
+## OutputFormat:
+    [sleeve shape]: <shape of the sleeves of this clothes>
+    [reason] : <the reson why>
+====
+    sleeve_options: ['Regular sleeve','Bell Sleeve','Bishop Sleeve','Balloon Sleeve','Dolman Sleeve','Butterfly Sleeve','Raglan Sleeve','Juliet Sleeve','Kimono Sleeve','Poet Sleeve,'Puff Sleeve','Flutter Sleeve','Petal Sleeve','Rolled Sleeve','Cold-Shoulder Sleeve','Off-the-Shoulder Sleeve','Split Sleeve','Ruffle sleeves','Tapered Sleeve','Lantern Sleeve','Leg-of-Mutton Sleeve','Cuffed Sleeve','Peasant Sleeve''Two-Piece Sleeve','Roll-tab sleeve'],
+====
+
+
+# 肩部
+question:what type of shoulder does this clothes belong to?
+options: ['Raglan Shoulder','Drop Shoulder','Puff Shoulder','Cold-Shoulder','Off-the-Shoulder','One-Shoulder','Epaulettes','Bare Shoulders','Peasant Style'∏,'Halter Neck','Tulle Shoulder','Structured','Saddle Shoulder'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+# waist
+question:what type of waist does this clothes belong to?
+options: ['Fitted','Regular','Loose','Natural Waist','Empire Waist','Dropped Waist','Peplum Waist','Corseted Waist','High Waist (High-Rise)','Low Waist (Low-Rise)','Paperbag Waist','Elastic Waist','Drawstring'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+# length 
+question:what type of length does this clothes belong to?
+options: ['Cropped','Waist Length','Hip Length','Tunic Length'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+#color 
+question:what type of color does this clothes belong to?
+options: ['Cropped','Waist Length','Hip Length','Tunic Length'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+answer the  following questions 
+
+question1:what is the top category  of this clothes?
+options: ['TOP', 'DRESS', 'SWEATER','JACKET', 'OUTWEAR','BOTTOMS','PANTS'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+question2:what type of shoulder does this clothes belong to?
+options: ['Raglan Shoulder','Drop Shoulder','Puff Shoulder','Cold-Shoulder','Off-the-Shoulder','One-Shoulder','Epaulettes','Bare Shoulders','Peasant Style'∏,'Halter Neck','Tulle Shoulder','Structured','Saddle Shoulder'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+question3:what type of sleeve  shape does this clothes belong to?
+options: ['Bell Sleeve','Bishop Sleeve','Balloon Sleeve','Dolman Sleeve','Butterfly Sleeve','Raglan Sleeve','Juliet Sleeve','Kimono Sleeve','Poet Sleeve,'Puff Sleeve','Flutter Sleeve','Petal Sleeve','Rolled Sleeve','Cold-Shoulder Sleeve','Off-the-Shoulder Sleeve','Split Sleeve','Ruffle sleeves','Tapered Sleeve','Lantern Sleeve','Leg-of-Mutton Sleeve','Cuffed Sleeve','Peasant Sleeve''Two-Piece Sleeve','Roll-tab sleeve'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+question4:what type of waist does this clothes belong to?
+options: ['Fitted','Regular','Loose','Natural Waist','Empire Waist','Dropped Waist','Peplum Waist','Corseted Waist','High Waist (High-Rise)','Low Waist (Low-Rise)','Paperbag Waist','Elastic Waist','Drawstring'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+question5:what type of length does this clothes belong to?
+options: ['Cropped','Waist Length','Hip Length','Tunic Length'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+question6:what type of sleeve  shape does this clothes belong to?
+options: ['Bell Sleeve','Bishop Sleeve','Balloon Sleeve','Dolman Sleeve','Butterfly Sleeve','Raglan Sleeve','Juliet Sleeve','Kimono Sleeve','Poet Sleeve,'Puff Sleeve','Flutter Sleeve','Petal Sleeve','Rolled Sleeve','Cold-Shoulder Sleeve','Off-the-Shoulder Sleeve','Split Sleeve','Ruffle sleeves','Tapered Sleeve','Lantern Sleeve','Leg-of-Mutton Sleeve','Cuffed Sleeve','Peasant Sleeve''Two-Piece Sleeve','Roll-tab sleeve'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+
+As a human linguist, you are follow these steps to complete
+first : Think carefully about the meaning of this sentence:'This is a pair of black pants from Everlane'
+
+second: Think about the [problem] based on the meaning of the above sentence.[problem]:what is the top category of this product?
+
+third:Choose the one below [options] that best matches the semantics of the answer to the above question.If none of them apply, answer ‘none’
+ 
+
+ please select an answer from the above options,no need to answer in full sentences,
+please answer your options directly and just give one option
+please answer 'none' if there is no match in the options
+
+
+[options]:['denim', 'top', 'jumpsuit', 'skirt', 'shorts', 'sweater', 'outerwear', 'lounge/pajamas', 'sweatshirt', 'dresses', 'activewear', 'jacket', 'pants']
+
+
+Take a deep breath and take it step by step,
+
+
+
+As a human linguist, you are follow these steps to complete
+first : Think carefully about the meaning of this sentence:'There is no information provided about the sleeve length of the top in the given options.'
+
+second: Think about the [problem] based on the meaning of the above sentence.[problem]:what is the SLEEVE LENGTH  of this TOP?
+
+third:Choose the one below [options] that best matches the semantics of the answer to the above question.If none of them apply, answer ‘none’
+ 
+
+ please select an answer from the above options,no need to answer in full sentences,
+please answer your options directly and just give one option
+please answer 'none' if there is no match in the options
+
+
+[options]:['sleeveless', 'short', 'long', 'bracelet', 'cap', 'half', '3/4']
+
+
+Take a deep breath and take it step by step,
+
+
+
+
+question:what is the sbcategory  of this pants?
+options: 
+ A:'Skinny',
+ B:'Wide',
+ C:'Slim',
+ D:'Tailored',
+ E:'Flared',
+ F:'Utility',
+ G:'Chinos',
+ H:'Trousers',
+ I:'Cropped',
+ J:'Joggers',
+
+answer:A or B or C or D or E or F or G or H or I or J or K or L
+
+please select one or more  answer from the above options,no need to answer in full sentences
+answer "none" if there is no match in the options 
+
+
+as known information
+Natural	:Natural waist refers to the narrowest part of a person's waist, typically located between the bottom of the ribcage and the top of the hip bones. It is called the "natural" waist because it is the part of the waist that is most defined when a person stands upright in their natural posture.
+Dropped	:A drop waist is a style of clothing design where the waistline of a garment is positioned below the natural waist, closer to the hips.
+Peplum	:A peplum waist refers to a style of clothing design in which a short, flared, and often ruffled or pleated section of fabric is attached to the waistline of a dress, top, jacket, or skirt. This additional fabric extends outwards from the waist and can create a flouncy or layered effect, adding a decorative and sometimes feminine detail to the garment.
+Corseted	:A corseted waist style is a fashion design that incorporates elements of a corset into a garment, typically to create a cinched and structured waistline. Corsets themselves are tight-fitting undergarments historically used to shape and support the torso, particularly the waist, and create an hourglass figure. In modern fashion, the corseted waist style draws inspiration from traditional corsets but is often incorporated into outerwear, dresses, or tops to create a fashionable and stylized look.
+Wrap	:A wrap waist style is a fashion design concept that involves a garment, typically a skirt, dress, or top, that wraps around the waist and fastens by overlapping one side of the fabric with the other, often secured with ties, buttons, snaps, or hooks. This style creates a wrap-around effect, allowing the wearer to adjust the fit and secure the garment by wrapping it tightly or loosely around the waist.
+
+
+Please understand the above information carefully and answer the following questions:
+question:what type of waist does this clothes belong to?
+options: ['Fitted','Regular','Loose','Natural Waist','Empire Waist','Dropped Waist','Peplum Waist','Corseted Waist','High Waist (High-Rise)','Low Waist (Low-Rise)','Paperbag Waist','Elastic Waist','Drawstring'],
+please select an answer from the above options,no need to answer in full sentences
+please answer your options directly and just give one option 
+answer "none" if there is no match in the options
+
+

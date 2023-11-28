@@ -1,0 +1,47 @@
+{
+    "first category": [
+        "bottoms",
+        "Jumpsuit",
+        "Overcoat",
+        "Tops",
+        "Dresses"
+    ],
+    "subcategory": [
+        {
+            "bottoms": [
+                "pants",
+                "shorts",
+                "skirt"
+            ]
+        },
+        {
+            "Jumpsuit": [
+                "Jumpsuit"
+            ]
+        },
+        {
+            "Overcoat": [
+                "Jacket",
+                "Outerwear"
+            ]
+        },
+        {
+            "Tops": [
+                "Sweater",
+                "T-shirt",
+                "Blouse",
+                "Tunic",
+                "Bodysuit",
+                "Sweatshirt",
+                "Corset",
+                "Vest",
+                "Tank"
+            ]
+        },
+        {
+            "Dresses": [
+                "Dresses"
+            ]
+        }
+    ]
+}

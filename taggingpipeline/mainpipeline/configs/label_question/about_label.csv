@@ -1,0 +1,27 @@
+﻿label,is_multi,special ,explain
+top category,FALSE,,category
+subcategory,FALSE,"PANTS,DRESSES,Sweater",
+NECKLINE,FALSE,,
+COLLAR,FALSE,,
+SLEEVE LENGTH,FALSE,,
+SLEEVE SHAPE,FALSE,,
+CUFF,FALSE,,
+SHOULDER,FALSE,,
+WAIST,FALSE,,
+FIT,FALSE,,"""fit"" refers to how tight or loose a garment is on the person wearing it"
+BACK,FALSE,,"back"" refers to the portion of a garment that covers the back of the body"
+LENGTH,FALSE,,
+Cut,FALSE,,
+RISE,FALSE,,"""Rise"" in clothing is the measurement that determines how high or low a pair of pants or skirt will sit on the waist."
+Design,TRUE,,
+COLOR,TRUE,,
+Saturation,FALSE,,
+Brightness,FALSE,,
+MATERIAL,TRUE,,
+PATTERN,TRUE,,"Pattern design in clothing refers to the art and craft of creating graphics, colors, and textures on fabric to add visual appeal and uniqueness to garments."
+TRENDS,TRUE,,"""trends"" are the prevailing styles and designs that are currently popular."
+PROCESS,TRUE,,craftsmanship
+OCCASION,TRUE,,Occasions refers to the types of life events or milestones that a user will need outfits for. The occasion will determine how formal or how casual the clothes will need to be. 
+LOCATION,TRUE,,Location refers to where the event will take place. This may dictate the types of clothing worn to the event. 
+STYLE,TRUE,,what style is this merchandise
+SEASON,TRUE,,

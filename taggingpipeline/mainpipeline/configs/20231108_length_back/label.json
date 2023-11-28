@@ -1,0 +1,415 @@
+{
+    "type": [
+        {
+            "JACKET": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "3/4 Length",
+                        "Waist Length",
+                        "Hip Length",
+                        "Knee Length",
+                        "Trench Length",
+                        "Full Length",
+                        "Mid-thigh Length",
+                        "Cropped",
+                        "Car Coat Length"
+                    ]
+                }
+            ]
+        },
+        {
+            "SWEATER": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Tunic Length",
+                        "Waist Length",
+                        "Cropped",
+                        "Hip Length"
+                    ]
+                }
+            ]
+        },
+        {
+            "SHORTS": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                }
+            ]
+        },
+        {
+            "ACTIVEWEAR": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Tunic Length",
+                        "Waist Length",
+                        "Cropped",
+                        "Hip Length"
+                    ]
+                }
+            ]
+        },
+        {
+            "LOUNGE/PAJAMAS": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Tunic Length",
+                        "Waist Length",
+                        "Cropped",
+                        "Hip Length"
+                    ]
+                }
+            ]
+        },
+        {
+            "DRESS": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Knee-length",
+                        "Ballerina Length",
+                        "Maxi",
+                        "Tea Length",
+                        "Above-the-knee",
+                        "Mini",
+                        "Asymmetric",
+                        "Full Length",
+                        "Ankle Length",
+                        "Cocktail Length",
+                        "Floor Length",
+                        "High-low"
+                    ]
+                }
+            ]
+        },
+        {
+            "OUTERWEAR": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "3/4 Length",
+                        "Waist Length",
+                        "Hip Length",
+                        "Knee Length",
+                        "Trench Length",
+                        "Full Length",
+                        "Mid-thigh Length",
+                        "Cropped",
+                        "Car Coat Length"
+                    ]
+                }
+            ]
+        },
+        {
+            "SKIRT": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Knee-length",
+                        "Micro-mini",
+                        "Above-the-knee",
+                        "Mini",
+                        "Ankle-length (Maxi)",
+                        "Mid-thigh",
+                        "Tea-length",
+                        "Below-the-knee (Midi)",
+                        "Floor-length",
+                        "Calf-length"
+                    ]
+                }
+            ]
+        },
+        {
+            "TOP": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Tunic Length",
+                        "Waist Length",
+                        "Cropped",
+                        "Hip Length"
+                    ]
+                }
+            ]
+        },
+        {
+            "PANTS": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Full-length",
+                        "Culottes",
+                        "Cropped",
+                        "Clam Diggers",
+                        "Ankle-length"
+                    ]
+                }
+            ]
+        },
+        {
+            "JUMPSUIT": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Full-length",
+                        "Culottes",
+                        "Cropped",
+                        "Clam Diggers",
+                        "Ankle-length"
+                    ]
+                }
+            ]
+        },
+        {
+            "SWEATSHIRT": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Tunic Length",
+                        "Waist Length",
+                        "Cropped",
+                        "Hip Length"
+                    ]
+                }
+            ]
+        },
+        {
+            "DENIM": [
+                {
+                    "BACK": [
+                        "Button-up back",
+                        "Strappy back",
+                        "Pleat(s)",
+                        "Low back",
+                        "U BACK",
+                        "T-back",
+                        "Regular",
+                        "Open",
+                        "Racerback",
+                        "Keyhole Back",
+                        "Cut-out back",
+                        "Zip-up back",
+                        "Lace back"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Full-length",
+                        "Culottes",
+                        "Cropped",
+                        "Clam Diggers",
+                        "Ankle-length"
+                    ]
+                }
+            ]
+        }
+    ],
+    "top category": [
+        "JACKET",
+        "SWEATER",
+        "SHORTS",
+        "ACTIVEWEAR",
+        "LOUNGE/PAJAMAS",
+        "DRESS",
+        "OUTERWEAR",
+        "SKIRT",
+        "TOP",
+        "PANTS",
+        "JUMPSUIT",
+        "SWEATSHIRT",
+        "DENIM"
+    ]
+}

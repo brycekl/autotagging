@@ -1,0 +1,380 @@
+﻿type,label,label option
+ALL,COLOR,Yellow
+ALL,TRENDS,Y2K
+ALL,PROCESS,Wrinkle
+ALL,OCCASION,Work/Job Interviews
+ALL,MATERIAL,Cotton
+ALL,Event ,Winter New Arrival
+ALL,SEASON,Winter
+ALL,COLOR,White
+ALL,OCCASION,Weddings
+ALL,MATERIAL,Linen
+ALL,Saturation,Vivid
+ALL,STYLE,Vintage
+ALL,PATTERN,Vertical Stripes
+ALL,MATERIAL,Silk
+ALL,Event ,Valentine's Day
+ALL,OCCASION,Vacations/Travel
+ALL,STYLE,Urban
+ALL,MATERIAL,Wool
+ALL,STYLE,Trendy
+ALL,TRENDS,Tomato-Girl Summer
+ALL,PATTERN,Toile
+ALL,PROCESS,Tie dyeing
+ALL,Event ,Thanksgiving
+ALL,MATERIAL,Cashmere
+ALL,Fit,Tailored/Slim
+ALL,Event ,Super Bowl
+ALL,Event ,Summer Sale
+ALL,Event ,Summer New Arrival
+ALL,SEASON,Summer
+ALL,Event ,Spring Break
+ALL,SEASON,Spring
+ALL,PROCESS,Splicing
+ALL,PATTERN,Solid
+ALL,OCCASION,Sleep
+ALL,Fit,Skinny
+ALL,Event ,Ski Season
+ALL,MATERIAL,Mohair
+ALL,PATTERN,Sheer
+ALL,MATERIAL,Bamboo
+ALL,MATERIAL,Leather/Suede
+ALL,STYLE,Romantic
+ALL,PROCESS,Ripped
+ALL,Fit,Relaxed
+ALL,Fit,Regular
+ALL,TRENDS,Regency-era Influences
+ALL,COLOR,Red
+ALL,MATERIAL,Denim
+ALL,PROCESS,Raw Edge
+ALL,TRENDS,Quiet Luxury
+ALL,COLOR,Purple
+ALL,STYLE,Preppy
+ALL,OCCASION,Pregnancy & Post-Pregnancy
+ALL,MATERIAL,Polyester
+ALL,PATTERN,Polka dot
+ALL,PATTERN,Plaid
+ALL,COLOR,Pink
+ALL,OCCASION,Photoshoots/Headshots
+ALL,COLOR,Pastel
+ALL,PATTERN,Paisley
+ALL,Fit,Oversized
+ALL,OCCASION,Outdoor Activity
+ALL,MATERIAL,Nylon
+ALL,MATERIAL,Elastane
+ALL,COLOR,Orange
+ALL,MATERIAL,Gore-Tex
+ALL,TRENDS,None
+ALL,Event ,New Year
+ALL,COLOR,Neutral
+ALL,TRENDS,Naked Trend
+ALL,Saturation,Muted
+ALL,Event ,Music Festival
+ALL,LOCATION,Mountains
+ALL,MATERIAL,Satin
+ALL,Saturation,Moderate
+ALL,MATERIAL,Velvet
+ALL,STYLE,Minimalist
+ALL,OCCASION,Milestones (graduation/retirement/promotions parties)
+ALL,TRENDS,Mermaid-core
+ALL,PATTERN,Medium Indigo Wash
+ALL,Brightness,Medium
+ALL,MATERIAL,Chiffon
+ALL,PATTERN,Light Indigo Wash
+ALL,Brightness,Light
+ALL,MATERIAL,Tulle
+ALL,PROCESS,Laser cutting
+ALL,PATTERN,Lace
+ALL,MATERIAL,Organza
+ALL,PATTERN,Jacquard
+ALL,PATTERN,Ikat
+ALL,PATTERN,Houndstooth
+ALL,PATTERN,Horizontal Stripes
+ALL,OCCASION,Home
+ALL,PATTERN,Herringbone
+ALL,Event ,Halloween
+ALL,OCCASION,Gym/Workout
+ALL,STYLE,Grunge
+ALL,COLOR,Grey
+ALL,COLOR,Green
+ALL,PATTERN,Graphic
+ALL,MATERIAL,Tencel
+ALL,STYLE,Glam
+ALL,PATTERN,Geometric
+ALL,TRENDS,Gender-fluid
+ALL,OCCASION,Galas/Fundraisers/Red Carpet Events
+ALL,TRENDS,Futuristic Fashion
+ALL,MATERIAL,Modal
+ALL,PATTERN,Floral
+ALL,PROCESS,Flocking
+ALL,PATTERN,Fleur-de-lis
+ALL,OCCASION,Festival/Concert
+ALL,SEASON,Fall
+ALL,PATTERN,Fair Isle
+ALL,Event ,End of Year Sale
+ALL,PROCESS,Embroidery
+ALL,MATERIAL,Shearling
+ALL,STYLE,Edgy
+ALL,Event ,Easter Day
+ALL,PATTERN,Dusty
+ALL,MATERIAL,Recycled
+ALL,PATTERN,Diagonal Stripes
+ALL,LOCATION,Desert
+ALL,MATERIAL,Water-resistant
+ALL,OCCASION,Date Night
+ALL,PATTERN,Dark Indigo Wash
+ALL,Brightness,Dark
+ALL,PATTERN,Damask
+ALL,Event ,Cyber Monday
+ALL,PROCESS,Crochet
+ALL,LOCATION,Country
+ALL,MATERIAL,Organic
+ALL,TRENDS,Cottagecore
+ALL,PATTERN,Color Block
+ALL,STYLE,Classic
+ALL,LOCATION,City
+ALL,Event ,Christmas
+ALL,MATERIAL,Knit
+ALL,PATTERN,Chevron
+ALL,PATTERN,Check
+ALL,OCCASION,Casual Day Out
+ALL,MATERIAL,Down feather
+ALL,PATTERN,Camouflage
+ALL,COLOR,Brown
+ALL,Fit,Boxy
+ALL,COLOR,Bold
+ALL,STYLE,Bohemian (Boho)
+ALL,COLOR,Blue
+ALL,PATTERN,Bleach Indigo Wash
+ALL,Event ,Black Friday
+ALL,COLOR,Black
+ALL,LOCATION,Beach
+ALL,TRENDS,Barbie-core
+ALL,MATERIAL,Fur/Faux fur
+ALL,TRENDS,Ballet-core
+ALL,Event ,Back to School
+ALL,Event ,Autumn New Arrival
+ALL,PATTERN,Argyle
+ALL,PATTERN,"Animal print (e.g., leopard, zebra, snake)"
+ALL,STYLE,Active
+ALL,OCCASION,A Night Out
+ALL,TRENDS,90s Grunge
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Zip-up back
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,U BACK
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,T-back
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Strappy back
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Regular
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Racerback
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Pleat(s)
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Open
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Low back
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Lace back
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Keyhole Back
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Cut-out back
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Camisole,Tube,Sweater,Sweatshirt,Pants,Shorts,Skirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Back,Button-up back
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Sweater,Sweatshirt,Pants,Shorts,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Waist,Wrap
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Sweater,Sweatshirt,Pants,Shorts,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Waist,Regular
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Sweater,Sweatshirt,Pants,Shorts,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Waist,Peplum
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Sweater,Sweatshirt,Pants,Shorts,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Waist,Natural
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Sweater,Sweatshirt,Pants,Shorts,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Waist,Loose
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Sweater,Sweatshirt,Pants,Shorts,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Waist,Fitted
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Sweater,Sweatshirt,Pants,Shorts,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Waist,Empire
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Sweater,Sweatshirt,Pants,Shorts,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Waist,Dropped
+"Blouse,Tunic,Corset,Bodysuit,Corset,Vest,Sweater,Sweatshirt,Pants,Shorts,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Waist,Corseted
+Jacket,Cut,Tuxedo
+Jacket,Cut,Shacket
+Jacket,Cut,Motocycle
+Jacket,Cut,Bomber
+Jacket,Cut,Blazer
+"Jumpsuit,Pants,Shorts",Design,Tuxedo
+"Jumpsuit,Pants,Shorts",Design,Stirrup
+"Jumpsuit,Pants,Shorts",Design,Pleated
+"Jumpsuit,Pants,Shorts",Design,Jogger
+"Jumpsuit,Pants,Shorts",Design,Flat Front
+"Jumpsuit,Pants,Shorts",Design,Cuffed
+"Jumpsuit,Pants,Shorts",Design,Cargos
+"Jumpsuit,Pants,Shorts",Design,Capris
+"Jumpsuit,Pants,Pants",Length,Culottes
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Length,Maxi
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Length,High-low
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Length,Cocktail Length
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Length,Ballerina Length
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Length,Asymmetric
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Jumpsuit,Pants,",Length,Ankle Length
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Tunic
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Length,Tea Length
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Sweatshirt Dress
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Slip Dress
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Shirt dress
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Shift
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Sheath
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Pleated
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Pinafore (Jumper)
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt,Shorts",Length,Mini
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Mermaid
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Length,Floor Length
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Fit and Flare
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Circle
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Bodycon
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Ball Gown
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Length,Above-the-knee
+"Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,A-Line
+Outerwear,Cut,Trench
+Outerwear,Cut,Teddy bear
+Outerwear,Cut,Anorak 
+"Outerwear,Jacket,Shorts",Length,Mid-thigh Length
+"Outerwear,Jacket",Length,Car Coat Length
+"Outerwear,Jacket",Length,3/4 Length
+"Outerwear,Jacket,Jumpsuit,Pants,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Length,Full Length
+"Pants,Shorts",Rise,Regular
+"Pants,Shorts",Rise,Low
+"Pants,Shorts",Rise,High
+"Pants,Jumpsuit",Length,Clam Diggers
+"Pants,Shorts,Skirt,Jumpsuit,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Waistband,Regular
+"Pants,Shorts,Skirt,Jumpsuit,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Waistband,Paperbag Waist
+"Pants,Shorts,Skirt,Jumpsuit,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Waistband,None
+"Pants,Shorts,Skirt,Jumpsuit,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Waistband,Elastic Waist
+"Pants,Shorts,Skirt,Jumpsuit,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Waistband,Drawstring
+"Pants,Shorts,Skirt,Jumpsuit,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Tank Top,T-shirt",Waistband,Belted
+Shorts,Cut,Skorts
+"Shorts,Pants",Cut,Wide Leg
+"Shorts,Pants",Cut,Tapered
+"Shorts,Pants",Cut,Straight Leg
+"Shorts,Pants",Cut,Slim Fit
+"Shorts,Pants",Cut,Skinny
+"Shorts,Pants",Cut,Sailor Pants
+"Shorts,Pants",Cut,Mom
+"Shorts,Pants",Cut,Harem
+"Shorts,Pants",Cut,Flared
+"Shorts,Pants",Cut,Cigarette
+"Shorts,Pants",Cut,Boyfriend
+"Shorts,Pants",Cut,Bootcut
+"Shorts,Pants",Cut,Bell Bottoms
+Skirt,Cut,Tulip
+Skirt,Cut,Tiered
+Skirt,Waist,"Regular
+"
+Skirt,Cut,Pencil
+Skirt,Length,Mid-thigh
+Skirt,Length,Micro-mini
+Skirt,Waist,Low
+Skirt,Cut,High-low (or asymmetrical)
+Skirt,Waist,High
+Skirt,Cut,Flounce
+Skirt,Length,Calf-length
+Skirt,Cut,Bubble
+Skirt,Length,Below-the-knee (Midi)
+Skirt,Length,Ankle-length (Maxi)
+"Skirt,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Outerwear,Jacket,Shorts",Length,Knee-length
+Sweater,Cut,Cardigan
+"Sweater,Sweatshirt",Design,Hooded
+Sweatshirt,Design,Half zip
+Sweatshirt,Design,Full zip
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,CamisoleVest,Sweatshirt,Jumpsuit,Jacket,Outerwear,Sweater,Tank Top,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Wrap
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,CamisoleVest,Sweatshirt,Jumpsuit,Jacket,Outerwear,Sweater,Tank Top,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Trapeze
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,CamisoleVest,Sweatshirt,Jumpsuit,Jacket,Outerwear,Sweater,Tank Top,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Ruffle
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,CamisoleVest,Sweatshirt,Jumpsuit,Jacket,Outerwear,Sweater,Tank Top,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Peplum
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,CamisoleVest,Sweatshirt,Jumpsuit,Jacket,Outerwear,Sweater,Tank Top,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,One-Shoulder
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,CamisoleVest,Sweatshirt,Jumpsuit,Jacket,Outerwear,Sweater,Tank Top,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Off-the-Shoulder
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,CamisoleVest,Sweatshirt,Jumpsuit,Jacket,Outerwear,Sweater,Tank Top,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Halter
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,CamisoleVest,Sweatshirt,Jumpsuit,Jacket,Outerwear,Sweater,Tank Top,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses,Skirt",Cut,Bardot
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,Tank Top,Vest,Camisole,Tube,Sweater,Sweatshirt",Length,Regular
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,Tank Top,Vest,Camisole,Tube,Sweater,Sweatshirt,Jumpsuit,Pants,Outerwear,Jacket",Length,Cropped
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,Tank Top,Vest,Camisole,Tube,Sweater,Sweatshirt,Outerwear,Jacket",Length,Waist Length
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,Tank Top,Vest,Camisole,Tube,Sweater,Sweatshirt,Outerwear,Jacket",Length,Tunic Length
+"T-shirt,Blouse,Tunic,Bodysuit,Corset,Tank Top,Vest,Camisole,Tube,Sweater,Sweatshirt,Outerwear,Jacket",Length,Hip Length
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Zipper cuffs
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,V-Neck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Turtleneck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Tapered Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Sweetheart Neck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Strapless
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Storm Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Square Neck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Spread Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Slit sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Length,Sleeveless
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Single button cuff
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Length,Short
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Shawl Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Scoop Neck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Sailor Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Ruffle sleeves
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Roll-tab sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Ribbed
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Regular
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Regular
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Raw edge
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Puff Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Portrait Neckline
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Poet Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Peter Pan Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Peasant Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Peak Lapel
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Notched Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,None
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Mandarin
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Length,Long
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Leg-of-Mutton Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Kimono Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Keyhole Neck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Juliet Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Illusion Neckline
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Henley
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Halter Neck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Length,Half
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Funnel Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,French cuff
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Elasticized cuffs
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Draped Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Dolman Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Cuffed Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Crew Neck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Length,Cap
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Camp Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Button tab cuff
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Butterfly/Flutter Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Length,Bracelet
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Boat Neck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Bishop Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Collar,Biker Collar
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Bell Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Barrel cuff
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Cuff,Banded cuff
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Shape,Balloon Sleeve
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Neckline,Asymmetrical Neck
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Length,Asymetic
+"T-shirt,Blouse,Tunic,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Sleeve Length,3/4
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Tulle Shoulder
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Structured
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Saddle Shoulder
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Regular
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Raglan Shoulder
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Puff Shoulder
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Peasant Style
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,One-Shoulder
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Off-the-Shoulder
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Epaulettes
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Drop Shoulder
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Cold-Shoulder
+"T-shirt,Blouse,Tunic,Corset,Bodysuit,Sweater,Sweatshirt,Jumpsuit,Outerwear,Jacket,Midi Dresses,Short Dresses,Maxi Dresses,Long Dresses",Shoulder,Bare Shoulders
+"T-shirt,Camisole,Tube,Tank Top",Cut,Spaghetti Straps
+Vest,Design,Double-breasted
+ALL,MATERIAL,Hemp
+ALL,MATERIAL,Jute
+ALL,MATERIAL,Suede
+ALL,MATERIAL,Acrylic
+ALL,MATERIAL,Rayon
+ALL,MATERIAL,Viscose
+ALL,MATERIAL,Latex
+ALL,MATERIAL,PVC
+ALL,MATERIAL,Teflon
+ALL,MATERIAL,Kevlar
+ALL,MATERIAL,Neoprene
+ALL,MATERIAL,Rubber
+ALL,MATERIAL,Fleece
+ALL,MATERIAL,Brocade
+ALL,MATERIAL,Polyurethane
+ALL,MATERIAL,Polyamide
+ALL,MATERIAL,Ecovero

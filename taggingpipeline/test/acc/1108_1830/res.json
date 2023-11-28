@@ -1,0 +1,24 @@
+{
+    "all truth": 754,
+    "all pred": 262,
+    "all merged": 262,
+    "failed": {
+        "failed account": 1,
+        "failed ids": [
+            "1712348685767028738"
+        ]
+    },
+    "category_accuracy": {
+        "BACK": 0.9272030651340997,
+        "LENGTH": 0.2796934865900383
+    },
+    "category_recall": {
+        "BACK": 0.9272030651340997,
+        "LENGTH": 0.2796934865900383
+    },
+    "category_recall_single": {
+        "BACK": 0.9272030651340997,
+        "LENGTH": 0.2796934865900383
+    },
+    "category_recall_multie": {}
+}

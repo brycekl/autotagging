@@ -1,0 +1,5187 @@
+{
+    "type": [
+        {
+            "SHOES": [
+                {
+                    "STYLE": [
+                        "Seaonal",
+                        "Formal",
+                        "Athletic",
+                        "Casual",
+                        "Boots"
+                    ]
+                },
+                {
+                    "Type": [
+                        "Sandals",
+                        "Platforms",
+                        "Kitten Heels",
+                        "Mary Janes",
+                        "Pumps",
+                        "Clogs",
+                        "D'Orsay Flats",
+                        "Over-the-Knee Boots",
+                        "Flip Flops",
+                        "Chelsea Boots",
+                        "Slingbacks",
+                        "Ankle Boots",
+                        "Loafers",
+                        "Knee-High Boots",
+                        "Ballet Flats",
+                        "Oxfords (or Brogues)",
+                        "Platform Shoes",
+                        "Espadrilles",
+                        "Stilettos",
+                        "Cross-trainers",
+                        "Gladiator Sandals",
+                        "Slip-Ons",
+                        "Sneakers",
+                        "Mules",
+                        "Peep-Toe Shoes",
+                        "Chunky Heels",
+                        "Wedges"
+                    ]
+                },
+                {
+                    "FASTENER": [
+                        "Toggle Fastening",
+                        "Button Closure",
+                        "Zippers",
+                        "T-Bar or T-Strap",
+                        "Ribbon Ties",
+                        "Buckles",
+                        "Ankle Wraps or Ties",
+                        "Velcro (Hook and Loop) Straps",
+                        "Hooks & Eyelets",
+                        "Slip-On",
+                        "Elastic (Goring or Elastic Laces)",
+                        "Laces",
+                        "Cage or Gladiator Style"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "DENIM": [
+                {
+                    "LENGTH": [
+                        "Culottes",
+                        "Ankle length",
+                        "Clam Diggers",
+                        "Cropped",
+                        "Full length"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "Design": [
+                        "Pleated",
+                        "Cargos",
+                        "Jogger",
+                        "Cuffed",
+                        "Tuxedo",
+                        "Flat Front",
+                        "Capris",
+                        "Stirrup"
+                    ]
+                },
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "RISE": [
+                        "High",
+                        "Low",
+                        "Regular"
+                    ]
+                },
+                {
+                    "Cut": [
+                        "Straight Leg",
+                        "Culottes",
+                        "Cigarette",
+                        "Tapered",
+                        "Slim Fit",
+                        "Sailor Pants",
+                        "Wide Leg",
+                        "Bootcut",
+                        "Boyfriend",
+                        "Skinny",
+                        "Flared",
+                        "Mom",
+                        "Harem (or Drop-Crotch)",
+                        "Bell Bottoms"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "DRESS": [
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "CUFF": [
+                        "Barrel cuff",
+                        "Banded cuff",
+                        "Single button cuff",
+                        "Button tab cuff",
+                        "Slit sleeve",
+                        "Zipper cuffs",
+                        "Regular",
+                        "Raw edge",
+                        "Elasticized cuffs",
+                        "Ribbed",
+                        "French cuff"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Knee length",
+                        "Tea Length",
+                        "Ballerina Length",
+                        "Floor Length",
+                        "Ankle Length",
+                        "Full Length",
+                        "Maxi",
+                        "Mini",
+                        "Above-the-knee",
+                        "Asymmetric",
+                        "High-low",
+                        "Cocktail Length"
+                    ]
+                },
+                {
+                    "COLLAR": [
+                        "Sailor Collar",
+                        "Notched Collar",
+                        "Peak Lapel",
+                        "Peter Pan Collar",
+                        "Draped Collar",
+                        "Shawl Collar",
+                        "Biker Collar",
+                        "Spread Collar",
+                        "Funnel Collar",
+                        "Storm Collar",
+                        "Camp Collar",
+                        "Mandarin"
+                    ]
+                },
+                {
+                    "NECKLINE": [
+                        "Henley",
+                        "Sweetheart Neck",
+                        "Collar",
+                        "Illusion Neckline",
+                        "Square Neck",
+                        "Portrait Neckline",
+                        "V-Neck",
+                        "Scoop Neck",
+                        "Halter Neck",
+                        "Turtleneck",
+                        "Strapless",
+                        "Asymmetrical Neck",
+                        "Crew Neck",
+                        "Keyhole Neck",
+                        "Cowl Neck",
+                        "Boat Neck"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAIST": [
+                        "Natural",
+                        "Peplum",
+                        "Fitted",
+                        "Empire",
+                        "Dropped",
+                        "Regular",
+                        "Wrap",
+                        "Loose",
+                        "Corseted"
+                    ]
+                },
+                {
+                    "SLEEVE LENGTH": [
+                        "Half",
+                        "3/4",
+                        "Short",
+                        "Bracelet",
+                        "Long",
+                        "Sleeveless",
+                        "Cap",
+                        "Asymetic"
+                    ]
+                },
+                {
+                    "SHOULDER": [
+                        "Drop Shoulder",
+                        "Structured",
+                        "Epaulettes",
+                        "Tulle Shoulder",
+                        "Saddle Shoulder",
+                        "One-Shoulder",
+                        "Bare Shoulders",
+                        "Peasant Style",
+                        "Regular",
+                        "Cold-Shoulder",
+                        "Puff Shoulder",
+                        "Raglan Shoulder",
+                        "Off-the-Shoulder"
+                    ]
+                },
+                {
+                    "SLEEVE SHAPE": [
+                        "Bishop Sleeve",
+                        "Tapered Sleeve",
+                        "Balloon Sleeve",
+                        "Kimono Sleeve",
+                        "Ruffle sleeves",
+                        "Bell Sleeve",
+                        "Juliet Sleeve",
+                        "Cuffed Sleeve",
+                        "Dolman Sleeve",
+                        "Roll-tab sleeve",
+                        "Leg-of-Mutton Sleeve",
+                        "Poet Sleeve",
+                        "Peasant Sleeve",
+                        "Puff Sleeve",
+                        "Butterfly/Flutter Sleeve"
+                    ]
+                },
+                {
+                    "Cut": [
+                        "Mermaid",
+                        "Sheath",
+                        "Peplum",
+                        "Slip Dress",
+                        "A-Line",
+                        "Pinafore (or Jumper Dress)",
+                        "Wrap",
+                        "Circle",
+                        "Trapeze",
+                        "Bardot",
+                        "Halter",
+                        "Ruffle",
+                        "Shift",
+                        "Pleated",
+                        "Shirt dress",
+                        "One-Shoulder",
+                        "Tunic",
+                        "Bodycon",
+                        "Off-the-Shoulder",
+                        "Fit and Flare",
+                        "Ball Gown"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "SNEAKERS": [
+                {
+                    "SOLE": [
+                        "Chunky",
+                        "Grip",
+                        "Flat"
+                    ]
+                },
+                {
+                    "NECK": [
+                        "High",
+                        "Low",
+                        "Mid"
+                    ]
+                },
+                {
+                    "COVER": [
+                        "Round",
+                        "Flat",
+                        "Pointed"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "LOUNGE/PAJAMAS": [
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "CUFF": [
+                        "Barrel cuff",
+                        "Banded cuff",
+                        "Single button cuff",
+                        "Button tab cuff",
+                        "Slit sleeve",
+                        "Zipper cuffs",
+                        "Regular",
+                        "Raw edge",
+                        "Elasticized cuffs",
+                        "Ribbed",
+                        "French cuff"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Waist Length",
+                        "Hip Length",
+                        "Cropped",
+                        "Tunic Length"
+                    ]
+                },
+                {
+                    "COLLAR": [
+                        "Sailor Collar",
+                        "Notched Collar",
+                        "Peak Lapel",
+                        "Peter Pan Collar",
+                        "Draped Collar",
+                        "Shawl Collar",
+                        "Biker Collar",
+                        "Spread Collar",
+                        "Funnel Collar",
+                        "Storm Collar",
+                        "Camp Collar",
+                        "Mandarin"
+                    ]
+                },
+                {
+                    "NECKLINE": [
+                        "Henley",
+                        "Sweetheart Neck",
+                        "Collar",
+                        "Illusion Neckline",
+                        "Square Neck",
+                        "Portrait Neckline",
+                        "V-Neck",
+                        "Scoop Neck",
+                        "Halter Neck",
+                        "Turtleneck",
+                        "Strapless",
+                        "Asymmetrical Neck",
+                        "Crew Neck",
+                        "Keyhole Neck",
+                        "Cowl Neck",
+                        "Boat Neck"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAIST": [
+                        "Natural",
+                        "Peplum",
+                        "Fitted",
+                        "Empire",
+                        "Dropped",
+                        "Regular",
+                        "Wrap",
+                        "Loose",
+                        "Corseted"
+                    ]
+                },
+                {
+                    "WAISTBAND": [
+                        "Paperbag Waist",
+                        "Drawstring",
+                        "Elastic Waist",
+                        "Regular",
+                        "Belted"
+                    ]
+                },
+                {
+                    "SLEEVE LENGTH": [
+                        "Half",
+                        "3/4",
+                        "Short",
+                        "Bracelet",
+                        "Long",
+                        "Sleeveless",
+                        "Cap",
+                        "Asymetic"
+                    ]
+                },
+                {
+                    "SHOULDER": [
+                        "Drop Shoulder",
+                        "Structured",
+                        "Epaulettes",
+                        "Tulle Shoulder",
+                        "Saddle Shoulder",
+                        "One-Shoulder",
+                        "Bare Shoulders",
+                        "Peasant Style",
+                        "Regular",
+                        "Cold-Shoulder",
+                        "Puff Shoulder",
+                        "Raglan Shoulder",
+                        "Off-the-Shoulder"
+                    ]
+                },
+                {
+                    "SLEEVE SHAPE": [
+                        "Bishop Sleeve",
+                        "Tapered Sleeve",
+                        "Balloon Sleeve",
+                        "Kimono Sleeve",
+                        "Ruffle sleeves",
+                        "Bell Sleeve",
+                        "Juliet Sleeve",
+                        "Cuffed Sleeve",
+                        "Dolman Sleeve",
+                        "Roll-tab sleeve",
+                        "Leg-of-Mutton Sleeve",
+                        "Poet Sleeve",
+                        "Peasant Sleeve",
+                        "Puff Sleeve",
+                        "Butterfly/Flutter Sleeve"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "SHOE": [
+                {
+                    "TOE BOX": [
+                        "Open Toe",
+                        "Square Toe",
+                        "Moc Toe",
+                        "Snip Toe",
+                        "Steel Toe",
+                        "Broad Toe",
+                        "Almond Toe",
+                        "Pointed Toe",
+                        "Peep Toe",
+                        "Cap Toe",
+                        "Wingtip",
+                        "Round Toe"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "SHORTS": [
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "RISE": [
+                        "High",
+                        "Low",
+                        "Regular"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAISTBAND": [
+                        "Paperbag Waist",
+                        "Drawstring",
+                        "Elastic Waist",
+                        "Regular",
+                        "Belted"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "TOP": [
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "CUFF": [
+                        "Barrel cuff",
+                        "Banded cuff",
+                        "Single button cuff",
+                        "Button tab cuff",
+                        "Slit sleeve",
+                        "Zipper cuffs",
+                        "Regular",
+                        "Raw edge",
+                        "Elasticized cuffs",
+                        "Ribbed",
+                        "French cuff"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Waist Length",
+                        "Hip Length",
+                        "Cropped",
+                        "Tunic Length"
+                    ]
+                },
+                {
+                    "COLLAR": [
+                        "Sailor Collar",
+                        "Notched Collar",
+                        "Peak Lapel",
+                        "Peter Pan Collar",
+                        "Draped Collar",
+                        "Shawl Collar",
+                        "Biker Collar",
+                        "Spread Collar",
+                        "Funnel Collar",
+                        "Storm Collar",
+                        "Camp Collar",
+                        "Mandarin"
+                    ]
+                },
+                {
+                    "NECKLINE": [
+                        "Henley",
+                        "Sweetheart Neck",
+                        "Collar",
+                        "Illusion Neckline",
+                        "Square Neck",
+                        "Portrait Neckline",
+                        "V-Neck",
+                        "Scoop Neck",
+                        "Halter Neck",
+                        "Turtleneck",
+                        "Strapless",
+                        "Asymmetrical Neck",
+                        "Crew Neck",
+                        "Keyhole Neck",
+                        "Cowl Neck",
+                        "Boat Neck"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAIST": [
+                        "Natural",
+                        "Peplum",
+                        "Fitted",
+                        "Empire",
+                        "Dropped",
+                        "Regular",
+                        "Wrap",
+                        "Loose",
+                        "Corseted"
+                    ]
+                },
+                {
+                    "SLEEVE LENGTH": [
+                        "Half",
+                        "3/4",
+                        "Short",
+                        "Bracelet",
+                        "Long",
+                        "Sleeveless",
+                        "Cap",
+                        "Asymetic"
+                    ]
+                },
+                {
+                    "SHOULDER": [
+                        "Drop Shoulder",
+                        "Structured",
+                        "Epaulettes",
+                        "Tulle Shoulder",
+                        "Saddle Shoulder",
+                        "One-Shoulder",
+                        "Bare Shoulders",
+                        "Peasant Style",
+                        "Regular",
+                        "Cold-Shoulder",
+                        "Puff Shoulder",
+                        "Raglan Shoulder",
+                        "Off-the-Shoulder"
+                    ]
+                },
+                {
+                    "SLEEVE SHAPE": [
+                        "Bishop Sleeve",
+                        "Tapered Sleeve",
+                        "Balloon Sleeve",
+                        "Kimono Sleeve",
+                        "Ruffle sleeves",
+                        "Bell Sleeve",
+                        "Juliet Sleeve",
+                        "Cuffed Sleeve",
+                        "Dolman Sleeve",
+                        "Roll-tab sleeve",
+                        "Leg-of-Mutton Sleeve",
+                        "Poet Sleeve",
+                        "Peasant Sleeve",
+                        "Puff Sleeve",
+                        "Butterfly/Flutter Sleeve"
+                    ]
+                },
+                {
+                    "Cut": [
+                        "Peplum",
+                        "Bardot",
+                        "Halter",
+                        "One-Shoulder",
+                        "Wrap",
+                        "Ruffle",
+                        "Trapeze",
+                        "Off-the-Shoulder"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "ACTIVEWEAR": [
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "CUFF": [
+                        "Barrel cuff",
+                        "Banded cuff",
+                        "Single button cuff",
+                        "Button tab cuff",
+                        "Slit sleeve",
+                        "Zipper cuffs",
+                        "Regular",
+                        "Raw edge",
+                        "Elasticized cuffs",
+                        "Ribbed",
+                        "French cuff"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Waist Length",
+                        "Hip Length",
+                        "Cropped",
+                        "Tunic Length"
+                    ]
+                },
+                {
+                    "NECKLINE": [
+                        "Henley",
+                        "Sweetheart Neck",
+                        "Collar",
+                        "Illusion Neckline",
+                        "Square Neck",
+                        "Portrait Neckline",
+                        "V-Neck",
+                        "Scoop Neck",
+                        "Halter Neck",
+                        "Turtleneck",
+                        "Strapless",
+                        "Asymmetrical Neck",
+                        "Crew Neck",
+                        "Keyhole Neck",
+                        "Cowl Neck",
+                        "Boat Neck"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAIST": [
+                        "Natural",
+                        "Peplum",
+                        "Fitted",
+                        "Empire",
+                        "Dropped",
+                        "Regular",
+                        "Wrap",
+                        "Loose",
+                        "Corseted"
+                    ]
+                },
+                {
+                    "WAISTBAND": [
+                        "Paperbag Waist",
+                        "Drawstring",
+                        "Elastic Waist",
+                        "Regular",
+                        "Belted"
+                    ]
+                },
+                {
+                    "SLEEVE LENGTH": [
+                        "Half",
+                        "3/4",
+                        "Short",
+                        "Bracelet",
+                        "Long",
+                        "Sleeveless",
+                        "Cap",
+                        "Asymetic"
+                    ]
+                },
+                {
+                    "SHOULDER": [
+                        "Drop Shoulder",
+                        "Structured",
+                        "Epaulettes",
+                        "Tulle Shoulder",
+                        "Saddle Shoulder",
+                        "One-Shoulder",
+                        "Bare Shoulders",
+                        "Peasant Style",
+                        "Regular",
+                        "Cold-Shoulder",
+                        "Puff Shoulder",
+                        "Raglan Shoulder",
+                        "Off-the-Shoulder"
+                    ]
+                },
+                {
+                    "SLEEVE SHAPE": [
+                        "Bishop Sleeve",
+                        "Tapered Sleeve",
+                        "Balloon Sleeve",
+                        "Kimono Sleeve",
+                        "Ruffle sleeves",
+                        "Bell Sleeve",
+                        "Juliet Sleeve",
+                        "Cuffed Sleeve",
+                        "Dolman Sleeve",
+                        "Roll-tab sleeve",
+                        "Leg-of-Mutton Sleeve",
+                        "Poet Sleeve",
+                        "Peasant Sleeve",
+                        "Puff Sleeve",
+                        "Butterfly/Flutter Sleeve"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "JACKET": [
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "CUFF": [
+                        "Barrel cuff",
+                        "Banded cuff",
+                        "Single button cuff",
+                        "Button tab cuff",
+                        "Slit sleeve",
+                        "Zipper cuffs",
+                        "Regular",
+                        "Raw edge",
+                        "Elasticized cuffs",
+                        "Ribbed",
+                        "French cuff"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Waist Length",
+                        "Mid-thigh Length",
+                        "Full Length",
+                        "Hip Length",
+                        "3/4 Length",
+                        "Car Coat Length",
+                        "Trench Length",
+                        "Knee Length",
+                        "Cropped"
+                    ]
+                },
+                {
+                    "COLLAR": [
+                        "Sailor Collar",
+                        "Notched Collar",
+                        "Peak Lapel",
+                        "Peter Pan Collar",
+                        "Draped Collar",
+                        "Shawl Collar",
+                        "Biker Collar",
+                        "Spread Collar",
+                        "Funnel Collar",
+                        "Storm Collar",
+                        "Camp Collar",
+                        "Mandarin"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAIST": [
+                        "Natural",
+                        "Peplum",
+                        "Fitted",
+                        "Empire",
+                        "Dropped",
+                        "Regular",
+                        "Wrap",
+                        "Loose",
+                        "Corseted"
+                    ]
+                },
+                {
+                    "SLEEVE LENGTH": [
+                        "Half",
+                        "3/4",
+                        "Short",
+                        "Bracelet",
+                        "Long",
+                        "Sleeveless",
+                        "Cap",
+                        "Asymetic"
+                    ]
+                },
+                {
+                    "SHOULDER": [
+                        "Drop Shoulder",
+                        "Structured",
+                        "Epaulettes",
+                        "Tulle Shoulder",
+                        "Saddle Shoulder",
+                        "One-Shoulder",
+                        "Bare Shoulders",
+                        "Peasant Style",
+                        "Regular",
+                        "Cold-Shoulder",
+                        "Puff Shoulder",
+                        "Raglan Shoulder",
+                        "Off-the-Shoulder"
+                    ]
+                },
+                {
+                    "SLEEVE SHAPE": [
+                        "Bishop Sleeve",
+                        "Tapered Sleeve",
+                        "Balloon Sleeve",
+                        "Kimono Sleeve",
+                        "Ruffle sleeves",
+                        "Bell Sleeve",
+                        "Juliet Sleeve",
+                        "Cuffed Sleeve",
+                        "Dolman Sleeve",
+                        "Roll-tab sleeve",
+                        "Leg-of-Mutton Sleeve",
+                        "Poet Sleeve",
+                        "Peasant Sleeve",
+                        "Puff Sleeve",
+                        "Butterfly/Flutter Sleeve"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "OUTERWEAR": [
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "CUFF": [
+                        "Barrel cuff",
+                        "Banded cuff",
+                        "Single button cuff",
+                        "Button tab cuff",
+                        "Slit sleeve",
+                        "Zipper cuffs",
+                        "Regular",
+                        "Raw edge",
+                        "Elasticized cuffs",
+                        "Ribbed",
+                        "French cuff"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Waist Length",
+                        "Mid-thigh Length",
+                        "Full Length",
+                        "Hip Length",
+                        "3/4 Length",
+                        "Car Coat Length",
+                        "Trench Length",
+                        "Knee Length",
+                        "Cropped"
+                    ]
+                },
+                {
+                    "COLLAR": [
+                        "Sailor Collar",
+                        "Notched Collar",
+                        "Peak Lapel",
+                        "Peter Pan Collar",
+                        "Draped Collar",
+                        "Shawl Collar",
+                        "Biker Collar",
+                        "Spread Collar",
+                        "Funnel Collar",
+                        "Storm Collar",
+                        "Camp Collar",
+                        "Mandarin"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAIST": [
+                        "Natural",
+                        "Peplum",
+                        "Fitted",
+                        "Empire",
+                        "Dropped",
+                        "Regular",
+                        "Wrap",
+                        "Loose",
+                        "Corseted"
+                    ]
+                },
+                {
+                    "SLEEVE LENGTH": [
+                        "Half",
+                        "3/4",
+                        "Short",
+                        "Bracelet",
+                        "Long",
+                        "Sleeveless",
+                        "Cap",
+                        "Asymetic"
+                    ]
+                },
+                {
+                    "SHOULDER": [
+                        "Drop Shoulder",
+                        "Structured",
+                        "Epaulettes",
+                        "Tulle Shoulder",
+                        "Saddle Shoulder",
+                        "One-Shoulder",
+                        "Bare Shoulders",
+                        "Peasant Style",
+                        "Regular",
+                        "Cold-Shoulder",
+                        "Puff Shoulder",
+                        "Raglan Shoulder",
+                        "Off-the-Shoulder"
+                    ]
+                },
+                {
+                    "SLEEVE SHAPE": [
+                        "Bishop Sleeve",
+                        "Tapered Sleeve",
+                        "Balloon Sleeve",
+                        "Kimono Sleeve",
+                        "Ruffle sleeves",
+                        "Bell Sleeve",
+                        "Juliet Sleeve",
+                        "Cuffed Sleeve",
+                        "Dolman Sleeve",
+                        "Roll-tab sleeve",
+                        "Leg-of-Mutton Sleeve",
+                        "Poet Sleeve",
+                        "Peasant Sleeve",
+                        "Puff Sleeve",
+                        "Butterfly/Flutter Sleeve"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "PANTS": [
+                {
+                    "LENGTH": [
+                        "Culottes",
+                        "Ankle length",
+                        "Clam Diggers",
+                        "Cropped",
+                        "Full length"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "Design": [
+                        "Pleated",
+                        "Cargos",
+                        "Jogger",
+                        "Cuffed",
+                        "Tuxedo",
+                        "Flat Front",
+                        "Capris",
+                        "Stirrup"
+                    ]
+                },
+                {
+                    "WAISTBAND": [
+                        "Paperbag Waist",
+                        "Drawstring",
+                        "Elastic Waist",
+                        "Regular",
+                        "Belted"
+                    ]
+                },
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "RISE": [
+                        "High",
+                        "Low",
+                        "Regular"
+                    ]
+                },
+                {
+                    "Cut": [
+                        "Straight Leg",
+                        "Culottes",
+                        "Cigarette",
+                        "Tapered",
+                        "Slim Fit",
+                        "Sailor Pants",
+                        "Wide Leg",
+                        "Bootcut",
+                        "Boyfriend",
+                        "Skinny",
+                        "Flared",
+                        "Mom",
+                        "Harem (or Drop-Crotch)",
+                        "Bell Bottoms"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "SKIRT": [
+                {
+                    "LENGTH": [
+                        "Knee-length",
+                        "Floor-length",
+                        "Calf-length",
+                        "Ankle length (Maxi)",
+                        "Micro-mini",
+                        "Below-the-knee (Midi)",
+                        "Tea-length",
+                        "Mini",
+                        "Above-the-knee",
+                        "Mid-thigh"
+                    ]
+                },
+                {
+                    "CUT": [
+                        "Pleated",
+                        "Flounce",
+                        "High-low (or asymmetrical)",
+                        "Pencil",
+                        "Tulip",
+                        "Tiered",
+                        "Wrap",
+                        "A-line",
+                        "Bubble",
+                        "Circle",
+                        "Mermaid (or fishtail)"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAIST": [
+                        "High",
+                        "Low",
+                        "Regular"
+                    ]
+                },
+                {
+                    "WAISTBAND": [
+                        "Paperbag Waist",
+                        "Drawstring",
+                        "Elastic Waist",
+                        "Regular",
+                        "Belted"
+                    ]
+                },
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "JEWELRY": [
+                {
+                    "Type": [
+                        "Nose rings",
+                        "Earrings",
+                        "Belly Rings",
+                        "Anklets",
+                        "Rings",
+                        "Bracelets",
+                        "Brooches",
+                        "Necklaces",
+                        "Toe rings",
+                        "Cufflinks"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "SWEATER": [
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "CUFF": [
+                        "Barrel cuff",
+                        "Banded cuff",
+                        "Single button cuff",
+                        "Button tab cuff",
+                        "Slit sleeve",
+                        "Zipper cuffs",
+                        "Regular",
+                        "Raw edge",
+                        "Elasticized cuffs",
+                        "Ribbed",
+                        "French cuff"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Waist Length",
+                        "Hip Length",
+                        "Cropped",
+                        "Tunic Length"
+                    ]
+                },
+                {
+                    "COLLAR": [
+                        "Peter Pan Collar"
+                    ]
+                },
+                {
+                    "NECKLINE": [
+                        "Henley",
+                        "Sweetheart Neck",
+                        "Collar",
+                        "Illusion Neckline",
+                        "Square Neck",
+                        "Portrait Neckline",
+                        "V-Neck",
+                        "Scoop Neck",
+                        "Halter Neck",
+                        "Turtleneck",
+                        "Strapless",
+                        "Asymmetrical Neck",
+                        "Crew Neck",
+                        "Keyhole Neck",
+                        "Cowl Neck",
+                        "Boat Neck"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAIST": [
+                        "Natural",
+                        "Peplum",
+                        "Fitted",
+                        "Empire",
+                        "Dropped",
+                        "Regular",
+                        "Wrap",
+                        "Loose",
+                        "Corseted"
+                    ]
+                },
+                {
+                    "SLEEVE LENGTH": [
+                        "Half",
+                        "3/4",
+                        "Short",
+                        "Bracelet",
+                        "Long",
+                        "Sleeveless",
+                        "Cap",
+                        "Asymetic"
+                    ]
+                },
+                {
+                    "SHOULDER": [
+                        "Drop Shoulder",
+                        "Structured",
+                        "Epaulettes",
+                        "Tulle Shoulder",
+                        "Saddle Shoulder",
+                        "One-Shoulder",
+                        "Bare Shoulders",
+                        "Peasant Style",
+                        "Regular",
+                        "Cold-Shoulder",
+                        "Puff Shoulder",
+                        "Raglan Shoulder",
+                        "Off-the-Shoulder"
+                    ]
+                },
+                {
+                    "SLEEVE SHAPE": [
+                        "Bishop Sleeve",
+                        "Tapered Sleeve",
+                        "Balloon Sleeve",
+                        "Kimono Sleeve",
+                        "Ruffle sleeves",
+                        "Bell Sleeve",
+                        "Juliet Sleeve",
+                        "Cuffed Sleeve",
+                        "Dolman Sleeve",
+                        "Roll-tab sleeve",
+                        "Leg-of-Mutton Sleeve",
+                        "Poet Sleeve",
+                        "Peasant Sleeve",
+                        "Puff Sleeve",
+                        "Butterfly/Flutter Sleeve"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "DRESS SHOE": [
+                {
+                    "Heel": [
+                        "Wedge",
+                        "Platform",
+                        "Spool or Louis Heel",
+                        "Kitten",
+                        "Slingback",
+                        "Ankle Strap",
+                        "Stiletto",
+                        "Chunky",
+                        "Cone",
+                        "Sculptural",
+                        "Espadrille",
+                        "Block"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "SWEATSHIRT": [
+                {
+                    "FIT": [
+                        "Boxy",
+                        "Regular",
+                        "Tailored/Slim",
+                        "Skinny",
+                        "Relaxed",
+                        "Oversized"
+                    ]
+                },
+                {
+                    "CUFF": [
+                        "Barrel cuff",
+                        "Banded cuff",
+                        "Single button cuff",
+                        "Button tab cuff",
+                        "Slit sleeve",
+                        "Zipper cuffs",
+                        "Regular",
+                        "Raw edge",
+                        "Elasticized cuffs",
+                        "Ribbed",
+                        "French cuff"
+                    ]
+                },
+                {
+                    "LENGTH": [
+                        "Waist Length",
+                        "Hip Length",
+                        "Cropped",
+                        "Tunic Length"
+                    ]
+                },
+                {
+                    "NECKLINE": [
+                        "Henley",
+                        "Sweetheart Neck",
+                        "Collar",
+                        "Illusion Neckline",
+                        "Square Neck",
+                        "Portrait Neckline",
+                        "V-Neck",
+                        "Scoop Neck",
+                        "Halter Neck",
+                        "Turtleneck",
+                        "Strapless",
+                        "Asymmetrical Neck",
+                        "Crew Neck",
+                        "Keyhole Neck",
+                        "Cowl Neck",
+                        "Boat Neck"
+                    ]
+                },
+                {
+                    "BACK": [
+                        "Low back",
+                        "Open",
+                        "Cut-out back",
+                        "U BACK",
+                        "T-back",
+                        "Pleat(s)",
+                        "Zip-up back",
+                        "Regular",
+                        "Lace back",
+                        "Strappy back",
+                        "Racerback",
+                        "Button-up back",
+                        "Keyhole Back"
+                    ]
+                },
+                {
+                    "WAIST": [
+                        "Natural",
+                        "Peplum",
+                        "Fitted",
+                        "Empire",
+                        "Dropped",
+                        "Regular",
+                        "Wrap",
+                        "Loose",
+                        "Corseted"
+                    ]
+                },
+                {
+                    "SLEEVE LENGTH": [
+                        "Half",
+                        "3/4",
+                        "Short",
+                        "Bracelet",
+                        "Long",
+                        "Sleeveless",
+                        "Cap",
+                        "Asymetic"
+                    ]
+                },
+                {
+                    "SHOULDER": [
+                        "Drop Shoulder",
+                        "Structured",
+                        "Epaulettes",
+                        "Tulle Shoulder",
+                        "Saddle Shoulder",
+                        "One-Shoulder",
+                        "Bare Shoulders",
+                        "Peasant Style",
+                        "Regular",
+                        "Cold-Shoulder",
+                        "Puff Shoulder",
+                        "Raglan Shoulder",
+                        "Off-the-Shoulder"
+                    ]
+                },
+                {
+                    "SLEEVE SHAPE": [
+                        "Bishop Sleeve",
+                        "Tapered Sleeve",
+                        "Balloon Sleeve",
+                        "Kimono Sleeve",
+                        "Ruffle sleeves",
+                        "Bell Sleeve",
+                        "Juliet Sleeve",
+                        "Cuffed Sleeve",
+                        "Dolman Sleeve",
+                        "Roll-tab sleeve",
+                        "Leg-of-Mutton Sleeve",
+                        "Poet Sleeve",
+                        "Peasant Sleeve",
+                        "Puff Sleeve",
+                        "Butterfly/Flutter Sleeve"
+                    ]
+                },
+                {
+                    "OCCASION": [
+                        "Casual Day Out",
+                        "Vacations/Travel",
+                        "Weddings",
+                        "Work/Job Interviews",
+                        "Photoshoots/Headshots",
+                        "Milestones (graduation/retirement/promotions parties)",
+                        "Galas/Fundraisers/Red Carpet Events",
+                        "Date Night",
+                        "A Night Out",
+                        "Gym/Workout",
+                        "Outdoor Activity",
+                        "Festival/Concert",
+                        "Pregnancy & Post-Pregnancy"
+                    ]
+                },
+                {
+                    "LOCATION": [
+                        "City",
+                        "Country",
+                        "Beach",
+                        "Mountains",
+                        "Desert",
+                        "All"
+                    ]
+                },
+                {
+                    "PROCESS": [
+                        "Crochet",
+                        "Embroidery",
+                        "Wrinkle",
+                        "Flocking",
+                        "Tie dyeing",
+                        "Splicing",
+                        "Laser cutting",
+                        "Ripped",
+                        "Raw Edge"
+                    ]
+                },
+                {
+                    "STYLE": [
+                        "Classic",
+                        "Bohemian (Boho)",
+                        "Preppy",
+                        "Grunge",
+                        "Romantic",
+                        "Glam",
+                        "Trendy",
+                        "Vintage",
+                        "Edgy",
+                        "Minimalist",
+                        "Active"
+                    ]
+                },
+                {
+                    "COLOR": [
+                        "Orange",
+                        "Yellow",
+                        "Black",
+                        "White",
+                        "Green",
+                        "Blue",
+                        "Purple",
+                        "Brown",
+                        "Grey",
+                        "Red",
+                        "Pink",
+                        "Pastel",
+                        "Bold",
+                        "Neutral"
+                    ]
+                },
+                {
+                    "SEASON": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter",
+                        "All"
+                    ]
+                },
+                {
+                    "TRENDS": [
+                        "Athleisure",
+                        "Cottagecore Aesthetic",
+                        "Y2K Revival",
+                        "Sustainability",
+                        "Regency-era Influences",
+                        "Wide-legged",
+                        "Pastel Colors",
+                        "Gender-fluid",
+                        "Bold Shoulder Silhouettes",
+                        "Virtual and Digital Fashion",
+                        "Monochromatic Outfits",
+                        "Chunky Footwear",
+                        "Sheer and Mesh Fabrics",
+                        "Fantasy/2D",
+                        "Tassels",
+                        "Bow",
+                        "Asymmetry",
+                        "Backless",
+                        "Strap",
+                        "Navel exposed",
+                        "Hollowed out",
+                        "Slits",
+                        "Off-shoulder",
+                        "Feathers",
+                        "Tomato-Girl Summer",
+                        "Mermaid-core",
+                        "Barbie-core",
+                        "Ballet-core",
+                        "Urban"
+                    ]
+                },
+                {
+                    "Saturation": [
+                        "Vivid",
+                        "Moderate",
+                        "Muted"
+                    ]
+                },
+                {
+                    "PATTERN": [
+                        "Solid",
+                        "Vertical Stripes",
+                        "Horizontal Stripes",
+                        "Diagonal Stripes",
+                        "Sheer",
+                        "Check",
+                        "Polka dot",
+                        "Houndstooth",
+                        "Paisley",
+                        "Argyle",
+                        "Chevron",
+                        "Floral",
+                        "Ikat",
+                        "Damask",
+                        "Geometric",
+                        "Camouflage",
+                        "Animal print (e.g., leopard, zebra, snake)",
+                        "Toile",
+                        "Fleur-de-lis",
+                        "Jacquard",
+                        "Herringbone",
+                        "Fair Isle",
+                        "Lace",
+                        "Light Indigo Wash",
+                        "Medium Indigo Wash",
+                        "Dark Indigo Wash",
+                        "Bleach Indigo Wash",
+                        "Plaid",
+                        "Dusty",
+                        "Graphic",
+                        "Color Block"
+                    ]
+                },
+                {
+                    "MATERIAL": [
+                        "Cotton",
+                        "Linen",
+                        "Silk",
+                        "Wool",
+                        "Cashmere",
+                        "Mohair",
+                        "Hemp",
+                        "Jute",
+                        "Bamboo",
+                        "Leather",
+                        "Suede",
+                        "Denim",
+                        "Polyester",
+                        "Nylon",
+                        "Acrylic",
+                        "Rayon",
+                        "Viscose",
+                        "Elastane",
+                        "Latex",
+                        "PVC",
+                        "Teflon",
+                        "Kevlar",
+                        "Gore-Tex",
+                        "Neoprene",
+                        "Rubber",
+                        "Fleece",
+                        "Satin",
+                        "Velvet",
+                        "Chiffon",
+                        "Tulle",
+                        "Organza",
+                        "Brocade",
+                        "Tencel",
+                        "Modal",
+                        "Polyurethane",
+                        "Polyamide",
+                        "Shearling",
+                        "Recycled",
+                        "Water-resistent",
+                        "Organic"
+                    ]
+                },
+                {
+                    "Brightness": [
+                        "Dark",
+                        "Light",
+                        "Medium"
+                    ]
+                }
+            ]
+        }
+    ],
+    "top category": [
+        "SHOES",
+        "DENIM",
+        "DRESS",
+        "SNEAKERS",
+        "LOUNGE/PAJAMAS",
+        "SHOE",
+        "SHORTS",
+        "TOP",
+        "ACTIVEWEAR",
+        "JACKET",
+        "OUTERWEAR",
+        "PANTS",
+        "SKIRT",
+        "JEWELRY",
+        "SWEATER",
+        "DRESS SHOE",
+        "SWEATSHIRT"
+    ]
+}

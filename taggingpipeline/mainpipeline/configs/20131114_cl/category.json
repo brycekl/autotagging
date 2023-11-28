@@ -1,0 +1,60 @@
+{
+    "first category": [
+        "Overcoat",
+        "Set",
+        "bottoms",
+        "Jumpsuit",
+        "Dresses",
+        "Tops"
+    ],
+    "subcategory": [
+        {
+            "Overcoat": [
+                "Outerwear",
+                "Jacket"
+            ]
+        },
+        {
+            "Set": [
+                "Skirt Set",
+                "Shorts Set",
+                "Pants Set"
+            ]
+        },
+        {
+            "bottoms": [
+                "Pants",
+                "Shorts",
+                "Skirt"
+            ]
+        },
+        {
+            "Jumpsuit": [
+                "Jumpsuit"
+            ]
+        },
+        {
+            "Dresses": [
+                "Midi Dresses",
+                "Short Dresses",
+                "Long Dresses",
+                "Maxi Dresses"
+            ]
+        },
+        {
+            "Tops": [
+                "T-shirt",
+                "Sweatshirt",
+                "Tank Top",
+                "Blouse",
+                "Sweater",
+                "Vest",
+                "Tunic",
+                "Corset",
+                "Tube",
+                "Camisole",
+                "Bodysuit"
+            ]
+        }
+    ]
+}
