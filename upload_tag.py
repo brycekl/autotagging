@@ -1,8 +1,10 @@
 import json 
 import requests
 import os
+from loguru import logger
 
-def slice_list_into_chunks(lst, chunk_size=5):
+logger.add("/root/autodl-tmp/tmp_res/logs_util/upload_tag.log", rotation="500 MB", retention="10 days", level="INFO")
+def slice_list_into_chunks(lst, chunk_size=2):
     """Slices a list into chunks of specified size."""
     # Using list comprehension to create chunks
     return [lst[i:i + chunk_size] for i in range(0, len(lst), chunk_size)]
@@ -30,7 +32,12 @@ def upload_tag_res(tagurl,tag_res):
 
             if response.status_code == 200:
                 if  data["success"] and data["message"] == "Success.":
+                    logger.info(f"upload {index} success")
                     ifpost = True 
+                else:
+                    logger.info(f"upload {index} failed")
+            else :
+                logger.info(f"upload {index} failed")
             #   
             # data = response.json()
                 
@@ -42,20 +49,41 @@ def upload_tag_res(tagurl,tag_res):
             continue
     return ifpost
 
-if __name__ == "__main__":
-    tagurl = "http://44.213.48.82:11181/product/skc/batchTagSkc"
-    tagdir  = '/root/autodl-tmp/tmp_res/tag_res/output/20231125_1525/tag_res'
+def upload(tagdir):
     all_tag_res = os.listdir(tagdir)
     for tag_save_time in  all_tag_res:
         # print("tag_res",tag_res)
         save_date = tag_save_time.split("_")[0]
         save_time = tag_save_time.split("_")[1]
+        if save_time in ["0617","0630","0237","0249","0214","0151","0203","2309","2321"]:
         # if tag_save_time after 1845,the upload
-        if (save_date =="20231126") and (save_time <= "0948" ):
+        # if (save_date =="20231126") and (save_time <= "0948" ):
             tag_res_path = os.path.join(tagdir,tag_save_time,"tag_res.json")
+            print("tag_res_path",tag_res_path)
+            logger.info(f"tag_res_path:{tag_res_path}")
             with open(tag_res_path,"r") as f:
                 tag_res = json.load(f)
             ifpost = upload_tag_res(tagurl,tag_res)
             print(f'save {ifpost} to upload {tag_res_path}')
+    
+
+if __name__ == "__main__":
+    tagurl = "http://44.213.48.82:11181/product/skc/batchTagSkc"
+    tagdir  = '/root/autodl-tmp/tmp_res/tag_res/output/20231125_1525/tag_res'
+    upload(tagdir)
+    # all_tag_res = os.listdir(tagdir)
+    # for tag_save_time in  all_tag_res:
+    #     # print("tag_res",tag_res)
+    #     save_date = tag_save_time.split("_")[0]
+    #     save_time = tag_save_time.split("_")[1]
+    #     if save_time in ["0617","0630","0237","0249","0214","0151","0203","2309","2321"]:
+    #     # if tag_save_time after 1845,the upload
+    #     # if (save_date =="20231126") and (save_time <= "0948" ):
+    #         tag_res_path = os.path.join(tagdir,tag_save_time,"tag_res.json")
+    #         print("tag_res_path",tag_res_path)
+    #         with open(tag_res_path,"r") as f:
+    #             tag_res = json.load(f)
+    #         ifpost = upload_tag_res(tagurl,tag_res)
+    #         print(f'save {ifpost} to upload {tag_res_path}')
     # ifpost = upload_tag_res(tagurl,tag_res)
     # print(f'save {ifpost} to upload {tag_res_path}')

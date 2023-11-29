@@ -36,6 +36,16 @@ TAG_RES = queue.Queue()
 
 
 def data_input(data_path, output_dir, input_data_q,configs=None):
+    """
+    get some data from data_path, use input_data_q to communicate with other process
+    args:
+        data_path: the interface to get data
+        output_dir: output root
+        input_data_q: save data to communicate with other process
+        configs:
+    return:
+
+    """
     try:
         global MAXQSIZE
         logger.info(f'output_dir {output_dir}')
@@ -84,17 +94,18 @@ def data_input(data_path, output_dir, input_data_q,configs=None):
             to_search_ids = read_xlx()
             chunck_size=10
             to_search_lists = [to_search_ids[i:i+chunck_size] for i in range(0,len(to_search_ids),chunck_size)]
-            for to_search_list in to_search_lists:
+            for to_search_list in to_search_lists:  # 一次取chunck_size种款式进行爬取数据
                 to_search_list = to_search_list if type(to_search_list) == list else [to_search_list]
-                totalnum = get_total_num(product_url,to_search_list)
+                totalnum = get_total_num(product_url,to_search_list)  # 读取chunck_size种款式的所有SKC
                 logger.info(f'total skc is {totalnum}')
                 toadd_infos = configs["infos"]
                 params = configs["params"]
-                params["pageSize"] = 100
+                params["pageSize"] = 100   # todo ？
                 params["pageNo"]=0
                 logger.info(f'init params {params}')
                 pronum = 0
                 while pronum < totalnum:
+                    # 得到product的信息
                     product_infos,params,pronum,total_skc = get_products(product_url,params,device,to_search_list)
                     logger.info(f'params {params}')
                     logger.info(f'get useful product num is {pronum} from {str(params)})')
@@ -102,7 +113,8 @@ def data_input(data_path, output_dir, input_data_q,configs=None):
 
                     if type(product_infos) != list or len(product_infos) <= 0:
                             continue
-                    for product_info in product_infos:
+                    for product_info in product_infos:  # cope each product
+                        # download img and cope product info to input format
                         input_data,imgs = pre_process(product_info,output_dir,toadd_infos)
                         if input_data=={}:
                             logger.info(f'tagcount >=0,do not tag, {product_info["id"]}:{product_info}')
@@ -129,6 +141,17 @@ def data_input(data_path, output_dir, input_data_q,configs=None):
         # return False, str(e)
 
 def auto_label(servicetag,queueimg,version,resqt,resq,params=None,res_dir=None,):
+    """
+    args:
+        servicetag: question
+        queueimg: the queue where data saved while getting
+        version: tag url
+        resqt:
+        resq:
+        params:
+        res_dir:
+
+    """
     canget = True
     servicetag = Service(servicetag)
     global TAG_RES
@@ -157,6 +180,7 @@ def auto_label(servicetag,queueimg,version,resqt,resq,params=None,res_dir=None,)
             
             tag_perp = []
 
+            # use llova generate tag answer
             tag_perp = servicetag.tag_main(imgsinfo['imgs'],imgsinfo['info'],version)
 
             logger.info('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
@@ -168,6 +192,7 @@ def auto_label(servicetag,queueimg,version,resqt,resq,params=None,res_dir=None,)
                 return False, tag_perp
             # if tag_perp == []:
             #     return False, tag_perp
+            # phase all tag and push it into communication queue
             if tag_perp != []:
                 result_df = pd.DataFrame(tag_perp)
                 result_df_t = result_df.T
@@ -210,7 +235,7 @@ def auto_label(servicetag,queueimg,version,resqt,resq,params=None,res_dir=None,)
             logger.info(f'ifpost {ifpost},save {savenum} tag_res to {tmp_tagres_dir},messgae( {message})')
             # TODO:分批读取和传回结果
                 
-            # resq.put(result_df)    
+            # resq.put(result_df)
         # return True, result_df
 
     except Exception as e:
@@ -347,9 +372,9 @@ if __name__ == "__main__":
 
     # 使用multiprocessing.Manager创建一个可以在进程之间共享的队列
     manager = multiprocessing.Manager()
-    q = manager.Queue()
-    resq = manager.Queue()
-    resqt = manager.Queue()
+    q = manager.Queue()  # 保存爬取到到数据
+    resq = manager.Queue()  # 保存解析的结果
+    resqt = manager.Queue()  # save my own result
 
     # 创建并启动两个进程
     imgs_res_dir = os.path.join(res_dir,'imgs')
@@ -360,7 +385,7 @@ if __name__ == "__main__":
     p2 = multiprocessing.Process(target=auto_label, args=(questionjson,q,gettag_url,resqt,resq,upload_tag_param,res_dir))
 
     p1.start()
-    time.sleep(20)
+    time.sleep(200)
     p2.start()
     # 
     p1.join()

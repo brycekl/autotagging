@@ -2,7 +2,7 @@ import pandas
 
 
 def read_xlx():
-    xlx_path = '/root/autodl-tmp/autotagging/SPU_2.xlsx'
+    xlx_path = '/root/autodl-tmp/autotagging/spu5.xlsx'
     data = pandas.read_excel(xlx_path, sheet_name='Sheet1').dropna(how='all')
 
     print(data.columns.tolist(),data.shape)
@@ -10,7 +10,7 @@ def read_xlx():
     print(half)
 
 
-    return data['spu'].tolist()[101:]
+    return data['spu'].tolist()
 
 
 # if __name__ == '__main__':
