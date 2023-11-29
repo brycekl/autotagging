@@ -1,0 +1,15 @@
+[submodule "AutoGPTQ"]
+	path = AutoGPTQ
+	url = https://github.com/PanQiWei/AutoGPTQ.git
+[submodule "clip-vit-large-patch14-336"]
+	path = clip-vit-large-patch14-336
+	url = https://huggingface.co/openai/clip-vit-large-patch14-336
+[submodule "LLaVA"]
+	path = LLaVA
+	url = https://github.com/haotian-liu/LLaVA.git
+[submodule "llava-v1.5-13b"]
+	path = llava-v1.5-13b
+	url = https://huggingface.co/liuhaotian/llava-v1.5-13b
+[submodule "llava-v1.5-13b-lora"]
+	path = llava-v1.5-13b-lora
+	url = https://huggingface.co/liuhaotian/llava-v1.5-13b-lora
