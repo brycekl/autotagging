@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def data_analysis(csvpath,outpath):
+def data_analysis(csvpath, outpath):
     # 读取CSV文件
     df = pd.read_csv(csvpath)  # 把 'your_file.csv' 替换成你的CSV文件名
     print(df.columns)
@@ -80,6 +80,6 @@ def data_analysis(csvpath,outpath):
         print(f"{element}: 数量 = {count}, 占比 = {ratio:.2%}")
 
 
-csvpath ='/root/autodl-tmp/autotagging/taggingpipeline/test_data/待标注数据_filter - SPU_1.csv'
+csvpath = '/root/autodl-tmp/autotagging/taggingpipeline/test_data/待标注数据_filter - SPU_1.csv'
 outpath = '/root/autodl-tmp/autotagging/taggingpipeline/test_data/待标注数据_filter - SPU_1.csv'
-data_analysis(csvpath,outpath)
+data_analysis(csvpath, outpath)

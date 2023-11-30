@@ -1,1277 +1,1277 @@
 {
-    "1711284863845314562": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "Pleat(s)"
-        },
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711284873764843521": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711284880752553986": {},
-    "1711284882224754689": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711284885768941569": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711285011015053314": {},
-    "1711285017147125761": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711653373553459202": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711653375969378305": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711653378968305665": {},
-    "1711653380201431041": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711653521255874561": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711653523046842369": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711653681075634177": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711653682321342465": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711653683676102658": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711653686645669889": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "T-back"
-        },
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Hip Length"
-        }
-    },
-    "1711653688050761730": {},
-    "1711654038619078657": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711654188049547266": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Full Length"
-        }
-    },
-    "1711654191547596802": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654193174986754": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711654337123500033": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711654339761717250": {},
-    "1711654342655787010": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654343968604161": {},
-    "1711654345512108034": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711654346824925185": {},
-    "1711654480811966465": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654482485493761": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711654484200964097": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654485849325569": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654491960426498": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654494992908289": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Knee Length"
-        }
-    },
-    "1711654617651134466": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654620188688386": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654622751408129": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654623992922113": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654625205075969": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711654628447272962": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711654630426984450": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711654771854721026": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Hip Length"
-        }
-    },
-    "1711654776309071873": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711654926494515201": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Hip Length"
-        }
-    },
-    "1711654931976470529": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711654934534995970": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Full Length"
-        }
-    },
-    "1711655081981558785": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655084628164610": {},
-    "1711655085831929857": {},
-    "1711655087157329921": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655090760237057": {},
-    "1711655235425976321": {
-        "BACK": {
-            "true": "Low back",
-            "pred_value:": "Regular"
-        },
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Waist Length"
-        }
-    },
-    "1711655238416515073": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655239679000577": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "Low back"
-        },
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655240924708865": {},
-    "1711655242925391874": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655380091715585": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711655382243393537": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655383744954370": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655385363955714": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655388543238145": {},
-    "1711655390111907842": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655391605080066": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655393052114946": {},
-    "1711655394654339073": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655542927179778": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711655544596512770": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655549122166785": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655550485315586": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655553144504321": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655555392651266": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "Pleat(s)"
-        },
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655556571250689": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655691585896450": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Hip Length"
-        }
-    },
-    "1711655694056341506": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655695704702978": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655697537613825": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655699135643649": {},
-    "1711655701484453890": {},
-    "1711655703137009666": {},
-    "1711655706102382594": {},
-    "1711655711626280961": {},
-    "1711655853347618818": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655855465742337": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655857411899394": {},
-    "1711655859098009602": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711655862788997121": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655864819040257": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655867348205569": {},
-    "1711655869193699329": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711655870821089281": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711656012672450562": {},
-    "1711656017227464705": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711656018372509698": {},
-    "1711656019374948354": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711656027469955073": {},
-    "1711657552455974913": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711657554737676289": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711660920276566017": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711660921652297729": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711660922931560449": {},
-    "1711660924143714305": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711660925875961858": {},
-    "1711660929214627841": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661080419287042": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711661084617785345": {
-        "LENGTH": {
-            "true": "Knee-length",
-            "pred_value:": "Knee Length"
-        }
-    },
-    "1711661089978105857": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Culottes"
-        }
-    },
-    "1711661093446795265": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "cropped</s>"
-        }
-    },
-    "1711661097850814465": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661235042304001": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711661238766845954": {},
-    "1711661240423596034": {},
-    "1711661242206175234": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661247738462210": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661249529430018": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711661251093905409": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "Pleat(s)"
-        },
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661253669208066": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661405473652738": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661408271253506": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661410150301698": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711661412473946113": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711661415573536769": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "Button-up back"
-        },
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661417553248257": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661420199854082": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Hip Length"
-        }
-    },
-    "1711661422368309249": {},
-    "1711661423668543489": {},
-    "1711661546926555138": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711661548436504577": {},
-    "1711661555453575169": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711661557273903105": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711661560579014658": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711661562172850178": {
-        "BACK": {
-            "true": "U BACK",
-            "pred_value:": "Racerback"
-        },
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711661563934457857": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661565188554754": {},
-    "1711661692477292545": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711661698395455490": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661700010262530": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661701759287298": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661704540110850": {},
-    "1711661706335272962": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661842755010561": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661847033200642": {},
-    "1711661848752865282": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661850380255233": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661852716482561": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661854163517441": {},
-    "1711661858349432834": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711661859586752513": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661994647535617": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "Racerback"
-        }
-    },
-    "1711661997474496514": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711661999210938370": {},
-    "1711662001010294785": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711662002868371457": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711662004487372802": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711662006081208322": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711662008014782465": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711662009633783810": {},
-    "1711662012414607361": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711662135773282305": {},
-    "1711662138512162818": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Hip Length"
-        }
-    },
-    "1711662144363216897": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711662147446030337": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Full Length"
-        }
-    },
-    "1711662149912281089": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1711662152072347650": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711662154895114242": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711662157055180802": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711662291881082882": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711662293332312065": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Ankle-length"
-        }
-    },
-    "1711662294594797570": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1711662297212043266": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711662298973650946": {
-        "LENGTH": {
-            "true": "Full Length",
-            "pred_value:": "Full-length"
-        }
-    },
-    "1711662300189999105": {},
-    "1711663138237104129": {},
-    "1711663392168656898": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Full Length"
-        }
-    },
-    "1711680116062470146": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712004706668118017": {},
-    "1712004963544072194": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Hip Length"
-        }
-    },
-    "1712004975455895554": {},
-    "1712005197544292354": {},
-    "1712005199607889921": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712005203898662913": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712005204846575618": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712007733475045377": {},
-    "1712007751237922818": {
-        "LENGTH": {
-            "true": "Ankle Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712007770640773122": {},
-    "1712007907584798721": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Hip Length"
-        }
-    },
-    "1712007994310422530": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712008013402894337": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712008029022482434": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712008061742247938": {},
-    "1712008088384466946": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712008106977816578": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712008125764104194": {
-        "BACK": {
-            "true": "Cut-out back",
-            "pred_value:": "Open"
-        },
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712008282022899713": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712062749585977346": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Full Length"
-        }
-    },
-    "1712062783488536577": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712062806443962369": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712062820574572546": {},
-    "1712062852530974722": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712062867466891266": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Full Length"
-        }
-    },
-    "1712062881438117890": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Full Length"
-        }
-    },
-    "1712062992473927681": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Full Length"
-        }
-    },
-    "1712063041169797121": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712063056852299778": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Full length</s>"
-        }
-    },
-    "1712063231603781633": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712063278177333250": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712063336641736706": {},
-    "1712063554556801026": {},
-    "1712063584533491713": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712063599695900674": {
-        "LENGTH": {
-            "true": "Knee-length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712064099275255809": {},
-    "1712064269090041857": {},
-    "1712064284936122369": {},
-    "1712064488057876481": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712064505577484290": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712065013159571458": {},
-    "1712065096575889409": {
-        "BACK": {
-            "true": "Racerback",
-            "pred_value:": "Regular"
-        },
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712065301471834113": {
-        "BACK": {
-            "true": "Pleat(s)",
-            "pred_value:": "Regular"
-        },
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712065316118343681": {
-        "BACK": {
-            "true": "Low back",
-            "pred_value:": "Regular"
-        },
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712065658386132993": {},
-    "1712065855946240001": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712065870546612225": {},
-    "1712065902058418178": {
-        "LENGTH": {
-            "true": "Above-the-knee",
-            "pred_value:": "Hip Length"
-        }
-    },
-    "1712065932802666497": {},
-    "1712066151518842881": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712066384717950977": {},
-    "1712066399892942849": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712066459716300801": {},
-    "1712066632496459777": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712066649747632129": {},
-    "1712066682375122946": {},
-    "1712066891071107074": {
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712066904555794433": {},
-    "1712066965922656258": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712067228737744898": {
-        "BACK": {
-            "true": "Keyhole back",
-            "pred_value:": "Open"
-        },
-        "LENGTH": {
-            "true": "Waist Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712067259641376769": {},
-    "1712067425236692994": {},
-    "1712067454546489345": {},
-    "1712067484837752833": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712348066515791873": {},
-    "1712348441071333378": {},
-    "1712348460377714690": {},
-    "1712348671787413505": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "Racerback"
-        }
-    },
-    "1712349335150145537": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712349387667025922": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "Racerback"
-        }
-    },
-    "1712349421053685761": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": NaN
-        }
-    },
-    "1712349741272018945": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712349757910822913": {
-        "BACK": {
-            "true": "Regular",
-            "pred_value:": "Racerback"
-        },
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712349851250864130": {
-        "BACK": {
-            "true": "Cut-out back",
-            "pred_value:": "Keyhole Back"
-        },
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712349910843535362": {
-        "BACK": {
-            "true": "Cut-out back",
-            "pred_value:": "Keyhole Back"
-        },
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712349948491608066": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712349979412017154": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712349997095202818": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Cropped"
-        }
-    },
-    "1712350011259367426": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712350035770880001": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712350052854280193": {
-        "LENGTH": {
-            "true": "Hip Length",
-            "pred_value:": "Tunic Length"
-        }
-    },
-    "1712350135322685442": {},
-    "1712350152921985026": {},
-    "1712350211898093569": {},
-    "1712350227102445569": {},
-    "1712350243560894465": {},
-    "1712350259868348417": {
-        "LENGTH": {
-            "true": "Cropped",
-            "pred_value:": NaN
-        }
+  "1711284863845314562": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "Pleat(s)"
+    },
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Ankle-length"
     }
+  },
+  "1711284873764843521": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711284880752553986": {},
+  "1711284882224754689": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711284885768941569": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711285011015053314": {},
+  "1711285017147125761": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711653373553459202": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711653375969378305": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711653378968305665": {},
+  "1711653380201431041": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711653521255874561": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711653523046842369": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711653681075634177": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711653682321342465": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711653683676102658": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711653686645669889": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "T-back"
+    },
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Hip Length"
+    }
+  },
+  "1711653688050761730": {},
+  "1711654038619078657": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711654188049547266": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Full Length"
+    }
+  },
+  "1711654191547596802": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654193174986754": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711654337123500033": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711654339761717250": {},
+  "1711654342655787010": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654343968604161": {},
+  "1711654345512108034": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711654346824925185": {},
+  "1711654480811966465": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654482485493761": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711654484200964097": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654485849325569": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654491960426498": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654494992908289": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Knee Length"
+    }
+  },
+  "1711654617651134466": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654620188688386": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654622751408129": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654623992922113": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654625205075969": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711654628447272962": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711654630426984450": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711654771854721026": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Hip Length"
+    }
+  },
+  "1711654776309071873": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711654926494515201": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Hip Length"
+    }
+  },
+  "1711654931976470529": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711654934534995970": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Full Length"
+    }
+  },
+  "1711655081981558785": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655084628164610": {},
+  "1711655085831929857": {},
+  "1711655087157329921": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655090760237057": {},
+  "1711655235425976321": {
+    "BACK": {
+      "true": "Low back",
+      "pred_value:": "Regular"
+    },
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Waist Length"
+    }
+  },
+  "1711655238416515073": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655239679000577": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "Low back"
+    },
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655240924708865": {},
+  "1711655242925391874": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655380091715585": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711655382243393537": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655383744954370": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655385363955714": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655388543238145": {},
+  "1711655390111907842": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655391605080066": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655393052114946": {},
+  "1711655394654339073": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655542927179778": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711655544596512770": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655549122166785": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655550485315586": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655553144504321": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655555392651266": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "Pleat(s)"
+    },
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655556571250689": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655691585896450": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Hip Length"
+    }
+  },
+  "1711655694056341506": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655695704702978": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655697537613825": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655699135643649": {},
+  "1711655701484453890": {},
+  "1711655703137009666": {},
+  "1711655706102382594": {},
+  "1711655711626280961": {},
+  "1711655853347618818": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655855465742337": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655857411899394": {},
+  "1711655859098009602": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711655862788997121": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655864819040257": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655867348205569": {},
+  "1711655869193699329": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711655870821089281": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711656012672450562": {},
+  "1711656017227464705": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711656018372509698": {},
+  "1711656019374948354": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711656027469955073": {},
+  "1711657552455974913": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711657554737676289": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711660920276566017": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711660921652297729": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711660922931560449": {},
+  "1711660924143714305": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711660925875961858": {},
+  "1711660929214627841": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661080419287042": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711661084617785345": {
+    "LENGTH": {
+      "true": "Knee-length",
+      "pred_value:": "Knee Length"
+    }
+  },
+  "1711661089978105857": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Culottes"
+    }
+  },
+  "1711661093446795265": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "cropped</s>"
+    }
+  },
+  "1711661097850814465": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661235042304001": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711661238766845954": {},
+  "1711661240423596034": {},
+  "1711661242206175234": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661247738462210": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661249529430018": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711661251093905409": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "Pleat(s)"
+    },
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661253669208066": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661405473652738": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661408271253506": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661410150301698": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711661412473946113": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711661415573536769": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "Button-up back"
+    },
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661417553248257": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661420199854082": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Hip Length"
+    }
+  },
+  "1711661422368309249": {},
+  "1711661423668543489": {},
+  "1711661546926555138": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711661548436504577": {},
+  "1711661555453575169": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711661557273903105": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711661560579014658": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711661562172850178": {
+    "BACK": {
+      "true": "U BACK",
+      "pred_value:": "Racerback"
+    },
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711661563934457857": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661565188554754": {},
+  "1711661692477292545": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711661698395455490": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661700010262530": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661701759287298": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661704540110850": {},
+  "1711661706335272962": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661842755010561": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661847033200642": {},
+  "1711661848752865282": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661850380255233": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661852716482561": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661854163517441": {},
+  "1711661858349432834": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711661859586752513": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661994647535617": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "Racerback"
+    }
+  },
+  "1711661997474496514": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711661999210938370": {},
+  "1711662001010294785": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711662002868371457": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711662004487372802": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711662006081208322": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711662008014782465": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711662009633783810": {},
+  "1711662012414607361": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711662135773282305": {},
+  "1711662138512162818": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Hip Length"
+    }
+  },
+  "1711662144363216897": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711662147446030337": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Full Length"
+    }
+  },
+  "1711662149912281089": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1711662152072347650": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711662154895114242": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711662157055180802": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711662291881082882": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711662293332312065": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Ankle-length"
+    }
+  },
+  "1711662294594797570": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1711662297212043266": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711662298973650946": {
+    "LENGTH": {
+      "true": "Full Length",
+      "pred_value:": "Full-length"
+    }
+  },
+  "1711662300189999105": {},
+  "1711663138237104129": {},
+  "1711663392168656898": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Full Length"
+    }
+  },
+  "1711680116062470146": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712004706668118017": {},
+  "1712004963544072194": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Hip Length"
+    }
+  },
+  "1712004975455895554": {},
+  "1712005197544292354": {},
+  "1712005199607889921": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712005203898662913": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712005204846575618": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712007733475045377": {},
+  "1712007751237922818": {
+    "LENGTH": {
+      "true": "Ankle Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712007770640773122": {},
+  "1712007907584798721": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Hip Length"
+    }
+  },
+  "1712007994310422530": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712008013402894337": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712008029022482434": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712008061742247938": {},
+  "1712008088384466946": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712008106977816578": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712008125764104194": {
+    "BACK": {
+      "true": "Cut-out back",
+      "pred_value:": "Open"
+    },
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712008282022899713": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712062749585977346": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Full Length"
+    }
+  },
+  "1712062783488536577": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712062806443962369": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712062820574572546": {},
+  "1712062852530974722": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712062867466891266": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Full Length"
+    }
+  },
+  "1712062881438117890": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Full Length"
+    }
+  },
+  "1712062992473927681": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Full Length"
+    }
+  },
+  "1712063041169797121": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712063056852299778": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Full length</s>"
+    }
+  },
+  "1712063231603781633": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712063278177333250": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712063336641736706": {},
+  "1712063554556801026": {},
+  "1712063584533491713": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712063599695900674": {
+    "LENGTH": {
+      "true": "Knee-length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712064099275255809": {},
+  "1712064269090041857": {},
+  "1712064284936122369": {},
+  "1712064488057876481": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712064505577484290": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712065013159571458": {},
+  "1712065096575889409": {
+    "BACK": {
+      "true": "Racerback",
+      "pred_value:": "Regular"
+    },
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712065301471834113": {
+    "BACK": {
+      "true": "Pleat(s)",
+      "pred_value:": "Regular"
+    },
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712065316118343681": {
+    "BACK": {
+      "true": "Low back",
+      "pred_value:": "Regular"
+    },
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712065658386132993": {},
+  "1712065855946240001": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712065870546612225": {},
+  "1712065902058418178": {
+    "LENGTH": {
+      "true": "Above-the-knee",
+      "pred_value:": "Hip Length"
+    }
+  },
+  "1712065932802666497": {},
+  "1712066151518842881": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712066384717950977": {},
+  "1712066399892942849": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712066459716300801": {},
+  "1712066632496459777": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712066649747632129": {},
+  "1712066682375122946": {},
+  "1712066891071107074": {
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712066904555794433": {},
+  "1712066965922656258": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712067228737744898": {
+    "BACK": {
+      "true": "Keyhole back",
+      "pred_value:": "Open"
+    },
+    "LENGTH": {
+      "true": "Waist Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712067259641376769": {},
+  "1712067425236692994": {},
+  "1712067454546489345": {},
+  "1712067484837752833": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712348066515791873": {},
+  "1712348441071333378": {},
+  "1712348460377714690": {},
+  "1712348671787413505": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "Racerback"
+    }
+  },
+  "1712349335150145537": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712349387667025922": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "Racerback"
+    }
+  },
+  "1712349421053685761": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": NaN
+    }
+  },
+  "1712349741272018945": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712349757910822913": {
+    "BACK": {
+      "true": "Regular",
+      "pred_value:": "Racerback"
+    },
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712349851250864130": {
+    "BACK": {
+      "true": "Cut-out back",
+      "pred_value:": "Keyhole Back"
+    },
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712349910843535362": {
+    "BACK": {
+      "true": "Cut-out back",
+      "pred_value:": "Keyhole Back"
+    },
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712349948491608066": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712349979412017154": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712349997095202818": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Cropped"
+    }
+  },
+  "1712350011259367426": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712350035770880001": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712350052854280193": {
+    "LENGTH": {
+      "true": "Hip Length",
+      "pred_value:": "Tunic Length"
+    }
+  },
+  "1712350135322685442": {},
+  "1712350152921985026": {},
+  "1712350211898093569": {},
+  "1712350227102445569": {},
+  "1712350243560894465": {},
+  "1712350259868348417": {
+    "LENGTH": {
+      "true": "Cropped",
+      "pred_value:": NaN
+    }
+  }
 }

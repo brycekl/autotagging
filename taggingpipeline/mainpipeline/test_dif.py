@@ -1,19 +1,10 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers.generation import GenerationConfig
-import torch
-import gradio as gr
-import pandas as pd
-import os
-import copy
-import json
-
 # about_category = json.load(open('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/about_category.csv', 'r'))
 # print(about_category)
-from sklearn.metrics import classification_report,precision_score,recall_score,f1_score,confusion_matrix
+from sklearn.metrics import classification_report
 
-a = [0,1,[1,0]]
-b = [0,0,1]
-print(classification_report(a,b))
+a = [0, 1, [1, 0]]
+b = [0, 0, 1]
+print(classification_report(a, b))
 
 # class InitQwen:
 #     def __init__(self,iftest=False):
@@ -34,13 +25,13 @@ print(classification_report(a,b))
 #                 {'image': f'{imagepath}'}, # Either a local path or an url
 #                 {'text': f'{qname}'},
 #             ])
-        
+
 
 #         response, self.history = self.model.chat(self.tokenizer, query=query, history=self.history)
 #         print(response)
 
 #         return response
-    
+
 #     def infer_mulimg(self,imagepath,qname):
 
 #         list_format =[]
@@ -65,7 +56,7 @@ print(classification_report(a,b))
 
 #         if self.iftest:
 #             response = f'Q:{qname} \n\n A:{response}'
-        
+
 #         print(response)
 
 #         return response
@@ -100,7 +91,7 @@ print(classification_report(a,b))
 #         else:
 #             return self.infer_noimg(imagepath,qname)
 
-    
+
 #     def clear_history(self):
 #         self.history = None
 #         self.history_ = None
@@ -127,6 +118,3 @@ print(classification_report(a,b))
 
 # if __name__ == '__main__':
 #     io.launch(server_port = 6006)
-
-
-

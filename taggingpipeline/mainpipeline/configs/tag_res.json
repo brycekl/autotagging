@@ -1,1 +1,160 @@
-[{"firstCategory": "Tops", "skcId": "1722155907712671745", "subCategory": "Sweatshirt", "tags": {"Length": ["Cropped"], "Sleeve Shape": ["Regular"], "Waist": ["Regular"], "Cuff": ["Elasticized cuffs"], "Cut": [" "], "Collar": [" "], "Neckline": ["Crew Neck"], "Shoulder": ["Drop Shoulder"], "Back": ["Regular"], "Sleeve Length": ["Short"], "Design": ["Half zip"], "STYLE": ["Vintage"], "Brightness": ["Light"], "TRENDS": ["Quiet Luxury"], "Fit": ["Relaxed"], "PROCESS": [" "], "LOCATION": [" "], "Saturation": ["Vivid"], "OCCASION": ["Sleep"], "COLOR": ["Black"], "Event ": [" "], "MATERIAL": ["Organic"], "PATTERN": ["Solid"], "SEASON": ["Summer"]}}, {"firstCategory": "Tops", "skcId": "1722155907712671746", "subCategory": "Sweatshirt", "tags": {"Length": ["Cropped"], "Sleeve Shape": ["Regular"], "Waist": ["Empire"], "Cuff": ["Elasticized cuffs"], "Cut": [" "], "Collar": [" "], "Neckline": ["Crew Neck"], "Shoulder": ["Drop Shoulder"], "Back": ["Regular"], "Sleeve Length": ["Short"], "Design": ["Half zip"], "STYLE": ["Classic"], "Brightness": ["Dark"], "TRENDS": ["Quiet Luxury"], "Fit": ["Relaxed"], "PROCESS": ["Wrinkle"], "LOCATION": ["City"], "Saturation": ["Vivid"], "OCCASION": ["Date Night"], "COLOR": ["Black"], "Event ": [" "], "MATERIAL": ["Organic"], "PATTERN": ["Solid"], "SEASON": ["Summer"]}}]
+[
+  {
+    "firstCategory": "Tops",
+    "skcId": "1722155907712671745",
+    "subCategory": "Sweatshirt",
+    "tags": {
+      "Length": [
+        "Cropped"
+      ],
+      "Sleeve Shape": [
+        "Regular"
+      ],
+      "Waist": [
+        "Regular"
+      ],
+      "Cuff": [
+        "Elasticized cuffs"
+      ],
+      "Cut": [
+        " "
+      ],
+      "Collar": [
+        " "
+      ],
+      "Neckline": [
+        "Crew Neck"
+      ],
+      "Shoulder": [
+        "Drop Shoulder"
+      ],
+      "Back": [
+        "Regular"
+      ],
+      "Sleeve Length": [
+        "Short"
+      ],
+      "Design": [
+        "Half zip"
+      ],
+      "STYLE": [
+        "Vintage"
+      ],
+      "Brightness": [
+        "Light"
+      ],
+      "TRENDS": [
+        "Quiet Luxury"
+      ],
+      "Fit": [
+        "Relaxed"
+      ],
+      "PROCESS": [
+        " "
+      ],
+      "LOCATION": [
+        " "
+      ],
+      "Saturation": [
+        "Vivid"
+      ],
+      "OCCASION": [
+        "Sleep"
+      ],
+      "COLOR": [
+        "Black"
+      ],
+      "Event ": [
+        " "
+      ],
+      "MATERIAL": [
+        "Organic"
+      ],
+      "PATTERN": [
+        "Solid"
+      ],
+      "SEASON": [
+        "Summer"
+      ]
+    }
+  },
+  {
+    "firstCategory": "Tops",
+    "skcId": "1722155907712671746",
+    "subCategory": "Sweatshirt",
+    "tags": {
+      "Length": [
+        "Cropped"
+      ],
+      "Sleeve Shape": [
+        "Regular"
+      ],
+      "Waist": [
+        "Empire"
+      ],
+      "Cuff": [
+        "Elasticized cuffs"
+      ],
+      "Cut": [
+        " "
+      ],
+      "Collar": [
+        " "
+      ],
+      "Neckline": [
+        "Crew Neck"
+      ],
+      "Shoulder": [
+        "Drop Shoulder"
+      ],
+      "Back": [
+        "Regular"
+      ],
+      "Sleeve Length": [
+        "Short"
+      ],
+      "Design": [
+        "Half zip"
+      ],
+      "STYLE": [
+        "Classic"
+      ],
+      "Brightness": [
+        "Dark"
+      ],
+      "TRENDS": [
+        "Quiet Luxury"
+      ],
+      "Fit": [
+        "Relaxed"
+      ],
+      "PROCESS": [
+        "Wrinkle"
+      ],
+      "LOCATION": [
+        "City"
+      ],
+      "Saturation": [
+        "Vivid"
+      ],
+      "OCCASION": [
+        "Date Night"
+      ],
+      "COLOR": [
+        "Black"
+      ],
+      "Event ": [
+        " "
+      ],
+      "MATERIAL": [
+        "Organic"
+      ],
+      "PATTERN": [
+        "Solid"
+      ],
+      "SEASON": [
+        "Summer"
+      ]
+    }
+  }
+]

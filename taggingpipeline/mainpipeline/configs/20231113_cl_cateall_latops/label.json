@@ -1,1756 +1,1756 @@
 {
-    "type": [
+  "type": [
+    {
+      "Sweatshirt": [
         {
-            "Sweatshirt": [
-                {
-                    "Neckline": [
-                        "Crew Neck",
-                        "Boat Neck",
-                        "Halter Neck",
-                        "Sweetheart Neck",
-                        "Scoop Neck",
-                        "V-Neck",
-                        "Square Neck"
-                    ]
-                },
-                {
-                    "Collar": [
-                        "Sailor Collar",
-                        "Draped Collar",
-                        "Camp Collar",
-                        "Notched Collar",
-                        "Biker Collar",
-                        "Storm Collar",
-                        "Spread Collar",
-                        "Peter Pan Collar",
-                        "Mandarin",
-                        "Peak Lapel",
-                        "Shawl Collar",
-                        "Funnel Collar"
-                    ]
-                },
-                {
-                    "Sleeve Length": [
-                        "Bracelet",
-                        "Sleeveless",
-                        "Short",
-                        "Half",
-                        "Cap",
-                        "Long",
-                        "3/4",
-                        "Asymetic"
-                    ]
-                },
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "Sleeve Shape": [
-                        "Kimono Sleeve",
-                        "Tapered Sleeve",
-                        "Cuffed Sleeve",
-                        "Roll-tab sleeve",
-                        "Bell Sleeve",
-                        "Leg-of-Mutton Sleeve",
-                        "Balloon Sleeve",
-                        "Ruffle sleeves",
-                        "Poet Sleeve",
-                        "Peasant Sleeve",
-                        "Butterfly/Flutter Sleeve",
-                        "Puff Sleeve",
-                        "Bishop Sleeve",
-                        "Juliet Sleeve",
-                        "Dolman Sleeve",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
+          "Neckline": [
+            "Crew Neck",
+            "Boat Neck",
+            "Halter Neck",
+            "Sweetheart Neck",
+            "Scoop Neck",
+            "V-Neck",
+            "Square Neck"
+          ]
         },
         {
-            "Bodysui": [
-                {
-                    "Sleeve Shape": [
-                        "Kimono Sleeve",
-                        "Tapered Sleeve",
-                        "Cuffed Sleeve",
-                        "Roll-tab sleeve",
-                        "Bell Sleeve",
-                        "Leg-of-Mutton Sleeve",
-                        "Balloon Sleeve",
-                        "Ruffle sleeves",
-                        "Poet Sleeve",
-                        "Peasant Sleeve",
-                        "Butterfly/Flutter Sleeve",
-                        "Puff Sleeve",
-                        "Bishop Sleeve",
-                        "Juliet Sleeve",
-                        "Dolman Sleeve",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
+          "Collar": [
+            "Sailor Collar",
+            "Draped Collar",
+            "Camp Collar",
+            "Notched Collar",
+            "Biker Collar",
+            "Storm Collar",
+            "Spread Collar",
+            "Peter Pan Collar",
+            "Mandarin",
+            "Peak Lapel",
+            "Shawl Collar",
+            "Funnel Collar"
+          ]
         },
         {
-            "Bodysuit": [
-                {
-                    "Sleeve Length": [
-                        "Bracelet",
-                        "Sleeveless",
-                        "Short",
-                        "Half",
-                        "Cap",
-                        "Long",
-                        "3/4",
-                        "Asymetic"
-                    ]
-                },
-                {
-                    "Neckline": [
-                        "Henley",
-                        "Cowl Neck",
-                        "Crew Neck",
-                        "Collar",
-                        "Strapless",
-                        "Boat Neck",
-                        "Halter Neck",
-                        "Illusion Neckline",
-                        "Sweetheart Neck",
-                        "Asymmetrical Neck",
-                        "Scoop Neck",
-                        "Turtleneck",
-                        "V-Neck",
-                        "Square Neck",
-                        "Keyhole Neck",
-                        "Portrait Neckline"
-                    ]
-                },
-                {
-                    "Collar": [
-                        "Sailor Collar",
-                        "Draped Collar",
-                        "Camp Collar",
-                        "Notched Collar",
-                        "Biker Collar",
-                        "Storm Collar",
-                        "Spread Collar",
-                        "Peter Pan Collar",
-                        "Mandarin",
-                        "Peak Lapel",
-                        "Shawl Collar",
-                        "Funnel Collar"
-                    ]
-                },
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
+          "Sleeve Length": [
+            "Bracelet",
+            "Sleeveless",
+            "Short",
+            "Half",
+            "Cap",
+            "Long",
+            "3/4",
+            "Asymetic"
+          ]
         },
         {
-            "Blouse": [
-                {
-                    "Neckline": [
-                        "Henley",
-                        "Cowl Neck",
-                        "Crew Neck",
-                        "Collar",
-                        "Strapless",
-                        "Boat Neck",
-                        "Halter Neck",
-                        "Illusion Neckline",
-                        "Sweetheart Neck",
-                        "Asymmetrical Neck",
-                        "Scoop Neck",
-                        "Turtleneck",
-                        "V-Neck",
-                        "Square Neck",
-                        "Keyhole Neck",
-                        "Portrait Neckline"
-                    ]
-                },
-                {
-                    "Collar": [
-                        "Sailor Collar",
-                        "Draped Collar",
-                        "Camp Collar",
-                        "Notched Collar",
-                        "Biker Collar",
-                        "Storm Collar",
-                        "Spread Collar",
-                        "Peter Pan Collar",
-                        "Mandarin",
-                        "Peak Lapel",
-                        "Shawl Collar",
-                        "Funnel Collar"
-                    ]
-                },
-                {
-                    "Sleeve Length": [
-                        "Bracelet",
-                        "Sleeveless",
-                        "Short",
-                        "Half",
-                        "Cap",
-                        "Long",
-                        "3/4",
-                        "Asymetic"
-                    ]
-                },
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "Sleeve Shape": [
-                        "Kimono Sleeve",
-                        "Tapered Sleeve",
-                        "Cuffed Sleeve",
-                        "Roll-tab sleeve",
-                        "Bell Sleeve",
-                        "Leg-of-Mutton Sleeve",
-                        "Balloon Sleeve",
-                        "Ruffle sleeves",
-                        "Poet Sleeve",
-                        "Peasant Sleeve",
-                        "Butterfly/Flutter Sleeve",
-                        "Puff Sleeve",
-                        "Bishop Sleeve",
-                        "Juliet Sleeve",
-                        "Dolman Sleeve",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
         },
         {
-            "T-shirt": [
-                {
-                    "Neckline": [
-                        "Henley",
-                        "Cowl Neck",
-                        "Crew Neck",
-                        "Collar",
-                        "Strapless",
-                        "Boat Neck",
-                        "Halter Neck",
-                        "Illusion Neckline",
-                        "Sweetheart Neck",
-                        "Asymmetrical Neck",
-                        "Scoop Neck",
-                        "Turtleneck",
-                        "V-Neck",
-                        "Square Neck",
-                        "Keyhole Neck",
-                        "Portrait Neckline"
-                    ]
-                },
-                {
-                    "Collar": [
-                        "Sailor Collar",
-                        "Draped Collar",
-                        "Camp Collar",
-                        "Notched Collar",
-                        "Biker Collar",
-                        "Storm Collar",
-                        "Spread Collar",
-                        "Peter Pan Collar",
-                        "Mandarin",
-                        "Peak Lapel",
-                        "Shawl Collar",
-                        "Funnel Collar"
-                    ]
-                },
-                {
-                    "Sleeve Length": [
-                        "Bracelet",
-                        "Sleeveless",
-                        "Short",
-                        "Half",
-                        "Cap",
-                        "Long",
-                        "3/4",
-                        "Asymetic"
-                    ]
-                },
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "Sleeve Shape": [
-                        "Kimono Sleeve",
-                        "Tapered Sleeve",
-                        "Cuffed Sleeve",
-                        "Roll-tab sleeve",
-                        "Bell Sleeve",
-                        "Leg-of-Mutton Sleeve",
-                        "Balloon Sleeve",
-                        "Ruffle sleeves",
-                        "Poet Sleeve",
-                        "Peasant Sleeve",
-                        "Butterfly/Flutter Sleeve",
-                        "Puff Sleeve",
-                        "Bishop Sleeve",
-                        "Juliet Sleeve",
-                        "Dolman Sleeve",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
+          "Sleeve Shape": [
+            "Kimono Sleeve",
+            "Tapered Sleeve",
+            "Cuffed Sleeve",
+            "Roll-tab sleeve",
+            "Bell Sleeve",
+            "Leg-of-Mutton Sleeve",
+            "Balloon Sleeve",
+            "Ruffle sleeves",
+            "Poet Sleeve",
+            "Peasant Sleeve",
+            "Butterfly/Flutter Sleeve",
+            "Puff Sleeve",
+            "Bishop Sleeve",
+            "Juliet Sleeve",
+            "Dolman Sleeve",
+            "Regular"
+          ]
         },
         {
-            "Sweate": [
-                {
-                    "Neckline": [
-                        "Henley",
-                        "Collar",
-                        "Cowl Neck",
-                        "Strapless",
-                        "Illusion Neckline",
-                        "Asymmetrical Neck",
-                        "Turtleneck",
-                        "Keyhole Neck",
-                        "Portrait Neckline"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
         },
         {
-            "Corset": [
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
         },
         {
-            "Tube": [
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
         },
         {
-            "Camisole": [
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
-        },
-        {
-            "Tunic": [
-                {
-                    "Neckline": [
-                        "Henley",
-                        "Cowl Neck",
-                        "Crew Neck",
-                        "Collar",
-                        "Strapless",
-                        "Boat Neck",
-                        "Halter Neck",
-                        "Illusion Neckline",
-                        "Sweetheart Neck",
-                        "Asymmetrical Neck",
-                        "Scoop Neck",
-                        "Turtleneck",
-                        "V-Neck",
-                        "Square Neck",
-                        "Keyhole Neck",
-                        "Portrait Neckline"
-                    ]
-                },
-                {
-                    "Collar": [
-                        "Sailor Collar",
-                        "Draped Collar",
-                        "Camp Collar",
-                        "Notched Collar",
-                        "Biker Collar",
-                        "Storm Collar",
-                        "Spread Collar",
-                        "Peter Pan Collar",
-                        "Mandarin",
-                        "Peak Lapel",
-                        "Shawl Collar",
-                        "Funnel Collar"
-                    ]
-                },
-                {
-                    "Sleeve Length": [
-                        "Bracelet",
-                        "Sleeveless",
-                        "Short",
-                        "Half",
-                        "Cap",
-                        "Long",
-                        "3/4",
-                        "Asymetic"
-                    ]
-                },
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "Sleeve Shape": [
-                        "Kimono Sleeve",
-                        "Tapered Sleeve",
-                        "Cuffed Sleeve",
-                        "Roll-tab sleeve",
-                        "Bell Sleeve",
-                        "Leg-of-Mutton Sleeve",
-                        "Balloon Sleeve",
-                        "Ruffle sleeves",
-                        "Poet Sleeve",
-                        "Peasant Sleeve",
-                        "Butterfly/Flutter Sleeve",
-                        "Puff Sleeve",
-                        "Bishop Sleeve",
-                        "Juliet Sleeve",
-                        "Dolman Sleeve",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
-        },
-        {
-            "Sweater": [
-                {
-                    "Neckline": [
-                        "Crew Neck",
-                        "Boat Neck",
-                        "Halter Neck",
-                        "Sweetheart Neck",
-                        "Scoop Neck",
-                        "V-Neck",
-                        "Square Neck"
-                    ]
-                },
-                {
-                    "Collar": [
-                        "Sailor Collar",
-                        "Draped Collar",
-                        "Camp Collar",
-                        "Notched Collar",
-                        "Biker Collar",
-                        "Storm Collar",
-                        "Spread Collar",
-                        "Peter Pan Collar",
-                        "Mandarin",
-                        "Peak Lapel",
-                        "Shawl Collar",
-                        "Funnel Collar"
-                    ]
-                },
-                {
-                    "Sleeve Length": [
-                        "Bracelet",
-                        "Sleeveless",
-                        "Short",
-                        "Half",
-                        "Cap",
-                        "Long",
-                        "3/4",
-                        "Asymetic"
-                    ]
-                },
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "Sleeve Shape": [
-                        "Kimono Sleeve",
-                        "Tapered Sleeve",
-                        "Cuffed Sleeve",
-                        "Roll-tab sleeve",
-                        "Bell Sleeve",
-                        "Leg-of-Mutton Sleeve",
-                        "Balloon Sleeve",
-                        "Ruffle sleeves",
-                        "Poet Sleeve",
-                        "Peasant Sleeve",
-                        "Butterfly/Flutter Sleeve",
-                        "Puff Sleeve",
-                        "Bishop Sleeve",
-                        "Juliet Sleeve",
-                        "Dolman Sleeve",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
-        },
-        {
-            "Vest": [
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
-        },
-        {
-            "Tank Top": [
-                {
-                    "Length": [
-                        "Waist Length",
-                        "Hip Length",
-                        "Tunic Length",
-                        "Cropped",
-                        "Regular"
-                    ]
-                },
-                {
-                    "COLOR": [
-                        "Orange",
-                        "Yellow",
-                        "Black",
-                        "White",
-                        "Green",
-                        "Blue",
-                        "Purple",
-                        "Brown",
-                        "Grey",
-                        "Red",
-                        "Pink",
-                        "Pastel",
-                        "Bold",
-                        "Neutral"
-                    ]
-                },
-                {
-                    "Fit": [
-                        "Tailored/Slim",
-                        "Skinny",
-                        "Boxy",
-                        "Oversized",
-                        "Relaxed",
-                        "Regular"
-                    ]
-                },
-                {
-                    "PATTERN": [
-                        "Solid",
-                        "Vertical Stripes",
-                        "Horizontal Stripes",
-                        "Diagonal Stripes",
-                        "Sheer",
-                        "Check",
-                        "Polka dot",
-                        "Houndstooth",
-                        "Paisley",
-                        "Argyle",
-                        "Chevron",
-                        "Floral",
-                        "Ikat",
-                        "Damask",
-                        "Geometric",
-                        "Camouflage",
-                        "Animal print (e.g., leopard, zebra, snake)",
-                        "Toile",
-                        "Fleur-de-lis",
-                        "Jacquard",
-                        "Herringbone",
-                        "Fair Isle",
-                        "Lace",
-                        "Light Indigo Wash",
-                        "Medium Indigo Wash",
-                        "Dark Indigo Wash",
-                        "Bleach Indigo Wash",
-                        "Plaid",
-                        "Dusty",
-                        "Graphic",
-                        "Color Block"
-                    ]
-                },
-                {
-                    "MATERIAL": [
-                        "Cotton",
-                        "Linen",
-                        "Silk",
-                        "Wool",
-                        "Cashmere",
-                        "Mohair",
-                        "Bamboo",
-                        "Leather/Suede",
-                        "Denim",
-                        "Polyester",
-                        "Nylon",
-                        "Elastane",
-                        "Gore-Tex",
-                        "Satin",
-                        "Velvet",
-                        "Chiffon",
-                        "Tulle",
-                        "Organza",
-                        "Tencel",
-                        "Modal",
-                        "Shearling",
-                        "Recycled",
-                        "Water-resistent",
-                        "Organic"
-                    ]
-                }
-            ]
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
         }
-    ],
-    "top category": [
-        "Sweatshirt",
-        "Bodysui",
-        "Bodysuit",
-        "Blouse",
-        "T-shirt",
-        "Sweate",
-        "Corset",
-        "Tube",
-        "Camisole",
-        "Tunic",
-        "Sweater",
-        "Vest",
-        "Tank Top"
-    ]
+      ]
+    },
+    {
+      "Bodysui": [
+        {
+          "Sleeve Shape": [
+            "Kimono Sleeve",
+            "Tapered Sleeve",
+            "Cuffed Sleeve",
+            "Roll-tab sleeve",
+            "Bell Sleeve",
+            "Leg-of-Mutton Sleeve",
+            "Balloon Sleeve",
+            "Ruffle sleeves",
+            "Poet Sleeve",
+            "Peasant Sleeve",
+            "Butterfly/Flutter Sleeve",
+            "Puff Sleeve",
+            "Bishop Sleeve",
+            "Juliet Sleeve",
+            "Dolman Sleeve",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Bodysuit": [
+        {
+          "Sleeve Length": [
+            "Bracelet",
+            "Sleeveless",
+            "Short",
+            "Half",
+            "Cap",
+            "Long",
+            "3/4",
+            "Asymetic"
+          ]
+        },
+        {
+          "Neckline": [
+            "Henley",
+            "Cowl Neck",
+            "Crew Neck",
+            "Collar",
+            "Strapless",
+            "Boat Neck",
+            "Halter Neck",
+            "Illusion Neckline",
+            "Sweetheart Neck",
+            "Asymmetrical Neck",
+            "Scoop Neck",
+            "Turtleneck",
+            "V-Neck",
+            "Square Neck",
+            "Keyhole Neck",
+            "Portrait Neckline"
+          ]
+        },
+        {
+          "Collar": [
+            "Sailor Collar",
+            "Draped Collar",
+            "Camp Collar",
+            "Notched Collar",
+            "Biker Collar",
+            "Storm Collar",
+            "Spread Collar",
+            "Peter Pan Collar",
+            "Mandarin",
+            "Peak Lapel",
+            "Shawl Collar",
+            "Funnel Collar"
+          ]
+        },
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Blouse": [
+        {
+          "Neckline": [
+            "Henley",
+            "Cowl Neck",
+            "Crew Neck",
+            "Collar",
+            "Strapless",
+            "Boat Neck",
+            "Halter Neck",
+            "Illusion Neckline",
+            "Sweetheart Neck",
+            "Asymmetrical Neck",
+            "Scoop Neck",
+            "Turtleneck",
+            "V-Neck",
+            "Square Neck",
+            "Keyhole Neck",
+            "Portrait Neckline"
+          ]
+        },
+        {
+          "Collar": [
+            "Sailor Collar",
+            "Draped Collar",
+            "Camp Collar",
+            "Notched Collar",
+            "Biker Collar",
+            "Storm Collar",
+            "Spread Collar",
+            "Peter Pan Collar",
+            "Mandarin",
+            "Peak Lapel",
+            "Shawl Collar",
+            "Funnel Collar"
+          ]
+        },
+        {
+          "Sleeve Length": [
+            "Bracelet",
+            "Sleeveless",
+            "Short",
+            "Half",
+            "Cap",
+            "Long",
+            "3/4",
+            "Asymetic"
+          ]
+        },
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "Sleeve Shape": [
+            "Kimono Sleeve",
+            "Tapered Sleeve",
+            "Cuffed Sleeve",
+            "Roll-tab sleeve",
+            "Bell Sleeve",
+            "Leg-of-Mutton Sleeve",
+            "Balloon Sleeve",
+            "Ruffle sleeves",
+            "Poet Sleeve",
+            "Peasant Sleeve",
+            "Butterfly/Flutter Sleeve",
+            "Puff Sleeve",
+            "Bishop Sleeve",
+            "Juliet Sleeve",
+            "Dolman Sleeve",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "T-shirt": [
+        {
+          "Neckline": [
+            "Henley",
+            "Cowl Neck",
+            "Crew Neck",
+            "Collar",
+            "Strapless",
+            "Boat Neck",
+            "Halter Neck",
+            "Illusion Neckline",
+            "Sweetheart Neck",
+            "Asymmetrical Neck",
+            "Scoop Neck",
+            "Turtleneck",
+            "V-Neck",
+            "Square Neck",
+            "Keyhole Neck",
+            "Portrait Neckline"
+          ]
+        },
+        {
+          "Collar": [
+            "Sailor Collar",
+            "Draped Collar",
+            "Camp Collar",
+            "Notched Collar",
+            "Biker Collar",
+            "Storm Collar",
+            "Spread Collar",
+            "Peter Pan Collar",
+            "Mandarin",
+            "Peak Lapel",
+            "Shawl Collar",
+            "Funnel Collar"
+          ]
+        },
+        {
+          "Sleeve Length": [
+            "Bracelet",
+            "Sleeveless",
+            "Short",
+            "Half",
+            "Cap",
+            "Long",
+            "3/4",
+            "Asymetic"
+          ]
+        },
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "Sleeve Shape": [
+            "Kimono Sleeve",
+            "Tapered Sleeve",
+            "Cuffed Sleeve",
+            "Roll-tab sleeve",
+            "Bell Sleeve",
+            "Leg-of-Mutton Sleeve",
+            "Balloon Sleeve",
+            "Ruffle sleeves",
+            "Poet Sleeve",
+            "Peasant Sleeve",
+            "Butterfly/Flutter Sleeve",
+            "Puff Sleeve",
+            "Bishop Sleeve",
+            "Juliet Sleeve",
+            "Dolman Sleeve",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Sweate": [
+        {
+          "Neckline": [
+            "Henley",
+            "Collar",
+            "Cowl Neck",
+            "Strapless",
+            "Illusion Neckline",
+            "Asymmetrical Neck",
+            "Turtleneck",
+            "Keyhole Neck",
+            "Portrait Neckline"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Corset": [
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Tube": [
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Camisole": [
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Tunic": [
+        {
+          "Neckline": [
+            "Henley",
+            "Cowl Neck",
+            "Crew Neck",
+            "Collar",
+            "Strapless",
+            "Boat Neck",
+            "Halter Neck",
+            "Illusion Neckline",
+            "Sweetheart Neck",
+            "Asymmetrical Neck",
+            "Scoop Neck",
+            "Turtleneck",
+            "V-Neck",
+            "Square Neck",
+            "Keyhole Neck",
+            "Portrait Neckline"
+          ]
+        },
+        {
+          "Collar": [
+            "Sailor Collar",
+            "Draped Collar",
+            "Camp Collar",
+            "Notched Collar",
+            "Biker Collar",
+            "Storm Collar",
+            "Spread Collar",
+            "Peter Pan Collar",
+            "Mandarin",
+            "Peak Lapel",
+            "Shawl Collar",
+            "Funnel Collar"
+          ]
+        },
+        {
+          "Sleeve Length": [
+            "Bracelet",
+            "Sleeveless",
+            "Short",
+            "Half",
+            "Cap",
+            "Long",
+            "3/4",
+            "Asymetic"
+          ]
+        },
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "Sleeve Shape": [
+            "Kimono Sleeve",
+            "Tapered Sleeve",
+            "Cuffed Sleeve",
+            "Roll-tab sleeve",
+            "Bell Sleeve",
+            "Leg-of-Mutton Sleeve",
+            "Balloon Sleeve",
+            "Ruffle sleeves",
+            "Poet Sleeve",
+            "Peasant Sleeve",
+            "Butterfly/Flutter Sleeve",
+            "Puff Sleeve",
+            "Bishop Sleeve",
+            "Juliet Sleeve",
+            "Dolman Sleeve",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Sweater": [
+        {
+          "Neckline": [
+            "Crew Neck",
+            "Boat Neck",
+            "Halter Neck",
+            "Sweetheart Neck",
+            "Scoop Neck",
+            "V-Neck",
+            "Square Neck"
+          ]
+        },
+        {
+          "Collar": [
+            "Sailor Collar",
+            "Draped Collar",
+            "Camp Collar",
+            "Notched Collar",
+            "Biker Collar",
+            "Storm Collar",
+            "Spread Collar",
+            "Peter Pan Collar",
+            "Mandarin",
+            "Peak Lapel",
+            "Shawl Collar",
+            "Funnel Collar"
+          ]
+        },
+        {
+          "Sleeve Length": [
+            "Bracelet",
+            "Sleeveless",
+            "Short",
+            "Half",
+            "Cap",
+            "Long",
+            "3/4",
+            "Asymetic"
+          ]
+        },
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "Sleeve Shape": [
+            "Kimono Sleeve",
+            "Tapered Sleeve",
+            "Cuffed Sleeve",
+            "Roll-tab sleeve",
+            "Bell Sleeve",
+            "Leg-of-Mutton Sleeve",
+            "Balloon Sleeve",
+            "Ruffle sleeves",
+            "Poet Sleeve",
+            "Peasant Sleeve",
+            "Butterfly/Flutter Sleeve",
+            "Puff Sleeve",
+            "Bishop Sleeve",
+            "Juliet Sleeve",
+            "Dolman Sleeve",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Vest": [
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    },
+    {
+      "Tank Top": [
+        {
+          "Length": [
+            "Waist Length",
+            "Hip Length",
+            "Tunic Length",
+            "Cropped",
+            "Regular"
+          ]
+        },
+        {
+          "COLOR": [
+            "Orange",
+            "Yellow",
+            "Black",
+            "White",
+            "Green",
+            "Blue",
+            "Purple",
+            "Brown",
+            "Grey",
+            "Red",
+            "Pink",
+            "Pastel",
+            "Bold",
+            "Neutral"
+          ]
+        },
+        {
+          "Fit": [
+            "Tailored/Slim",
+            "Skinny",
+            "Boxy",
+            "Oversized",
+            "Relaxed",
+            "Regular"
+          ]
+        },
+        {
+          "PATTERN": [
+            "Solid",
+            "Vertical Stripes",
+            "Horizontal Stripes",
+            "Diagonal Stripes",
+            "Sheer",
+            "Check",
+            "Polka dot",
+            "Houndstooth",
+            "Paisley",
+            "Argyle",
+            "Chevron",
+            "Floral",
+            "Ikat",
+            "Damask",
+            "Geometric",
+            "Camouflage",
+            "Animal print (e.g., leopard, zebra, snake)",
+            "Toile",
+            "Fleur-de-lis",
+            "Jacquard",
+            "Herringbone",
+            "Fair Isle",
+            "Lace",
+            "Light Indigo Wash",
+            "Medium Indigo Wash",
+            "Dark Indigo Wash",
+            "Bleach Indigo Wash",
+            "Plaid",
+            "Dusty",
+            "Graphic",
+            "Color Block"
+          ]
+        },
+        {
+          "MATERIAL": [
+            "Cotton",
+            "Linen",
+            "Silk",
+            "Wool",
+            "Cashmere",
+            "Mohair",
+            "Bamboo",
+            "Leather/Suede",
+            "Denim",
+            "Polyester",
+            "Nylon",
+            "Elastane",
+            "Gore-Tex",
+            "Satin",
+            "Velvet",
+            "Chiffon",
+            "Tulle",
+            "Organza",
+            "Tencel",
+            "Modal",
+            "Shearling",
+            "Recycled",
+            "Water-resistent",
+            "Organic"
+          ]
+        }
+      ]
+    }
+  ],
+  "top category": [
+    "Sweatshirt",
+    "Bodysui",
+    "Bodysuit",
+    "Blouse",
+    "T-shirt",
+    "Sweate",
+    "Corset",
+    "Tube",
+    "Camisole",
+    "Tunic",
+    "Sweater",
+    "Vest",
+    "Tank Top"
+  ]
 }

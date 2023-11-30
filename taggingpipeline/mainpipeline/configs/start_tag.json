@@ -1,31 +1,36 @@
-{   
-    "get_product_skc":{
-        "product_url":"http://44.213.48.82:11181/product/skc/pageSkc",
-        "params":{
-            "pageNo":0,
-            "pageSize":100,
-            "spus":[]
-        },
-        "device":{
-            "device_num":1,
-            "device_index":0
-        },
-        "infos":["color","link","title","merchantCategoryName", "features","desc"]
+{
+  "get_product_skc": {
+    "product_url": "http://44.213.48.82:11181/product/skc/pageSkc",
+    "params": {
+      "pageNo": 0,
+      "pageSize": 100,
+      "spus": []
     },
-    "gettag_url":"http://44.213.48.82:11181/category/getTagsConfig",
-    "upload_tags":{
-        "savetag_url":"http://44.213.48.82:11181/product/skc/batchTagSkc",
-        "batchsize":100,
-        "format": {
-                "firstCategory":"",
-                "skcId":"",
-                "subCategory":"",
-                "tags":{}
-            },
-        "tagres_outdir":"/root/autodl-tmp/tmp_res/tag_res/output/topost"
+    "device": {
+      "device_num": 1,
+      "device_index": 0
     },
-    "res_dir":"/root/autodl-tmp/tmp_res/tag_res/output",
-    "questionjson":"/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/prompts/quesion.json"
-    
-    
+    "infos": [
+      "color",
+      "link",
+      "title",
+      "merchantCategoryName",
+      "features",
+      "desc"
+    ]
+  },
+  "gettag_url": "http://44.213.48.82:11181/category/getTagsConfig",
+  "upload_tags": {
+    "savetag_url": "http://44.213.48.82:11181/product/skc/batchTagSkc",
+    "batchsize": 100,
+    "format": {
+      "firstCategory": "",
+      "skcId": "",
+      "subCategory": "",
+      "tags": {}
+    },
+    "tagres_outdir": "/root/autodl-tmp/tmp_res/tag_res/output/topost"
+  },
+  "res_dir": "/root/autodl-tmp/tmp_res/tag_res/output",
+  "questionjson": "/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/prompts/quesion.json"
 }

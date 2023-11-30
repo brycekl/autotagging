@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def filter_rows_by_string(dataframe, column_name, string_to_search, case_sensitive=True
                           ):
     """
@@ -32,41 +33,40 @@ def merge_dataframes_with_suffix(df1, df2, key_column, suffixes=('_sam', '_yz'),
     """
     # 使用指定的列名、后缀和合并方法来合并两个DataFrame
     merged_df = pd.merge(df1, df2, on=key_column, how=how, suffixes=suffixes)
-    
+
     # 将结果中的NaN替换为空字符串表示空白
     merged_df.fillna('', inplace=True)
-    
+
     return merged_df
 
 
 data1 = '/root/autodl-tmp/autotagging/taggingpipeline/test/SPU_1.csv'
 
-data2 ='/root/autodl-tmp/autotagging/taggingpipeline/test/SPU_2.csv'
+data2 = '/root/autodl-tmp/autotagging/taggingpipeline/test/SPU_2.csv'
 
 # 转换成DataFrame
-df1 = pd.read_csv(data1,header=1)
+df1 = pd.read_csv(data1, header=1)
 df1.columns = df1.iloc[0]
-df1 = df1[['id','link (双击单元格可以将纯文本转成可以点击跳转的链接)','first category','subcategory']]
+df1 = df1[['id', 'link (双击单元格可以将纯文本转成可以点击跳转的链接)', 'first category', 'subcategory']]
 df1['id'] = df1['id'].astype('str')
 print(df1.columns)
-df2 = pd.read_csv(data2,header=1)
+df2 = pd.read_csv(data2, header=1)
 df2.columns = df2.iloc[0]
-df2 = df2[['id','link (双击单元格可以将纯文本转成可以点击跳转的链接)','first category','subcategory']]
+df2 = df2[['id', 'link (双击单元格可以将纯文本转成可以点击跳转的链接)', 'first category', 'subcategory']]
 df2['id'] = df2['id'].astype('str')
-
 
 key_column = 'id'
 
 all_elements = df1['first category'].str.cat(sep=',')
 # 分割后的元素为字符串，这里需要转换为列表
-elements_list =list(set(all_elements.split(',')))
+elements_list = list(set(all_elements.split(',')))
 
 for ele in elements_list:
     print(ele)
     df11 = filter_rows_by_string(df1, 'first category', ele)
     df21 = filter_rows_by_string(df2, 'first category', ele)
 
-    if df11.shape[0] == 0 :
+    if df11.shape[0] == 0:
         print(f'df1 is no {ele} ')
         continue
     elif df21.shape[0] == 0:
@@ -77,14 +77,9 @@ for ele in elements_list:
         merged_df = merge_dataframes_with_suffix(df11, df21, key_column)
         # save to csv 
         if ele == 'LOUNGE/PAJAMAS':
-            merged_df.to_csv(f'/root/autodl-tmp/autotagging/taggingpipeline/test/merged_lounge+pajamas.csv',index=False)
+            merged_df.to_csv(f'/root/autodl-tmp/autotagging/taggingpipeline/test/merged_lounge+pajamas.csv',
+                             index=False)
         else:
-            merged_df.to_csv(f'/root/autodl-tmp/autotagging/taggingpipeline/test/merged_{ele}.csv',index=False)
-
-
-
-
-
-
+            merged_df.to_csv(f'/root/autodl-tmp/autotagging/taggingpipeline/test/merged_{ele}.csv', index=False)
 
 print(merged_df)

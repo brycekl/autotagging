@@ -1,12 +1,9 @@
-import pandas as pd
-import numpy as np
 import os
-import sys
-import json
+
+import pandas as pd
 
 
-
-def get_img(imgdir,csvpath,new_csvpath):
+def get_img(imgdir, csvpath, new_csvpath):
     # put imge path into csv file
     # imgdir: image directory
     # csvpath: csv file path
@@ -30,10 +27,8 @@ def get_img(imgdir,csvpath,new_csvpath):
     pddata.to_csv(new_csvpath)
 
 
-
-if __name__ == "__main__":  
+if __name__ == "__main__":
     imgdir = '/root/autodl-tmp/autotagging/taggingpipeline/test_data/tag_test'
     csvpath = '/root/autodl-tmp/autotagging/taggingpipeline/test_data/testdata.csv'
     new_csvpath = '/root/autodl-tmp/autotagging/taggingpipeline/test_data/testdata_new.csv'
-    get_img(imgdir,csvpath,new_csvpath)
-
+    get_img(imgdir, csvpath, new_csvpath)

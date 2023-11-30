@@ -1,252 +1,252 @@
 {
-    "top category": [
-        "TOP",
-        "DENIM",
-        "ACTIVEWEAR",
-        "JUMPSUIT",
-        "SHORTS",
-        "Sweatshirt",
-        "LOUNGE/PAJAMAS",
+  "top category": [
+    "TOP",
+    "DENIM",
+    "ACTIVEWEAR",
+    "JUMPSUIT",
+    "SHORTS",
+    "Sweatshirt",
+    "LOUNGE/PAJAMAS",
+    "Vest",
+    "JACKET",
+    "Sweater",
+    "PANTS",
+    "Outerwear",
+    "SKIRT",
+    "DRESSES"
+  ],
+  "first category": [
+    {
+      "TOP": [
+        "Corset",
+        "Dress Shirt",
+        "Long-sleeve",
+        "Camisole",
+        "Bodysuit",
+        "Tank",
+        "T-shirt",
+        "Blouse",
+        "Tunic"
+      ]
+    },
+    {
+      "DENIM": [
+        "Leggings",
+        "Skirt",
+        "Dress",
+        "Shorts",
+        "Jacket",
+        "Top",
+        "Jeans",
+        "Jumpsuits"
+      ]
+    },
+    {
+      "ACTIVEWEAR": [
+        "Leggings",
+        "Joggers",
+        "Pants",
+        "Sports Bras",
+        "One-Piece",
+        "Skirt",
+        "Sport Vest",
+        "Dress",
+        "Shorts",
+        "Jacket",
+        "Hoodie",
+        "Top",
+        "Bike Shorts",
+        "Skort"
+      ]
+    },
+    {
+      "JUMPSUIT": [
+        "Athletic Jumpsuit",
+        "Utility Jumpsuit",
+        "Formal Jumpsuit",
+        "Casual Jumpsuit",
+        "Overalls",
+        "Romper"
+      ]
+    },
+    {
+      "SHORTS": [
+        "Cutoff Shorts",
+        "Biker",
+        "Regular",
+        "Sweatshorts",
+        "Bermuda",
+        "Athletic Shorts",
+        "Drawstring Shorts",
+        "Skorts",
+        "Chino"
+      ]
+    },
+    {
+      "Sweatshirt": [
+        "Half Zip",
+        "Sweatshirt Sets",
+        "Hoodie",
+        "Pullover",
+        "Full Zip"
+      ]
+    },
+    {
+      "LOUNGE/PAJAMAS": [
+        "Joggers",
+        "Zip-ups",
+        "Sweatshirts",
+        "Hoodie",
+        "Sets",
+        "Sweatpants"
+      ]
+    },
+    {
+      "Vest": [
         "Vest",
-        "JACKET",
-        "Sweater",
-        "PANTS",
-        "Outerwear",
-        "SKIRT",
-        "DRESSES"
-    ],
-    "first category": [
-        {
-            "TOP": [
-                "Corset",
-                "Dress Shirt",
-                "Long-sleeve",
-                "Camisole",
-                "Bodysuit",
-                "Tank",
-                "T-shirt",
-                "Blouse",
-                "Tunic"
-            ]
-        },
-        {
-            "DENIM": [
-                "Leggings",
-                "Skirt",
-                "Dress",
-                "Shorts",
-                "Jacket",
-                "Top",
-                "Jeans",
-                "Jumpsuits"
-            ]
-        },
-        {
-            "ACTIVEWEAR": [
-                "Leggings",
-                "Joggers",
-                "Pants",
-                "Sports Bras",
-                "One-Piece",
-                "Skirt",
-                "Sport Vest",
-                "Dress",
-                "Shorts",
-                "Jacket",
-                "Hoodie",
-                "Top",
-                "Bike Shorts",
-                "Skort"
-            ]
-        },
-        {
-            "JUMPSUIT": [
-                "Athletic Jumpsuit",
-                "Utility Jumpsuit",
-                "Formal Jumpsuit",
-                "Casual Jumpsuit",
-                "Overalls",
-                "Romper"
-            ]
-        },
-        {
-            "SHORTS": [
-                "Cutoff Shorts",
-                "Biker",
-                "Regular",
-                "Sweatshorts",
-                "Bermuda",
-                "Athletic Shorts",
-                "Drawstring Shorts",
-                "Skorts",
-                "Chino"
-            ]
-        },
-        {
-            "Sweatshirt": [
-                "Half Zip",
-                "Sweatshirt Sets",
-                "Hoodie",
-                "Pullover",
-                "Full Zip"
-            ]
-        },
-        {
-            "LOUNGE/PAJAMAS": [
-                "Joggers",
-                "Zip-ups",
-                "Sweatshirts",
-                "Hoodie",
-                "Sets",
-                "Sweatpants"
-            ]
-        },
-        {
-            "Vest": [
-                "Vest",
-                "Double-breasted vest",
-                "Fleece vest",
-                "Puffer vest",
-                "Sweater vest"
-            ]
-        },
-        {
-            "JACKET": [
-                "Motocycle",
-                "Tuxedo",
-                "Blazer",
-                "Shacket",
-                "Bomber",
-                "Suit Blazer",
-                "Cropped"
-            ]
-        },
-        {
-            "Sweater": [
-                "Duster",
-                "Cardigan",
-                "Wrap",
-                "Sweatshirt",
-                "Sweater sets",
-                "Sweater dress",
-                "Hoodie",
-                "Pullover",
-                "Turtleneck"
-            ]
-        },
-        {
-            "PANTS": [
-                "Trousers",
-                "Skinny",
-                "Chinos",
-                "Joggers",
-                "Wide",
-                "Mid-rise",
-                "Utility",
-                "Low-rise",
-                "Flared",
-                "High-rise",
-                "Cropped",
-                "Slim",
-                "Tailored"
-            ]
-        },
-        {
-            "Outerwear": [
-                "Puffer",
-                "Utility",
-                "Teddy Bear",
-                "Anorak",
-                "Overcoat",
-                "Fur/Faux Fur",
-                "Trench"
-            ]
-        },
-        {
-            "SKIRT": [
-                "Maxi",
-                "Full",
-                "Mini",
-                "Midi"
-            ]
-        },
-        {
-            "DRESSES": [
-                "Formal",
-                "Maxi",
-                "Tea-length",
-                "Cover-ups",
-                "Knee-length",
-                "Cocktail",
-                "Mini",
-                "Casual",
-                "Midi"
-            ]
-        }
-    ],
-    "subcategory": [
-        {
-            "Overcoat": [
-                "Top Coat"
-            ]
-        },
-        {
-            "Utility": [
-                "Cargo"
-            ]
-        },
-        {
-            "Dress Shirt": [
-                "Button-Up Shirt",
-                "Shirt"
-            ]
-        },
-        {
-            "Puffer": [
-                "Down Coat"
-            ]
-        },
-        {
-            "Camisole": [
-                "Cami"
-            ]
-        },
-        {
-            "Trousers": [
-                "Suit Pants"
-            ]
-        },
-        {
-            "T-shirt": [
-                "Tee"
-            ]
-        },
-        {
-            "Vest": [
-                "Waistcoat"
-            ]
-        },
-        {
-            "Flared": [
-                "Bell Bottoms",
-                "Bootcut"
-            ]
-        },
-        {
-            "Romper": [
-                "Playsuit"
-            ]
-        },
-        {
-            "Tunic": [
-                "kaftan",
-                "caftan"
-            ]
-        },
-        {
-            "Pullover": [
-                "Jumper"
-            ]
-        }
-    ]
+        "Double-breasted vest",
+        "Fleece vest",
+        "Puffer vest",
+        "Sweater vest"
+      ]
+    },
+    {
+      "JACKET": [
+        "Motocycle",
+        "Tuxedo",
+        "Blazer",
+        "Shacket",
+        "Bomber",
+        "Suit Blazer",
+        "Cropped"
+      ]
+    },
+    {
+      "Sweater": [
+        "Duster",
+        "Cardigan",
+        "Wrap",
+        "Sweatshirt",
+        "Sweater sets",
+        "Sweater dress",
+        "Hoodie",
+        "Pullover",
+        "Turtleneck"
+      ]
+    },
+    {
+      "PANTS": [
+        "Trousers",
+        "Skinny",
+        "Chinos",
+        "Joggers",
+        "Wide",
+        "Mid-rise",
+        "Utility",
+        "Low-rise",
+        "Flared",
+        "High-rise",
+        "Cropped",
+        "Slim",
+        "Tailored"
+      ]
+    },
+    {
+      "Outerwear": [
+        "Puffer",
+        "Utility",
+        "Teddy Bear",
+        "Anorak",
+        "Overcoat",
+        "Fur/Faux Fur",
+        "Trench"
+      ]
+    },
+    {
+      "SKIRT": [
+        "Maxi",
+        "Full",
+        "Mini",
+        "Midi"
+      ]
+    },
+    {
+      "DRESSES": [
+        "Formal",
+        "Maxi",
+        "Tea-length",
+        "Cover-ups",
+        "Knee-length",
+        "Cocktail",
+        "Mini",
+        "Casual",
+        "Midi"
+      ]
+    }
+  ],
+  "subcategory": [
+    {
+      "Overcoat": [
+        "Top Coat"
+      ]
+    },
+    {
+      "Utility": [
+        "Cargo"
+      ]
+    },
+    {
+      "Dress Shirt": [
+        "Button-Up Shirt",
+        "Shirt"
+      ]
+    },
+    {
+      "Puffer": [
+        "Down Coat"
+      ]
+    },
+    {
+      "Camisole": [
+        "Cami"
+      ]
+    },
+    {
+      "Trousers": [
+        "Suit Pants"
+      ]
+    },
+    {
+      "T-shirt": [
+        "Tee"
+      ]
+    },
+    {
+      "Vest": [
+        "Waistcoat"
+      ]
+    },
+    {
+      "Flared": [
+        "Bell Bottoms",
+        "Bootcut"
+      ]
+    },
+    {
+      "Romper": [
+        "Playsuit"
+      ]
+    },
+    {
+      "Tunic": [
+        "kaftan",
+        "caftan"
+      ]
+    },
+    {
+      "Pullover": [
+        "Jumper"
+      ]
+    }
+  ]
 }

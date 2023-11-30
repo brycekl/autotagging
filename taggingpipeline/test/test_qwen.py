@@ -1,6 +1,6 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers.generation import GenerationConfig
 import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
 torch.manual_seed(1234)
 
 # 请注意：分词器默认行为已更改为默认关闭特殊token攻击防护。
@@ -8,14 +8,16 @@ tokenizer = AutoTokenizer.from_pretrained("/root/autodl-tmp/autotagging/Qwen-VL-
 
 # 默认gpu进行推理，需要约24GB显存
 # model = AutoModelForCausalLM.from_pretrained("/root/autodl-tmp/autotagging/Qwen-VL-Chat", device_map="cuda", trust_remote_code=True).eval()
-model = AutoModelForCausalLM.from_pretrained("/root/autodl-tmp/autotagging/Qwen-VL-Chat", device_map="cuda", trust_remote_code=True, fp16=True).eval()
+model = AutoModelForCausalLM.from_pretrained("/root/autodl-tmp/autotagging/Qwen-VL-Chat", device_map="cuda",
+                                             trust_remote_code=True, fp16=True).eval()
 
 # 可指定不同的生成长度、top_p等相关超参（transformers 4.32.0及以上无需执行此操作）
 # model.generation_config = GenerationConfig.from_pretrained("Qwen/Qwen-VL-Chat", trust_remote_code=True)
 
 # 第一轮对话
 query = tokenizer.from_list_format([
-    {'image': 'https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg'}, # Either a local path or an url
+    {'image': 'https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg'},
+    # Either a local path or an url
     {'text': '这是什么?'},
 ])
 response, history = model.chat(tokenizer, query=query, history=None)
@@ -28,7 +30,6 @@ print(response)
 # <ref>击掌</ref><box>(536,509),(588,602)</box>
 image = tokenizer.draw_bbox_on_latest_picture(response, history)
 if image:
-  image.save('1.jpg')
+    image.save('1.jpg')
 else:
-  print("no box")
-  
+    print("no box")

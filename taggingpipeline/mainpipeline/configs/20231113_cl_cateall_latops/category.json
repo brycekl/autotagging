@@ -1,51 +1,51 @@
 {
-    "first category": [
-        "Tops",
-        "Dresses",
-        "Overcoat",
-        "bottoms",
+  "first category": [
+    "Tops",
+    "Dresses",
+    "Overcoat",
+    "bottoms",
+    "Jumpsuit"
+  ],
+  "subcategory": [
+    {
+      "Tops": [
+        "Sweatshirt",
+        "Bodysuit",
+        "Blouse",
+        "Vest",
+        "Corset",
+        "Tube",
+        "Camisole",
+        "Tunic",
+        "Sweater",
+        "T-shirt",
+        "Tank Top"
+      ]
+    },
+    {
+      "Dresses": [
+        "Short Dresses",
+        "Maxi Dresses",
+        "Long Dresses"
+      ]
+    },
+    {
+      "Overcoat": [
+        "Outerwear",
+        "Jacket"
+      ]
+    },
+    {
+      "bottoms": [
+        "pants",
+        "shorts",
+        "skirt"
+      ]
+    },
+    {
+      "Jumpsuit": [
         "Jumpsuit"
-    ],
-    "subcategory": [
-        {
-            "Tops": [
-                "Sweatshirt",
-                "Bodysuit",
-                "Blouse",
-                "Vest",
-                "Corset",
-                "Tube",
-                "Camisole",
-                "Tunic",
-                "Sweater",
-                "T-shirt",
-                "Tank Top"
-            ]
-        },
-        {
-            "Dresses": [
-                "Short Dresses",
-                "Maxi Dresses",
-                "Long Dresses"
-            ]
-        },
-        {
-            "Overcoat": [
-                "Outerwear",
-                "Jacket"
-            ]
-        },
-        {
-            "bottoms": [
-                "pants",
-                "shorts",
-                "skirt"
-            ]
-        },
-        {
-            "Jumpsuit": [
-                "Jumpsuit"
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }

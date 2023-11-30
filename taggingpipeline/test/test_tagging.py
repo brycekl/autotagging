@@ -1,101 +1,84 @@
-import os
-import requests
-from PIL import Image
-import multiprocessing
-import argparse 
-
-import json 
+import argparse
 import copy
-import os 
-import requests
-from queue import Queue
-import pandas as pd
-import time
-
+import os
 # from taggingpipeline.mainpipeline.tag_service import Service
 import sys
+import time
+
+import pandas as pd
+
 sys.path.append('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline')
 print(sys.path)
 from tagging_llava import InitLLA
 
-
-
 result = []
 
 
-def quick_qa(self,inp,temperature=0.9,max_new_tokens=10000):
+def quick_qa(self, inp, temperature=0.9, max_new_tokens=10000):
+    conv_qa = copy.deepcopy(self.conv_init)
 
-        conv_qa = copy.deepcopy(self.conv_init)
+    conv_qa.append_message(conv_qa.roles[0], inp)
+    conv_qa.append_message(conv_qa.roles[1], None)
+    prompt = conv_qa.get_prompt()
 
-        conv_qa.append_message(conv_qa.roles[0], inp)
-        conv_qa.append_message(conv_qa.roles[1], None)
-        prompt = conv_qa.get_prompt()
+    input_ids = tokenizer_image_token(prompt, self.tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(
+        0).cuda()
+    stop_str = conv_qa.sep if conv.sep_style != SeparatorStyle.TWO else conv_qa.sep2
+    keywords = [stop_str]
+    stopping_criteria = KeywordsStoppingCriteria(keywords, self.tokenizer, input_ids)
+    streamer = TextStreamer(self.tokenizer, skip_prompt=True, skip_special_tokens=True)
+    logger.info(f'!!!!!!!start generate!!!!!!!!!!!!!!!!!')
 
-        input_ids = tokenizer_image_token(prompt, self.tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).cuda()
-        stop_str = conv_qa.sep if conv.sep_style != SeparatorStyle.TWO else conv_qa.sep2
-        keywords = [stop_str]
-        stopping_criteria = KeywordsStoppingCriteria(keywords, self.tokenizer, input_ids)
-        streamer = TextStreamer(self.tokenizer, skip_prompt=True, skip_special_tokens=True)
-        logger.info(f'!!!!!!!start generate!!!!!!!!!!!!!!!!!')
+    with torch.inference_mode():
+        output_ids = self.model.generate(
+            input_ids,
+            images=self.image_tensor,
+            do_sample=True,
+            temperature=temperature,
+            max_new_tokens=max_new_tokens,
+            streamer=streamer,
+            use_cache=True,
+            stopping_criteria=[stopping_criteria])
 
-        with torch.inference_mode():
-            output_ids = self.model.generate(
-                input_ids,
-                images=self.image_tensor,
-                do_sample=True,
-                temperature= temperature,
-                max_new_tokens= max_new_tokens,
-                streamer=streamer,
-                use_cache=True,
-                stopping_criteria=[stopping_criteria])
+    outputs = self.tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
+    conv_qa.messages[-1][-1] = outputs
 
-        outputs = self.tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
-        conv_qa.messages[-1][-1] = outputs
-
-        conv_qa = None
-        return outputs
+    conv_qa = None
+    return outputs
 
 
 def load_label_options(options_dir):
     additional_info = {}
     files = os.listdir(options_dir)
     # handel category
-    about_cate = pd.read_csv(os.path.join(options_dir, 'about_category.csv'),skipinitialspace=True)
+    about_cate = pd.read_csv(os.path.join(options_dir, 'about_category.csv'), skipinitialspace=True)
     cates = about_cate['category'].tolist()
 
-
     # handel label
-    about_label = pd.read_csv(os.path.join(options_dir, 'about_label.csv'),skipinitialspace=True)
+    about_label = pd.read_csv(os.path.join(options_dir, 'about_label.csv'), skipinitialspace=True)
     labels = about_label['label'].tolist()
 
     # handel option
-    about_option = pd.read_csv(os.path.join(options_dir, 'about_option.csv'),skipinitialspace=True)
+    about_option = pd.read_csv(os.path.join(options_dir, 'about_option.csv'), skipinitialspace=True)
     labels_ = about_option['label'].tolist()
     options = {}
 
-    for i  in labels_:
-        if 
-        options[i] = about_option[about_option['label']==i]['options'].tolist()
-
-
-
-
-
-
-     
-    
+    for i in labels_:
+        if
+            options[i] = about_option[about_option['label'] == i]['options'].tolist()
 
 
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    
+
     parser.add_argument('--url', type=str, default='https://example.com/path/to/image.jpg', help='url')
     parser.add_argument('--res_dir', type=str, default='./downloaded_images', help='res_dir')
-    parser.add_argument('--questionjson', type=str, default='/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/prompts/quesion.json', help='question.json path')
+    parser.add_argument('--questionjson', type=str,
+                        default='/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/prompts/quesion.json',
+                        help='question.json path')
     parser.add_argument('--version', type=str, default='20231026_clothing_v2', help='question.json path')
     parser.add_argument('--outcsvpath', type=str, default='/root/autodl-tmp/autotagging/taggingpipeline/test/res.csv')
-
 
     args = parser.parse_args()
 
@@ -103,14 +86,14 @@ if __name__ == "__main__":
 
     if not os.path.exists(args.res_dir):
         os.makedirs(args.res_dir)
-    
+
     qw_s = InitLLA(args.questionjson)
 
     init_time = time.time()
 
-    imgsinfo0 = {'imgs':'/root/autodl-tmp/autotagging/taggingpipeline/test_data/test_easy_7_imgs',
-                'info':'{Color:   Green, \n Product desciption: Take your collared look up a notch. We made this notch collar blouse with a relaxed, slim fit with a clean and crisp look for an everyday appeal. Perfectly made to be layered or worn solo. Plus, silk fiber contains 18 kinds of amino acids that make it amazing for skin nourishment, hypo-allergenic, and naturally thermoregulating to help maintain body temperature., \n details: [\n Crafted from 90% mulberry silk for luxe feel, and 10% spandex for a little stretch  \t, \n 19mm fabric weight for a premium drape and hand-feel, \n This material is certified by OEKO-TEX Standard 100 (Certificate Number: SH015140381& SH050127759) which ensures that no hazardous substances are present",Made with care in China  \n ],size&fit:[Slim fit, consider sizing up for a more relaxed look]}'
-                }
+    imgsinfo0 = {'imgs': '/root/autodl-tmp/autotagging/taggingpipeline/test_data/test_easy_7_imgs',
+                 'info': '{Color:   Green, \n Product desciption: Take your collared look up a notch. We made this notch collar blouse with a relaxed, slim fit with a clean and crisp look for an everyday appeal. Perfectly made to be layered or worn solo. Plus, silk fiber contains 18 kinds of amino acids that make it amazing for skin nourishment, hypo-allergenic, and naturally thermoregulating to help maintain body temperature., \n details: [\n Crafted from 90% mulberry silk for luxe feel, and 10% spandex for a little stretch  \t, \n 19mm fabric weight for a premium drape and hand-feel, \n This material is certified by OEKO-TEX Standard 100 (Certificate Number: SH015140381& SH050127759) which ensures that no hazardous substances are present",Made with care in China  \n ],size&fit:[Slim fit, consider sizing up for a more relaxed look]}'
+                 }
     # imgsinfo1 =  {'id': 1712371384807624705, 
     #              'imgs': '/root/autodl-tmp/autotagging/taggingpipeline/output/datav1_4_20231017_clothing_v1_20231021_1348/imgs/1712371384807624705_13_48_44', 
     #              'info': {
@@ -133,24 +116,22 @@ if __name__ == "__main__":
     #                    'features': '{"fit": ["High-rise", "Slim fit through hips. Relaxed barrel leg. Tapered and cropped at ankle.", "Customers say this style runs large. Consider sizing down for a more snug fit.", "Regular Inseam: 26.5\\"", "Tall Inseam: 28.5\\""], "washCcare": ["Machine wash cold inside out, tumble dry low."], "sustainability": ["Organic Cotton", "Cleaner Chemistry"]}', 
     #                    'link': 'https://www.everlane.com/products/womens-utility-barrel-pant-navy'}}
 
-
     # imgsinfos = [imgsinfo2,imgsinfo3]
     qname = "what is the category  of this merchandise? \n options:['jacket', 'pants', 'sweater', 'jumpsuit', 'sweatshirt', 'top', 'outerwear', 'shorts', 'activewear', 'denim', 'dresses', 'lounge/pajamas', 'skirt'] \n please select an answer from the above options,no need to answer in full sentences, please answer your options directly and just give one option please answer 'none' if there is no match in the options"
     imgsinfos = [imgsinfo0]
 
     for imgsinfo in imgsinfos:
-        tag_perp = qw_s.tag_main(imgsinfo['imgs'],qname,args.version)
+        tag_perp = qw_s.tag_main(imgsinfo['imgs'], qname, args.version)
 
-
-        print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
-        print('imgsinfo',imgsinfo)
-        print('tag_perp',tag_perp)
-        print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
-
+        print(
+            '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
+        print('imgsinfo', imgsinfo)
+        print('tag_perp', tag_perp)
+        print(
+            '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 
         print('===============================')
         print('RESULT:')
 
         print(result)
         print('===============================')
-

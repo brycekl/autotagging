@@ -1,2119 +1,2119 @@
 {
+  "first category": {
     "first category": {
-        "first category": {
-            "Tops": 1232,
-            "bottoms": 34,
-            "Jumpsuit": 3,
-            "Overcoat": 19,
-            "NaN": 0
-        }
-    },
-    "subcategory": {
-        "Tops": {
-            "subcategory": {
-                "Sweater": 215,
-                "T shirt": 115,
-                "Sweatshirt": 386,
-                "Blouse": 291,
-                "Tank Top": 72,
-                "t shirt": 82,
-                "Vest": 39,
-                "Bodysuit": 1,
-                "Corset": 5,
-                "T shirt Simplified sentence Wear a t shirt and jeans ": 1,
-                "Tube": 2,
-                "T shirt ": 2,
-                "Camisole": 6,
-                "Tank": 1,
-                "NaN": 0,
-                "Tunic": 7,
-                "t shirt ": 1,
-                " t shirt ": 3,
-                "1  Simplify your sentences by removing unnecessary words and phrases to make it more concise For example Original sentence   The cat is sitting on the mat Simplified sentence   Cat sitting on mat ": 1,
-                "T shirt 1 word ": 1
-            }
-        },
-        "bottoms": {
-            "subcategory": {
-                "pants": 21,
-                "shorts": 8,
-                "skirt": 5
-            }
-        },
-        "Jumpsuit": {
-            "subcategory": {
-                "Jumpsuit": 3
-            }
-        },
-        "Overcoat": {
-            "subcategory": {
-                "Jacket": 19
-            }
-        },
-        "NaN": {
-            "subcategory": {}
-        }
-    },
-    "labels": {
-        "Tops": {
-            "Sweater": [
-                {
-                    "Neckline": {
-                        "V neck": 29,
-                        "Crew Neck": 165,
-                        "Halter Neck": 1,
-                        "Square Neck": 3,
-                        "Scoop Neck": 4,
-                        "Sweetheart Neck": 3,
-                        "none": 2,
-                        "v neck": 2,
-                        "Turtleneck": 2,
-                        "Simplify sentence  V neck": 1,
-                        "Boat Neck": 1,
-                        " V neck ": 1,
-                        " v neck ": 1
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0,
-                        "Spread Collar": 12,
-                        "Camp Collar": 2,
-                        "Sailor Collar": 33,
-                        "Funnel Collar": 4,
-                        "Biker Collar": 62,
-                        "Simplify this sentence with one of the options ": 1,
-                        "collar": 6,
-                        "Draped Collar": 15,
-                        "High collar": 2,
-                        "High foldover collar": 1,
-                        "Notched Collar": 11,
-                        "Simplify  Crop collar  sailor collar  Crop collar  draped collar  Crop collar  camp collar  Crop collar  notched collar  Crop collar  biker collar  Crop collar  storm collar  Crop collar  spread collar  Crop collar  peter pan collar  Crop collar  mandarin  Crop collar  peak lapel  Crop collar  shawl collar  Crop collar  funnel collar": 1,
-                        "Crewneck": 3,
-                        "Simplify  V neck with biker collar ": 1,
-                        "V neck": 5,
-                        "Simplify Turtleneck": 1,
-                        "Crew": 2,
-                        "Simplify the sentence using the option  peter pan collar ": 1,
-                        " sailor collar ": 1,
-                        "High neck": 1,
-                        "Peak Lapel": 4,
-                        "crew": 1,
-                        "I m sorry  but I need more information about the sentence you want me to simplify in order to provide a single word option  Please provide the sentence you would like me to simplify ": 1,
-                        "Drape collar": 1,
-                        "Simplified  sailor collar": 1,
-                        "Biker": 1,
-                        "Simplify the sentence with the option  biker collar ": 1,
-                        "High neckline can be simplified to  sailor collar ": 1,
-                        "Simplify Input  Raglan Options   sailor collar  draped collar  camp collar  notched collar  biker collar  storm collar  spread collar  peter pan collar  mandarin  peak lapel  shawl collar  funnel collar Single word option  Draped collar": 1,
-                        "U neckline": 1,
-                        "Simplify  Sailor collar  Draped collar  Camp collar  Notched collar  Biker collar  Storm collar  Spread collar  Peter Pan collar  Mandarin  Peak lapel  Shawl collar  Funnel collar": 1,
-                        "Storm Collar": 2,
-                        "None ": 1,
-                        "Mandarin": 1,
-                        "V neckline": 3,
-                        "The shirt has a sailor collar ": 1,
-                        "Simplify   The man is wearing a sailor collar shirt Option  sailor collar": 1,
-                        "V neckline is a type of collar that is typically associated with a V shaped neckline  The options provided include various types of collars that may be considered as alternatives to a V neckline  However  based on the information provided  it is not possible to simplify the sentence with a single word from the options ": 1,
-                        "High neckline can be simplified to  sailor collar  or  biker collar  or  storm collar ": 1,
-                        "Simplify the sentence to   a V neck collar ": 1,
-                        "Shawl Collar": 1,
-                        "Turtleneck  Turtleneck  Sailor collar Simplified with the option  Turtleneck ": 1,
-                        "none": 1,
-                        "Simplify this sentence with one of the options The man s dress shirt was collared  collared": 1
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "Long": 179,
-                        "Half": 4,
-                        "Short": 19,
-                        "Sleeveless": 5,
-                        "Asymmetric": 3,
-                        "Bracelet": 2,
-                        "NaN": 0,
-                        "Bell": 1
-                    }
-                },
-                {
-                    "Length": {
-                        "Tunic Length": 140,
-                        "Regular": 46,
-                        "Cropped": 27,
-                        "Waist Length": 1,
-                        "Hip Length": 1
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "Raglan": 2,
-                        "Tapered Sleeve": 147,
-                        "Roll tab sleeve": 2,
-                        "Puff Sleeve": 6,
-                        "Balloon Sleeve": 9,
-                        "Cuffed Sleeve": 12,
-                        "Kimono Sleeve": 21,
-                        "Regular": 1,
-                        "Bell Sleeve": 7,
-                        "Dolman Sleeve": 3,
-                        "Cuffed sleeve ": 1,
-                        "roll tab sleeve": 1,
-                        "Bishop Sleeve": 1,
-                        "roll tab": 1,
-                        "Ruffle sleeves": 1
-                    }
-                },
-                {
-                    "COLOR": {
-                        "Grey": 22,
-                        "Yellow": 6,
-                        "White": 24,
-                        "Neutral": 10,
-                        "Brown": 28,
-                        "Purple": 10,
-                        "Red": 9,
-                        "Black and white": 2,
-                        "Black": 41,
-                        "Blue": 19,
-                        "Green": 12,
-                        "Pastel": 4,
-                        "Bold": 12,
-                        "Orange": 10,
-                        "Black and white simplify to  black and white": 1,
-                        "Blue and green": 1,
-                        "Pink": 4
-                    }
-                },
-                {
-                    "Fit": {
-                        "Boxy": 22,
-                        "Regular": 107,
-                        "Oversized": 43,
-                        "Relaxed": 32,
-                        "Fitted": 1,
-                        " tailored slim ": 1,
-                        "Skinny": 4,
-                        "NaN": 0,
-                        "slim": 1,
-                        "Slim": 2,
-                        "Tailored slim": 1
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Solid": 162,
-                        "Camouflage": 2,
-                        "Chevron": 2,
-                        "Striped": 7,
-                        "Vertical Stripes": 2,
-                        "Stripes": 3,
-                        "Color Block": 3,
-                        "Jacquard": 4,
-                        "Sheer": 1,
-                        "Fair Isle": 1,
-                        "Graphic": 5,
-                        "Dusty": 1,
-                        "NaN": 0,
-                        "Check": 2,
-                        "Fish prints": 1,
-                        "Paisley": 6,
-                        "Wild horses": 1,
-                        "Mushroom": 1,
-                        "Abstract ": 1,
-                        "Animal print  e g  leopard  zebra  snake ": 1,
-                        "Animal print": 1,
-                        "Geometric": 1,
-                        "Polka dot": 1,
-                        " horizontal stripes ": 1,
-                        "Lace": 1
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "Cashmere": 9,
-                        "Polyester": 21,
-                        "Wool": 67,
-                        "Leather suede": 2,
-                        "Recycled": 26,
-                        "Acrylic": 10,
-                        "Linen": 2,
-                        "Acrylic ": 2,
-                        "NaN": 0,
-                        "Acrylic is a type of synthetic fiber ": 1,
-                        "Nylon": 4,
-                        "Cotton": 35,
-                        "Elastane": 2,
-                        "Organic": 21,
-                        "Water resistent": 1,
-                        "Mohair": 3,
-                        "Bamboo": 1,
-                        "TreeFleece": 1,
-                        "Silk": 1,
-                        "Modal": 4
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "T shirt": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 115
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "Sweatshirt": [
-                {
-                    "Neckline": {
-                        "Crew Neck": 324,
-                        "V neck": 37,
-                        "Boat Neck": 1,
-                        "Sweetheart Neck": 6,
-                        "Scoop Neck": 11,
-                        "V neck ": 1,
-                        "v neck": 3,
-                        "NaN": 0,
-                        "Square Neck": 2
-                    }
-                },
-                {
-                    "Collar": {
-                        "Spread Collar": 91,
-                        "none": 2,
-                        "Camp Collar": 6,
-                        "Sailor Collar": 46,
-                        "Draped Collar": 26,
-                        "collar": 2,
-                        "Biker Collar": 117,
-                        "Simplify the sentence with  sailor collar ": 1,
-                        "Off the shoulder ": 1,
-                        "Notched Collar": 13,
-                        "NaN": 0,
-                        "Crewneck ": 1,
-                        "Simplify  Crewneck   Sailor collar or Biker collar": 1,
-                        "Mandarin": 2,
-                        "None ": 5,
-                        "Collar None": 1,
-                        "The single word option is  biker collar ": 1,
-                        "V neck  sailor collar  A collar with a small V shape that fastens with buttons  biker collar  A collar that has a wide  pointed end  storm collar  A collar that is turned backward over the chest  peak lapel  A lapel that is pointed and comes to a sharp tip  shawl collar  A collar that drapes over the shoulder and fastens with buttons  funnel collar  A collar that is wide and flared outward ": 1,
-                        "V neckline": 3,
-                        "Shawl Collar": 1,
-                        "Collar  sailor collar": 1,
-                        "Crew": 2,
-                        "Simplify this sentence with one of the options Sailor collar": 1,
-                        "There is not enough information to simplify the sentence with any of the given options ": 1,
-                        "crew neck": 1,
-                        "Crew neck": 3,
-                        "Peak Lapel": 4,
-                        "V neck": 4,
-                        "Cuban collar ": 1,
-                        "V neck ": 1,
-                        "Biker collar ": 2,
-                        "Storm Collar": 2,
-                        "Box collar": 1,
-                        "Scoop  notched collar  spread collar  peek lapel  funnel collar None ": 1,
-                        "Simplify  Round Neckline Option  Notched Collar": 1,
-                        "Cannot find the option ": 1,
-                        " spread collar ": 1,
-                        " peak lapel ": 1,
-                        "High neckline": 1,
-                        "Simplify this sentence with one of the options  output the single word option only If you do not have enough information can not find the option  output  none options sailor collar   draped collar   camp collar   notched collar   biker collar   storm collar   spread collar   peter pan collar   mandarin   peak lapel   shawl collar   funnel collar High neckline": 1,
-                        " shawl collar ": 1,
-                        "Simplify this sentence with one of the options  collar": 1,
-                        "Button down": 2,
-                        "Please provide a sentence to simplify ": 1,
-                        "Crew neck ": 1,
-                        "Crewneck": 1,
-                        "Simplify the sentence with  storm collar ": 1,
-                        "Simplify this sentence with one of the options The shirt has a sailor collar ": 1
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "Long": 299,
-                        "Short": 54,
-                        "Cap": 7,
-                        "Sleeveless": 18,
-                        "NaN": 0,
-                        "Half": 2,
-                        " 3 4 ": 1,
-                        "Sleeve Length  3 4": 1
-                    }
-                },
-                {
-                    "Length": {
-                        "Tunic Length": 244,
-                        "Cropped": 41,
-                        "Regular": 94,
-                        "Hip Length": 6,
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "Kimono Sleeve": 66,
-                        "Tapered Sleeve": 221,
-                        "Cuffed Sleeve": 32,
-                        "Bell Sleeve": 1,
-                        "Dolman Sleeve": 24,
-                        "Puff Sleeve": 19,
-                        "flutter": 1,
-                        "Regular": 6,
-                        "Crew": 1,
-                        "Ruffle sleeves": 6,
-                        "Butterfly": 1,
-                        "Balloon Sleeve": 5,
-                        "Butterfly flutter sleeve": 1,
-                        "Peasant Sleeve": 1,
-                        "flutter sleeve": 1
-                    }
-                },
-                {
-                    "COLOR": {
-                        "White": 55,
-                        "Yellow": 12,
-                        "Black": 98,
-                        "Blue": 45,
-                        "Grey": 40,
-                        "Brown": 21,
-                        "Purple": 14,
-                        "Pink": 23,
-                        "Green": 29,
-                        "Neutral": 4,
-                        "Bold": 11,
-                        "Red": 9,
-                        "Orange": 21,
-                        "Pastel": 3,
-                        "Bone": 1
-                    }
-                },
-                {
-                    "Fit": {
-                        "Regular": 234,
-                        "Boxy": 24,
-                        "Relaxed": 44,
-                        "Oversized": 67,
-                        "Simplify to   tailored slim  or  skinny  or  regular ": 1,
-                        "Tailored slim": 4,
-                        " tailored slim ": 1,
-                        "NaN": 0,
-                        "tailored slim": 1,
-                        "Tailored slim ": 1,
-                        "Skinny": 2,
-                        "Slim": 3,
-                        "slim": 2
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Solid": 242,
-                        "NaN": 0,
-                        "Sheer": 2,
-                        "Color Block": 16,
-                        "Stripes": 8,
-                        "Polka dot": 7,
-                        "Graphic": 34,
-                        "Floral": 20,
-                        "Light Indigo Wash": 1,
-                        "None ": 1,
-                        "Ikat": 1,
-                        "Juniper": 1,
-                        "Lace": 5,
-                        "Paisley": 12,
-                        "Camouflage": 1,
-                        "Chevron": 1,
-                        "animal print": 1,
-                        "Sequin": 1,
-                        "none": 1,
-                        "Plain ": 1,
-                        "options solid   vertical stripes   horizontal stripes   diagonal stripes   sheer   check   polka dot   houndstooth   paisley   argyle   chevron   floral   ikat   damask   geometric   camouflage   animal print  e g  leopard  zebra  snake   toile   fleur de lis   jacquard   herringbone   fair isle   lace   light indigo wash   medium indigo wash   dark indigo wash   bleach indigo wash   plaid   dusty   graphic   color block None": 1,
-                        "Plaid": 2,
-                        "Jacquard": 3,
-                        "Acid wash": 1,
-                        "Striped": 1
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "Cotton": 156,
-                        "Hemp": 7,
-                        "Organic": 30,
-                        "Modal": 12,
-                        "Elastane": 3,
-                        "Tencel": 10,
-                        "Polyester": 59,
-                        "Leather suede": 3,
-                        "Wool": 9,
-                        "NaN": 0,
-                        "Linen": 11,
-                        "Silk": 1,
-                        "Satin": 1,
-                        "Bamboo": 1,
-                        "Hemp can be described as a type of fabric  but it is not made from a traditional fabric material like cotton  linen  silk  or wool  Instead  hemp is made from the fibers of the Cannabis sativa plant  It is often used to make items such as clothing  paper  and rope ": 1,
-                        "Recycled": 53,
-                        "Denim": 8,
-                        "Velvet": 3,
-                        "None ": 1,
-                        "Cashmere": 1,
-                        "Water resistant": 1,
-                        "Viscose": 4,
-                        "Nylon": 2,
-                        "Rayon ": 1,
-                        "Viscose is a type of fabric made from cellulose fibers  It is often used as an alternative to silk or satin and is known for its shiny and smooth appearance ": 1,
-                        "Gore Tex": 1,
-                        "options cotton   linen   silk   wool   cashmere   mohair   bamboo   leather suede   denim   polyester   nylon   elastane   gore tex   satin   velvet   chiffon   tulle   organza   tencel   modal   shearling   recycled   water resistent   organic Simplified sentence  Alosoft offers various fabrics such as cotton  linen  silk  and wool ": 1,
-                        "Rayon": 2
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "Blouse": [
-                {
-                    "Neckline": {
-                        "Asymmetrical Neck": 3,
-                        "Crew Neck": 61,
-                        "Halter Neck": 7,
-                        "Cowl Neck": 47,
-                        "High neckline ": 1,
-                        "Turtleneck": 15,
-                        "Collar": 58,
-                        " V neck ": 1,
-                        "Strapless": 5,
-                        "Keyhole Neck": 16,
-                        "V neck": 25,
-                        "High neckline": 2,
-                        "Boat Neck": 2,
-                        "Simplify this sentence with one of the options  output the single word option only  If you do not have enough information can not find the option  output  none options henley   cowl neck   crew neck   collar   strapless   boat neck   halter neck   illusion neckline   sweetheart neck   asymmetrical neck   scoop neck   turtleneck   v neck   square neck   keyhole neck   portrait neckline square neckline": 1,
-                        "Simplify  Cowl neck  Crew neck  Boat neck  Halter neck  Illusion neckline  Sweetheart neck  Asymmetrical neck  Scoop neck  Turtleneck  V neck  Square neck  Keyhole neck  Portrait neckline": 1,
-                        "none": 1,
-                        "Off shoulder": 3,
-                        "Tie neck ": 1,
-                        "Sweetheart Neck": 5,
-                        "Square Neck": 3,
-                        "Scoop Neck": 3,
-                        " collar ": 1,
-                        "High neckline is one of the following options   turtleneck   v neck   collar   henley   cowl neck ": 1,
-                        "Simplify this sentence with  v neck ": 1,
-                        "Simplify this sentence with one of the options  Output the single word option only ": 1,
-                        "Off shoulder ": 2,
-                        "Off the shoulder is a bohemian style that features a wide neckline that exposes the shoulders  providing a casual and relaxed look ": 1,
-                        "Tie  None": 1,
-                        "v neck": 1,
-                        "Simplify  Gathered neckline Options  none": 1,
-                        "high neckline": 1,
-                        "sweetheart": 1,
-                        "Simplify this sentence Original sentence  The woman is wearing a black round neckline top ": 1,
-                        "Henley": 2,
-                        "round neckline": 1,
-                        "I do not have enough information  Can you please provide more context ": 1,
-                        "Simplify the sentence with these options  On off shoulder  Simplify  On off shoulder  One word option  Crew neck": 1,
-                        "NaN": 0,
-                        "Square neckline": 1,
-                        "Simplify to   None ": 1,
-                        "The options are  Henley  Cowl neck  Crew neck  Collar  Strapless  Boat neck  Halter neck  Illusion neckline  Sweetheart neck  Asymmetrical neck  Scoop neck  Turtleneck  V neck  Square neck  Keyhole neck  Portrait neckline Without more context  it is not possible to simplify the sentence with a single word ": 1,
-                        "Surplice": 1,
-                        "Simplify the following sentence  Round neckline 1  Round neckline": 1,
-                        "off shoulder": 1,
-                        " high neckline  is closest to a  turtleneck ": 1,
-                        "Keyhole": 1,
-                        "On off shoulder": 1
-                    }
-                },
-                {
-                    "Collar": {
-                        "Draped Collar": 79,
-                        "Sailor Collar": 77,
-                        "The sentence doesn t provide enough information to simplify it with any of the given options  Therefore  the output is   none ": 1,
-                        "Notched Collar": 8,
-                        "NaN": 0,
-                        "Spread Collar": 16,
-                        "Simplify the sentence ": 1,
-                        "None ": 1,
-                        "Peak Lapel": 22,
-                        "Biker Collar": 15,
-                        "high neckline": 1,
-                        "Pointed collar": 1,
-                        "V neck ": 1,
-                        "High neck": 1,
-                        "Mandarin ": 1,
-                        "V neck": 3,
-                        "V neckline": 4,
-                        "collar": 3,
-                        "High neckline": 2,
-                        "Storm Collar": 1,
-                        "options   sailor collar   draped collar   camp collar   notched collar   biker collar   storm collar   spread collar   peter pan collar   mandarin   peak lapel   shawl collar   funnel collar  sailor collar  draped collar  camp collar  notched collar  biker collar  storm collar  spread collar  peter pan collar  mandarin  peak lapel  shawl collar  funnel collar": 1,
-                        "High neckline  draped collar ": 1,
-                        "Collar": 2,
-                        "Simplify this sentence  The collars on the shirts are sailor collars Answer  sailor collar": 1,
-                        "Peter Pan Collar": 6,
-                        "High neckline sentence does not contain enough information to identify a specific option ": 1,
-                        "No options provided ": 1,
-                        "Camp Collar": 1,
-                        "Options  sailor collar  draped collar  camp collar  notched collar  biker collar  storm collar  spread collar  peter pan collar  mandarin  peak lapel  shawl collar  funnel collar": 1,
-                        "V neckline ": 2,
-                        " Storm collar ": 1,
-                        "Simplify this sentence with one of the options ": 1,
-                        "none": 1,
-                        "Classic shirt collar": 1,
-                        "Peasant": 1,
-                        "Open tie neck": 1,
-                        "Simplified sentence  High neckline": 1,
-                        "Simplify   sailor collar ": 1,
-                        " mandarin ": 1,
-                        "I m sorry  but I cannot find the given sentence in the options provided  Please provide a different sentence to simplify ": 1,
-                        "Shawl Collar": 1,
-                        "Simplify this sentence with one of the options  Shirt collar ": 1,
-                        "Sailor collar ": 1,
-                        "High neckline can be simplified to  Sailor collar  A wide  flat collar with two points at the front and one point at the back  Draped collar  A collar that drapes over the shoulders and is often secured with buttons or ties  Camp collar  A collar with two points at the front  one point at the back  and usually no lapels  Notched collar  A collar with a notch at the front and one point at the back  Biker collar  A wide collar with long points that wrap around the neck  Storm collar  A collar with wide points that extend down the chest  Spread collar  A collar that is spread wide  with the two points meeting at the neckline  Peter Pan collar  A collar that is straight across the neckline  with no points  Mandarin  A standing collar that is fastened with buttons  Peak lapel  A lapel that is pointed and curved forward  Shawl collar  A collar that hangs over the shoulders and is often fastened with buttons  Funnel collar  A collar that is wide at the neckline and narrows down to a point at the chin The original sentence could belong to any of these options depending on the context in which it was used ": 1,
-                        "Simplify the sentence with  sailor collar ": 1,
-                        " draped collar ": 1,
-                        "options   draped collar   notched collar   biker collar   storm collar   spread collar   peter pan collar   mandarin   peak lapel   shawl collar   funnel collar Which of the following do you want a      Sailor collar b      Draped collar c   \u2713  Notched collar d      Biker collar e      Storm collar f   \u2713  Spread collar g      Peter Pan collar h      Mandarin i   \u2713  Peak lapel j      Shawl collar k      Funnel collar Which of the following do you want a   \u2713  Notched collar b      Biker collar c      Storm collar d   \u2713  Spread collar e   \u2713  Peak lapel f   \u2713  Shawl collar g      Funnel collar h      Draped collar i      Sailor collar j      Mandarin k      Peter Pan collar": 1
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "Long": 142,
-                        "Short": 57,
-                        "Sleeveless": 48,
-                        "Bracelet": 6,
-                        "Asymmetric": 4,
-                        "Half": 5,
-                        "Simplify the following sentence  A long sleeved shirt on a woman Option with the fewest words  long": 1,
-                        "Asymmetric ": 2,
-                        "NaN": 0,
-                        "Peasant": 4,
-                        "options sleeveless   short   half   asymmetric Blouse  Sleeveless": 1,
-                        "Cap": 2,
-                        "3 4": 2,
-                        "options bracelet   sleeveless   short   half   cap   long   3 4   asymmetric ": 1,
-                        "Asymmetrical": 1,
-                        "I m sorry  I don t have enough information to simplify the sentence with one of the options ": 1,
-                        "Dolman sleeveless long bracelet short cap 3 4 asymmetric none": 1,
-                        "I m sorry  but I don t have enough information to simplify the sentence  The given sentence does not have any reference to the options ": 1,
-                        " Bell sleeve  can be simplified to  long ": 1,
-                        "3 4  3 4": 1,
-                        "I m sorry  but I need more information about the sentence you want me to simplify  Could you please provide the original sentence ": 1,
-                        "I am sorry  but I need more context to provide a simplified sentence  Can you please provide me with more information ": 1,
-                        "Asymetic": 1
-                    }
-                },
-                {
-                    "Length": {
-                        "Tunic Length": 241,
-                        "Hip Length": 3,
-                        "Cropped": 25,
-                        "Regular": 21,
-                        "Waist Length": 1
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "Ruffle sleeves": 46,
-                        "Cuffed Sleeve": 46,
-                        "Puff Sleeve": 31,
-                        "Tapered Sleeve": 72,
-                        "Dolman Sleeve": 12,
-                        "Peasant Sleeve": 24,
-                        "NaN": 0,
-                        "Kimono Sleeve": 33,
-                        "Regular": 5,
-                        "Balloon Sleeve": 2,
-                        "flutter": 3,
-                        "Butterfly flutter sleeve": 6,
-                        "Bell Sleeve": 5,
-                        "Poet Sleeve": 1,
-                        "flutter sleeve": 3,
-                        "butterfly sleeve": 1
-                    }
-                },
-                {
-                    "COLOR": {
-                        "Orange": 42,
-                        "Pink": 31,
-                        "Brown": 9,
-                        "Bold": 17,
-                        "White": 36,
-                        "Purple": 26,
-                        "Grey": 2,
-                        "Green": 27,
-                        "Yellow": 21,
-                        "Black": 30,
-                        "Neutral": 3,
-                        "Red": 7,
-                        "Pastel": 24,
-                        "Blue": 15,
-                        "Black and white": 1
-                    }
-                },
-                {
-                    "Fit": {
-                        "Regular": 215,
-                        "Relaxed": 55,
-                        "Boxy": 5,
-                        "Skinny": 4,
-                        "Oversized": 11,
-                        "Tailored slim": 1
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Paisley": 50,
-                        "Solid": 98,
-                        "NaN": 0,
-                        "Floral": 81,
-                        "Lace": 16,
-                        "Graphic": 5,
-                        "Animal print  e g  leopard  zebra  snake ": 2,
-                        "Mushroom": 1,
-                        "Color Block": 9,
-                        "Geometric": 2,
-                        "Seasonless motif": 1,
-                        "Polka dot": 4,
-                        "Argyle": 1,
-                        "Jacquard": 4,
-                        "Anemone": 1,
-                        "Stripes": 2,
-                        "Mesh applique": 1,
-                        "none": 1,
-                        "Vertical Stripes": 1,
-                        "Check": 1
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "Polyester": 179,
-                        "Rayon": 7,
-                        "Cotton": 61,
-                        "Wool": 2,
-                        "Nylon": 3,
-                        "Hemp": 2,
-                        "Modal": 4,
-                        "Chiffon": 2,
-                        "Recycled": 2,
-                        "Tencel": 2,
-                        "Simplify the sentence using the option  leather suede ": 1,
-                        "Organic": 2,
-                        "Viscose ": 1,
-                        "Lyocell is a type of fabric made from wood pulp ": 2,
-                        "Ecovero  organic ": 1,
-                        "Bamboo": 1,
-                        "Lyocell is a type of fabric made from cellulose derived from wood pulp  It is similar to viscose  but with a higher environmental and performance standards ": 1,
-                        "Lyocell is made from trees ": 1,
-                        "Viscose is a type of synthetic fabric made from cellulose  It is often used in clothing  textiles  and other products  Simplified options  polyester  cotton  linen  silk  wool  cashmere  mohair  bamboo  leather suede  denim  nylon  elastane  gore tex  satin  velvet  chiffon  tulle  organza  tencel  modal  shearling  recycled  water resistant  organic ": 1,
-                        "NaN": 0,
-                        "Lyocell is made from eucalyptus trees ": 1,
-                        "Viscose": 2,
-                        "Satin": 3,
-                        "Cotton ": 1,
-                        "Lyocell is a type of fabric made from wood pulp  It is often used as an eco friendly alternative to cotton or other natural fibers ": 1,
-                        "Lyocell Luxe is a type of fabric that is made from bamboo fibers ": 1,
-                        "Lyocell is a type of fabric made from wood pulp  It is made by a process called spinning  which involves creating long  thin threads from the wood pulp  The threads are then woven or knit into a fabric  which can be used for a variety of purposes  such as clothing  upholstery  and insulation  Lyocell is a sustainable and environmentally friendly fabric because it is made from renewable resources and can be broken down and recycled at the end of its life ": 1,
-                        "Lyocell": 1,
-                        "Lyocell is a type of fabric made from wood pulp using a special solvent spinning process  It is similar to viscose  but has a higher strength and durability  It is also known for its sustainability and is often used in eco friendly clothing Lyocell": 1,
-                        "Velvet": 1,
-                        "Linen": 1
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "Tank Top": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "Cropped": 41,
-                        "Regular": 15,
-                        "Tunic Length": 16
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "Black": 25,
-                        "Orange": 4,
-                        "White": 13,
-                        "Brown": 3,
-                        "Blue": 7,
-                        "Pink": 2,
-                        "Grey": 7,
-                        "Cream": 1,
-                        "Neutral": 2,
-                        "Yellow": 1,
-                        "Bold": 1,
-                        "Pastel": 2,
-                        "Green": 1,
-                        "Purple": 3
-                    }
-                },
-                {
-                    "Fit": {
-                        "Relaxed": 6,
-                        "Regular": 44,
-                        "Fitted": 1,
-                        "Slim": 5,
-                        "Skinny": 1,
-                        "slim": 2,
-                        "tailored slim": 1,
-                        " regular ": 1,
-                        "Tailored slim": 1,
-                        "Boxy": 8,
-                        "options tailored slim   skinny   oversized   relaxed   regular Which option would you choose to best describe the fit of this denim jacket ": 1,
-                        "Oversized": 1
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Solid": 61,
-                        "Check": 1,
-                        "Dusty": 1,
-                        "Floral": 1,
-                        "Dark Indigo Wash": 1,
-                        "NaN": 0,
-                        "Graphic": 2,
-                        "non": 1,
-                        "Camouflage": 1,
-                        "Striped": 1
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "Cotton": 30,
-                        "Elastane": 7,
-                        "Rayon ": 1,
-                        "Linen": 2,
-                        "Tencel": 2,
-                        "Nylon": 2,
-                        "Polyester": 8,
-                        "Mohair": 1,
-                        "Wool": 2,
-                        "Recycled": 3,
-                        "Organic": 4,
-                        "Recycled polyester": 1,
-                        "Bamboo": 1,
-                        "Modal": 2,
-                        "Lyocell": 1,
-                        "Leather suede": 2,
-                        "Cashmere": 1,
-                        "Alosoft": 1,
-                        "Rayon": 1
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "t shirt": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 82
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "Vest": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "Tunic Length": 25,
-                        "Cropped": 8,
-                        "Regular": 5,
-                        "Hip Length": 1
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "Bold": 2,
-                        "Black": 7,
-                        "Red": 1,
-                        "White": 2,
-                        "Pink": 6,
-                        "Grey": 2,
-                        "Blue": 6,
-                        "Neutral": 2,
-                        "Brown": 2,
-                        "Orange": 2,
-                        "Pastel": 2,
-                        "Yellow": 1,
-                        "Purple": 3,
-                        "Green": 1
-                    }
-                },
-                {
-                    "Fit": {
-                        "Regular": 27,
-                        "Boxy": 2,
-                        "Relaxed": 5,
-                        "Oversized": 3,
-                        "tailored slim": 1,
-                        "Tailored slim": 1
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Floral": 7,
-                        "Argyle": 1,
-                        "Jacquard": 1,
-                        "Solid": 16,
-                        "NaN": 0,
-                        "Polka dot": 2,
-                        "Paisley": 6,
-                        "Non": 1,
-                        "Plaid": 1,
-                        "Sheer": 1
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "Polyester": 22,
-                        "Cotton": 3,
-                        "Wool": 1,
-                        "Linen": 2,
-                        "Nylon": 1,
-                        "Leather suede": 2,
-                        "Organic": 2,
-                        "Recycled": 2,
-                        "Tencel": 1,
-                        "Chiffon": 1,
-                        "Satin": 1,
-                        "water resistent": 1
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "Bodysuit": [
-                {
-                    "Neckline": {
-                        "Crew Neck": 1
-                    }
-                },
-                {
-                    "Collar": {
-                        "Biker Collar": 1
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "Long": 1
-                    }
-                },
-                {
-                    "Length": {
-                        "Tunic Length": 1
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "Black": 1
-                    }
-                },
-                {
-                    "Fit": {
-                        "Regular": 1
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Solid": 1
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "Modal": 1
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "Corset": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "Cropped": 2,
-                        "Tunic Length": 2,
-                        "Waist Length": 1
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "Black": 4,
-                        "Neutral": 1
-                    }
-                },
-                {
-                    "Fit": {
-                        "Slim": 1,
-                        "Skinny": 1,
-                        "Regular": 2,
-                        "Tailored slim": 1
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Solid": 2,
-                        " jacquard ": 1,
-                        "Floral": 2
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "Polyester": 1,
-                        "Leather suede": 1,
-                        "Nylon": 2,
-                        "Cotton": 1
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "T shirt Simplified sentence Wear a t shirt and jeans ": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 1
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "Tube": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "Cropped": 2
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "Black": 1,
-                        "Brown": 1
-                    }
-                },
-                {
-                    "Fit": {
-                        "Regular": 2
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Solid": 2
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "Cotton": 2
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "T shirt ": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 2
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "Camisole": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "Regular": 2,
-                        "Tunic Length": 4
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "Blue": 3,
-                        "White": 1,
-                        "Grey": 1,
-                        "Black": 1
-                    }
-                },
-                {
-                    "Fit": {
-                        "Regular": 3,
-                        "Tailored slim ": 1,
-                        "Slim": 1,
-                        "Boxy": 1
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Solid": 5,
-                        "Lace": 1
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "One of the options ": 1,
-                        "Cotton": 4,
-                        "Elastane": 1
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "Tank": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 1
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "NaN": [
-                {
-                    "Neckline": {}
-                },
-                {
-                    "Collar": {}
-                },
-                {
-                    "Sleeve Length": {}
-                },
-                {
-                    "Length": {}
-                },
-                {
-                    "Sleeve Shape": {}
-                },
-                {
-                    "COLOR": {}
-                },
-                {
-                    "Fit": {}
-                },
-                {
-                    "PATTERN": {}
-                },
-                {
-                    "MATERIAL": {}
-                },
-                {
-                    "eror happend": {}
-                },
-                {
-                    "error happend": {}
-                }
-            ],
-            "Tunic": [
-                {
-                    "Neckline": {
-                        "Crew Neck": 2,
-                        "None ": 1,
-                        "Cowl Neck": 1,
-                        "V neck": 1,
-                        " v neck ": 1,
-                        "Asymmetrical Neck": 1
-                    }
-                },
-                {
-                    "Collar": {
-                        "Biker Collar": 2,
-                        "V neck": 2,
-                        "V neck ": 1,
-                        "Sailor Collar": 1,
-                        "Peak Lapel": 1
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "Long": 5,
-                        "NaN": 0,
-                        "3 4": 1
-                    }
-                },
-                {
-                    "Length": {
-                        "Tunic Length": 7
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "Dolman Sleeve": 1,
-                        "Cuffed Sleeve": 3,
-                        "Peasant Sleeve": 2,
-                        "Kimono Sleeve": 1
-                    }
-                },
-                {
-                    "COLOR": {
-                        "Brown": 1,
-                        "Green": 1,
-                        "Purple": 1,
-                        "Orange": 2,
-                        "Bold": 1,
-                        "Pastel": 1
-                    }
-                },
-                {
-                    "Fit": {
-                        "Regular": 6,
-                        "Relaxed": 1
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "Solid": 4,
-                        "Paisley": 2,
-                        "Geometric": 1
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "Organic": 1,
-                        "Polyester": 4,
-                        "Modal": 2
-                    }
-                },
-                {
-                    "eror happend": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "t shirt ": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 1
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            " t shirt ": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 3
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "1  Simplify your sentences by removing unnecessary words and phrases to make it more concise For example Original sentence   The cat is sitting on the mat Simplified sentence   Cat sitting on mat ": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 1
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "T shirt 1 word ": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 1
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ]
-        },
-        "bottoms": {
-            "pants": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 21
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "shorts": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 8
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ],
-            "skirt": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 5
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ]
-        },
-        "Jumpsuit": {
-            "Jumpsuit": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 3
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ]
-        },
-        "Overcoat": {
-            "Jacket": [
-                {
-                    "Neckline": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Collar": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Length": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Sleeve Shape": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "COLOR": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "Fit": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "PATTERN": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "MATERIAL": {
-                        "NaN": 0
-                    }
-                },
-                {
-                    "eror happend": {
-                        "No features found for the current category": 19
-                    }
-                },
-                {
-                    "error happend": {
-                        "NaN": 0
-                    }
-                }
-            ]
-        },
-        "NaN": {}
+      "Tops": 1232,
+      "bottoms": 34,
+      "Jumpsuit": 3,
+      "Overcoat": 19,
+      "NaN": 0
     }
+  },
+  "subcategory": {
+    "Tops": {
+      "subcategory": {
+        "Sweater": 215,
+        "T shirt": 115,
+        "Sweatshirt": 386,
+        "Blouse": 291,
+        "Tank Top": 72,
+        "t shirt": 82,
+        "Vest": 39,
+        "Bodysuit": 1,
+        "Corset": 5,
+        "T shirt Simplified sentence Wear a t shirt and jeans ": 1,
+        "Tube": 2,
+        "T shirt ": 2,
+        "Camisole": 6,
+        "Tank": 1,
+        "NaN": 0,
+        "Tunic": 7,
+        "t shirt ": 1,
+        " t shirt ": 3,
+        "1  Simplify your sentences by removing unnecessary words and phrases to make it more concise For example Original sentence   The cat is sitting on the mat Simplified sentence   Cat sitting on mat ": 1,
+        "T shirt 1 word ": 1
+      }
+    },
+    "bottoms": {
+      "subcategory": {
+        "pants": 21,
+        "shorts": 8,
+        "skirt": 5
+      }
+    },
+    "Jumpsuit": {
+      "subcategory": {
+        "Jumpsuit": 3
+      }
+    },
+    "Overcoat": {
+      "subcategory": {
+        "Jacket": 19
+      }
+    },
+    "NaN": {
+      "subcategory": {}
+    }
+  },
+  "labels": {
+    "Tops": {
+      "Sweater": [
+        {
+          "Neckline": {
+            "V neck": 29,
+            "Crew Neck": 165,
+            "Halter Neck": 1,
+            "Square Neck": 3,
+            "Scoop Neck": 4,
+            "Sweetheart Neck": 3,
+            "none": 2,
+            "v neck": 2,
+            "Turtleneck": 2,
+            "Simplify sentence  V neck": 1,
+            "Boat Neck": 1,
+            " V neck ": 1,
+            " v neck ": 1
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0,
+            "Spread Collar": 12,
+            "Camp Collar": 2,
+            "Sailor Collar": 33,
+            "Funnel Collar": 4,
+            "Biker Collar": 62,
+            "Simplify this sentence with one of the options ": 1,
+            "collar": 6,
+            "Draped Collar": 15,
+            "High collar": 2,
+            "High foldover collar": 1,
+            "Notched Collar": 11,
+            "Simplify  Crop collar  sailor collar  Crop collar  draped collar  Crop collar  camp collar  Crop collar  notched collar  Crop collar  biker collar  Crop collar  storm collar  Crop collar  spread collar  Crop collar  peter pan collar  Crop collar  mandarin  Crop collar  peak lapel  Crop collar  shawl collar  Crop collar  funnel collar": 1,
+            "Crewneck": 3,
+            "Simplify  V neck with biker collar ": 1,
+            "V neck": 5,
+            "Simplify Turtleneck": 1,
+            "Crew": 2,
+            "Simplify the sentence using the option  peter pan collar ": 1,
+            " sailor collar ": 1,
+            "High neck": 1,
+            "Peak Lapel": 4,
+            "crew": 1,
+            "I m sorry  but I need more information about the sentence you want me to simplify in order to provide a single word option  Please provide the sentence you would like me to simplify ": 1,
+            "Drape collar": 1,
+            "Simplified  sailor collar": 1,
+            "Biker": 1,
+            "Simplify the sentence with the option  biker collar ": 1,
+            "High neckline can be simplified to  sailor collar ": 1,
+            "Simplify Input  Raglan Options   sailor collar  draped collar  camp collar  notched collar  biker collar  storm collar  spread collar  peter pan collar  mandarin  peak lapel  shawl collar  funnel collar Single word option  Draped collar": 1,
+            "U neckline": 1,
+            "Simplify  Sailor collar  Draped collar  Camp collar  Notched collar  Biker collar  Storm collar  Spread collar  Peter Pan collar  Mandarin  Peak lapel  Shawl collar  Funnel collar": 1,
+            "Storm Collar": 2,
+            "None ": 1,
+            "Mandarin": 1,
+            "V neckline": 3,
+            "The shirt has a sailor collar ": 1,
+            "Simplify   The man is wearing a sailor collar shirt Option  sailor collar": 1,
+            "V neckline is a type of collar that is typically associated with a V shaped neckline  The options provided include various types of collars that may be considered as alternatives to a V neckline  However  based on the information provided  it is not possible to simplify the sentence with a single word from the options ": 1,
+            "High neckline can be simplified to  sailor collar  or  biker collar  or  storm collar ": 1,
+            "Simplify the sentence to   a V neck collar ": 1,
+            "Shawl Collar": 1,
+            "Turtleneck  Turtleneck  Sailor collar Simplified with the option  Turtleneck ": 1,
+            "none": 1,
+            "Simplify this sentence with one of the options The man s dress shirt was collared  collared": 1
+          }
+        },
+        {
+          "Sleeve Length": {
+            "Long": 179,
+            "Half": 4,
+            "Short": 19,
+            "Sleeveless": 5,
+            "Asymmetric": 3,
+            "Bracelet": 2,
+            "NaN": 0,
+            "Bell": 1
+          }
+        },
+        {
+          "Length": {
+            "Tunic Length": 140,
+            "Regular": 46,
+            "Cropped": 27,
+            "Waist Length": 1,
+            "Hip Length": 1
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "Raglan": 2,
+            "Tapered Sleeve": 147,
+            "Roll tab sleeve": 2,
+            "Puff Sleeve": 6,
+            "Balloon Sleeve": 9,
+            "Cuffed Sleeve": 12,
+            "Kimono Sleeve": 21,
+            "Regular": 1,
+            "Bell Sleeve": 7,
+            "Dolman Sleeve": 3,
+            "Cuffed sleeve ": 1,
+            "roll tab sleeve": 1,
+            "Bishop Sleeve": 1,
+            "roll tab": 1,
+            "Ruffle sleeves": 1
+          }
+        },
+        {
+          "COLOR": {
+            "Grey": 22,
+            "Yellow": 6,
+            "White": 24,
+            "Neutral": 10,
+            "Brown": 28,
+            "Purple": 10,
+            "Red": 9,
+            "Black and white": 2,
+            "Black": 41,
+            "Blue": 19,
+            "Green": 12,
+            "Pastel": 4,
+            "Bold": 12,
+            "Orange": 10,
+            "Black and white simplify to  black and white": 1,
+            "Blue and green": 1,
+            "Pink": 4
+          }
+        },
+        {
+          "Fit": {
+            "Boxy": 22,
+            "Regular": 107,
+            "Oversized": 43,
+            "Relaxed": 32,
+            "Fitted": 1,
+            " tailored slim ": 1,
+            "Skinny": 4,
+            "NaN": 0,
+            "slim": 1,
+            "Slim": 2,
+            "Tailored slim": 1
+          }
+        },
+        {
+          "PATTERN": {
+            "Solid": 162,
+            "Camouflage": 2,
+            "Chevron": 2,
+            "Striped": 7,
+            "Vertical Stripes": 2,
+            "Stripes": 3,
+            "Color Block": 3,
+            "Jacquard": 4,
+            "Sheer": 1,
+            "Fair Isle": 1,
+            "Graphic": 5,
+            "Dusty": 1,
+            "NaN": 0,
+            "Check": 2,
+            "Fish prints": 1,
+            "Paisley": 6,
+            "Wild horses": 1,
+            "Mushroom": 1,
+            "Abstract ": 1,
+            "Animal print  e g  leopard  zebra  snake ": 1,
+            "Animal print": 1,
+            "Geometric": 1,
+            "Polka dot": 1,
+            " horizontal stripes ": 1,
+            "Lace": 1
+          }
+        },
+        {
+          "MATERIAL": {
+            "Cashmere": 9,
+            "Polyester": 21,
+            "Wool": 67,
+            "Leather suede": 2,
+            "Recycled": 26,
+            "Acrylic": 10,
+            "Linen": 2,
+            "Acrylic ": 2,
+            "NaN": 0,
+            "Acrylic is a type of synthetic fiber ": 1,
+            "Nylon": 4,
+            "Cotton": 35,
+            "Elastane": 2,
+            "Organic": 21,
+            "Water resistent": 1,
+            "Mohair": 3,
+            "Bamboo": 1,
+            "TreeFleece": 1,
+            "Silk": 1,
+            "Modal": 4
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "T shirt": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 115
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "Sweatshirt": [
+        {
+          "Neckline": {
+            "Crew Neck": 324,
+            "V neck": 37,
+            "Boat Neck": 1,
+            "Sweetheart Neck": 6,
+            "Scoop Neck": 11,
+            "V neck ": 1,
+            "v neck": 3,
+            "NaN": 0,
+            "Square Neck": 2
+          }
+        },
+        {
+          "Collar": {
+            "Spread Collar": 91,
+            "none": 2,
+            "Camp Collar": 6,
+            "Sailor Collar": 46,
+            "Draped Collar": 26,
+            "collar": 2,
+            "Biker Collar": 117,
+            "Simplify the sentence with  sailor collar ": 1,
+            "Off the shoulder ": 1,
+            "Notched Collar": 13,
+            "NaN": 0,
+            "Crewneck ": 1,
+            "Simplify  Crewneck   Sailor collar or Biker collar": 1,
+            "Mandarin": 2,
+            "None ": 5,
+            "Collar None": 1,
+            "The single word option is  biker collar ": 1,
+            "V neck  sailor collar  A collar with a small V shape that fastens with buttons  biker collar  A collar that has a wide  pointed end  storm collar  A collar that is turned backward over the chest  peak lapel  A lapel that is pointed and comes to a sharp tip  shawl collar  A collar that drapes over the shoulder and fastens with buttons  funnel collar  A collar that is wide and flared outward ": 1,
+            "V neckline": 3,
+            "Shawl Collar": 1,
+            "Collar  sailor collar": 1,
+            "Crew": 2,
+            "Simplify this sentence with one of the options Sailor collar": 1,
+            "There is not enough information to simplify the sentence with any of the given options ": 1,
+            "crew neck": 1,
+            "Crew neck": 3,
+            "Peak Lapel": 4,
+            "V neck": 4,
+            "Cuban collar ": 1,
+            "V neck ": 1,
+            "Biker collar ": 2,
+            "Storm Collar": 2,
+            "Box collar": 1,
+            "Scoop  notched collar  spread collar  peek lapel  funnel collar None ": 1,
+            "Simplify  Round Neckline Option  Notched Collar": 1,
+            "Cannot find the option ": 1,
+            " spread collar ": 1,
+            " peak lapel ": 1,
+            "High neckline": 1,
+            "Simplify this sentence with one of the options  output the single word option only If you do not have enough information can not find the option  output  none options sailor collar   draped collar   camp collar   notched collar   biker collar   storm collar   spread collar   peter pan collar   mandarin   peak lapel   shawl collar   funnel collar High neckline": 1,
+            " shawl collar ": 1,
+            "Simplify this sentence with one of the options  collar": 1,
+            "Button down": 2,
+            "Please provide a sentence to simplify ": 1,
+            "Crew neck ": 1,
+            "Crewneck": 1,
+            "Simplify the sentence with  storm collar ": 1,
+            "Simplify this sentence with one of the options The shirt has a sailor collar ": 1
+          }
+        },
+        {
+          "Sleeve Length": {
+            "Long": 299,
+            "Short": 54,
+            "Cap": 7,
+            "Sleeveless": 18,
+            "NaN": 0,
+            "Half": 2,
+            " 3 4 ": 1,
+            "Sleeve Length  3 4": 1
+          }
+        },
+        {
+          "Length": {
+            "Tunic Length": 244,
+            "Cropped": 41,
+            "Regular": 94,
+            "Hip Length": 6,
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "Kimono Sleeve": 66,
+            "Tapered Sleeve": 221,
+            "Cuffed Sleeve": 32,
+            "Bell Sleeve": 1,
+            "Dolman Sleeve": 24,
+            "Puff Sleeve": 19,
+            "flutter": 1,
+            "Regular": 6,
+            "Crew": 1,
+            "Ruffle sleeves": 6,
+            "Butterfly": 1,
+            "Balloon Sleeve": 5,
+            "Butterfly flutter sleeve": 1,
+            "Peasant Sleeve": 1,
+            "flutter sleeve": 1
+          }
+        },
+        {
+          "COLOR": {
+            "White": 55,
+            "Yellow": 12,
+            "Black": 98,
+            "Blue": 45,
+            "Grey": 40,
+            "Brown": 21,
+            "Purple": 14,
+            "Pink": 23,
+            "Green": 29,
+            "Neutral": 4,
+            "Bold": 11,
+            "Red": 9,
+            "Orange": 21,
+            "Pastel": 3,
+            "Bone": 1
+          }
+        },
+        {
+          "Fit": {
+            "Regular": 234,
+            "Boxy": 24,
+            "Relaxed": 44,
+            "Oversized": 67,
+            "Simplify to   tailored slim  or  skinny  or  regular ": 1,
+            "Tailored slim": 4,
+            " tailored slim ": 1,
+            "NaN": 0,
+            "tailored slim": 1,
+            "Tailored slim ": 1,
+            "Skinny": 2,
+            "Slim": 3,
+            "slim": 2
+          }
+        },
+        {
+          "PATTERN": {
+            "Solid": 242,
+            "NaN": 0,
+            "Sheer": 2,
+            "Color Block": 16,
+            "Stripes": 8,
+            "Polka dot": 7,
+            "Graphic": 34,
+            "Floral": 20,
+            "Light Indigo Wash": 1,
+            "None ": 1,
+            "Ikat": 1,
+            "Juniper": 1,
+            "Lace": 5,
+            "Paisley": 12,
+            "Camouflage": 1,
+            "Chevron": 1,
+            "animal print": 1,
+            "Sequin": 1,
+            "none": 1,
+            "Plain ": 1,
+            "options solid   vertical stripes   horizontal stripes   diagonal stripes   sheer   check   polka dot   houndstooth   paisley   argyle   chevron   floral   ikat   damask   geometric   camouflage   animal print  e g  leopard  zebra  snake   toile   fleur de lis   jacquard   herringbone   fair isle   lace   light indigo wash   medium indigo wash   dark indigo wash   bleach indigo wash   plaid   dusty   graphic   color block None": 1,
+            "Plaid": 2,
+            "Jacquard": 3,
+            "Acid wash": 1,
+            "Striped": 1
+          }
+        },
+        {
+          "MATERIAL": {
+            "Cotton": 156,
+            "Hemp": 7,
+            "Organic": 30,
+            "Modal": 12,
+            "Elastane": 3,
+            "Tencel": 10,
+            "Polyester": 59,
+            "Leather suede": 3,
+            "Wool": 9,
+            "NaN": 0,
+            "Linen": 11,
+            "Silk": 1,
+            "Satin": 1,
+            "Bamboo": 1,
+            "Hemp can be described as a type of fabric  but it is not made from a traditional fabric material like cotton  linen  silk  or wool  Instead  hemp is made from the fibers of the Cannabis sativa plant  It is often used to make items such as clothing  paper  and rope ": 1,
+            "Recycled": 53,
+            "Denim": 8,
+            "Velvet": 3,
+            "None ": 1,
+            "Cashmere": 1,
+            "Water resistant": 1,
+            "Viscose": 4,
+            "Nylon": 2,
+            "Rayon ": 1,
+            "Viscose is a type of fabric made from cellulose fibers  It is often used as an alternative to silk or satin and is known for its shiny and smooth appearance ": 1,
+            "Gore Tex": 1,
+            "options cotton   linen   silk   wool   cashmere   mohair   bamboo   leather suede   denim   polyester   nylon   elastane   gore tex   satin   velvet   chiffon   tulle   organza   tencel   modal   shearling   recycled   water resistent   organic Simplified sentence  Alosoft offers various fabrics such as cotton  linen  silk  and wool ": 1,
+            "Rayon": 2
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "Blouse": [
+        {
+          "Neckline": {
+            "Asymmetrical Neck": 3,
+            "Crew Neck": 61,
+            "Halter Neck": 7,
+            "Cowl Neck": 47,
+            "High neckline ": 1,
+            "Turtleneck": 15,
+            "Collar": 58,
+            " V neck ": 1,
+            "Strapless": 5,
+            "Keyhole Neck": 16,
+            "V neck": 25,
+            "High neckline": 2,
+            "Boat Neck": 2,
+            "Simplify this sentence with one of the options  output the single word option only  If you do not have enough information can not find the option  output  none options henley   cowl neck   crew neck   collar   strapless   boat neck   halter neck   illusion neckline   sweetheart neck   asymmetrical neck   scoop neck   turtleneck   v neck   square neck   keyhole neck   portrait neckline square neckline": 1,
+            "Simplify  Cowl neck  Crew neck  Boat neck  Halter neck  Illusion neckline  Sweetheart neck  Asymmetrical neck  Scoop neck  Turtleneck  V neck  Square neck  Keyhole neck  Portrait neckline": 1,
+            "none": 1,
+            "Off shoulder": 3,
+            "Tie neck ": 1,
+            "Sweetheart Neck": 5,
+            "Square Neck": 3,
+            "Scoop Neck": 3,
+            " collar ": 1,
+            "High neckline is one of the following options   turtleneck   v neck   collar   henley   cowl neck ": 1,
+            "Simplify this sentence with  v neck ": 1,
+            "Simplify this sentence with one of the options  Output the single word option only ": 1,
+            "Off shoulder ": 2,
+            "Off the shoulder is a bohemian style that features a wide neckline that exposes the shoulders  providing a casual and relaxed look ": 1,
+            "Tie  None": 1,
+            "v neck": 1,
+            "Simplify  Gathered neckline Options  none": 1,
+            "high neckline": 1,
+            "sweetheart": 1,
+            "Simplify this sentence Original sentence  The woman is wearing a black round neckline top ": 1,
+            "Henley": 2,
+            "round neckline": 1,
+            "I do not have enough information  Can you please provide more context ": 1,
+            "Simplify the sentence with these options  On off shoulder  Simplify  On off shoulder  One word option  Crew neck": 1,
+            "NaN": 0,
+            "Square neckline": 1,
+            "Simplify to   None ": 1,
+            "The options are  Henley  Cowl neck  Crew neck  Collar  Strapless  Boat neck  Halter neck  Illusion neckline  Sweetheart neck  Asymmetrical neck  Scoop neck  Turtleneck  V neck  Square neck  Keyhole neck  Portrait neckline Without more context  it is not possible to simplify the sentence with a single word ": 1,
+            "Surplice": 1,
+            "Simplify the following sentence  Round neckline 1  Round neckline": 1,
+            "off shoulder": 1,
+            " high neckline  is closest to a  turtleneck ": 1,
+            "Keyhole": 1,
+            "On off shoulder": 1
+          }
+        },
+        {
+          "Collar": {
+            "Draped Collar": 79,
+            "Sailor Collar": 77,
+            "The sentence doesn t provide enough information to simplify it with any of the given options  Therefore  the output is   none ": 1,
+            "Notched Collar": 8,
+            "NaN": 0,
+            "Spread Collar": 16,
+            "Simplify the sentence ": 1,
+            "None ": 1,
+            "Peak Lapel": 22,
+            "Biker Collar": 15,
+            "high neckline": 1,
+            "Pointed collar": 1,
+            "V neck ": 1,
+            "High neck": 1,
+            "Mandarin ": 1,
+            "V neck": 3,
+            "V neckline": 4,
+            "collar": 3,
+            "High neckline": 2,
+            "Storm Collar": 1,
+            "options   sailor collar   draped collar   camp collar   notched collar   biker collar   storm collar   spread collar   peter pan collar   mandarin   peak lapel   shawl collar   funnel collar  sailor collar  draped collar  camp collar  notched collar  biker collar  storm collar  spread collar  peter pan collar  mandarin  peak lapel  shawl collar  funnel collar": 1,
+            "High neckline  draped collar ": 1,
+            "Collar": 2,
+            "Simplify this sentence  The collars on the shirts are sailor collars Answer  sailor collar": 1,
+            "Peter Pan Collar": 6,
+            "High neckline sentence does not contain enough information to identify a specific option ": 1,
+            "No options provided ": 1,
+            "Camp Collar": 1,
+            "Options  sailor collar  draped collar  camp collar  notched collar  biker collar  storm collar  spread collar  peter pan collar  mandarin  peak lapel  shawl collar  funnel collar": 1,
+            "V neckline ": 2,
+            " Storm collar ": 1,
+            "Simplify this sentence with one of the options ": 1,
+            "none": 1,
+            "Classic shirt collar": 1,
+            "Peasant": 1,
+            "Open tie neck": 1,
+            "Simplified sentence  High neckline": 1,
+            "Simplify   sailor collar ": 1,
+            " mandarin ": 1,
+            "I m sorry  but I cannot find the given sentence in the options provided  Please provide a different sentence to simplify ": 1,
+            "Shawl Collar": 1,
+            "Simplify this sentence with one of the options  Shirt collar ": 1,
+            "Sailor collar ": 1,
+            "High neckline can be simplified to  Sailor collar  A wide  flat collar with two points at the front and one point at the back  Draped collar  A collar that drapes over the shoulders and is often secured with buttons or ties  Camp collar  A collar with two points at the front  one point at the back  and usually no lapels  Notched collar  A collar with a notch at the front and one point at the back  Biker collar  A wide collar with long points that wrap around the neck  Storm collar  A collar with wide points that extend down the chest  Spread collar  A collar that is spread wide  with the two points meeting at the neckline  Peter Pan collar  A collar that is straight across the neckline  with no points  Mandarin  A standing collar that is fastened with buttons  Peak lapel  A lapel that is pointed and curved forward  Shawl collar  A collar that hangs over the shoulders and is often fastened with buttons  Funnel collar  A collar that is wide at the neckline and narrows down to a point at the chin The original sentence could belong to any of these options depending on the context in which it was used ": 1,
+            "Simplify the sentence with  sailor collar ": 1,
+            " draped collar ": 1,
+            "options   draped collar   notched collar   biker collar   storm collar   spread collar   peter pan collar   mandarin   peak lapel   shawl collar   funnel collar Which of the following do you want a      Sailor collar b      Draped collar c   \u2713  Notched collar d      Biker collar e      Storm collar f   \u2713  Spread collar g      Peter Pan collar h      Mandarin i   \u2713  Peak lapel j      Shawl collar k      Funnel collar Which of the following do you want a   \u2713  Notched collar b      Biker collar c      Storm collar d   \u2713  Spread collar e   \u2713  Peak lapel f   \u2713  Shawl collar g      Funnel collar h      Draped collar i      Sailor collar j      Mandarin k      Peter Pan collar": 1
+          }
+        },
+        {
+          "Sleeve Length": {
+            "Long": 142,
+            "Short": 57,
+            "Sleeveless": 48,
+            "Bracelet": 6,
+            "Asymmetric": 4,
+            "Half": 5,
+            "Simplify the following sentence  A long sleeved shirt on a woman Option with the fewest words  long": 1,
+            "Asymmetric ": 2,
+            "NaN": 0,
+            "Peasant": 4,
+            "options sleeveless   short   half   asymmetric Blouse  Sleeveless": 1,
+            "Cap": 2,
+            "3 4": 2,
+            "options bracelet   sleeveless   short   half   cap   long   3 4   asymmetric ": 1,
+            "Asymmetrical": 1,
+            "I m sorry  I don t have enough information to simplify the sentence with one of the options ": 1,
+            "Dolman sleeveless long bracelet short cap 3 4 asymmetric none": 1,
+            "I m sorry  but I don t have enough information to simplify the sentence  The given sentence does not have any reference to the options ": 1,
+            " Bell sleeve  can be simplified to  long ": 1,
+            "3 4  3 4": 1,
+            "I m sorry  but I need more information about the sentence you want me to simplify  Could you please provide the original sentence ": 1,
+            "I am sorry  but I need more context to provide a simplified sentence  Can you please provide me with more information ": 1,
+            "Asymetic": 1
+          }
+        },
+        {
+          "Length": {
+            "Tunic Length": 241,
+            "Hip Length": 3,
+            "Cropped": 25,
+            "Regular": 21,
+            "Waist Length": 1
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "Ruffle sleeves": 46,
+            "Cuffed Sleeve": 46,
+            "Puff Sleeve": 31,
+            "Tapered Sleeve": 72,
+            "Dolman Sleeve": 12,
+            "Peasant Sleeve": 24,
+            "NaN": 0,
+            "Kimono Sleeve": 33,
+            "Regular": 5,
+            "Balloon Sleeve": 2,
+            "flutter": 3,
+            "Butterfly flutter sleeve": 6,
+            "Bell Sleeve": 5,
+            "Poet Sleeve": 1,
+            "flutter sleeve": 3,
+            "butterfly sleeve": 1
+          }
+        },
+        {
+          "COLOR": {
+            "Orange": 42,
+            "Pink": 31,
+            "Brown": 9,
+            "Bold": 17,
+            "White": 36,
+            "Purple": 26,
+            "Grey": 2,
+            "Green": 27,
+            "Yellow": 21,
+            "Black": 30,
+            "Neutral": 3,
+            "Red": 7,
+            "Pastel": 24,
+            "Blue": 15,
+            "Black and white": 1
+          }
+        },
+        {
+          "Fit": {
+            "Regular": 215,
+            "Relaxed": 55,
+            "Boxy": 5,
+            "Skinny": 4,
+            "Oversized": 11,
+            "Tailored slim": 1
+          }
+        },
+        {
+          "PATTERN": {
+            "Paisley": 50,
+            "Solid": 98,
+            "NaN": 0,
+            "Floral": 81,
+            "Lace": 16,
+            "Graphic": 5,
+            "Animal print  e g  leopard  zebra  snake ": 2,
+            "Mushroom": 1,
+            "Color Block": 9,
+            "Geometric": 2,
+            "Seasonless motif": 1,
+            "Polka dot": 4,
+            "Argyle": 1,
+            "Jacquard": 4,
+            "Anemone": 1,
+            "Stripes": 2,
+            "Mesh applique": 1,
+            "none": 1,
+            "Vertical Stripes": 1,
+            "Check": 1
+          }
+        },
+        {
+          "MATERIAL": {
+            "Polyester": 179,
+            "Rayon": 7,
+            "Cotton": 61,
+            "Wool": 2,
+            "Nylon": 3,
+            "Hemp": 2,
+            "Modal": 4,
+            "Chiffon": 2,
+            "Recycled": 2,
+            "Tencel": 2,
+            "Simplify the sentence using the option  leather suede ": 1,
+            "Organic": 2,
+            "Viscose ": 1,
+            "Lyocell is a type of fabric made from wood pulp ": 2,
+            "Ecovero  organic ": 1,
+            "Bamboo": 1,
+            "Lyocell is a type of fabric made from cellulose derived from wood pulp  It is similar to viscose  but with a higher environmental and performance standards ": 1,
+            "Lyocell is made from trees ": 1,
+            "Viscose is a type of synthetic fabric made from cellulose  It is often used in clothing  textiles  and other products  Simplified options  polyester  cotton  linen  silk  wool  cashmere  mohair  bamboo  leather suede  denim  nylon  elastane  gore tex  satin  velvet  chiffon  tulle  organza  tencel  modal  shearling  recycled  water resistant  organic ": 1,
+            "NaN": 0,
+            "Lyocell is made from eucalyptus trees ": 1,
+            "Viscose": 2,
+            "Satin": 3,
+            "Cotton ": 1,
+            "Lyocell is a type of fabric made from wood pulp  It is often used as an eco friendly alternative to cotton or other natural fibers ": 1,
+            "Lyocell Luxe is a type of fabric that is made from bamboo fibers ": 1,
+            "Lyocell is a type of fabric made from wood pulp  It is made by a process called spinning  which involves creating long  thin threads from the wood pulp  The threads are then woven or knit into a fabric  which can be used for a variety of purposes  such as clothing  upholstery  and insulation  Lyocell is a sustainable and environmentally friendly fabric because it is made from renewable resources and can be broken down and recycled at the end of its life ": 1,
+            "Lyocell": 1,
+            "Lyocell is a type of fabric made from wood pulp using a special solvent spinning process  It is similar to viscose  but has a higher strength and durability  It is also known for its sustainability and is often used in eco friendly clothing Lyocell": 1,
+            "Velvet": 1,
+            "Linen": 1
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "Tank Top": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "Cropped": 41,
+            "Regular": 15,
+            "Tunic Length": 16
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "Black": 25,
+            "Orange": 4,
+            "White": 13,
+            "Brown": 3,
+            "Blue": 7,
+            "Pink": 2,
+            "Grey": 7,
+            "Cream": 1,
+            "Neutral": 2,
+            "Yellow": 1,
+            "Bold": 1,
+            "Pastel": 2,
+            "Green": 1,
+            "Purple": 3
+          }
+        },
+        {
+          "Fit": {
+            "Relaxed": 6,
+            "Regular": 44,
+            "Fitted": 1,
+            "Slim": 5,
+            "Skinny": 1,
+            "slim": 2,
+            "tailored slim": 1,
+            " regular ": 1,
+            "Tailored slim": 1,
+            "Boxy": 8,
+            "options tailored slim   skinny   oversized   relaxed   regular Which option would you choose to best describe the fit of this denim jacket ": 1,
+            "Oversized": 1
+          }
+        },
+        {
+          "PATTERN": {
+            "Solid": 61,
+            "Check": 1,
+            "Dusty": 1,
+            "Floral": 1,
+            "Dark Indigo Wash": 1,
+            "NaN": 0,
+            "Graphic": 2,
+            "non": 1,
+            "Camouflage": 1,
+            "Striped": 1
+          }
+        },
+        {
+          "MATERIAL": {
+            "Cotton": 30,
+            "Elastane": 7,
+            "Rayon ": 1,
+            "Linen": 2,
+            "Tencel": 2,
+            "Nylon": 2,
+            "Polyester": 8,
+            "Mohair": 1,
+            "Wool": 2,
+            "Recycled": 3,
+            "Organic": 4,
+            "Recycled polyester": 1,
+            "Bamboo": 1,
+            "Modal": 2,
+            "Lyocell": 1,
+            "Leather suede": 2,
+            "Cashmere": 1,
+            "Alosoft": 1,
+            "Rayon": 1
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "t shirt": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 82
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "Vest": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "Tunic Length": 25,
+            "Cropped": 8,
+            "Regular": 5,
+            "Hip Length": 1
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "Bold": 2,
+            "Black": 7,
+            "Red": 1,
+            "White": 2,
+            "Pink": 6,
+            "Grey": 2,
+            "Blue": 6,
+            "Neutral": 2,
+            "Brown": 2,
+            "Orange": 2,
+            "Pastel": 2,
+            "Yellow": 1,
+            "Purple": 3,
+            "Green": 1
+          }
+        },
+        {
+          "Fit": {
+            "Regular": 27,
+            "Boxy": 2,
+            "Relaxed": 5,
+            "Oversized": 3,
+            "tailored slim": 1,
+            "Tailored slim": 1
+          }
+        },
+        {
+          "PATTERN": {
+            "Floral": 7,
+            "Argyle": 1,
+            "Jacquard": 1,
+            "Solid": 16,
+            "NaN": 0,
+            "Polka dot": 2,
+            "Paisley": 6,
+            "Non": 1,
+            "Plaid": 1,
+            "Sheer": 1
+          }
+        },
+        {
+          "MATERIAL": {
+            "Polyester": 22,
+            "Cotton": 3,
+            "Wool": 1,
+            "Linen": 2,
+            "Nylon": 1,
+            "Leather suede": 2,
+            "Organic": 2,
+            "Recycled": 2,
+            "Tencel": 1,
+            "Chiffon": 1,
+            "Satin": 1,
+            "water resistent": 1
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "Bodysuit": [
+        {
+          "Neckline": {
+            "Crew Neck": 1
+          }
+        },
+        {
+          "Collar": {
+            "Biker Collar": 1
+          }
+        },
+        {
+          "Sleeve Length": {
+            "Long": 1
+          }
+        },
+        {
+          "Length": {
+            "Tunic Length": 1
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "Black": 1
+          }
+        },
+        {
+          "Fit": {
+            "Regular": 1
+          }
+        },
+        {
+          "PATTERN": {
+            "Solid": 1
+          }
+        },
+        {
+          "MATERIAL": {
+            "Modal": 1
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "Corset": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "Cropped": 2,
+            "Tunic Length": 2,
+            "Waist Length": 1
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "Black": 4,
+            "Neutral": 1
+          }
+        },
+        {
+          "Fit": {
+            "Slim": 1,
+            "Skinny": 1,
+            "Regular": 2,
+            "Tailored slim": 1
+          }
+        },
+        {
+          "PATTERN": {
+            "Solid": 2,
+            " jacquard ": 1,
+            "Floral": 2
+          }
+        },
+        {
+          "MATERIAL": {
+            "Polyester": 1,
+            "Leather suede": 1,
+            "Nylon": 2,
+            "Cotton": 1
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "T shirt Simplified sentence Wear a t shirt and jeans ": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 1
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "Tube": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "Cropped": 2
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "Black": 1,
+            "Brown": 1
+          }
+        },
+        {
+          "Fit": {
+            "Regular": 2
+          }
+        },
+        {
+          "PATTERN": {
+            "Solid": 2
+          }
+        },
+        {
+          "MATERIAL": {
+            "Cotton": 2
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "T shirt ": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 2
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "Camisole": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "Regular": 2,
+            "Tunic Length": 4
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "Blue": 3,
+            "White": 1,
+            "Grey": 1,
+            "Black": 1
+          }
+        },
+        {
+          "Fit": {
+            "Regular": 3,
+            "Tailored slim ": 1,
+            "Slim": 1,
+            "Boxy": 1
+          }
+        },
+        {
+          "PATTERN": {
+            "Solid": 5,
+            "Lace": 1
+          }
+        },
+        {
+          "MATERIAL": {
+            "One of the options ": 1,
+            "Cotton": 4,
+            "Elastane": 1
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "Tank": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 1
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "NaN": [
+        {
+          "Neckline": {}
+        },
+        {
+          "Collar": {}
+        },
+        {
+          "Sleeve Length": {}
+        },
+        {
+          "Length": {}
+        },
+        {
+          "Sleeve Shape": {}
+        },
+        {
+          "COLOR": {}
+        },
+        {
+          "Fit": {}
+        },
+        {
+          "PATTERN": {}
+        },
+        {
+          "MATERIAL": {}
+        },
+        {
+          "eror happend": {}
+        },
+        {
+          "error happend": {}
+        }
+      ],
+      "Tunic": [
+        {
+          "Neckline": {
+            "Crew Neck": 2,
+            "None ": 1,
+            "Cowl Neck": 1,
+            "V neck": 1,
+            " v neck ": 1,
+            "Asymmetrical Neck": 1
+          }
+        },
+        {
+          "Collar": {
+            "Biker Collar": 2,
+            "V neck": 2,
+            "V neck ": 1,
+            "Sailor Collar": 1,
+            "Peak Lapel": 1
+          }
+        },
+        {
+          "Sleeve Length": {
+            "Long": 5,
+            "NaN": 0,
+            "3 4": 1
+          }
+        },
+        {
+          "Length": {
+            "Tunic Length": 7
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "Dolman Sleeve": 1,
+            "Cuffed Sleeve": 3,
+            "Peasant Sleeve": 2,
+            "Kimono Sleeve": 1
+          }
+        },
+        {
+          "COLOR": {
+            "Brown": 1,
+            "Green": 1,
+            "Purple": 1,
+            "Orange": 2,
+            "Bold": 1,
+            "Pastel": 1
+          }
+        },
+        {
+          "Fit": {
+            "Regular": 6,
+            "Relaxed": 1
+          }
+        },
+        {
+          "PATTERN": {
+            "Solid": 4,
+            "Paisley": 2,
+            "Geometric": 1
+          }
+        },
+        {
+          "MATERIAL": {
+            "Organic": 1,
+            "Polyester": 4,
+            "Modal": 2
+          }
+        },
+        {
+          "eror happend": {
+            "NaN": 0
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "t shirt ": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 1
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      " t shirt ": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 3
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "1  Simplify your sentences by removing unnecessary words and phrases to make it more concise For example Original sentence   The cat is sitting on the mat Simplified sentence   Cat sitting on mat ": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 1
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "T shirt 1 word ": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 1
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ]
+    },
+    "bottoms": {
+      "pants": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 21
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "shorts": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 8
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ],
+      "skirt": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 5
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ]
+    },
+    "Jumpsuit": {
+      "Jumpsuit": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 3
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ]
+    },
+    "Overcoat": {
+      "Jacket": [
+        {
+          "Neckline": {
+            "NaN": 0
+          }
+        },
+        {
+          "Collar": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Length": {
+            "NaN": 0
+          }
+        },
+        {
+          "Sleeve Shape": {
+            "NaN": 0
+          }
+        },
+        {
+          "COLOR": {
+            "NaN": 0
+          }
+        },
+        {
+          "Fit": {
+            "NaN": 0
+          }
+        },
+        {
+          "PATTERN": {
+            "NaN": 0
+          }
+        },
+        {
+          "MATERIAL": {
+            "NaN": 0
+          }
+        },
+        {
+          "eror happend": {
+            "No features found for the current category": 19
+          }
+        },
+        {
+          "error happend": {
+            "NaN": 0
+          }
+        }
+      ]
+    },
+    "NaN": {}
+  }
 }

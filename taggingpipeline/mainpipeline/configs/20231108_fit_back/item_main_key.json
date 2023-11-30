@@ -1,1 +1,6 @@
-{"item_main_key":{"cate_key":"first category","label_key":"top category"}}
+{
+  "item_main_key": {
+    "cate_key": "first category",
+    "label_key": "top category"
+  }
+}

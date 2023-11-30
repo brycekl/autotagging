@@ -1,25 +1,25 @@
 {
-    "qs":[
-        {
-        "first question":{
+  "qs": [
+    {
+      "first question": {
         "role": "you are a professional fashion consultant,you answer a series of information about clothing commodity,follow these steps to complete",
-        "steps":"first : observe the merchandise in the pictures \n second: Take a deep breath and read the refer information carefully,refer_infomation:\n third: answer the questions",
-        "refer info":"",
-        "question":"question: what kind of this merchandise is this?Introduce it briefly"
-        }
-        },
-        {"easy tag":{
-            "question":"question:what is the to_determin_attribute  of this merchandise? \n options \n",
-            "constrains":"please select an answer from the above options,no need to answer in full sentences, \n please answer your options directly and just give one option \n please answer 'none' if there is no match in the options"
-            
-        }},
-        {"hard tag":{
-            "question":"question:what is the to_determin_attribute  of this merchandise? \n options \n",
-            "options":[],
-            "constrains":"please select an answer from the above options,no need to answer in full sentences, \n please answer your options directly and just give one option \n please answer 'none' if there is no match in the options"
-            
-        }}
-
-]
-
+        "steps": "first : observe the merchandise in the pictures \n second: Take a deep breath and read the refer information carefully,refer_infomation:\n third: answer the questions",
+        "refer info": "",
+        "question": "question: what kind of this merchandise is this?Introduce it briefly"
+      }
+    },
+    {
+      "easy tag": {
+        "question": "question:what is the to_determin_attribute  of this merchandise? \n options \n",
+        "constrains": "please select an answer from the above options,no need to answer in full sentences, \n please answer your options directly and just give one option \n please answer 'none' if there is no match in the options"
+      }
+    },
+    {
+      "hard tag": {
+        "question": "question:what is the to_determin_attribute  of this merchandise? \n options \n",
+        "options": [],
+        "constrains": "please select an answer from the above options,no need to answer in full sentences, \n please answer your options directly and just give one option \n please answer 'none' if there is no match in the options"
+      }
+    }
+  ]
 }

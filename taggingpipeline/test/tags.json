@@ -1,720 +1,720 @@
 [
-    {
-        "value": "Color",
-        "label": "\u989c\u8272",
-        "items": [
-            {
-                "value": "Orange",
-                "label": "\u6a59\u8272"
-            },
-            {
-                "value": "Yellow",
-                "label": "\u9ec4\u8272"
-            },
-            {
-                "value": "Black",
-                "label": "\u9ed1\u8272"
-            },
-            {
-                "value": "White",
-                "label": "\u767d\u8272"
-            },
-            {
-                "value": "Green",
-                "label": "\u7eff\u8272"
-            },
-            {
-                "value": "Blue",
-                "label": "\u84dd\u8272"
-            },
-            {
-                "value": "Purple",
-                "label": "\u7d2b\u8272"
-            },
-            {
-                "value": "Brown",
-                "label": "\u68d5\u8272"
-            },
-            {
-                "value": "Grey",
-                "label": "\u7070\u8272"
-            },
-            {
-                "value": "Red",
-                "label": "\u7ea2\u8272"
-            },
-            {
-                "value": "Pink",
-                "label": "\u7c89\u8272"
-            },
-            {
-                "value": "Pastel",
-                "label": "\u67d4\u548c\u8272"
-            },
-            {
-                "value": "Bold",
-                "label": "\u9c9c\u8273"
-            },
-            {
-                "value": "Neutral",
-                "label": "\u4e2d\u6027\u8272"
-            }
-        ]
-    },
-    {
-        "value": "Saturation",
-        "label": "\u9971\u548c\u5ea6",
-        "items": [
-            {
-                "value": "Vivid",
-                "label": "\u9c9c\u8273\u7684"
-            },
-            {
-                "value": "Moderate",
-                "label": "\u9002\u4e2d\u7684"
-            },
-            {
-                "value": "Muted",
-                "label": "\u67d4\u548c\u7684"
-            }
-        ]
-    },
-    {
-        "value": "Brightness",
-        "label": "\u4eae\u5ea6",
-        "items": [
-            {
-                "value": "Dark",
-                "label": "\u6df1\u8272\u7684"
-            },
-            {
-                "value": "Light",
-                "label": "\u6d45\u8272\u7684"
-            },
-            {
-                "value": "Medium",
-                "label": "\u4e2d\u7b49\u7684"
-            }
-        ]
-    },
-    {
-        "value": "Material",
-        "label": "\u6750\u8d28",
-        "items": [
-            {
-                "value": "Cotton",
-                "label": "\u68c9"
-            },
-            {
-                "value": "Linen",
-                "label": "\u4e9a\u9ebb"
-            },
-            {
-                "value": "Silk",
-                "label": "\u4e1d\u7ef8"
-            },
-            {
-                "value": "Wool",
-                "label": "\u7f8a\u6bdb"
-            },
-            {
-                "value": "Cashmere",
-                "label": "\u7f8a\u7ed2"
-            },
-            {
-                "value": "Mohair",
-                "label": "\u9a6c\u6d77\u6bdb"
-            },
-            {
-                "value": "Bamboo",
-                "label": "\u7af9\u7ea4\u7ef4"
-            },
-            {
-                "value": "Leather/Suede",
-                "label": "\u76ae\u9769/\u7ed2\u9762\u76ae\u9769"
-            },
-            {
-                "value": "Denim",
-                "label": "\u725b\u4ed4\u5e03"
-            },
-            {
-                "value": "Polyester",
-                "label": "\u6da4\u7eb6"
-            },
-            {
-                "value": "Nylon",
-                "label": "\u5c3c\u9f99"
-            },
-            {
-                "value": "Elastane",
-                "label": "\u6c28\u7eb6"
-            },
-            {
-                "value": "Gore-Tex",
-                "label": "Gore-Tex\uff08\u9632\u6c34\u900f\u6c14\u6750\u6599\uff09"
-            },
-            {
-                "value": "Satin",
-                "label": "\u7f0e\u9762"
-            },
-            {
-                "value": "Velvet",
-                "label": "\u5929\u9e45\u7ed2"
-            },
-            {
-                "value": "Chiffon",
-                "label": "\u96ea\u7eba"
-            },
-            {
-                "value": "Tulle",
-                "label": "\u8584\u7eb1"
-            },
-            {
-                "value": "Organza",
-                "label": "\u6b27\u6839\u7eb1"
-            },
-            {
-                "value": "Tencel",
-                "label": "\u5929\u4e1d"
-            },
-            {
-                "value": "Modal",
-                "label": "\u83ab\u4ee3\u5c14"
-            },
-            {
-                "value": "Shearling",
-                "label": "\u7f8a\u7f94\u6bdb"
-            },
-            {
-                "value": "Recycled",
-                "label": "\u518d\u751f\u6750\u6599"
-            },
-            {
-                "value": "Water-resistent",
-                "label": "\u9632\u6c34\u7684"
-            },
-            {
-                "value": "Organic",
-                "label": "\u6709\u673a\u7684"
-            },
-            {
-                "value": "Knit",
-                "label": "\u9488\u7ec7"
-            },
-            {
-                "value": "Down feather",
-                "label": "\u7fbd\u7ed2"
-            },
-            {
-                "value": "Fur/Faux fur",
-                "label": "\u76ae\u8349/\u4eff\u76ae\u8349"
-            }
-        ]
-    },
-    {
-        "value": "Pattern",
-        "label": "\u56fe\u6848",
-        "items": [
-            {
-                "value": "Solid",
-                "label": "\u7eaf\u8272"
-            },
-            {
-                "value": "Vertical Stripes",
-                "label": "\u7ad6\u6761\u7eb9"
-            },
-            {
-                "value": "Horizontal Stripes",
-                "label": "\u6a2a\u6761\u7eb9"
-            },
-            {
-                "value": "Diagonal Stripes",
-                "label": "\u659c\u6761\u7eb9"
-            },
-            {
-                "value": "Sheer",
-                "label": "\u900f\u89c6"
-            },
-            {
-                "value": "Check",
-                "label": "\u683c\u5b50"
-            },
-            {
-                "value": "Polka dot",
-                "label": "\u6ce2\u70b9"
-            },
-            {
-                "value": "Houndstooth",
-                "label": "\u5343\u9e1f\u683c"
-            },
-            {
-                "value": "Paisley",
-                "label": "\u4f69\u65af\u5229"
-            },
-            {
-                "value": "Argyle",
-                "label": "\u83f1\u5f62\u683c"
-            },
-            {
-                "value": "Chevron",
-                "label": "\u4eba\u5b57\u5f62"
-            },
-            {
-                "value": "Floral",
-                "label": "\u82b1\u5349"
-            },
-            {
-                "value": "Ikat",
-                "label": "\u4f0a\u5361\u7279"
-            },
-            {
-                "value": "Damask",
-                "label": "\u8fbe\u9a6c\u65af\u514b"
-            },
-            {
-                "value": "Geometric",
-                "label": "\u51e0\u4f55"
-            },
-            {
-                "value": "Camouflage",
-                "label": "\u8ff7\u5f69"
-            },
-            {
-                "value": "Animal print (e.g., leopard, zebra, snake)",
-                "label": "\u52a8\u7269\u7eb9\uff08\u5982\u8c79\u7eb9\u3001\u6591\u9a6c\u7eb9\u3001\u86c7\u7eb9\uff09"
-            },
-            {
-                "value": "Toile",
-                "label": "\u56fe\u6848\u753b"
-            },
-            {
-                "value": "Fleur-de-lis",
-                "label": "\u82b1\u9970"
-            },
-            {
-                "value": "Jacquard",
-                "label": "\u63d0\u82b1"
-            },
-            {
-                "value": "Herringbone",
-                "label": "\u4eba\u5b57\u7eb9"
-            },
-            {
-                "value": "Fair Isle",
-                "label": "\u6cd5\u4f0a\u5c14\u5c9b\u5f0f"
-            },
-            {
-                "value": "Lace",
-                "label": "\u857e\u4e1d"
-            },
-            {
-                "value": "Light Indigo Wash",
-                "label": "\u6d45\u975b\u84dd\u6c34\u6d17"
-            },
-            {
-                "value": "Medium Indigo Wash",
-                "label": "\u4e2d\u975b\u84dd\u6c34\u6d17"
-            },
-            {
-                "value": "Dark Indigo Wash",
-                "label": "\u6df1\u975b\u84dd\u6c34\u6d17"
-            },
-            {
-                "value": "Bleach Indigo Wash",
-                "label": "\u6f02\u767d\u975b\u84dd\u6c34\u6d17"
-            },
-            {
-                "value": "Plaid",
-                "label": "\u683c\u7eb9"
-            },
-            {
-                "value": "Dusty",
-                "label": "\u7070\u6251\u6251\u7684"
-            },
-            {
-                "value": "Graphic",
-                "label": "\u56fe\u5f62"
-            },
-            {
-                "value": "Color Block",
-                "label": "\u62fc\u8272"
-            }
-        ]
-    },
-    {
-        "value": "Trends",
-        "label": "\u8d8b\u52bf",
-        "items": [
-            {
-                "value": "Cottagecore",
-                "label": "\u7530\u56ed\u98ce"
-            },
-            {
-                "value": "Y2K",
-                "label": "\u5343\u79a7\u5e74\u98ce\u683c"
-            },
-            {
-                "value": "90s Grunge",
-                "label": "90\u5e74\u4ee3\u5783\u573e\u6447\u6eda"
-            },
-            {
-                "value": "Regency-era Influences",
-                "label": "\u6444\u653f\u65f6\u671f\u98ce\u683c"
-            },
-            {
-                "value": "Gender-fluid",
-                "label": "\u6027\u522b\u6d41\u52a8\u98ce\u683c"
-            },
-            {
-                "value": "Futuristic Fashion",
-                "label": "\u672a\u6765\u4e3b\u4e49\u65f6\u5c1a"
-            },
-            {
-                "value": "Quiet Luxury",
-                "label": "\u4f4e\u8c03\u5962\u534e"
-            },
-            {
-                "value": "Tomato-Girl Summer",
-                "label": "\u756a\u8304\u5973\u5b69\u590f\u65e5\u98ce\u683c"
-            },
-            {
-                "value": "Mermaid-core",
-                "label": "\u7f8e\u4eba\u9c7c\u98ce"
-            },
-            {
-                "value": "Barbie-core",
-                "label": "\u82ad\u6bd4\u98ce"
-            },
-            {
-                "value": "Ballet-core",
-                "label": "\u82ad\u857e\u98ce"
-            },
-            {
-                "value": "None",
-                "label": "\u65e0\u7279\u5b9a\u98ce\u683c"
-            },
-            {
-                "value": "Naked Trend",
-                "label": "\u88f8\u9732\u8d8b\u52bf"
-            }
-        ]
-    },
-    {
-        "value": "Process",
-        "label": "\u5de5\u827a",
-        "items": [
-            {
-                "value": "Crochet",
-                "label": "\u94a9\u9488\u7f16\u7ec7"
-            },
-            {
-                "value": "Embroidery",
-                "label": "\u523a\u7ee3"
-            },
-            {
-                "value": "Wrinkle",
-                "label": "\u76b1\u8936"
-            },
-            {
-                "value": "Flocking",
-                "label": "\u7ed2\u9762\u6548\u679c"
-            },
-            {
-                "value": "Tie dyeing",
-                "label": "\u624e\u67d3"
-            },
-            {
-                "value": "Splicing",
-                "label": "\u62fc\u63a5"
-            },
-            {
-                "value": "Laser cutting",
-                "label": "\u6fc0\u5149\u5207\u5272"
-            },
-            {
-                "value": "Ripped",
-                "label": "\u78e8\u7834"
-            },
-            {
-                "value": "Raw Edge",
-                "label": "\u539f\u8fb9\u5904\u7406"
-            }
-        ]
-    },
-    {
-        "value": "Occasion",
-        "label": "\u5e94\u7528\u573a\u666f",
-        "items": [
-            {
-                "value": "Casual Day Out",
-                "label": "\u4f11\u95f2\u65e5\u5e38\u51fa\u884c"
-            },
-            {
-                "value": "Vacations/Travel",
-                "label": "\u5ea6\u5047/\u65c5\u884c"
-            },
-            {
-                "value": "Weddings",
-                "label": "\u5a5a\u793c"
-            },
-            {
-                "value": "Work/Job Interviews",
-                "label": "\u5de5\u4f5c/\u9762\u8bd5"
-            },
-            {
-                "value": "Photoshoots/Headshots",
-                "label": "\u6444\u5f71/\u5934\u50cf\u62cd\u6444"
-            },
-            {
-                "value": "Milestones (graduation/retirement/promotions parties)",
-                "label": "\u91cd\u8981\u65f6\u523b\u5e86\u795d\uff08\u6bd5\u4e1a/\u9000\u4f11/\u664b\u5347\u6d3e\u5bf9\uff09"
-            },
-            {
-                "value": "Galas/Fundraisers/Red Carpet Events",
-                "label": "\u665a\u4f1a/\u7b79\u6b3e\u6d3b\u52a8/\u7ea2\u6bef\u6d3b\u52a8"
-            },
-            {
-                "value": "Date Night",
-                "label": "\u7ea6\u4f1a\u4e4b\u591c"
-            },
-            {
-                "value": "A Night Out",
-                "label": "\u591c\u751f\u6d3b"
-            },
-            {
-                "value": "Gym/Workout",
-                "label": "\u5065\u8eab/\u8fd0\u52a8"
-            },
-            {
-                "value": "Outdoor Activity",
-                "label": "\u6237\u5916\u6d3b\u52a8"
-            },
-            {
-                "value": "Festival/Concert",
-                "label": "\u97f3\u4e50\u8282/\u97f3\u4e50\u4f1a"
-            },
-            {
-                "value": "Pregnancy & Post-Pregnancy",
-                "label": "\u6000\u5b55\u53ca\u4ea7\u540e"
-            },
-            {
-                "value": "Home",
-                "label": "\u5bb6\u5c45"
-            },
-            {
-                "value": "Sleep",
-                "label": "\u7761\u7720"
-            }
-        ]
-    },
-    {
-        "value": "Location",
-        "label": "\u5730\u7406\u4f4d\u7f6e",
-        "items": [
-            {
-                "value": "City/Urban",
-                "label": "\u57ce\u5e02/\u90fd\u5e02"
-            },
-            {
-                "value": "Country",
-                "label": "\u4e61\u6751"
-            },
-            {
-                "value": "Beach",
-                "label": "\u6d77\u6ee9"
-            },
-            {
-                "value": "Mountains",
-                "label": "\u5c71\u533a"
-            },
-            {
-                "value": "Desert",
-                "label": "\u6c99\u6f20"
-            }
-        ]
-    },
-    {
-        "value": "Style",
-        "label": "\u98ce\u683c",
-        "items": [
-            {
-                "value": "Classic",
-                "label": "\u7ecf\u5178"
-            },
-            {
-                "value": "Bohemian (Boho)",
-                "label": "\u6ce2\u897f\u7c73\u4e9a\uff08\u6ce2\u5e0c\u7c73\u4e9a\uff09"
-            },
-            {
-                "value": "Preppy",
-                "label": "\u5b66\u9662\u98ce"
-            },
-            {
-                "value": "Grunge",
-                "label": "\u5783\u573e\u6447\u6eda"
-            },
-            {
-                "value": "Romantic",
-                "label": "\u6d6a\u6f2b"
-            },
-            {
-                "value": "Glam",
-                "label": "\u534e\u4e3d"
-            },
-            {
-                "value": "Trendy",
-                "label": "\u65f6\u5c1a\u6f6e\u6d41"
-            },
-            {
-                "value": "Vintage",
-                "label": "\u590d\u53e4"
-            },
-            {
-                "value": "Edgy",
-                "label": "\u524d\u536b"
-            },
-            {
-                "value": "Minimalist",
-                "label": "\u6781\u7b80\u4e3b\u4e49"
-            },
-            {
-                "value": "Active",
-                "label": "\u8fd0\u52a8\u98ce"
-            },
-            {
-                "value": "Urban",
-                "label": "\u90fd\u5e02\u98ce"
-            }
-        ]
-    },
-    {
-        "value": "Season",
-        "label": "\u5b63\u8282",
-        "items": [
-            {
-                "value": "Spring",
-                "label": "\u6625\u5b63"
-            },
-            {
-                "value": "Summer",
-                "label": "\u590f\u5b63"
-            },
-            {
-                "value": "Fall",
-                "label": "\u79cb\u5b63"
-            },
-            {
-                "value": "Winter",
-                "label": "\u51ac\u5b63"
-            }
-        ]
-    },
-    {
-        "value": "Fit",
-        "label": "\u5408\u8eab\u5ea6",
-        "items": [
-            {
-                "value": "Regular",
-                "label": "\u5e38\u89c4\u6b3e"
-            },
-            {
-                "value": "Tailored/Slim",
-                "label": "\u526a\u88c1\u5408\u8eab/\u4fee\u8eab"
-            },
-            {
-                "value": "Skinny",
-                "label": "\u7d27\u8eab"
-            },
-            {
-                "value": "Boxy",
-                "label": "\u65b9\u5f62\u6b3e"
-            },
-            {
-                "value": "Oversized",
-                "label": "\u8d85\u5927\u53f7"
-            },
-            {
-                "value": "Relaxed",
-                "label": "\u5bbd\u677e"
-            }
-        ]
-    },
-    {
-        "value": "Event",
-        "label": "\u6d3b\u52a8\u4e3b\u9898",
-        "items": [
-            {
-                "value": "New Year",
-                "label": "\u65b0\u5e74"
-            },
-            {
-                "value": "Valentine's Day",
-                "label": "\u60c5\u4eba\u8282"
-            },
-            {
-                "value": "Super Bowl",
-                "label": "\u8d85\u7ea7\u7897"
-            },
-            {
-                "value": "Spring Break",
-                "label": "\u6625\u5047"
-            },
-            {
-                "value": "Easter Day",
-                "label": "\u590d\u6d3b\u8282"
-            },
-            {
-                "value": "Music Festival",
-                "label": "\u97f3\u4e50\u8282"
-            },
-            {
-                "value": "Summer New Arrival",
-                "label": "\u590f\u5b63\u65b0\u54c1\u4e0a\u5e02"
-            },
-            {
-                "value": "Summer Sale",
-                "label": "\u590f\u5b63\u4fc3\u9500"
-            },
-            {
-                "value": "Back to School",
-                "label": "\u5f00\u5b66\u5b63"
-            },
-            {
-                "value": "Autumn New Arrival",
-                "label": "\u79cb\u5b63\u65b0\u54c1\u4e0a\u5e02"
-            },
-            {
-                "value": "Halloween",
-                "label": "\u4e07\u5723\u8282"
-            },
-            {
-                "value": "Winter New Arrival",
-                "label": "\u51ac\u5b63\u65b0\u54c1\u4e0a\u5e02"
-            },
-            {
-                "value": "Thanksgiving",
-                "label": "\u611f\u6069\u8282"
-            },
-            {
-                "value": "Black Friday",
-                "label": "\u9ed1\u8272\u661f\u671f\u4e94"
-            },
-            {
-                "value": "Cyber Monday",
-                "label": "\u7f51\u7edc\u661f\u671f\u4e00"
-            },
-            {
-                "value": "Ski Season",
-                "label": "\u6ed1\u96ea\u5b63"
-            },
-            {
-                "value": "Christmas",
-                "label": "\u5723\u8bde\u8282"
-            },
-            {
-                "value": "End of Year Sale",
-                "label": "\u5e74\u7ec8\u4fc3\u9500"
-            }
-        ]
-    }
+  {
+    "value": "Color",
+    "label": "\u989c\u8272",
+    "items": [
+      {
+        "value": "Orange",
+        "label": "\u6a59\u8272"
+      },
+      {
+        "value": "Yellow",
+        "label": "\u9ec4\u8272"
+      },
+      {
+        "value": "Black",
+        "label": "\u9ed1\u8272"
+      },
+      {
+        "value": "White",
+        "label": "\u767d\u8272"
+      },
+      {
+        "value": "Green",
+        "label": "\u7eff\u8272"
+      },
+      {
+        "value": "Blue",
+        "label": "\u84dd\u8272"
+      },
+      {
+        "value": "Purple",
+        "label": "\u7d2b\u8272"
+      },
+      {
+        "value": "Brown",
+        "label": "\u68d5\u8272"
+      },
+      {
+        "value": "Grey",
+        "label": "\u7070\u8272"
+      },
+      {
+        "value": "Red",
+        "label": "\u7ea2\u8272"
+      },
+      {
+        "value": "Pink",
+        "label": "\u7c89\u8272"
+      },
+      {
+        "value": "Pastel",
+        "label": "\u67d4\u548c\u8272"
+      },
+      {
+        "value": "Bold",
+        "label": "\u9c9c\u8273"
+      },
+      {
+        "value": "Neutral",
+        "label": "\u4e2d\u6027\u8272"
+      }
+    ]
+  },
+  {
+    "value": "Saturation",
+    "label": "\u9971\u548c\u5ea6",
+    "items": [
+      {
+        "value": "Vivid",
+        "label": "\u9c9c\u8273\u7684"
+      },
+      {
+        "value": "Moderate",
+        "label": "\u9002\u4e2d\u7684"
+      },
+      {
+        "value": "Muted",
+        "label": "\u67d4\u548c\u7684"
+      }
+    ]
+  },
+  {
+    "value": "Brightness",
+    "label": "\u4eae\u5ea6",
+    "items": [
+      {
+        "value": "Dark",
+        "label": "\u6df1\u8272\u7684"
+      },
+      {
+        "value": "Light",
+        "label": "\u6d45\u8272\u7684"
+      },
+      {
+        "value": "Medium",
+        "label": "\u4e2d\u7b49\u7684"
+      }
+    ]
+  },
+  {
+    "value": "Material",
+    "label": "\u6750\u8d28",
+    "items": [
+      {
+        "value": "Cotton",
+        "label": "\u68c9"
+      },
+      {
+        "value": "Linen",
+        "label": "\u4e9a\u9ebb"
+      },
+      {
+        "value": "Silk",
+        "label": "\u4e1d\u7ef8"
+      },
+      {
+        "value": "Wool",
+        "label": "\u7f8a\u6bdb"
+      },
+      {
+        "value": "Cashmere",
+        "label": "\u7f8a\u7ed2"
+      },
+      {
+        "value": "Mohair",
+        "label": "\u9a6c\u6d77\u6bdb"
+      },
+      {
+        "value": "Bamboo",
+        "label": "\u7af9\u7ea4\u7ef4"
+      },
+      {
+        "value": "Leather/Suede",
+        "label": "\u76ae\u9769/\u7ed2\u9762\u76ae\u9769"
+      },
+      {
+        "value": "Denim",
+        "label": "\u725b\u4ed4\u5e03"
+      },
+      {
+        "value": "Polyester",
+        "label": "\u6da4\u7eb6"
+      },
+      {
+        "value": "Nylon",
+        "label": "\u5c3c\u9f99"
+      },
+      {
+        "value": "Elastane",
+        "label": "\u6c28\u7eb6"
+      },
+      {
+        "value": "Gore-Tex",
+        "label": "Gore-Tex\uff08\u9632\u6c34\u900f\u6c14\u6750\u6599\uff09"
+      },
+      {
+        "value": "Satin",
+        "label": "\u7f0e\u9762"
+      },
+      {
+        "value": "Velvet",
+        "label": "\u5929\u9e45\u7ed2"
+      },
+      {
+        "value": "Chiffon",
+        "label": "\u96ea\u7eba"
+      },
+      {
+        "value": "Tulle",
+        "label": "\u8584\u7eb1"
+      },
+      {
+        "value": "Organza",
+        "label": "\u6b27\u6839\u7eb1"
+      },
+      {
+        "value": "Tencel",
+        "label": "\u5929\u4e1d"
+      },
+      {
+        "value": "Modal",
+        "label": "\u83ab\u4ee3\u5c14"
+      },
+      {
+        "value": "Shearling",
+        "label": "\u7f8a\u7f94\u6bdb"
+      },
+      {
+        "value": "Recycled",
+        "label": "\u518d\u751f\u6750\u6599"
+      },
+      {
+        "value": "Water-resistent",
+        "label": "\u9632\u6c34\u7684"
+      },
+      {
+        "value": "Organic",
+        "label": "\u6709\u673a\u7684"
+      },
+      {
+        "value": "Knit",
+        "label": "\u9488\u7ec7"
+      },
+      {
+        "value": "Down feather",
+        "label": "\u7fbd\u7ed2"
+      },
+      {
+        "value": "Fur/Faux fur",
+        "label": "\u76ae\u8349/\u4eff\u76ae\u8349"
+      }
+    ]
+  },
+  {
+    "value": "Pattern",
+    "label": "\u56fe\u6848",
+    "items": [
+      {
+        "value": "Solid",
+        "label": "\u7eaf\u8272"
+      },
+      {
+        "value": "Vertical Stripes",
+        "label": "\u7ad6\u6761\u7eb9"
+      },
+      {
+        "value": "Horizontal Stripes",
+        "label": "\u6a2a\u6761\u7eb9"
+      },
+      {
+        "value": "Diagonal Stripes",
+        "label": "\u659c\u6761\u7eb9"
+      },
+      {
+        "value": "Sheer",
+        "label": "\u900f\u89c6"
+      },
+      {
+        "value": "Check",
+        "label": "\u683c\u5b50"
+      },
+      {
+        "value": "Polka dot",
+        "label": "\u6ce2\u70b9"
+      },
+      {
+        "value": "Houndstooth",
+        "label": "\u5343\u9e1f\u683c"
+      },
+      {
+        "value": "Paisley",
+        "label": "\u4f69\u65af\u5229"
+      },
+      {
+        "value": "Argyle",
+        "label": "\u83f1\u5f62\u683c"
+      },
+      {
+        "value": "Chevron",
+        "label": "\u4eba\u5b57\u5f62"
+      },
+      {
+        "value": "Floral",
+        "label": "\u82b1\u5349"
+      },
+      {
+        "value": "Ikat",
+        "label": "\u4f0a\u5361\u7279"
+      },
+      {
+        "value": "Damask",
+        "label": "\u8fbe\u9a6c\u65af\u514b"
+      },
+      {
+        "value": "Geometric",
+        "label": "\u51e0\u4f55"
+      },
+      {
+        "value": "Camouflage",
+        "label": "\u8ff7\u5f69"
+      },
+      {
+        "value": "Animal print (e.g., leopard, zebra, snake)",
+        "label": "\u52a8\u7269\u7eb9\uff08\u5982\u8c79\u7eb9\u3001\u6591\u9a6c\u7eb9\u3001\u86c7\u7eb9\uff09"
+      },
+      {
+        "value": "Toile",
+        "label": "\u56fe\u6848\u753b"
+      },
+      {
+        "value": "Fleur-de-lis",
+        "label": "\u82b1\u9970"
+      },
+      {
+        "value": "Jacquard",
+        "label": "\u63d0\u82b1"
+      },
+      {
+        "value": "Herringbone",
+        "label": "\u4eba\u5b57\u7eb9"
+      },
+      {
+        "value": "Fair Isle",
+        "label": "\u6cd5\u4f0a\u5c14\u5c9b\u5f0f"
+      },
+      {
+        "value": "Lace",
+        "label": "\u857e\u4e1d"
+      },
+      {
+        "value": "Light Indigo Wash",
+        "label": "\u6d45\u975b\u84dd\u6c34\u6d17"
+      },
+      {
+        "value": "Medium Indigo Wash",
+        "label": "\u4e2d\u975b\u84dd\u6c34\u6d17"
+      },
+      {
+        "value": "Dark Indigo Wash",
+        "label": "\u6df1\u975b\u84dd\u6c34\u6d17"
+      },
+      {
+        "value": "Bleach Indigo Wash",
+        "label": "\u6f02\u767d\u975b\u84dd\u6c34\u6d17"
+      },
+      {
+        "value": "Plaid",
+        "label": "\u683c\u7eb9"
+      },
+      {
+        "value": "Dusty",
+        "label": "\u7070\u6251\u6251\u7684"
+      },
+      {
+        "value": "Graphic",
+        "label": "\u56fe\u5f62"
+      },
+      {
+        "value": "Color Block",
+        "label": "\u62fc\u8272"
+      }
+    ]
+  },
+  {
+    "value": "Trends",
+    "label": "\u8d8b\u52bf",
+    "items": [
+      {
+        "value": "Cottagecore",
+        "label": "\u7530\u56ed\u98ce"
+      },
+      {
+        "value": "Y2K",
+        "label": "\u5343\u79a7\u5e74\u98ce\u683c"
+      },
+      {
+        "value": "90s Grunge",
+        "label": "90\u5e74\u4ee3\u5783\u573e\u6447\u6eda"
+      },
+      {
+        "value": "Regency-era Influences",
+        "label": "\u6444\u653f\u65f6\u671f\u98ce\u683c"
+      },
+      {
+        "value": "Gender-fluid",
+        "label": "\u6027\u522b\u6d41\u52a8\u98ce\u683c"
+      },
+      {
+        "value": "Futuristic Fashion",
+        "label": "\u672a\u6765\u4e3b\u4e49\u65f6\u5c1a"
+      },
+      {
+        "value": "Quiet Luxury",
+        "label": "\u4f4e\u8c03\u5962\u534e"
+      },
+      {
+        "value": "Tomato-Girl Summer",
+        "label": "\u756a\u8304\u5973\u5b69\u590f\u65e5\u98ce\u683c"
+      },
+      {
+        "value": "Mermaid-core",
+        "label": "\u7f8e\u4eba\u9c7c\u98ce"
+      },
+      {
+        "value": "Barbie-core",
+        "label": "\u82ad\u6bd4\u98ce"
+      },
+      {
+        "value": "Ballet-core",
+        "label": "\u82ad\u857e\u98ce"
+      },
+      {
+        "value": "None",
+        "label": "\u65e0\u7279\u5b9a\u98ce\u683c"
+      },
+      {
+        "value": "Naked Trend",
+        "label": "\u88f8\u9732\u8d8b\u52bf"
+      }
+    ]
+  },
+  {
+    "value": "Process",
+    "label": "\u5de5\u827a",
+    "items": [
+      {
+        "value": "Crochet",
+        "label": "\u94a9\u9488\u7f16\u7ec7"
+      },
+      {
+        "value": "Embroidery",
+        "label": "\u523a\u7ee3"
+      },
+      {
+        "value": "Wrinkle",
+        "label": "\u76b1\u8936"
+      },
+      {
+        "value": "Flocking",
+        "label": "\u7ed2\u9762\u6548\u679c"
+      },
+      {
+        "value": "Tie dyeing",
+        "label": "\u624e\u67d3"
+      },
+      {
+        "value": "Splicing",
+        "label": "\u62fc\u63a5"
+      },
+      {
+        "value": "Laser cutting",
+        "label": "\u6fc0\u5149\u5207\u5272"
+      },
+      {
+        "value": "Ripped",
+        "label": "\u78e8\u7834"
+      },
+      {
+        "value": "Raw Edge",
+        "label": "\u539f\u8fb9\u5904\u7406"
+      }
+    ]
+  },
+  {
+    "value": "Occasion",
+    "label": "\u5e94\u7528\u573a\u666f",
+    "items": [
+      {
+        "value": "Casual Day Out",
+        "label": "\u4f11\u95f2\u65e5\u5e38\u51fa\u884c"
+      },
+      {
+        "value": "Vacations/Travel",
+        "label": "\u5ea6\u5047/\u65c5\u884c"
+      },
+      {
+        "value": "Weddings",
+        "label": "\u5a5a\u793c"
+      },
+      {
+        "value": "Work/Job Interviews",
+        "label": "\u5de5\u4f5c/\u9762\u8bd5"
+      },
+      {
+        "value": "Photoshoots/Headshots",
+        "label": "\u6444\u5f71/\u5934\u50cf\u62cd\u6444"
+      },
+      {
+        "value": "Milestones (graduation/retirement/promotions parties)",
+        "label": "\u91cd\u8981\u65f6\u523b\u5e86\u795d\uff08\u6bd5\u4e1a/\u9000\u4f11/\u664b\u5347\u6d3e\u5bf9\uff09"
+      },
+      {
+        "value": "Galas/Fundraisers/Red Carpet Events",
+        "label": "\u665a\u4f1a/\u7b79\u6b3e\u6d3b\u52a8/\u7ea2\u6bef\u6d3b\u52a8"
+      },
+      {
+        "value": "Date Night",
+        "label": "\u7ea6\u4f1a\u4e4b\u591c"
+      },
+      {
+        "value": "A Night Out",
+        "label": "\u591c\u751f\u6d3b"
+      },
+      {
+        "value": "Gym/Workout",
+        "label": "\u5065\u8eab/\u8fd0\u52a8"
+      },
+      {
+        "value": "Outdoor Activity",
+        "label": "\u6237\u5916\u6d3b\u52a8"
+      },
+      {
+        "value": "Festival/Concert",
+        "label": "\u97f3\u4e50\u8282/\u97f3\u4e50\u4f1a"
+      },
+      {
+        "value": "Pregnancy & Post-Pregnancy",
+        "label": "\u6000\u5b55\u53ca\u4ea7\u540e"
+      },
+      {
+        "value": "Home",
+        "label": "\u5bb6\u5c45"
+      },
+      {
+        "value": "Sleep",
+        "label": "\u7761\u7720"
+      }
+    ]
+  },
+  {
+    "value": "Location",
+    "label": "\u5730\u7406\u4f4d\u7f6e",
+    "items": [
+      {
+        "value": "City/Urban",
+        "label": "\u57ce\u5e02/\u90fd\u5e02"
+      },
+      {
+        "value": "Country",
+        "label": "\u4e61\u6751"
+      },
+      {
+        "value": "Beach",
+        "label": "\u6d77\u6ee9"
+      },
+      {
+        "value": "Mountains",
+        "label": "\u5c71\u533a"
+      },
+      {
+        "value": "Desert",
+        "label": "\u6c99\u6f20"
+      }
+    ]
+  },
+  {
+    "value": "Style",
+    "label": "\u98ce\u683c",
+    "items": [
+      {
+        "value": "Classic",
+        "label": "\u7ecf\u5178"
+      },
+      {
+        "value": "Bohemian (Boho)",
+        "label": "\u6ce2\u897f\u7c73\u4e9a\uff08\u6ce2\u5e0c\u7c73\u4e9a\uff09"
+      },
+      {
+        "value": "Preppy",
+        "label": "\u5b66\u9662\u98ce"
+      },
+      {
+        "value": "Grunge",
+        "label": "\u5783\u573e\u6447\u6eda"
+      },
+      {
+        "value": "Romantic",
+        "label": "\u6d6a\u6f2b"
+      },
+      {
+        "value": "Glam",
+        "label": "\u534e\u4e3d"
+      },
+      {
+        "value": "Trendy",
+        "label": "\u65f6\u5c1a\u6f6e\u6d41"
+      },
+      {
+        "value": "Vintage",
+        "label": "\u590d\u53e4"
+      },
+      {
+        "value": "Edgy",
+        "label": "\u524d\u536b"
+      },
+      {
+        "value": "Minimalist",
+        "label": "\u6781\u7b80\u4e3b\u4e49"
+      },
+      {
+        "value": "Active",
+        "label": "\u8fd0\u52a8\u98ce"
+      },
+      {
+        "value": "Urban",
+        "label": "\u90fd\u5e02\u98ce"
+      }
+    ]
+  },
+  {
+    "value": "Season",
+    "label": "\u5b63\u8282",
+    "items": [
+      {
+        "value": "Spring",
+        "label": "\u6625\u5b63"
+      },
+      {
+        "value": "Summer",
+        "label": "\u590f\u5b63"
+      },
+      {
+        "value": "Fall",
+        "label": "\u79cb\u5b63"
+      },
+      {
+        "value": "Winter",
+        "label": "\u51ac\u5b63"
+      }
+    ]
+  },
+  {
+    "value": "Fit",
+    "label": "\u5408\u8eab\u5ea6",
+    "items": [
+      {
+        "value": "Regular",
+        "label": "\u5e38\u89c4\u6b3e"
+      },
+      {
+        "value": "Tailored/Slim",
+        "label": "\u526a\u88c1\u5408\u8eab/\u4fee\u8eab"
+      },
+      {
+        "value": "Skinny",
+        "label": "\u7d27\u8eab"
+      },
+      {
+        "value": "Boxy",
+        "label": "\u65b9\u5f62\u6b3e"
+      },
+      {
+        "value": "Oversized",
+        "label": "\u8d85\u5927\u53f7"
+      },
+      {
+        "value": "Relaxed",
+        "label": "\u5bbd\u677e"
+      }
+    ]
+  },
+  {
+    "value": "Event",
+    "label": "\u6d3b\u52a8\u4e3b\u9898",
+    "items": [
+      {
+        "value": "New Year",
+        "label": "\u65b0\u5e74"
+      },
+      {
+        "value": "Valentine's Day",
+        "label": "\u60c5\u4eba\u8282"
+      },
+      {
+        "value": "Super Bowl",
+        "label": "\u8d85\u7ea7\u7897"
+      },
+      {
+        "value": "Spring Break",
+        "label": "\u6625\u5047"
+      },
+      {
+        "value": "Easter Day",
+        "label": "\u590d\u6d3b\u8282"
+      },
+      {
+        "value": "Music Festival",
+        "label": "\u97f3\u4e50\u8282"
+      },
+      {
+        "value": "Summer New Arrival",
+        "label": "\u590f\u5b63\u65b0\u54c1\u4e0a\u5e02"
+      },
+      {
+        "value": "Summer Sale",
+        "label": "\u590f\u5b63\u4fc3\u9500"
+      },
+      {
+        "value": "Back to School",
+        "label": "\u5f00\u5b66\u5b63"
+      },
+      {
+        "value": "Autumn New Arrival",
+        "label": "\u79cb\u5b63\u65b0\u54c1\u4e0a\u5e02"
+      },
+      {
+        "value": "Halloween",
+        "label": "\u4e07\u5723\u8282"
+      },
+      {
+        "value": "Winter New Arrival",
+        "label": "\u51ac\u5b63\u65b0\u54c1\u4e0a\u5e02"
+      },
+      {
+        "value": "Thanksgiving",
+        "label": "\u611f\u6069\u8282"
+      },
+      {
+        "value": "Black Friday",
+        "label": "\u9ed1\u8272\u661f\u671f\u4e94"
+      },
+      {
+        "value": "Cyber Monday",
+        "label": "\u7f51\u7edc\u661f\u671f\u4e00"
+      },
+      {
+        "value": "Ski Season",
+        "label": "\u6ed1\u96ea\u5b63"
+      },
+      {
+        "value": "Christmas",
+        "label": "\u5723\u8bde\u8282"
+      },
+      {
+        "value": "End of Year Sale",
+        "label": "\u5e74\u7ec8\u4fc3\u9500"
+      }
+    ]
+  }
 ]
