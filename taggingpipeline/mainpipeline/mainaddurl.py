@@ -94,6 +94,11 @@ def data_input(data_path, output_dir, input_data_q, configs=None):
             for to_search_list in to_search_lists:  # 一次取chunck_size种款式进行爬取数据
                 to_search_list = to_search_list if type(to_search_list) == list else [to_search_list]
                 totalnum = get_total_num(product_url, to_search_list)  # 读取chunck_size种款式的所有SKC
+                if totalnum:
+                    logger.info(f'total skc is {totalnum}')
+                else:
+                    logger.info(f'failed to get info from  to_search_list')
+                    totalnum = 0
                 logger.info(f'total skc is {totalnum}')
                 toadd_infos = configs["infos"]
                 params = configs["params"]
@@ -145,7 +150,7 @@ def auto_label(servicetag, queueimg, version, resqt, resq, params=None, res_dir=
     args:
         servicetag: question
         queueimg: the queue where data saved while getting
-        version: tag url
+        version: tag url， different url present different version
         resqt:
         resq:
         params:

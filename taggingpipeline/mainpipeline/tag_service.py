@@ -55,7 +55,7 @@ class Service:
             if self.label_key is None:
                 self.label_key = self.main_item_tag['item_main_key']['label_key']
         else:
-            # load category and tag
+            # load category and tag  todo 似乎有重复
             self.category = load_config(version, categorycsv)
             self.tag = load_config(version, tagcsv)
             # self.main_item_tag = load_config(version,'item_main_key')
@@ -71,18 +71,23 @@ class Service:
         # if self.about_option is None :
         #     self.about_option =pd.read_csv('/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/about_label.csv',skipinitialspace=True)
 
+        # load the known knowledge about(first category, second category and all tags[common tags and specific tags])
+        # the description about first category
         if self.about_category is None:
             self.about_category = pd.read_csv(
                 '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_ab_fc.csv',
                 skipinitialspace=True)
+        # the description about all tags todo need to be updated
         if self.about_label is None:
             self.about_label = pd.read_csv(
                 '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/about_option.csv',
                 skipinitialspace=True)
+        # the description about second category
         if self.about_option is None:
             self.about_option = pd.read_csv(
                 '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_ab_sc.csv',
                 skipinitialspace=True)
+        # the description about if the category is single or multi choice FIXME why not get from the phased tag url
         if self.if_multi is None:
             self.if_multi = pd.read_csv(
                 '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_if_multi.csv',
@@ -120,16 +125,16 @@ class Service:
         curtag = ''
         print('self.category type', type(self.category), 'self.category', self.category)
         logger.info(f'self.category type:{type(self.category)}', 'self.category:{self.category}')
-        for t_c_key in self.category.keys():
+        for t_c_key in self.category.keys():  # predict first category and second category
             print('t_c_key', t_c_key)
             print('self.category[t_c_key]', self.category[t_c_key])
             logger.info(f't_c_key:{t_c_key}', f'self.category[t_c_key]:{self.category[t_c_key]}')
 
-            if isinstance((self.category[t_c_key][0]), str):
+            if isinstance((self.category[t_c_key][0]), str):  # predict first category
                 curtag = self.single_label(t_c_key, curtag, self.category[t_c_key])
             elif isinstance((self.category[t_c_key][0]), list):
                 curtag = self.single_label(t_c_key, curtag, self.category[t_c_key][curtag])
-            elif isinstance((self.category[t_c_key][0]), dict):
+            elif isinstance((self.category[t_c_key][0]), dict):  # predict second category, 输入信息有冗余？
                 top_cs = [list(i.keys())[0] for i in self.category[t_c_key]]
                 if curtag in top_cs:
                     curtag = self.single_label(t_c_key, curtag, self.category[t_c_key][top_cs.index(curtag)][curtag])
@@ -170,7 +175,7 @@ class Service:
             l_index = top_ls.index(curtag)
         label_options = self.tag['type'][top_ls.index(curtag)][curtag]
 
-        for t_l_index, t_l_key_option in enumerate(label_options):
+        for t_l_index, t_l_key_option in enumerate(label_options):  # predict common label and category label
             print('t_l_key_option', t_l_key_option)
 
             if isinstance(t_l_key_option, dict):
@@ -199,15 +204,14 @@ class Service:
                     logger.info('get row["options"]', row["options"], 'row["explain"]', row["explain"])
                     t_key_desc += str(row["options"]) + " means " + str(row["explain"]) + "\n"
 
-        print(f'{t_key} ==first category', t_key == 'first category', 'curtag', curtag)
-        if t_key == 'first category':
+        elif t_key == 'first category':
             category_desc = self.about_category
             print("category_desc", self.about_category.shape)
             if category_desc.shape[0] != 0:
                 for index, row in self.about_category.iterrows():
                     print('row["category"]', row["category"])
                     t_key_desc += row["category"] + " means " + row["explain"] + "\n"
-        if t_key == 'subcategory':
+        elif t_key == 'subcategory':
             # print('t_key  in self.option["label"].tolist()',self.about_option.columns.tolist())
             all_attr = self.about_option[self.about_option["label"] == curtag]
             if all_attr.shape[0] != 0:
@@ -216,10 +220,10 @@ class Service:
         return t_key_desc
 
     def single_label(self, t_key, curtag, options):
-
+        # 在已知标签curtag的情况下，使用大模型在options选择需要预测的tag
         question_list = [copy.deepcopy(j) for j in self.question][1:]
         label_res = 'none'
-        i = 0
+        i = 0  # ？
 
         for question_i in question_list:
             lb = t_key + str(i)
@@ -235,7 +239,7 @@ class Service:
             # print('t_key',t_key)
             t_key_desc = ''
 
-            t_key_desc = self.check_about(t_key, curtag)
+            t_key_desc = self.check_about(t_key, curtag)  # 生成当前已知tag下，需要生成tag的描述 似乎只有预测一级和二级标签使用
 
             if t_key_desc != "":
                 qinfo = question["known_infomation"].replace("known_infomation", t_key_desc)
@@ -248,7 +252,7 @@ class Service:
             qinfo = qinfo.replace("options", f"options:{str(options).lower()}")
             qinfo = qinfo + question["constrains"]
 
-            if t_key in self.if_multi["label"].tolist():
+            if t_key in self.if_multi["label"].tolist():  # single choose or multi choose
 
                 qinfo = qinfo.replace("if_multi", "appropriate options")
                 qinfo = qinfo.replace("an answer", "one or more answer you think is correct")
@@ -257,7 +261,7 @@ class Service:
 
             tmpres = self.initqw.tag_main(lb, qinfo)
             tmpres = res_post_process(tmpres)
-            if t_key in self.if_multi["label"].tolist():
+            if t_key in self.if_multi["label"].tolist():  # check if the tag is exist in option tags
                 label_res = find_eles_in_list(tmpres, options)
             else:
                 label_res = find_element_in_list(tmpres, options)
@@ -268,7 +272,7 @@ class Service:
             logger.info('---------------------------')
             if label_res:
                 break
-            else:
+            else:  # predict fail and then predict one more time in quick qa way todo how it works
                 qa = copy.deepcopy(self.utilquestion).replace("to_determain_sentence", tmpres)
                 qa = qa.replace("to_chose_options", f'options:{str(options).lower()}')
                 label_res = self.initqw.quick_qa(qa)
@@ -301,7 +305,7 @@ class Service:
             print('=========start labeling==========')
             print('=======================================get labels==================================================')
             # load category and tag
-            self.load_label(version, categorycsv, tagcsv)
+            self.load_label(version, categorycsv, tagcsv)   # FIXME repeat operation for different skc
             print('=======================================start labeling==============================================')
             logger.info(
                 '=======================================start labeling==============================================')
@@ -316,7 +320,7 @@ class Service:
                 return tag
             else:
 
-                tag = self.single_com(imagedirs, product_info)
+                tag = self.single_com(imagedirs, product_info)  # predict all tags
 
                 if type(tag) == str:
                     tag = []
