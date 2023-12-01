@@ -8,14 +8,28 @@ from taggingpipeline.mainpipeline.get_info_from_url import upload_tag_res
 
 def phase_tag(json_path):
     """
+    all tags: first category, second category, common tag and category tag
+    we need the map relationship of first category and second category, common tag map, category tag map
+    and if the tag can be chosen ’multi‘
     args:
         json_path: the json file which downloaded from tag url
     returns:
-        merchandise_tag: {‘merchandise’: {'attributes': [each_attribute]}}
+        category_map: {'first_category': [each second_category]
+        common_tag_map: {'attributes': [each_attribute]}
+        category_tag_map: {‘second_category’: {'attributes': [each_attribute]}}
+        choose_item_map: {'attribute': single or multi}
     """
     with open(json_path, 'r') as f:
         tag_gt_json = json.load(f)
-    merchandise_tag = {}
+    category_map, common_tag_map, category_tag_map, choose_item_map = {}, {}, {}, {}
+    # phase first category and second category
+    for item in tag_gt_json['data']['categories']:
+        category_map[item['enName']] = [i['enName'] for i in item['children']]
+    # phase common tag
+    for item in tag_gt_json['data']['tags']:
+        common_tag_map[item['value']] = [i['value'] for i in item['items']]
+        choose_item_map[item['value']] = item['selectType']
+    # phase category tag
     for category in [i['children'] for i in tag_gt_json['data']['categories']]:
         for item in category:
             item_name = item['enName']
@@ -23,8 +37,9 @@ def phase_tag(json_path):
             item_tag = {}
             for tag in tag_gt_json['data']['categoryTagsMap'][item_id]:
                 item_tag[tag['value'].lower()] = [i['value'] for i in tag['items']]
-            merchandise_tag[item_name] = item_tag
-    return merchandise_tag
+                choose_item_map[tag['value'].lower()] = tag['selectType']
+            category_tag_map[item_name] = item_tag
+    return category_map, common_tag_map, category_tag_map, choose_item_map
 
 
 def revise_datas(data_path, merchandise_tag):
@@ -72,7 +87,7 @@ def upload_tags(revised_data, url='http://44.213.48.82:11181/product/skc/batchTa
 
 
 def main(tag_gt_path, data_path, output_root):
-    merchandise_tag = phase_tag(tag_gt_path)
+    _, _, _, merchandise_tag = phase_tag(tag_gt_path)
     revised_excel, revised_data = revise_datas(data_path, merchandise_tag)
     upload_tags(revised_data)
     revised_df = pd.DataFrame(revised_excel)
