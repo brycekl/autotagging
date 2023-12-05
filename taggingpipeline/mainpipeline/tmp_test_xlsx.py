@@ -1,13 +1,8 @@
 import pandas
 
 
-def read_xlx():
-    xlx_path = '/root/autodl-tmp/autotagging/spu5.xlsx'
-    data = pandas.read_excel(xlx_path, sheet_name='Sheet1').dropna(how='all')
-
-    print(data.columns.tolist(), data.shape)
-    half = int(data.shape[0] / 2) + 1
-    print(half)
+def read_xlx(spu_path='/root/autodl-tmp/autotagging/test.xlsx'):
+    data = pandas.read_excel(spu_path, sheet_name='Sheet1').dropna(how='all')
 
     return data['spu'].tolist()
 

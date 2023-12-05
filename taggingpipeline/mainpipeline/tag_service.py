@@ -93,9 +93,9 @@ class Service:
                 '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_if_multi.csv',
                 skipinitialspace=True)
             self.if_multi = self.if_multi[self.if_multi["is_multi"] == True]
-            logger.info(f'self.if_multi:{self.if_multi["label"].tolist()}')
+            # logger.info(f'self.if_multi:{self.if_multi["label"].tolist()}')
 
-        print('============================self.category', self.category)
+        # print('============================self.category', self.category)
 
     def single_com(self, imagedir, info):
         # start handle img
@@ -123,12 +123,10 @@ class Service:
         # get categorys
         main_key = ''
         curtag = ''
-        print('self.category type', type(self.category), 'self.category', self.category)
-        logger.info(f'self.category type:{type(self.category)}', 'self.category:{self.category}')
+
+        logger.info('---------------------Start to predict first category and second category!------------------------')
         for t_c_key in self.category.keys():  # predict first category and second category
-            print('t_c_key', t_c_key)
-            print('self.category[t_c_key]', self.category[t_c_key])
-            logger.info(f't_c_key:{t_c_key}', f'self.category[t_c_key]:{self.category[t_c_key]}')
+            logger.info(f'predict tag: {t_c_key}  tag options: {self.category[t_c_key]}')
 
             if isinstance((self.category[t_c_key][0]), str):  # predict first category
                 curtag = self.single_label(t_c_key, curtag, self.category[t_c_key])
@@ -142,11 +140,11 @@ class Service:
 
             tag_res.append({"label": t_c_key, "value": curtag})
             # print('tag_res',tag_res)
-            logger.info(f'tag_res:{tag_res}')
+            logger.info(f'known information after predict: {tag_res}\n')
 
             # label_key_lowers = [i.lower() for i in self.tag[self.label_key]]
-            print('[self.tag] type', type(self.tag))
-            print('self.tag[self.label_key]', self.tag[self.label_key])
+            # print('[self.tag] type', type(self.tag))
+            # print('self.tag[self.label_key]', self.tag[self.label_key])
 
             for ll_label in self.tag[self.label_key]:
 
@@ -168,15 +166,14 @@ class Service:
 
         curtag = main_key
 
-        print('dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd')
-
         top_ls = [list(i.keys())[0] for i in self.tag['type']]
         if curtag in top_ls:
             l_index = top_ls.index(curtag)
         label_options = self.tag['type'][top_ls.index(curtag)][curtag]
 
+        logger.info('---------------------Start to predict all category label!------------------------')
         for t_l_index, t_l_key_option in enumerate(label_options):  # predict common label and category label
-            print('t_l_key_option', t_l_key_option)
+            logger.info(f'predict tag and option choices: {t_l_key_option}')
 
             if isinstance(t_l_key_option, dict):
                 t_l_key = list(t_l_key_option.keys())[0]
@@ -190,7 +187,7 @@ class Service:
 
     def check_about(self, t_key, curtag):
         t_key_desc = ''
-        print('t_keyt_keyt_keyt_keyt_key', t_key)
+        # print('t_keyt_keyt_keyt_keyt_key', t_key)
         if t_key in self.about_label["label"].tolist():
             print('t_key in self.about_label["label"].tolist():', self.about_label.columns.tolist())
 
@@ -206,10 +203,10 @@ class Service:
 
         elif t_key == 'first category':
             category_desc = self.about_category
-            print("category_desc", self.about_category.shape)
+            # print("category_desc", self.about_category.shape)
             if category_desc.shape[0] != 0:
                 for index, row in self.about_category.iterrows():
-                    print('row["category"]', row["category"])
+                    # print('row["category"]', row["category"])
                     t_key_desc += row["category"] + " means " + row["explain"] + "\n"
         elif t_key == 'subcategory':
             # print('t_key  in self.option["label"].tolist()',self.about_option.columns.tolist())
@@ -261,15 +258,13 @@ class Service:
 
             tmpres = self.initqw.tag_main(lb, qinfo)
             tmpres = res_post_process(tmpres)
-            if t_key in self.if_multi["label"].tolist():  # check if the tag is exist in option tags
+            if t_key in self.if_multi["label"].tolist():  # check if the tag can be multi chosen, get the rest choices
                 label_res = find_eles_in_list(tmpres, options)
             else:
                 label_res = find_element_in_list(tmpres, options)
 
-            logger.info('---------------------------')
-            logger.info(f'tmpres:{tmpres}')
-            logger.info(f'label_res:{label_res}')
-            logger.info('---------------------------')
+            logger.info(f'tag: {t_key}    predict result: {tmpres}')
+            logger.info(f'all available tag:{label_res}\n\n')
             if label_res:
                 break
             else:  # predict fail and then predict one more time in quick qa way todo how it works
@@ -302,20 +297,18 @@ class Service:
     def tag_main(self, imagedirs, product_info, version, categorycsv='category', tagcsv='label'):
 
         try:
-            print('=========start labeling==========')
-            print('=======================================get labels==================================================')
             # load category and tag
             self.load_label(version, categorycsv, tagcsv)   # FIXME repeat operation for different skc
-            print('=======================================start labeling==============================================')
+            # print('=======================================start labeling==============================================')
             logger.info(
                 '=======================================start labeling==============================================')
             # get tag
-            print('imgdir', imagedirs)
-            logger.info(f'imgdir:{imagedirs}')
+            # print('imgdir', imagedirs)
+            logger.info(f'img dir:{imagedirs}')
             # if imagedirs  no img 
             tag = []
             if os.listdir(imagedirs) == []:
-                logger.info(f'no image found in {imagedirs}')
+                logger.warning(f'no image found in {imagedirs}')
                 tag = []
                 return tag
             else:
@@ -327,10 +320,6 @@ class Service:
                 if 'eror happend' in [i['label'] for i in tag]:
                     tag = []
 
-            print('=======================')
-            print('tag', tag)
-            logger.info('=======================')
-            logger.info(f'tag:{tag}')
             return tag
         except Exception as e:
             # print('error',e)

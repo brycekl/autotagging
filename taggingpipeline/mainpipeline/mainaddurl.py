@@ -29,20 +29,19 @@ MAXQSIZE = 0
 TAG_RES = queue.Queue()
 
 
-def data_input(data_path, output_dir, input_data_q, configs=None):
+def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=None, spu_path=None):
     """
     get some data from data_path, use input_data_q to communicate with other process
     args:
         data_path: the interface to get data
         output_dir: output root
         input_data_q: save data to communicate with other process
-        configs:
+        get_product_skc_interface: information of the interface while getting product skc
     return:
 
     """
     try:
         global MAXQSIZE
-        logger.info(f'output_dir {output_dir}')
         # if data_path is xlsx or csv，use pandas to read,if data_path is url ,use requests to read
         if data_path.endswith('xlsx') or data_path.endswith('csv'):
             datares = pd.read_csv(data_path, encoding='latin-1', skipinitialspace=True, dtype=str).dropna(how='all')
@@ -84,32 +83,29 @@ def data_input(data_path, output_dir, input_data_q, configs=None):
 
         elif data_path.startswith('http'):
             product_url = data_path
-            params = configs["params"]
-            device = configs["device"]
+            params = get_product_skc_interface["params"]
+            device = get_product_skc_interface["device"]
 
             from tmp_test_xlsx import read_xlx
-            to_search_ids = read_xlx()
+            to_search_ids = read_xlx(spu_path)
+            logger.info(f'total spu: {len(to_search_ids)}')
             chunck_size = 10
             to_search_lists = [to_search_ids[i:i + chunck_size] for i in range(0, len(to_search_ids), chunck_size)]
             for to_search_list in to_search_lists:  # 一次取chunck_size种款式进行爬取数据
                 to_search_list = to_search_list if type(to_search_list) == list else [to_search_list]
                 totalnum = get_total_num(product_url, to_search_list)  # 读取chunck_size种款式的所有SKC
-                if totalnum:
-                    logger.info(f'total skc is {totalnum}')
-                else:
-                    logger.info(f'failed to get info from  to_search_list')
-                    totalnum = 0
-                logger.info(f'total skc is {totalnum}')
-                toadd_infos = configs["infos"]
-                params = configs["params"]
+                if totalnum == 0:
+                    logger.warning(f'failed to get info from {to_search_list}')
+                logger.info(f'begin to cope with spu: {to_search_list}')
+                logger.info(f'get total skc number: {totalnum}')
+                toadd_infos = get_product_skc_interface["infos"]
+                params = get_product_skc_interface["params"]
                 params["pageSize"] = 100  # todo ？
                 params["pageNo"] = 0
-                logger.info(f'init params {params}')
                 pronum = 0
                 while pronum < totalnum:
                     # 得到product的信息
                     product_infos, params, pronum, total_skc = get_products(product_url, params, device, to_search_list)
-                    logger.info(f'params {params}')
                     logger.info(f'get useful product num is {pronum} from {str(params)})')
                     # print('product_infos',product_infos)
 
@@ -124,10 +120,10 @@ def data_input(data_path, output_dir, input_data_q, configs=None):
                             logger.info(f'can not get img url :which product is {product_info["id"]}:{product_info}')
                         if input_data != {}:
                             logger.info(
-                                '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+                                '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
                             logger.info(f'input_data {input_data}')
                             logger.info(
-                                '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+                                '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
 
                             input_data_q.put(input_data)
                             # global MAXQSIZE
@@ -145,10 +141,10 @@ def data_input(data_path, output_dir, input_data_q, configs=None):
         # return False, str(e)
 
 
-def auto_label(servicetag, queueimg, version, resqt, resq, params=None, res_dir=None, ):
+def auto_label(question_json, queueimg, version, resqt, resq, params=None, res_dir=None, ):
     """
     args:
-        servicetag: question
+        question_json: question
         queueimg: the queue where data saved while getting
         version: tag url， different url present different version
         resqt:
@@ -158,7 +154,7 @@ def auto_label(servicetag, queueimg, version, resqt, resq, params=None, res_dir=
 
     """
     canget = True
-    servicetag = Service(servicetag)
+    servicetag = Service(question_json)
     global TAG_RES
     try:
         tagres_outdir = os.path.join(res_dir, 'tag_res')
@@ -170,27 +166,27 @@ def auto_label(servicetag, queueimg, version, resqt, resq, params=None, res_dir=
             if qsize == 0:
                 message = 'no message'
                 ifpost, num, all_left_tagres, res, message = handle_tag_res(resq, 0, tagres_outdir, if_min=False)
-                logger.info(f'ifpost {ifpost},save all {num} tag_res to {all_left_tagres} ,messgae( {message})')
+                logger.info(f'if post {ifpost},save all {num} tag_res to {all_left_tagres} ,messgae( {message})')
                 # time.sleep(300)
 
-            imgsinfo = queueimg.get(block=True, timeout=300)
+            product_info = queueimg.get(block=True, timeout=300)
 
-            if imgsinfo is None:
-                logger.info('imgsinfo is None')
+            if product_info is None:
+                logger.info('product info is None')
                 canget = False
-                return False, 'no data'
+                return False, 'there is no product in queue'
             else:
-                logger.info(f'imgsinfo {imgsinfo}')
+                logger.info(f'product info: {product_info}')
 
             tag_perp = []
 
             # use llova generate tag answer
-            tag_perp = servicetag.tag_main(imgsinfo['imgs'], imgsinfo['info'], version)
+            tag_perp = servicetag.tag_main(product_info['imgs'], product_info['info'], version)
 
             logger.info(
                 '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
-            logger.info(f'imgsinfo {imgsinfo}')
-            logger.info(f'tag_perp {tag_perp}')
+            logger.info(f'product info: {product_info}')
+            logger.info(f'predict final result: {tag_perp}')
             logger.info(
                 '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 
@@ -206,7 +202,7 @@ def auto_label(servicetag, queueimg, version, resqt, resq, params=None, res_dir=
                 result_df_t = result_df_t.drop(result_df_t.index[0])
                 # result_df_t.insert(0,'idindex',imgsinfo['index'])
                 # result_df_t.insert(1,"product_url",imgsinfo['info']['link'])
-                result_df_t.insert(1, 'product_id', str(imgsinfo['id']))
+                result_df_t.insert(1, 'product_id', str(product_info['id']))
                 global RES
                 resqt.put(result_df_t)
 
@@ -220,7 +216,7 @@ def auto_label(servicetag, queueimg, version, resqt, resq, params=None, res_dir=
             if type(tag_res) != dict:
                 logger.info('tag_res is not dict,which type is {type(tag_res)}')
                 tag_res = tag_res = {"firstCategory": "", "skcId": "", "subCategory": "", "tags": {}}
-            tag_res["skcId"] = imgsinfo['id']
+            tag_res["skcId"] = product_info['id']
             # tag_res["firstCategory"] =tag_perp
             if tag_perp != []:
                 logger.info(f'not empty tag_perp {tag_perp}')
@@ -259,7 +255,7 @@ def handle_tag_res(resq, maxlimit, outdir, if_min=False):
     # global resq
     count = 0
     topost = []
-    message = 'no message no post'
+    message = 'no message to post'
 
     if if_min:
         if resq.qsize() >= maxlimit:
@@ -267,19 +263,17 @@ def handle_tag_res(resq, maxlimit, outdir, if_min=False):
     else:
         count = resq.qsize()
 
-    print('resq.qsize()', resq.qsize(), 'count', count)
+    logger.info('the number of q queue: ', resq.qsize(), '.  upload data number:', count)
     if count != 0:
         for j in range(count):
             element = resq.get()
             # print('element',element)
             if element['tags'] != {}:
                 topost.append(element)
-        print('totototototototototototototototototototototopost', topost)
 
         urlfile = '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/product_urls.json'
 
         tagurl = reload(urlfile)['tagurl']
-        print('tagurl', tagurl, 'len(topost)', len(topost))
         # print('topost',topost)
         topost = json.loads(json.dumps(topost))
 
@@ -347,6 +341,8 @@ if __name__ == "__main__":
 
     parser.add_argument('--cfgpath', type=str, default='/root/autodl-tmp/autotagging/start_tag.json',
                         help='question.json path')
+    parser.add_argument('--spu_path', type=str,
+                        default='/root/autodl-tmp/autotagging/data_utils/spu/SPU_131204.xlsx')
 
     args = parser.parse_args()
     torch.multiprocessing.set_start_method('spawn')
@@ -355,10 +351,11 @@ if __name__ == "__main__":
     with open(args.cfgpath, 'r') as f:
         cfg = json.load(f)
     f.close()
+    logger.info(f'spu path: {args.spu_path}')
 
     res_dir = cfg['res_dir']
-    gettag_url = cfg['gettag_url']
-    get_product_skc = cfg['get_product_skc']
+    gettag_url_interface = cfg['gettag_url']
+    get_product_skc_interface = cfg['get_product_skc']
     product_source = cfg['get_product_skc']["product_url"]
     questionjson = cfg['questionjson']
     upload_tag_param = cfg['upload_tags']
@@ -384,14 +381,15 @@ if __name__ == "__main__":
     # 创建并启动两个进程
     imgs_res_dir = os.path.join(res_dir, 'imgs')
     os.makedirs(imgs_res_dir)
-    logger.info(f'imgs_res_dir {imgs_res_dir}')
+    logger.info(f'img save root: {imgs_res_dir}')
     logger.info('====================================START PROCESS====================================')
-    p1 = multiprocessing.Process(target=data_input, args=(product_source, imgs_res_dir, q, get_product_skc))
+    p1 = multiprocessing.Process(target=data_input, args=(product_source, imgs_res_dir, q, get_product_skc_interface,
+                                                          args.spu_path))
     p2 = multiprocessing.Process(target=auto_label,
-                                 args=(questionjson, q, gettag_url, resqt, resq, upload_tag_param, res_dir))
+                                 args=(questionjson, q, gettag_url_interface, resqt, resq, upload_tag_param, res_dir))
 
     p1.start()
-    time.sleep(200)
+    time.sleep(100)
     p2.start()
     # 
     p1.join()
@@ -428,7 +426,6 @@ if __name__ == "__main__":
     while resqt.qsize() > 0:
         tmpres = resqt.get(block=True, timeout=240)
         RES = pd.concat([RES.astype(str), tmpres.astype(str)], axis=0, ignore_index=True)
-        print('RES.shape', RES.shape)
         # print('RES_t',RES_t)
         logger.info(f'RES.shape {RES.shape}')
 

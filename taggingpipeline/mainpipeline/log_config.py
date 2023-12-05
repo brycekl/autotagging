@@ -10,5 +10,12 @@ logger.add(os.path.join(logdir, f'{time.strftime("%Y%m%d_%H%M")}_log.log'), rota
            format="[{time:HH:mm:ss}] {level} - {message}")
 
 
+def level_filter(level):
+    def is_level(record):
+        return record["level"].name == level
+    return is_level
+# logger.add("./logs/app.log", filter=level_filter(level="WARNING"))
+
+
 def get_logger():
     return logger

@@ -78,12 +78,11 @@ class InitLLA:
         # load image
         imgs = []
         if os.path.isdir(image_file):
-            print('isdir')
             for root, dirs, files in os.walk(image_file):
                 for file in files:
                     if file.endswith('.jpg') or file.endswith('.png'):
                         imgs.append(load_image(os.path.join(root, file)))
-            print(f'len image is {len(imgs)}')
+            logger.info(f'len of image is {len(imgs)}')
         else:
             imgs.append(load_image(image_file))
 
@@ -94,7 +93,6 @@ class InitLLA:
         else:
             image_tensor = image_tensor.to(self.model.device, dtype=torch.float16)
 
-        print(f'image tensor shape is {image_tensor.shape}')
         logger.info(f'image tensor shape is {image_tensor.shape}')
 
         return image_tensor, imgs
@@ -124,12 +122,12 @@ class InitLLA:
         self.conv_ = copy.deepcopy(self.conv)
         self.tmptag_ = None
 
-        logger.info(f'Q:{inp} \n\n A:{response}')
+        logger.info(f'Question and Answer: \nQ:{inp}A:{response}')
 
         return response
 
     def infer_noimg(self, imagepath, inp):
-        logger.info('start qa without images')
+        logger.info('start qa without images.')
 
         if self.tmptag_ is None:
             self.tmptag_ = imagepath
@@ -141,7 +139,7 @@ class InitLLA:
         self.conv_.append_message(self.conv_.roles[0], inp)
         conv = copy.deepcopy(self.conv_)
         response, self.conv_ = self.infer(conv)
-        logger.info(f'Q:{inp} \n\n A:{response}')
+        logger.info(f'Question and Answer: \nQ:{inp}A:{response}')
 
         return response
 
@@ -156,7 +154,6 @@ class InitLLA:
         keywords = [stop_str]
         stopping_criteria = KeywordsStoppingCriteria(keywords, self.tokenizer, input_ids)
         streamer = TextStreamer(self.tokenizer, skip_prompt=True, skip_special_tokens=True)
-        logger.info(f'!!!!!!!start generate!!!!!!!!!!!!!!!!!')
 
         with torch.inference_mode():
             output_ids = self.model.generate(
@@ -190,7 +187,6 @@ class InitLLA:
         keywords = [stop_str]
         stopping_criteria = KeywordsStoppingCriteria(keywords, self.tokenizer, input_ids)
         streamer = TextStreamer(self.tokenizer, skip_prompt=True, skip_special_tokens=True)
-        logger.info(f'!!!!!!!start generate!!!!!!!!!!!!!!!!!')
 
         with torch.inference_mode():
             output_ids = self.model.generate(
@@ -207,13 +203,12 @@ class InitLLA:
         conv_qa.messages[-1][-1] = outputs
         outputs = outputs.replace("</s>", "")
 
-        logger.info(f'Q:{inp} \n\n A:{outputs}')
+        logger.info(f'Question and Answer: \nQ:{inp}A:{outputs}')
 
         conv_qa = None
         return outputs
 
     def tag_main(self, imagepath, qname):
-        logger.info('start qa')
         response = '</s>'
 
         if os.path.isdir(imagepath) or os.path.isfile(imagepath):
@@ -225,7 +220,7 @@ class InitLLA:
         response = response.replace("</s>", "")
 
         # response = self.infer(imgs,qname)
-        print(f'Q:{qname} \n\n A:{response}')
+        # print(f'Q:{qname} \n\n A:{response}')
 
         return response
 

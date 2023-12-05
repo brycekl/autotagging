@@ -10,9 +10,7 @@ def get_tags(tagurl):
     cate_id_name = {}
     puc_tags = []
 
-    print("tagurl", tagurl)
     response = requests.get(tagurl, stream=True, timeout=120)
-    print("response.status_code", response.status_code)
 
     if response.status_code == 200:
         datas = response.json()
@@ -36,7 +34,7 @@ def get_tags(tagurl):
                 options.append(cate["enName"])
             category["subcategory"].append({cate["enName"]: options})
         tags = datas["data"]["tags"]
-        print("cate_id_name", cate_id_name)
+        # print("cate_id_name", cate_id_name)
 
         # get tags
         for tag in tags:
@@ -91,7 +89,6 @@ def get_products(product_url, params, device, spus=[]):
         del params["spus"]
     # get pageno by device_num and device_index,eg：device_num=2,device_index=0,then pageno=0，2,4,6,8,10...，if  device_num=3,device_index=1,then pageno=1,4,7,10,13,16...
     # pageno = device_num*pageno+device_index\
-    print("params", params, "spus", spus)
     # del params['homepagestatus']
     if pageno == 0:
         params["pageNo"] = device_index
@@ -116,7 +113,7 @@ def get_product_info(product_url, params):
             "accept": "*/*",
             "Content-Type": "application/json"
         }
-        print("get_product_info params", params)
+        # print("get_product_info params", params)
         response = requests.post(product_url, json=params, headers=headers)
         if response.status_code == 200:
             # if response.code == 200:
@@ -176,16 +173,13 @@ def get_product_infp(tagurl, pageno, pagesize):
 
 
 def get_total_num(tagurl, spus=[]):
-    prouct_infos = []
+    totalnum = 0
     try:
-        if len(spus) >= 1:
-            # request_data = { "pageNo":0,"pageSize":1,"homepagestatus":2,"spus":spus}
-            request_data = {"pageNo": 0, "pageSize": 1, "spus": spus}
-        # request_data = { "pageNo":0,"pageSize":1,"homepagestatus":2}
+        # request_data = { "pageNo":0,"pageSize":1,"homepagestatus":2,"spus":spus}
+        request_data = {"pageNo": 0, "pageSize": 1, "spus": spus}
         headers = {"accept": "*/*", "Content-Type": "application/json"}
-        print("request_data", request_data)
         response = requests.post(tagurl, json=request_data, headers=headers)
-        print("response", response)
+        # print("response: ", response)
         if response.status_code == 200:
             # if response.code == 200:
             datas = response.json()
@@ -201,16 +195,10 @@ def upload_tag_res(tagurl, tag_res):
     ifpost = False
     message = 'post but failed'
     try:
-        print("tagurl", tagurl)
-        # response = requests.get(tagurl)
         headers = {
             "accept": "*/*",
             "Content-Type": "application/json"
         }
-        # print("tag_res",tag_res)
-        print('tah_restah_restah_restah_res', type(tag_res))
-        # if  not isinstance(tag_res,list):
-        #     tag_res = [tag_res]
 
         response = requests.post(tagurl, json=tag_res, headers=headers)
 
@@ -219,9 +207,7 @@ def upload_tag_res(tagurl, tag_res):
         if response.status_code == 200:
 
             data = response.json()
-            print("data", data)
             message = str(data)
-            print("message", data["message"])
             if data["success"] and data["message"] == "Success.":
                 ifpost = True
     except Exception as e:
