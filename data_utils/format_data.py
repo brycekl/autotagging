@@ -8,22 +8,30 @@ all_attr = ['spu', 'skc_id', 'link', 'first_category', 'second_category', 'color
 
 
 def format_data(data_root, output_root, data_name):
-    datas = pd.read_excel(f'{data_root}/{data_name}', sheet_name=None)
+    datas = pd.read_excel(f'{data_root}/{data_name}', sheet_name=None, converters={'skc_id': str})
     gt_ori = datas['gt'].to_dict('list')
     pre_ori = datas['pre'].to_dict('list')
     gt = {attr: [] for attr in all_attr}
     pre = {attr: [] for attr in all_attr}
     gt_nums = len(gt_ori['link'])
     pre_nums = len(pre_ori['link'])
+
     # complete all attributes
     for attr in gt:
         gt[attr] = gt_ori[attr] if attr in gt_ori else [None] * gt_nums
         pre[attr] = pre_ori[attr] if attr in pre_ori else [None] * pre_nums
         # number's length longer than 16 will be saved as 10e
-        if isinstance(gt[attr][0], int):
-            gt[attr] = list(map(str, gt[attr]))
-        if isinstance(pre[attr][0], int):
-            pre[attr] = list(map(str, pre[attr]))
+        # gt['skc_id'] = list(map(str, gt['skc_id']))
+        # pre['skc_id'] = list(map(str, pre['skc_id']))
+
+    # copy attr which exist in ori but do not have in all_attr
+    for attr in gt_ori:
+        if attr not in gt:
+            gt[attr] = gt_ori[attr]
+    for attr in pre_ori:
+        if attr not in pre:
+            pre[attr] = pre_ori[attr]
+
     # complete gt' skc_id and spu from pre by using attribute link
     # not every pre data have been revised,
     if any(gt['spu'] + gt['skc_id']):
@@ -45,7 +53,7 @@ def format_data(data_root, output_root, data_name):
 if __name__ == '__main__':
     """
     format the revised tags to one formation
-    need to revise attrs of origin table：COLOR_, color, first_category, second_category
+    need to revise attrs of origin table：color_ori, COLOR, first_category, second_category
     """
-    data_name = '20231122.xlsx'
+    data_name = '11131204.xlsx'
     format_data('../output/origin', '../output', data_name)
