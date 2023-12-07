@@ -5,52 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from fix_tag import phase_tag
-from data_utils.metrics_utils import get_multi_path_skc2img
+from data_utils.metrics_utils import get_multi_path_skc2img, merge_excel, load_data
 from shutil import copytree
-
-
-metric_attrs = ['COLOR', 'Saturation', 'Brightness', 'MATERIAL', 'PATTERN', 'TRENDS', 'PROCESS', 'OCCASION', 'LOCATION',
-                'STYLE', 'SEASON', 'Fit', 'Event', 'Neckline', 'Collar', 'Sleeve Shape', 'Sleeve Length', 'Cuff',
-                'Shoulder', 'Back', 'Waist', 'Waistband', 'Length', 'Cut', 'Rise', 'Design']
-
-
-def load_data(data_root, data_name):
-    f"""
-    load data from {data_root}/{data_name}, choose the pre data according to gt data(not every pre data has gt)
-    """
-    datas = pd.read_excel(f'{data_root}/{data_name}', sheet_name=None, converters={'skc_id': str})
-    gt = datas['gt'].to_dict('list')
-    pre_ori = datas['pre'].to_dict('list')
-    pre = {attr: [] for attr in pre_ori}
-    no_exist = []
-    # gt the corresponding pre data from original pre according to gt sck_id
-    for gt_ind, id in enumerate(gt['skc_id']):
-        ind = pre_ori['skc_id'].index(id) if id in pre_ori['skc_id'] else -1
-        if ind == -1:
-            no_exist.append(id)
-            for attr in gt:
-                gt[attr].pop(gt_ind)
-        else:
-            for attr in pre:
-                pre[attr].append(pre_ori[attr][ind])
-
-    # Fixme lower all letter
-    global metric_attrs
-    metric_attrs = list(map(lambda i: i.lower(), metric_attrs))
-    keys = list(gt.keys())
-    for attr in keys:
-        gt.update({attr.lower(): gt.pop(attr)})
-        pre.update({attr.lower(): pre.pop(attr)})
-        if attr.lower() in metric_attrs + ['color_ori', 'first_category', 'second_category']:
-            gt[attr.lower()] = list(map(lambda i: i.lower() if isinstance(i, str) else i, gt[attr.lower()]))
-            pre[attr.lower()] = list(map(lambda i: i.lower() if isinstance(i, str) else i, pre[attr.lower()]))
-
-    # convert to numpy for convenient cope
-    for attr in gt:
-        gt[attr] = np.array(gt[attr])
-        pre[attr] = np.array(pre[attr])
-    assert np.all(gt['skc_id'] == pre['skc_id']), 'wrong'
-    return gt, pre, no_exist
 
 
 def compute_acc(gt, pre):
@@ -130,13 +86,18 @@ def remove_wrong_data(data, wrong_ind):
 if __name__ == '__main__':
     res = {}  # for saving the acc result of different attributes
     data_name = '20231122.xlsx'
-    cm_save_root = './output/confusion_matrix'
-    wi_save_root = './output/wrong_data_skc/' + data_name.split('.xlsx')[0]
+    paths = ['./output/20231122.xlsx',  './output/20231124_first.xlsx']
     wrong_predict = {'spu': [], 'skc_id': [], 'wrong': []}
 
+    # load datas and set save root
     gt, pre, no_exist = load_data('./output', data_name)
+    if paths:
+        gt, pre, no_exist = merge_excel(paths)
+        data_name = 'merge.xlsx'
     category_map, common_tag_map, category_tag_map, choose_item_map = phase_tag('./data_utils/tag_gt.json')
     skc2img_root, repeat_skc = get_multi_path_skc2img()
+    cm_save_root = './output/confusion_matrix' + data_name.split('.xlsx')[0]
+    wi_save_root = './output/wrong_data_skc/' + data_name.split('.xlsx')[0]
 
     # compute acc of first category
     first_cat_acc, first_wrong_ind = compute_metrics('first_category', gt['first_category'], pre['first_category'],
