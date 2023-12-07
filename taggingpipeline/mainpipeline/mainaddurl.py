@@ -18,6 +18,7 @@ logger = get_logger()
 from tag_service import Service
 from utils import download_data, reload
 from get_info_from_url import upload_tag_res, get_products, get_total_num
+from data_utils.predict_utils import format_save_info
 import queue
 
 global RES_t
@@ -42,6 +43,7 @@ def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=No
     """
     try:
         global MAXQSIZE
+        all_product_info = []
         # if data_path is xlsx or csv，use pandas to read,if data_path is url ,use requests to read
         if data_path.endswith('xlsx') or data_path.endswith('csv'):
             datares = pd.read_csv(data_path, encoding='latin-1', skipinitialspace=True, dtype=str).dropna(how='all')
@@ -87,7 +89,7 @@ def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=No
             device = get_product_skc_interface["device"]
 
             from tmp_test_xlsx import read_xlx
-            to_search_ids = read_xlx(spu_path)
+            to_search_ids = list(set(read_xlx(spu_path)))
             logger.info(f'total spu: {len(to_search_ids)}')
             chunck_size = 10
             to_search_lists = [to_search_ids[i:i + chunck_size] for i in range(0, len(to_search_ids), chunck_size)]
@@ -106,6 +108,7 @@ def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=No
                 while pronum < totalnum:
                     # 得到product的信息
                     product_infos, params, pronum, total_skc = get_products(product_url, params, device, to_search_list)
+                    all_product_info.extend(product_infos)   # save info
                     logger.info(f'get useful product num is {pronum} from {str(params)})')
                     # print('product_infos',product_infos)
 
@@ -131,6 +134,7 @@ def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=No
                     pronum += pronum
 
                 # time.sleep(10)
+            # format_save_info(all_product_info, save_root=output_dir.replace('imgs', ''))
 
     except Exception as e:
         logger.error(f'{traceback}')
@@ -207,16 +211,13 @@ def auto_label(question_json, queueimg, version, resqt, resq, params=None, res_d
                 resqt.put(result_df_t)
 
             # tag_res = params["format"]
-            tag_res = {
-                "firstCategory": "",
-                "skcId": "",
-                "subCategory": "",
-                "tags": {}
-            }
-            if type(tag_res) != dict:
-                logger.info('tag_res is not dict,which type is {type(tag_res)}')
-                tag_res = tag_res = {"firstCategory": "", "skcId": "", "subCategory": "", "tags": {}}
-            tag_res["skcId"] = product_info['id']
+            tag_res = {"firstCategory": "string",
+                       "firstFrom": "ai",
+                       "skcId": product_info['id'],
+                       "subCategory": "string",
+                       "subFrom": "ai",
+                       "tags": {}}
+
             # tag_res["firstCategory"] =tag_perp
             if tag_perp != []:
                 logger.info(f'not empty tag_perp {tag_perp}')
@@ -234,7 +235,7 @@ def auto_label(question_json, queueimg, version, resqt, resq, params=None, res_d
                 logger.info('=========================================================')
                 resq.put(tag_res)
             message = 'no message'
-            ifpost, savenum, tmp_tagres_dir, resq, message = handle_tag_res(resq, maxlimit=20, outdir=tagres_outdir,
+            ifpost, savenum, tmp_tagres_dir, resq, message = handle_tag_res(resq, maxlimit=10, outdir=tagres_outdir,
                                                                             if_min=True)
             logger.info(f'ifpost {ifpost},save {savenum} tag_res to {tmp_tagres_dir},messgae( {message})')
             # TODO:分批读取和传回结果
@@ -342,7 +343,7 @@ if __name__ == "__main__":
     parser.add_argument('--cfgpath', type=str, default='/root/autodl-tmp/autotagging/start_tag.json',
                         help='question.json path')
     parser.add_argument('--spu_path', type=str,
-                        default='/root/autodl-tmp/autotagging/data_utils/spu/SPU_131204.xlsx')
+                        default='/root/autodl-tmp/autotagging/data_utils/spu/test.xlsx')
 
     args = parser.parse_args()
     torch.multiprocessing.set_start_method('spawn')
