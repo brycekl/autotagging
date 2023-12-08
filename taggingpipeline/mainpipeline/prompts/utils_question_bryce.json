@@ -1,0 +1,3 @@
+{
+  "Normalization": "to_determain_sentence \n Simplify this sentence with one of the options, output the single word option only. If you do not have enough information can not find the option, output 'none' \n to_chose_options"
+}

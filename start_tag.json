@@ -25,7 +25,7 @@
         "tagres_outdir":"/root/autodl-tmp/tmp_res/tag_res/output/topost"
     },
     "res_dir":"/root/autodl-tmp/tmp_res/tag_res/output",
-    "questionjson":"/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/prompts/quesion.json"
+    "questionjson":"/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/prompts/quesion_bryce.json"
     
     
 }
