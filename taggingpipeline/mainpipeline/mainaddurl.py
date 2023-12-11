@@ -1,4 +1,6 @@
 import multiprocessing
+import sys
+sys.path.append('/root/autodl-tmp/autotagging/')
 import argparse
 import json
 import multiprocessing
@@ -43,7 +45,8 @@ def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=No
     """
     try:
         global MAXQSIZE
-        all_product_info = []
+        # all_product_info = []
+        # output_dir = '/root/autodl-tmp/datas/imgs'
         # if data_path is xlsx or csv，use pandas to read,if data_path is url ,use requests to read
         if data_path.endswith('xlsx') or data_path.endswith('csv'):
             datares = pd.read_csv(data_path, encoding='latin-1', skipinitialspace=True, dtype=str).dropna(how='all')
@@ -108,7 +111,6 @@ def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=No
                 while pronum < totalnum:
                     # 得到product的信息
                     product_infos, params, pronum, total_skc = get_products(product_url, params, device, to_search_list)
-                    all_product_info.extend(product_infos)   # save info
                     logger.info(f'get useful product num is {pronum} from {str(params)})')
                     # print('product_infos',product_infos)
 
@@ -117,6 +119,10 @@ def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=No
                     for product_info in product_infos:  # cope each product
                         # download img and cope product info to input format
                         input_data, imgs = pre_process(product_info, output_dir, toadd_infos)
+
+                        # # save info
+                        # product_info['info'] = json.dumps(input_data['info'])
+                        # all_product_info.append(product_info)
                         if input_data == {}:
                             logger.info(f'tagcount >=0,do not tag, {product_info["id"]}:{product_info}')
                         elif len(imgs) == 0:
@@ -131,6 +137,7 @@ def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=No
                             input_data_q.put(input_data)
                             # global MAXQSIZE
                             MAXQSIZE += 1
+
                     pronum += pronum
 
                 # time.sleep(10)

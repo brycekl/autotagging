@@ -122,7 +122,7 @@ class InitLLA:
         self.conv_ = copy.deepcopy(self.conv)
         self.tmptag_ = None
 
-        logger.info(f'Question and Answer: \nQ:{inp}A:{response}')
+        logger.info(f'Question and Answer: \nQ:{inp}\nA:{response}')
 
         return response
 
@@ -139,7 +139,7 @@ class InitLLA:
         self.conv_.append_message(self.conv_.roles[0], inp)
         conv = copy.deepcopy(self.conv_)
         response, self.conv_ = self.infer(conv)
-        logger.info(f'Question and Answer: \nQ:{inp}A:{response}')
+        logger.info(f'Question and Answer: \nQ:{inp}\nA:{response}')
 
         return response
 
@@ -203,7 +203,7 @@ class InitLLA:
         conv_qa.messages[-1][-1] = outputs
         outputs = outputs.replace("</s>", "")
 
-        logger.info(f'Question and Answer: \nQ:{inp}A:{outputs}')
+        logger.info(f'Question and Answer: \nQ:{inp}\nA:{outputs}')
 
         conv_qa = None
         return outputs

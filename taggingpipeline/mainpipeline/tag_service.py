@@ -25,7 +25,7 @@ class Service:
         self.utilquestion = self.load_configs(questionjson.replace('quesion', 'utils_question'))["Normalization"]
         self.q1_info = self.question[0]["first question"]
         self.version = None
-        self.label_explain = pd.read_csv(questionjson.replace('quesion.json', 'label_quesion.csv'), header=0)
+        self.label_explain = pd.read_csv(questionjson.replace('quesion_bryce.json', 'label_quesion.csv'), header=0)
         print('self.label_explain', self.label_explain.columns.tolist())
         self.about_category = None
         self.about_label = None
@@ -75,22 +75,22 @@ class Service:
         # the description about first category
         if self.about_category is None:
             self.about_category = pd.read_csv(
-                '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_ab_fc.csv',
+                '/root/autodl-tmp/autotagging/data_utils/definition/first_category.csv',
                 skipinitialspace=True)
         # the description about all tags todo need to be updated
         if self.about_label is None:
             self.about_label = pd.read_csv(
-                '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/about_option.csv',
+                '/root/autodl-tmp/autotagging/data_utils/definition/categories.csv',
                 skipinitialspace=True)
         # the description about second category
         if self.about_option is None:
             self.about_option = pd.read_csv(
-                '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_ab_sc.csv',
+                '/root/autodl-tmp/autotagging/data_utils/definition/second_category.csv',
                 skipinitialspace=True)
         # the description about if the category is single or multi choice FIXME why not get from the phased tag url
         if self.if_multi is None:
             self.if_multi = pd.read_csv(
-                '/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs/label_question/label_quesion_if_multi.csv',
+                '/root/autodl-tmp/autotagging/data_utils/definition/if_multi.csv',
                 skipinitialspace=True)
             self.if_multi = self.if_multi[self.if_multi["is_multi"] == True]
             # logger.info(f'self.if_multi:{self.if_multi["label"].tolist()}')
@@ -121,7 +121,7 @@ class Service:
 
         res = self.initqw.tag_main(imagedir, q1)
         # get categorys
-        main_key = ''
+        main_key = ''  # main_key used as the known info(second category) while classify category tags
         curtag = ''
 
         logger.info('---------------------Start to predict first category and second category!------------------------')
@@ -208,7 +208,7 @@ class Service:
                 for index, row in self.about_category.iterrows():
                     # print('row["category"]', row["category"])
                     t_key_desc += row["category"] + " means " + row["explain"] + "\n"
-        elif t_key == 'subcategory':
+        elif t_key == 'subcategory':  # Fixme 需要使预测的tag能匹配到描述里的tag，tag得统一
             # print('t_key  in self.option["label"].tolist()',self.about_option.columns.tolist())
             all_attr = self.about_option[self.about_option["label"] == curtag]
             if all_attr.shape[0] != 0:
@@ -258,13 +258,13 @@ class Service:
 
             tmpres = self.initqw.tag_main(lb, qinfo)
             tmpres = res_post_process(tmpres)
-            if t_key in self.if_multi["label"].tolist():  # check if the tag can be multi chosen, get the rest choices
+            if t_key in self.if_multi["label"].tolist():  # maybe the Ai answer is not in option, check and revise it
                 label_res = find_eles_in_list(tmpres, options)
             else:
                 label_res = find_element_in_list(tmpres, options)
 
-            logger.info(f'tag: {t_key}    predict result: {tmpres}')
-            logger.info(f'all available tag:{label_res}\n\n')
+            logger.info(f'tag: {t_key}  predict result: {tmpres}\n')
+            # logger.info(f'all available tag: {label_res}\n\n')
             if label_res:
                 break
             else:  # predict fail and then predict one more time in quick qa way todo how it works
@@ -305,6 +305,7 @@ class Service:
             # get tag
             # print('imgdir', imagedirs)
             logger.info(f'img dir:{imagedirs}')
+            logger.info(f'input data: {product_info}')
             # if imagedirs  no img 
             tag = []
             if os.listdir(imagedirs) == []:
