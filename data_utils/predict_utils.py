@@ -6,6 +6,8 @@ from tqdm import tqdm
 import numpy as np
 import torch
 import random
+from bs4 import BeautifulSoup
+from collections import Counter
 
 
 def format_save_info(product_info, save_root):
@@ -31,14 +33,43 @@ def format_save_info(product_info, save_root):
 
 
 def load_local_data(data_path, info_path):
-    all_datas = []
+    all_datas, no_img_skc, repeat_data = [], [], {}
     datas = pd.read_excel(data_path).to_dict('list')
     infos = pd.read_excel(info_path).to_dict('list')
+    # remove the repeat skc in datas todo 优化
+    datas['skc_id'] = np.array(datas['skc_id'])
+    datas['spu'] = np.array(datas['spu'])
+    skc_num = Counter(datas['skc_id'])
+    for skc, num in skc_num.items():
+        if num == 1:
+            continue
+        ind = np.where(datas['skc_id'] == skc)[0]
+        true_ind = datas['skc_id'] != skc
+        true_ind[ind[1]] = True
+        for attr in datas:
+            datas[attr] = datas[attr][true_ind]
+
     for ind, skc_id in tqdm(enumerate(datas['skc_id'])):
-        info_ind = infos['skc_id'].index(skc_id)
-        input_data = {'spu': datas['spu'][ind],'skc_id': str(skc_id), 'imgs': infos['imgs'][info_ind], 'info': json.loads(infos['info'][info_ind])}
-        all_datas.append(input_data)
-    return all_datas
+        if skc_id in infos['skc_id']:
+            info_ind = infos['skc_id'].index(skc_id)
+            # if the img path do not have any img, continue
+            if len(os.listdir(infos['imgs'][info_ind])) == 0:
+                no_img_skc.append(skc_id)
+                continue
+            # save data
+            input_data = {'spu': datas['spu'][ind], 'skc_id': str(skc_id), 'imgs': infos['imgs'][info_ind], 'info': {}}
+            if isinstance(infos['info'][info_ind], str):
+                input_info = json.loads(infos['info'][info_ind])
+                input_info['desc'] = remove_html_tags(input_info['desc']).strip()
+                input_data['info'] = input_info
+            all_datas.append(input_data)
+    return all_datas, no_img_skc, repeat_data
+
+
+def remove_html_tags(text):
+    soup = BeautifulSoup(text, "html.parser")
+    cleaned_text = soup.get_text()
+    return cleaned_text
 
 
 def set_seed(seed):

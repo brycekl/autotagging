@@ -97,7 +97,7 @@ class Service:
 
         # print('============================self.category', self.category)
 
-    def single_com(self, imagedir, info):
+    def single_com(self, imagedir, info, pre_category_tag=True):
         # start handle img
         # start from top category
         q1_info = copy.deepcopy(self.q1_info)
@@ -105,7 +105,7 @@ class Service:
         tag_res = []
 
         # ask first quesion 
-        stepstr = q1_info["steps"].replace("refer_infomation", f'refer info:{info}')
+        stepstr = q1_info["steps"].replace("refer_infomation", f'refer info: {info}')
         q1 = q1_info["role"] + stepstr + q1_info["question"]
         # check imagedir
         imgs = os.listdir(imagedir)
@@ -158,30 +158,31 @@ class Service:
             #     main_key = curtag
             #     main_key =self.tag[label_key_lowers.index(curtag.lower())]
         # get label
-        if main_key == '':
-            # TODO if no features found for the current category, search all label 
-            tag_res.append({"label": 'eror happend', "value": 'No features found for the current category'})
+        if pre_category_tag:
+            if main_key == '':
+                # TODO if no features found for the current category, search all label
+                tag_res.append({"label": 'eror happend', "value": 'No features found for the current category'})
 
-            return tag_res
+                return tag_res
 
-        curtag = main_key
+            curtag = main_key
 
-        top_ls = [list(i.keys())[0] for i in self.tag['type']]
-        if curtag in top_ls:
-            l_index = top_ls.index(curtag)
-        label_options = self.tag['type'][top_ls.index(curtag)][curtag]
+            top_ls = [list(i.keys())[0] for i in self.tag['type']]
+            if curtag in top_ls:
+                l_index = top_ls.index(curtag)
+            label_options = self.tag['type'][top_ls.index(curtag)][curtag]
 
-        logger.info('---------------------Start to predict all category label!------------------------')
-        for t_l_index, t_l_key_option in enumerate(label_options):  # predict common label and category label
-            logger.info(f'predict tag and option choices: {t_l_key_option}')
+            logger.info('---------------------Start to predict all category label!------------------------')
+            for t_l_index, t_l_key_option in enumerate(label_options):  # predict common label and category label
+                logger.info(f'predict tag and option choices: {t_l_key_option}')
 
-            if isinstance(t_l_key_option, dict):
-                t_l_key = list(t_l_key_option.keys())[0]
-                # print('t_l_keyt_l_keyt_l_keyt_l_keyt_l_keyt_l_key',t_l_key)
-                if isinstance((t_l_key_option[t_l_key]), list):
-                    curtag = self.single_label(t_l_key, main_key, t_l_key_option[t_l_key])
+                if isinstance(t_l_key_option, dict):
+                    t_l_key = list(t_l_key_option.keys())[0]
+                    # print('t_l_keyt_l_keyt_l_keyt_l_keyt_l_keyt_l_key',t_l_key)
+                    if isinstance((t_l_key_option[t_l_key]), list):
+                        curtag = self.single_label(t_l_key, main_key, t_l_key_option[t_l_key])
 
-                tag_res.append({"label": t_l_key, "value": curtag})
+                    tag_res.append({"label": t_l_key, "value": curtag})
 
         return tag_res
 
@@ -220,10 +221,12 @@ class Service:
         # 在已知标签curtag的情况下，使用大模型在options选择需要预测的tag
         question_list = [copy.deepcopy(j) for j in self.question][1:]
         label_res = 'none'
-        i = 0  # ？
+        # we have multi question for one tag, if the easy question answered the question,
+        # the process continue the rest process. if not, not_pre_num add 1 and asking the harder question
+        not_pre_num = 0
 
         for question_i in question_list:
-            lb = t_key + str(i)
+            lb = t_key + str(not_pre_num)
             question = list(question_i.values())[0]
 
             # t_key_ex = self.label_explain[self.label_explain["label"]==t_key][" explain"].dropna().tolist()
@@ -246,7 +249,7 @@ class Service:
             if curtag != '':
                 qinfo = qinfo.replace("merchandise", curtag.lower())
 
-            qinfo = qinfo.replace("options", f"options:{str(options).lower()}")
+            qinfo = qinfo.replace("options", f"Options: {str(options).lower()}")
             qinfo = qinfo + question["constrains"]
 
             if t_key in self.if_multi["label"].tolist():  # single choose or multi choose
@@ -267,13 +270,12 @@ class Service:
             # logger.info(f'all available tag: {label_res}\n\n')
             if label_res:
                 break
-            else:  # predict fail and then predict one more time in quick qa way todo how it works
+            else:  # predict fail and then predict one more time in quick qa way
                 qa = copy.deepcopy(self.utilquestion).replace("to_determain_sentence", tmpres)
                 qa = qa.replace("to_chose_options", f'options:{str(options).lower()}')
-                label_res = self.initqw.quick_qa(qa)
+                label_res = self.initqw.quick_qa(qa)  # todo，How it works, improve it
                 print('label_res', label_res)
                 label_res = res_post_process(label_res)
-                label_res2 = find_element_in_list(label_res, options)
 
                 if t_key in self.if_multi["label"].tolist():
                     label_res2 = find_eles_in_list(label_res, options)
@@ -289,12 +291,12 @@ class Service:
                     label_res = label_res2
                     break
                 else:
-                    i += 1
-                    if i >= len(question_list):
-                        label_res = ' '
+                    not_pre_num += 1
+                    if not_pre_num >= len(question_list):
+                        label_res = ' '  # If the tag can not be predicted, return ' '
         return label_res
 
-    def tag_main(self, imagedirs, product_info, version, categorycsv='category', tagcsv='label'):
+    def tag_main(self, imagedirs, product_info, version, categorycsv='category', tagcsv='label', pre_category_tag=True):
 
         try:
             # load category and tag
@@ -314,7 +316,7 @@ class Service:
                 return tag
             else:
 
-                tag = self.single_com(imagedirs, product_info)  # predict all tags
+                tag = self.single_com(imagedirs, product_info, pre_category_tag=pre_category_tag)  # predict all tags
 
                 if type(tag) == str:
                     tag = []
