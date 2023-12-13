@@ -24,7 +24,7 @@ def get_skc2img(skc2img_root, repeat_skc, img_root='/root/autodl-tmp/datas'):
             skc2img_root[skc_id] = img_path
 
 
-def get_multi_path_skc2img(paths=['/root/autodl-tmp/tmp_res/tag_res/output',
+def get_multi_path_skc2img(paths=['/root/autodl-tmp/tmp_res_before_1206/tag_res/output',
                                   '/root/autodl-tmp/tmp_res_zr/tag_res/output',
                                   '/root/autodl-tmp/datas']):
     """
@@ -69,7 +69,7 @@ def load_data(data_root, data_name):
     for attr in keys:
         gt.update({attr.lower(): gt.pop(attr)})
         pre.update({attr.lower(): pre.pop(attr)})
-        if attr.lower() in metric_attrs_lower + ['color_ori', 'first_category', 'second_category']:
+        if attr.lower() in metric_attrs_lower + ['color_ori', 'first category', 'subcategory']:
             gt[attr.lower()] = list(map(lambda i: i.lower() if isinstance(i, str) else i, gt[attr.lower()]))
             pre[attr.lower()] = list(map(lambda i: i.lower() if isinstance(i, str) else i, pre[attr.lower()]))
 

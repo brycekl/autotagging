@@ -1,0 +1,23 @@
+﻿label,options,explain
+tops,T-shirt,"a versatile and casual garment with short sleeves, typically made from lightweight, stretchy materials like cotton or synthetic blends. It's comfortable, easy to wear, and suitable for everyday use, suitable for informal occasions."
+tops,Blouse,"an elegant and often lightweight upper garment, often made of finer fabrics . It's more formal than a T-shirt. The versatility of blouses allows them to be worn in both casual and formal settings."
+tops,Tunic,"a loose-fitting garment that covers the hips, often with a simple, flowy silhouette."
+tops,Bodysuit,a form-fitting garment that covers the body and fastens at the crotch. It's ideal for a sleek look under clothing and ensures tops stay tucked in.
+tops,Corset,a tightly fitting garment that shapes the torso.
+tops,Tank,"a sleeveless, wide-strapped top that is typically lightweight and breathable in design."
+tops,Vest,a sleeveless garment that covers the upper body.
+tops,Sweater,"generally made from thicker yarns, like wool or cashmere. These materials make sweaters warmer and thicker, suitable for winter wear. Usually warmer and heavier. They might not be as soft as knitwear but provide better warmth in cold weather."
+tops,Sweatshirt,"sweatshirts are typically loose-fitting and casual, made from heavier cotton or fleece. They are often without embellishments and may have a crew neck or hood, designed for comfort and practicality."
+bottoms,pants,"a garment covering the body from the waist to the ankles, with a separate part for each leg. "
+bottoms,shorts,short trousers that come above the knee.
+bottoms,skirt,"this type of women's lower body garment is typically called a skirt. "
+jumpsuit,Jumpsuit,"a one-piece garment combining a top and pants, offering a sleek and unified look."
+overcoat,Outerwear,a broad category that includes any type of clothing worn over other garments to protect against the weather or for fashion.
+overcoat,Jacket,a specific type of outerwear that typically is worn on the upper body.
+dresses,Short Dresses,a dress with a hemline above the knee.
+dresses,Long Dresses,a dress with a hemline above the ankle and below the knee.
+dresses,Midi Dresses,"a dress whose hem length is around the knee."
+dresses,Maxi Dresses,"a dress with a hemline that is at or below the ankle. In order to better classify dresses, you could focus on the hem length of the dress."
+set,Shorts Set,a coordinated outfit consisting of shorts and a matching top.
+set,Pants Set,a set including long pants and a coordinated top.
+set,Skirt Set,an ensemble that includes a skirt and a matching top.

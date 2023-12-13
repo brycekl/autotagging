@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-all_attr = ['spu', 'skc_id', 'link', 'first_category', 'second_category', 'color_ori', 'COLOR', 'Saturation',
+all_attr = ['spu', 'skc_id', 'link', 'first category', 'subcategory', 'color_ori', 'COLOR', 'Saturation',
             'Brightness', 'MATERIAL', 'PATTERN', 'TRENDS', 'PROCESS', 'OCCASION', 'LOCATION', 'STYLE', 'SEASON',
             'Fit', 'Event', 'Neckline', 'Collar', 'Sleeve Shape', 'Sleeve Length', 'Cuff', 'Shoulder', 'Back', 'Waist',
             'Waistband', 'Length', 'Cut', 'Rise', 'Design']
@@ -53,7 +53,7 @@ def format_data(data_root, output_root, data_name):
 if __name__ == '__main__':
     """
     format the revised tags to one formation
-    need to revise attrs of origin table：color_ori, COLOR, first_category, second_category
+    need to revise attrs of origin table：color_ori, COLOR, first category, subcategory
     """
     data_name = '11131204.xlsx'
     format_data('../output/origin', '../output', data_name)
