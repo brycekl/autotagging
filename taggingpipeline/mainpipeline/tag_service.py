@@ -22,10 +22,10 @@ class Service:
         self.category = None
         self.tag = None
         self.question = self.load_configs(questionjson)["qs"]
-        self.utilquestion = self.load_configs(questionjson.replace('quesion', 'utils_question'))["Normalization"]
+        self.utilquestion = self.load_configs(questionjson.replace('question', 'utils_question'))["Normalization"]
         self.q1_info = self.question[0]["first question"]
         self.version = None
-        self.label_explain = pd.read_csv(questionjson.replace('quesion_bryce.json', 'label_quesion.csv'), header=0)
+        self.label_explain = pd.read_csv(questionjson.replace('question_bryce.json', 'label_question.csv'), header=0)
         print('self.label_explain', self.label_explain.columns.tolist())
         self.about_category = None
         self.about_label = None
@@ -55,7 +55,7 @@ class Service:
             if self.label_key is None:
                 self.label_key = self.main_item_tag['item_main_key']['label_key']
         else:
-            # load category and tag  todo 似乎有重复
+            # load category and tag
             self.category = load_config(version, categorycsv)
             self.tag = load_config(version, tagcsv)
             # self.main_item_tag = load_config(version,'item_main_key')
@@ -106,7 +106,7 @@ class Service:
 
         # ask first quesion 
         stepstr = q1_info["steps"].replace("refer_infomation", f'refer info: {info}')
-        q1 = q1_info["role"] + stepstr + q1_info["question"]
+        q1 = stepstr + q1_info["question"]
         # check imagedir
         imgs = os.listdir(imagedir)
         to_del = []
@@ -208,13 +208,13 @@ class Service:
             if category_desc.shape[0] != 0:
                 for index, row in self.about_category.iterrows():
                     # print('row["category"]', row["category"])
-                    t_key_desc += row["category"] + " means " + row["explain"] + "\n"
-        elif t_key == 'subcategory':  # Fixme 需要使预测的tag能匹配到描述里的tag，tag得统一
+                    t_key_desc += row["explain"] + "\n"
+        elif t_key == 'subcategory':  # 需要使预测的tag能匹配到描述里的tag，tag得统一
             # print('t_key  in self.option["label"].tolist()',self.about_option.columns.tolist())
             all_attr = self.about_option[self.about_option["label"] == curtag]
             if all_attr.shape[0] != 0:
                 for index, row in all_attr.iterrows():
-                    t_key_desc += row["options"] + " means " + row["explain"] + "\n"
+                    t_key_desc += row["explain"] + "\n"
         return t_key_desc
 
     def single_label(self, t_key, curtag, options):

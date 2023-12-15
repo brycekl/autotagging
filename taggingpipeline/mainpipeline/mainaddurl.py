@@ -141,7 +141,7 @@ def data_input(data_path, output_dir, input_data_q, get_product_skc_interface=No
                     pronum += pronum
 
                 # time.sleep(10)
-            # format_save_info(all_product_info, save_root=output_dir.replace('imgs', ''))
+            # format_save_info(all_product_info, save_root=output_dir.replace('imgs', ''), save_name='test')
 
     except Exception as e:
         logger.error(f'{traceback}')
@@ -308,7 +308,7 @@ def pre_process(product_info, output_dir, infos):
     # if product_info["tagCount"]>=1:
     #     return {},imgs
     outputdir = os.path.join(output_dir, f'{product_id}')
-    os.makedirs(outputdir)
+    # os.makedirs(outputdir)
 
     # download imgs
 
@@ -321,7 +321,9 @@ def pre_process(product_info, output_dir, infos):
             imgs = json.loads(p_imgs)[0:5]
         elif type(p_imgs) == list:
             imgs = p_imgs
-        imgs = download_data(imgs, outputdir)
+        if not os.path.exists(outputdir) or os.listdir(outputdir) != len(imgs):
+            os.makedirs(outputdir, exist_ok=True)
+            imgs = download_data(imgs, outputdir)
     # if  len(imgs) == 0:
     #     logger.info(f'can not get img url :which product is {product_id}:{product_info["link"]}')
 

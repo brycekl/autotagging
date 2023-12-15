@@ -10,7 +10,7 @@
     },
     {
       "easy tag": {
-        "known_infomation": "Category definition: known_infomation \nRead more about category definitions, and answer the following questions.\n",
+        "known_infomation": "Category definitions: known_infomation \nRead more about category definitions, and answer the following questions.\n",
         "question": "Questions: what is the to_determin_attribute of this merchandise? \noptions.\n",
         "constrains": "Please select an answer from the above options, do not answer in full sentences.\nPlease answer your options directly and just give if_multi.\n "
       }

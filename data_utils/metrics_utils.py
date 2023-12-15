@@ -124,6 +124,22 @@ def merge_excel(paths, save_root=None):
     return gt, pre, no_exist
 
 
+def merge_wrong_data_info(wrong_predict, infos, save_path):
+    """
+    after compute metrics and save wrong_predict, this function helps merge more information together
+    """
+    wrong_predict['merchantCategoryName'] = []
+    wrong_predict['color_ori'] = []
+    wrong_predict['info'] = []
+    for ind, skc_id in enumerate(wrong_predict['skc_id']):
+        info_ind = infos['skc_id'].index(skc_id)
+        for attr in ['merchantCategoryName', 'color_ori', 'info']:
+            wrong_predict[attr].append(infos[attr][info_ind])
+    wrong_predict['skc_id'] = [str(i) for i in wrong_predict['skc_id']]
+    df = pd.DataFrame(wrong_predict)
+    df.to_excel(save_path, index=False)
+
+
 if __name__ == '__main__':
     skc2img_root, repeat_skc = {}, {}
     get_skc2img(skc2img_root, repeat_skc)

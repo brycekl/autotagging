@@ -25,5 +25,5 @@
         "tagres_outdir":"/root/autodl-tmp/tmp_res/tag_res/output/topost"
     },
     "res_dir":"/root/autodl-tmp/tmp_res/tag_res/output",
-    "questionjson":"/root/autodl-tmp/autotagging/data_utils/prompt/quesion_bryce.json"
+    "questionjson":"/root/autodl-tmp/autotagging/data_utils/prompt/question_bryce.json"
 }

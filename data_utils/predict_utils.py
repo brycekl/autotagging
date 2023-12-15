@@ -2,15 +2,17 @@ import pandas as pd
 import os
 import multiprocessing
 import json
+import re
 from tqdm import tqdm
 import numpy as np
 import torch
 import random
 from bs4 import BeautifulSoup
 from collections import Counter
+from taggingpipeline.mainpipeline.utils import res_post_process
 
 
-def format_save_info(product_info, save_root):
+def format_save_info(product_info, save_root, save_name):
     """
     format and save all information to save root while infer
     """
@@ -29,7 +31,7 @@ def format_save_info(product_info, save_root):
             else:
                 all_infos[attr].append(None)
     df = pd.DataFrame(all_infos)
-    df.to_excel(os.path.join(save_root, 'infos.xlsx'), index=False)
+    df.to_excel(os.path.join(save_root, save_name + '.xlsx'), index=False)
 
 
 def load_local_data(data_path, info_path):
@@ -60,10 +62,22 @@ def load_local_data(data_path, info_path):
             input_data = {'spu': datas['spu'][ind], 'skc_id': str(skc_id), 'imgs': infos['imgs'][info_ind], 'info': {}}
             if isinstance(infos['info'][info_ind], str):
                 input_info = json.loads(infos['info'][info_ind])
-                input_info['desc'] = remove_html_tags(input_info['desc']).strip()
+                # input_info['desc'] = remove_html_tags(input_info['desc']).strip()
+                input_info['desc'] = remove_special_characters(input_info['desc'])  # remove repeat \n
+                # input_info['desc'] = infos['desc'][info_ind]
                 input_data['info'] = input_info
             all_datas.append(input_data)
     return all_datas, no_img_skc, repeat_data
+
+
+def remove_special_characters(res):
+    # res: list
+    # return: list
+    res = re.sub(r'[!"#$%&\'*+,.:;<=>?@[\\]^_`{|}~• ]+', ' ', str(res))
+    res = re.sub(r'\n+', r'\n', res)
+    res = res.replace('</s>', '')
+    res = res.replace(' Check. ', ' ')
+    return res
 
 
 def remove_html_tags(text):
