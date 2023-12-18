@@ -14,11 +14,12 @@ from compute_metrics import compute_all_metrics
 
 
 if __name__ == '__main__':
-    data_path = 'data_utils/spu/all_first.xlsx'
+    spu_path = 'data_utils/spu/all_first.xlsx'
     info_path = '../datas/info.xlsx'
     start_tag_path = './start_tag.json'
     pre_res = {attr.lower(): [] for attr in all_attr}
-    save_root = './output/' + os.path.basename(data_path).split('.')[0]
+    save_root = './output/' + os.path.basename(spu_path).split('.')[0]
+    # save_root = './output/all_first'
     set_seed(2023)
 
     # load cfgpath
@@ -34,7 +35,7 @@ if __name__ == '__main__':
     upload_tag_param = cfg['upload_tags']
 
     # get all data
-    all_product_info, no_img_skc, repeat_skc = load_local_data(data_path, info_path)
+    all_product_info, no_img_skc, no_info_skc, repeat_skc = load_local_data(spu_path, info_path)
     print(f'nums: {len(all_product_info)}')
 
     # load gt and get corresponding data

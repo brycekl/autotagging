@@ -1,8 +1,9 @@
 import copy
 import os
 # from LLaVA import llava
-# import LLaVA
+import json
 import sys
+import matplotlib.pyplot as plt
 
 import requests
 import torch
@@ -118,11 +119,27 @@ class InitLLA:
         image = None
         conv = copy.deepcopy(self.conv)
         response, self.conv = self.infer(conv)
+        logger.info(f'Question and Answer: \nQ:{inp}\nA:{response}')
+
+        # plt.imshow(imgs[0])
+        # plt.show()
+        # with open('./data_utils/definition/add_def.json') as reader:
+        #     add_def = json.load(reader)
+        # self.conv_ = copy.deepcopy(self.conv)
+        # self.conv_.append_message('USER', add_def['first category'])
+        # response, self.conv_ = self.infer(self.conv_)
+        # response = response.replace('</s>', '')
+        # logger.info(f'tttttttttest   1!!!!!!!!!!!!!!!!!!!!!!!：{response}')
+        #
+        # if response == 'Dresses':
+        #     self.conv_ = copy.deepcopy(self.conv)
+        #     self.conv_.append_message('USER', add_def['dresses'])
+        #     response, self.conv_ = self.infer(self.conv_)
+        #     response = response.replace('</s>', '')
+        #     logger.info(f'tttttttttest   2!!!!!!!!!!!!!!!!!!!!!!!：{response}')
 
         self.conv_ = copy.deepcopy(self.conv)
         self.tmptag_ = None
-
-        logger.info(f'Question and Answer: \nQ:{inp}\nA:{response}')
 
         return response
 

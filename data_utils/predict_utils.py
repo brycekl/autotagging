@@ -35,7 +35,7 @@ def format_save_info(product_info, save_root, save_name):
 
 
 def load_local_data(data_path, info_path):
-    all_datas, no_img_skc, repeat_data = [], [], {}
+    all_datas, no_img_skc, no_info_skc, repeat_data = [], [], [], {}
     datas = pd.read_excel(data_path).to_dict('list')
     infos = pd.read_excel(info_path).to_dict('list')
     # remove the repeat skc in datas todo 优化
@@ -48,6 +48,7 @@ def load_local_data(data_path, info_path):
         ind = np.where(datas['skc_id'] == skc)[0]
         true_ind = datas['skc_id'] != skc
         true_ind[ind[1]] = True
+        repeat_data[skc] = len(ind) - 1
         for attr in datas:
             datas[attr] = datas[attr][true_ind]
 
@@ -59,7 +60,7 @@ def load_local_data(data_path, info_path):
                 no_img_skc.append(skc_id)
                 continue
             # save data
-            input_data = {'spu': datas['spu'][ind], 'skc_id': str(skc_id), 'imgs': infos['imgs'][info_ind], 'info': {}}
+            input_data = {'spu': datas['spu'][ind], 'skc_id': str(skc_id), 'imgs': infos['imgs'][info_ind], 'info': infos['info'][info_ind]}
             if isinstance(infos['info'][info_ind], str):
                 input_info = json.loads(infos['info'][info_ind])
                 # input_info['desc'] = remove_html_tags(input_info['desc']).strip()
@@ -67,7 +68,9 @@ def load_local_data(data_path, info_path):
                 # input_info['desc'] = infos['desc'][info_ind]
                 input_data['info'] = input_info
             all_datas.append(input_data)
-    return all_datas, no_img_skc, repeat_data
+        else:
+            no_info_skc.append(skc_id)
+    return all_datas, no_img_skc, no_info_skc, repeat_data
 
 
 def remove_special_characters(res):

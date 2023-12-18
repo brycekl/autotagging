@@ -259,6 +259,10 @@ class Service:
             else:
                 qinfo = qinfo.replace("if_multi", "one option")
 
+            with open('data_utils/definition/add_def.json') as reader:
+                revised_info = json.load(reader)
+            if t_key in revised_info:
+                qinfo = revised_info[t_key]
             tmpres = self.initqw.tag_main(lb, qinfo)
             tmpres = res_post_process(tmpres)
             if t_key in self.if_multi["label"].tolist():  # maybe the Ai answer is not in option, check and revise it
@@ -293,7 +297,7 @@ class Service:
                 else:
                     not_pre_num += 1
                     if not_pre_num >= len(question_list):
-                        label_res = ' '  # If the tag can not be predicted, return ' '
+                        label_res = 'nan'  # If the tag can not be predicted, return ' '
         return label_res
 
     def tag_main(self, imagedirs, product_info, version, categorycsv='category', tagcsv='label', pre_category_tag=True):
