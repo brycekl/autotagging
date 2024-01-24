@@ -1,5 +1,8 @@
 import os
+import shutil
+
 import pandas as pd
+import json
 import numpy as np
 from data_utils.format_data import all_attr
 from collections import Counter
@@ -42,11 +45,13 @@ metric_attrs = ['COLOR', 'Saturation', 'Brightness', 'MATERIAL', 'PATTERN', 'TRE
                 'Shoulder', 'Back', 'Waist', 'Waistband', 'Length', 'Cut', 'Rise', 'Design']
 
 
-def load_data(data_root, data_name):
+def load_data(data_path, data_name=None):
     f"""
-    load data from {data_root}/{data_name}, choose the pre data according to gt data(not every pre data has gt)
+    load data from {data_path}/{data_name}, choose the pre data according to gt data(not every pre data has gt)
     """
-    datas = pd.read_excel(f'{data_root}/{data_name}', sheet_name=None, converters={'skc_id': str})
+    if data_name:
+        data_path = os.path.join(data_path, data_name)
+    datas = pd.read_excel(data_path, sheet_name=None, converters={'skc_id': str})
     gt = datas['gt'].to_dict('list')
     pre_ori = datas['pre'].to_dict('list')
     pre = {attr: [] for attr in pre_ori}
@@ -140,6 +145,23 @@ def merge_wrong_data_info(wrong_predict, infos, save_path):
     df.to_excel(save_path, index=False)
 
 
+def get_wrong_imgs(wrong_predict_path, save_root=None):
+    imgs_root = '../../datas/imgs'
+    if not save_root:
+        save_root = os.path.dirname(wrong_predict_path) + '/wrong_img'
+    wrong_predict = pd.read_excel(wrong_predict_path, converters={'skc_id': str}).to_dict('list')
+    need_wrong = ['*->t-shirt']
+    for ind, wrong in enumerate(wrong_predict['wrong']):
+        wrong = json.loads(wrong)
+        skc_id = wrong_predict['skc_id'][ind]
+        for i, j in wrong.items():
+            # gt_cat = j.split('->')[0]
+            # pre_cat = j.split('->')[1]
+            os.makedirs(os.path.join(save_root, i, j), exist_ok=True)
+            shutil.copytree(os.path.join(imgs_root, skc_id), os.path.join(save_root, i, j, skc_id))
+
+
 if __name__ == '__main__':
-    skc2img_root, repeat_skc = {}, {}
-    get_skc2img(skc2img_root, repeat_skc)
+    # skc2img_root, repeat_skc = {}, {}
+    # get_skc2img(skc2img_root, repeat_skc)
+    get_wrong_imgs('../output/overcoat2/wrong.xlsx')

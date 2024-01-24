@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-from fix_tag import phase_tag
+from data_utils.format_data import phase_tag
 from data_utils.metrics_utils import get_multi_path_skc2img, merge_excel, load_data
 from shutil import copytree
 
@@ -35,7 +35,7 @@ def compute_metrics(attr, gt, pre, metrics_result, labels, save_root=None):
     metrics_result[attr] = {'all_acc': acc}
     for label in labels:
         acc, recall, precision = compute_cls_metrics(gt, pre, label)
-        metrics_result[attr][label] = {'acc': acc, 'recall': recall, 'precision': precision}
+        metrics_result[attr][label] = {'recall': recall, 'precision': precision, 'acc': acc}
     return wrong_ind
 
 
@@ -144,6 +144,7 @@ def compute_all_metrics(gt, pre, category_map, common_tag_map, category_tag_map,
     #         metrics = compute_metrics(attr, gt[attr], pre[attr])
 
     if save_data:
+        wrong_predict['wrong'] = [json.dumps(i) for i in wrong_predict['wrong']]
         df = pd.DataFrame(wrong_predict)
         df.to_excel(f'{save_root}/wrong.xlsx', index=False)
         with open(f'{save_root}/metrics.json', 'w') as writer:
@@ -153,17 +154,18 @@ def compute_all_metrics(gt, pre, category_map, common_tag_map, category_tag_map,
 
 if __name__ == '__main__':
     res = {}  # for saving the acc result of different attributes
-    data_name = '20231122.xlsx'
-    paths = ['./output/20231122.xlsx',  './output/20231124_first.xlsx']
+    data_path = './output/first_category/all_first_category/result.xlsx'
+    data_name = os.path.basename(data_path)
+    paths = None
 
     # load datas and set save root
-    gt, pre, no_exist = load_data('./output', data_name)
+    gt, pre, no_exist = load_data(data_path)
     if paths:
         gt, pre, no_exist = merge_excel(paths)
         data_name = 'merge.xlsx'
     category_map, common_tag_map, category_tag_map, choose_item_map = phase_tag('./data_utils/tag_gt.json')
     skc2img_root, repeat_skc = get_multi_path_skc2img()
-    save_root = f'./output/{data_name.split(".xlsx")[0]}'
+    save_root = f'{os.path.dirname(data_path)}'
 
     # compute metrics
     metrics, wrong_predict = compute_all_metrics(gt, pre, category_map, common_tag_map, category_tag_map,

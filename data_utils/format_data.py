@@ -1,4 +1,5 @@
 import os
+import json
 import pandas as pd
 
 all_attr = ['spu', 'skc_id', 'link', 'first category', 'subcategory', 'color_ori', 'COLOR', 'Saturation',
@@ -48,6 +49,42 @@ def format_data(data_root, output_root, data_name):
     with pd.ExcelWriter(f"{output_root}/{data_name}") as writer:
         gt_df.to_excel(writer, sheet_name='gt', index=False)
         pre_df.to_excel(writer, sheet_name='pre', index=False)
+
+
+def phase_tag(json_path):
+    """
+    all tags: first category, second category, common tag and category tag
+    we need the map relationship of first category and second category, common tag map, category tag map
+    and if the tag can be chosen ’multi‘
+    args:
+        json_path: the json file which downloaded from tag url
+    returns:
+        category_map: {'first_category': [each second_category]
+        common_tag_map: {'attributes': [each_attribute]}
+        category_tag_map: {‘second_category’: {'attributes': [each_attribute]}}
+        choose_item_map: {'attribute': single or multi}
+    """
+    with open(json_path, 'r') as f:
+        tag_gt_json = json.load(f)
+    category_map, common_tag_map, category_tag_map, choose_item_map = {}, {}, {}, {}
+    # phase first category and second category
+    for item in tag_gt_json['data']['categories']:
+        category_map[item['enName']] = [i['enName'] for i in item['children']]
+    # phase common tag
+    for item in tag_gt_json['data']['tags']:
+        common_tag_map[item['value']] = [i['value'] for i in item['items']]
+        choose_item_map[item['value']] = item['selectType']
+    # phase category tag
+    for category in [i['children'] for i in tag_gt_json['data']['categories']]:
+        for item in category:
+            item_name = item['enName']
+            item_id = item['id']
+            item_tag = {}
+            for tag in tag_gt_json['data']['categoryTagsMap'][item_id]:
+                item_tag[tag['value'].lower()] = [i['value'] for i in tag['items']]
+                choose_item_map[tag['value'].lower()] = tag['selectType']
+            category_tag_map[item_name] = item_tag
+    return category_map, common_tag_map, category_tag_map, choose_item_map
 
 
 if __name__ == '__main__':

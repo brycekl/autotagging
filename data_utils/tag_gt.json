@@ -897,6 +897,10 @@
           {
             "value": "urban",
             "label": "都市风"
+          },
+          {
+            "value": "casual",
+            "label": "休闲风"
           }
         ]
       },
@@ -1102,11 +1106,11 @@
           "selectType": "single",
           "items": [
             {
-              "value": "full-length",
+              "value": "full length",
               "label": "全长"
             },
             {
-              "value": "ankle-length",
+              "value": "ankle length",
               "label": "脚踝长度"
             },
             {
@@ -2961,50 +2965,6 @@
             {
               "value": "double-breasted",
               "label": "双排扣"
-            },
-            {
-              "value": "hooded",
-              "label": "带帽的"
-            },
-            {
-              "value": "full zip",
-              "label": "全拉链"
-            },
-            {
-              "value": "half zip",
-              "label": "半拉链"
-            },
-            {
-              "value": "cargos",
-              "label": "货裤"
-            },
-            {
-              "value": "flat front",
-              "label": "平面前襟"
-            },
-            {
-              "value": "pleated",
-              "label": "褶皱裤"
-            },
-            {
-              "value": "stirrup",
-              "label": "马裤"
-            },
-            {
-              "value": "capris",
-              "label": "七分裤"
-            },
-            {
-              "value": "jogger",
-              "label": "慢跑裤"
-            },
-            {
-              "value": "cuffed",
-              "label": "袖口裤"
-            },
-            {
-              "value": "tuxedo",
-              "label": "燕尾服裤"
             }
           ]
         },
@@ -3691,7 +3651,7 @@
               "label": "大腿中部长度"
             },
             {
-              "value": "knee-length",
+              "value": "knee length",
               "label": "膝盖长度"
             }
           ]
@@ -4303,7 +4263,7 @@
               "label": "高于膝盖"
             },
             {
-              "value": "knee-length",
+              "value": "knee length",
               "label": "膝盖长度"
             },
             {
@@ -5087,7 +5047,7 @@
               "label": "高于膝盖"
             },
             {
-              "value": "knee-length",
+              "value": "knee length",
               "label": "膝盖长度"
             },
             {
@@ -5737,7 +5697,7 @@
               "label": "高于膝盖"
             },
             {
-              "value": "knee-length",
+              "value": "knee length",
               "label": "膝盖长度"
             },
             {
@@ -8825,46 +8785,6 @@
           ]
         },
         {
-          "id": "1725411342384381954",
-          "value": "design",
-          "label": "设计",
-          "selectType": "multi",
-          "items": [
-            {
-              "value": "cargos",
-              "label": "货裤"
-            },
-            {
-              "value": "flat front",
-              "label": "平面前襟"
-            },
-            {
-              "value": "pleated",
-              "label": "褶皱裤"
-            },
-            {
-              "value": "stirrup",
-              "label": "马裤"
-            },
-            {
-              "value": "capris",
-              "label": "七分裤"
-            },
-            {
-              "value": "jogger",
-              "label": "慢跑裤"
-            },
-            {
-              "value": "cuffed",
-              "label": "袖口裤"
-            },
-            {
-              "value": "tuxedo",
-              "label": "燕尾服裤"
-            }
-          ]
-        },
-        {
           "id": "1725411376429547521",
           "value": "sleeve shape",
           "label": "袖型",
@@ -8998,7 +8918,7 @@
               "label": "大腿中部长度"
             },
             {
-              "value": "knee-length",
+              "value": "knee length",
               "label": "膝盖长度"
             },
             {
@@ -9851,7 +9771,7 @@
               "label": "高于膝盖"
             },
             {
-              "value": "knee-length",
+              "value": "knee length",
               "label": "膝盖长度"
             },
             {

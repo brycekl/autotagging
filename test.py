@@ -7,9 +7,8 @@ import pandas as pd
 
 from data_utils.predict_utils import load_local_data, set_seed
 from taggingpipeline.mainpipeline.tag_service import Service
-from data_utils.format_data import all_attr
+from data_utils.format_data import all_attr, phase_tag
 from data_utils.metrics_utils import merge_excel
-from fix_tag import phase_tag
 from compute_metrics import compute_all_metrics
 
 
@@ -17,9 +16,11 @@ if __name__ == '__main__':
     spu_path = 'data_utils/spu/all_first.xlsx'
     info_path = '../datas/info.xlsx'
     start_tag_path = './start_tag.json'
-    pre_res = {attr.lower(): [] for attr in all_attr}
-    save_root = './output/' + os.path.basename(spu_path).split('.')[0]
-    # save_root = './output/all_first'
+    all_attr = [i.lower() for i in all_attr]
+    pre_res, gt = {attr: [] for attr in all_attr}, {attr: [] for attr in all_attr}
+
+    # save_root = './output/' + os.path.basename(spu_path).split('.')[0]
+    save_root = './output/test3'
     set_seed(2023)
 
     # load cfgpath
@@ -41,28 +42,30 @@ if __name__ == '__main__':
     # load gt and get corresponding data
     paths = ['./output/20231122.xlsx',  './output/20231124_first.xlsx']
     gt_all, _, _ = merge_excel(paths)
-    gt = {attr.lower(): [] for attr in all_attr}
 
     # label all data
-    servicetag = Service(question_json)
+    tag_service = Service(question_json)
     for product_info in all_product_info:
         # get corresponding gt
+        product_gt = {}
         gt_ind = list(gt_all['skc_id']).index(product_info['skc_id'])
         for attr in gt_all:
             gt[attr].append(gt_all[attr][gt_ind])
+            product_gt[attr] = gt_all[attr][gt_ind]
 
-        # predict all tags
-        tag_pre = servicetag.tag_main(product_info['imgs'], product_info['info'], gettag_url_interface,
-                                      pre_category_tag=False)
-        # format tag pre
-        tag_res = {attr.lower(): 'nan' for attr in all_attr}
-        for item in tag_pre:
-            tag_res[item['label']] = item['value']
-        tag_res['spu'] = product_info['spu']
-        tag_res['skc_id'] = product_info['skc_id']
-        tag_res['link'] = product_info['imgs']
-        for attr in pre_res:
-            pre_res[attr].append(tag_res[attr])
+        # predict all tags , pre_common_tag=False, pre_category_tag=False
+        tag_pre = tag_service.tag_main(product_info['imgs'], product_info['info'], gettag_url_interface,
+                                       item_gt=product_gt, pre_common_tag=False, pre_category_tag=False)
+        # save predict result
+        for attr in all_attr:
+            if attr in ['spu', 'skc_id']:
+                pre_res[attr].append(product_info[attr])
+            elif attr == 'link':
+                pre_res[attr].append(product_info['imgs'])
+            elif attr in tag_pre:
+                pre_res[attr].append(tag_pre[attr])
+            else:
+                pre_res[attr].append('nan')
 
     # compute metrics
     for attr in gt:
