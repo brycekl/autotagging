@@ -8,6 +8,7 @@ import requests
 from PIL import Image
 
 from get_info_from_url import get_tags
+from data_utils.format_data import phase_tag
 
 
 def load_config(version, csvpath, versiondir='/root/autodl-tmp/autotagging/taggingpipeline/mainpipeline/configs'):
@@ -46,6 +47,19 @@ def load_config(version, csvpath, versiondir='/root/autodl-tmp/autotagging/taggi
             f.close()
 
     return reslist
+
+
+def load_all_tags_map(tagurl):
+    response = requests.get(tagurl, stream=True, timeout=120)
+
+    if response.status_code == 200:
+        datas = response.json()
+        with open("./data_utils/tag_gt.json", 'w', encoding="utf-8") as f:
+            json.dump(datas, f, indent=2, ensure_ascii=False, separators=(',', ': '))
+
+    category_map, common_tag_map, category_tag_map, choose_item_map = phase_tag('./data_utils/tag_gt.json')
+
+    return category_map, common_tag_map, category_tag_map, choose_item_map
 
 
 def load_cfg_json(jsonpath):
@@ -308,9 +322,9 @@ def find_element_in_list(element: str, lst: list) -> str:
 def res_post_process(res):
     # res: list
     # return: list
-    r = '[!"#$%&\'*+,.:;<=>?@[\\]^_`{|}~\n]+'
-    res = re.sub(r, ' ', str(res))
     res = res.replace('</s>', '')
+    r = '[!"#$%&\'*+,.:;<=>?@[\\]^_`{|}~\n]+'
+    res = re.sub(r, '', str(res))
     return res
 
 

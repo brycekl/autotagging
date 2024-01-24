@@ -201,32 +201,17 @@ def auto_label(question_json, queueimg, version, resqt, resq, params=None, res_d
             logger.info(
                 '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 
-            if type(tag_perp) == str:
-                return False, tag_perp
-            # if tag_perp == []:
-            #     return False, tag_perp
-            # phase all tag and push it into communication queue
-            if tag_perp != []:
-                result_df = pd.DataFrame(tag_perp)
-                result_df_t = result_df.T
-                result_df_t.columns = result_df_t.iloc[0]
-                result_df_t = result_df_t.drop(result_df_t.index[0])
-                # result_df_t.insert(0,'idindex',imgsinfo['index'])
-                # result_df_t.insert(1,"product_url",imgsinfo['info']['link'])
-                result_df_t.insert(1, 'product_id', str(product_info['id']))
-                global RES
-                resqt.put(result_df_t)
-
             # tag_res = params["format"]
-            tag_res = {"firstCategory": "string",
+            tag_res = {"firstCategory": tag_perp['first category'],
                        "firstFrom": "ai",
                        "skcId": product_info['id'],
-                       "subCategory": "string",
+                       "subCategory": tag_perp['subcategory'],
                        "subFrom": "ai",
                        "tags": {}}
 
+            # Fixme 完成信息的存储
             # tag_res["firstCategory"] =tag_perp
-            if tag_perp != []:
+            if tag_perp != {}:
                 logger.info(f'not empty tag_perp {tag_perp}')
                 for each_tagres in tag_perp:
                     if each_tagres['label'] == 'first category':
