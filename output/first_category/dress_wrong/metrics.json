@@ -1,0 +1,40 @@
+{
+    "first category": {
+        "all_acc": 0.0,
+        "set": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "dresses": {
+            "acc": 1.0989010988890231e-11,
+            "recall": 1.0989010988890231e-11,
+            "precision": 1.0
+        },
+        "overcoat": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "jumpsuit": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "bottoms": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "tops": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 1.0989010988890231e-11,
+            "recall": 1.0,
+            "precision": 1.0989010988890231e-11
+        }
+    }
+}

@@ -1,0 +1,1169 @@
+{
+    "first category": {
+        "all_acc": 0.8953488372093024,
+        "set": {
+            "acc": 0.9825581395349852,
+            "recall": 9.99999999e-10,
+            "precision": 4.9999999975e-10
+        },
+        "dresses": {
+            "acc": 0.9883720930233234,
+            "recall": 0.8333333333472223,
+            "precision": 1.0
+        },
+        "overcoat": {
+            "acc": 0.9941860465116618,
+            "recall": 1.0,
+            "precision": 0.9230769230828403
+        },
+        "jumpsuit": {
+            "acc": 0.9883720930233234,
+            "recall": 1.0,
+            "precision": 0.33333333355555556
+        },
+        "bottoms": {
+            "acc": 0.9883720930233234,
+            "recall": 0.9259259259286694,
+            "precision": 1.0
+        },
+        "tops": {
+            "acc": 0.9069767441865874,
+            "recall": 0.8907563025219264,
+            "precision": 0.972477064220436
+        },
+        "nan": {
+            "acc": 0.9418604651166171,
+            "recall": 1.0,
+            "precision": 9.999999999000001e-11
+        }
+    },
+    "dresses": {
+        "all_acc": 0.3,
+        "long dresses": {
+            "acc": 0.50000000005,
+            "recall": 1.9999999996e-10,
+            "precision": 1.0
+        },
+        "maxi dresses": {
+            "acc": 0.90000000001,
+            "recall": 1.0,
+            "precision": 9.99999999e-10
+        },
+        "short dresses": {
+            "acc": 0.80000000002,
+            "recall": 4.9999999975e-10,
+            "precision": 1.0
+        },
+        "midi dresses": {
+            "acc": 0.40000000006,
+            "recall": 1.0,
+            "precision": 0.3333333334074074
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "overcoat": {
+        "all_acc": 0.5,
+        "jacket": {
+            "acc": 0.5000000000416667,
+            "recall": 1.0,
+            "precision": 0.5000000000416667
+        },
+        "outerwear": {
+            "acc": 0.5000000000416667,
+            "recall": 1.666666666388889e-10,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "jumpsuit": {
+        "all_acc": 1.0,
+        "jumpsuit": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "bottoms": {
+        "all_acc": 1.0,
+        "skirt": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "shorts": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "pants": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "tops": {
+        "all_acc": 0.8301886792452831,
+        "brassiere": {
+            "acc": 0.9905660377359381,
+            "recall": 9.99999999e-10,
+            "precision": 1.0
+        },
+        "sweatshirt": {
+            "acc": 0.9905660377359381,
+            "recall": 1.0,
+            "precision": 0.80000000004
+        },
+        "sweater": {
+            "acc": 0.9433962264156284,
+            "recall": 0.8936170212788592,
+            "precision": 0.9767441860470525
+        },
+        "tube": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "camisole": {
+            "acc": 0.9905660377359381,
+            "recall": 9.99999999e-10,
+            "precision": 1.0
+        },
+        "vest": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "tank top": {
+            "acc": 0.9811320754718761,
+            "recall": 0.6666666667777777,
+            "precision": 0.6666666667777777
+        },
+        "corset": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "bodysuit": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "tunic": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "blouse": {
+            "acc": 0.9245283018875045,
+            "recall": 0.6190476190657597,
+            "precision": 1.0
+        },
+        "t-shirt": {
+            "acc": 0.839622641510947,
+            "recall": 0.9310344827609988,
+            "precision": 0.6428571428656463
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "color": {
+        "all_acc": 0.5988372093023255,
+        "orange": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "yellow": {
+            "acc": 0.9825581395349852,
+            "recall": 0.2500000001875,
+            "precision": 1.0
+        },
+        "black": {
+            "acc": 0.8895348837215724,
+            "recall": 0.6842105263240997,
+            "precision": 0.7878787878852159
+        },
+        "white": {
+            "acc": 0.9709302325583086,
+            "recall": 0.8235294117750865,
+            "precision": 0.8750000000078125
+        },
+        "green": {
+            "acc": 0.9767441860466468,
+            "recall": 0.75000000003125,
+            "precision": 0.75000000003125
+        },
+        "blue": {
+            "acc": 0.9244186046516022,
+            "recall": 0.8125000000058594,
+            "precision": 0.7878787878852159
+        },
+        "purple": {
+            "acc": 0.9360465116282788,
+            "recall": 0.6666666667222222,
+            "precision": 0.3076923077455621
+        },
+        "brown": {
+            "acc": 0.9651162790699702,
+            "recall": 0.7272727272975207,
+            "precision": 0.7272727272975207
+        },
+        "grey": {
+            "acc": 0.9767441860466468,
+            "recall": 0.8571428571632653,
+            "precision": 0.6666666667037037
+        },
+        "red": {
+            "acc": 0.9360465116282788,
+            "recall": 1.428571428367347e-10,
+            "precision": 2.499999999375e-10
+        },
+        "pink": {
+            "acc": 0.9534883720932936,
+            "recall": 0.60000000008,
+            "precision": 0.3333333334074074
+        },
+        "pastel": {
+            "acc": 0.9244186046516022,
+            "recall": 0.08333333340972222,
+            "precision": 0.33333333355555556
+        },
+        "bold": {
+            "acc": 0.9360465116282788,
+            "recall": 0.3333333334074074,
+            "precision": 0.375000000078125
+        },
+        "neutral": {
+            "acc": 0.901162790698249,
+            "recall": 0.31250000004296874,
+            "precision": 0.4545454545950413
+        },
+        "nan": {
+            "acc": 0.9244186046516022,
+            "recall": 1.0,
+            "precision": 7.692307691715976e-11
+        }
+    },
+    "saturation": {
+        "all_acc": 0.45930232558139533,
+        "vivid": {
+            "acc": 0.6918604651180706,
+            "recall": 0.37288135594283256,
+            "precision": 0.578947368432133
+        },
+        "moderate": {
+            "acc": 0.6918604651180706,
+            "recall": 0.0952380952596372,
+            "precision": 0.21052631583102493
+        },
+        "muted": {
+            "acc": 0.5930232558163196,
+            "recall": 0.7464788732430072,
+            "precision": 0.5047619047666213
+        },
+        "nan": {
+            "acc": 0.9418604651166171,
+            "recall": 1.0,
+            "precision": 9.999999999000001e-11
+        }
+    },
+    "brightness": {
+        "all_acc": 0.5,
+        "dark": {
+            "acc": 0.7558139534897917,
+            "recall": 0.565217391310649,
+            "precision": 0.7647058823575548
+        },
+        "light": {
+            "acc": 0.5639534883746282,
+            "recall": 0.7966101694949727,
+            "precision": 0.42727272727793386
+        },
+        "medium": {
+            "acc": 0.738372093024777,
+            "recall": 2.2727272726756202e-11,
+            "precision": 9.99999999e-10
+        },
+        "nan": {
+            "acc": 0.9418604651166171,
+            "recall": 1.0,
+            "precision": 9.999999999000001e-11
+        }
+    },
+    "material": {
+        "all_acc": 0.37209302325581395,
+        "cotton": {
+            "acc": 0.9127906976749256,
+            "recall": 0.9285714285765306,
+            "precision": 0.48148148150068587
+        },
+        "linen": {
+            "acc": 0.9767441860466468,
+            "recall": 0.5000000000833333,
+            "precision": 0.7500000000625
+        },
+        "silk": {
+            "acc": 0.9941860465116618,
+            "recall": 1.0,
+            "precision": 0.8571428571632653
+        },
+        "wool": {
+            "acc": 0.9127906976749256,
+            "recall": 0.80000000002,
+            "precision": 0.3809523809818594
+        },
+        "cashmere": {
+            "acc": 0.9941860465116618,
+            "recall": 1.0,
+            "precision": 0.80000000004
+        },
+        "mohair": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "bamboo": {
+            "acc": 0.9941860465116618,
+            "recall": 9.99999999e-10,
+            "precision": 1.0
+        },
+        "leather/suede": {
+            "acc": 0.9825581395349852,
+            "recall": 1.0,
+            "precision": 3.3333333322222223e-10
+        },
+        "denim": {
+            "acc": 0.9709302325583086,
+            "recall": 0.9333333333377778,
+            "precision": 0.7777777777901235
+        },
+        "polyester": {
+            "acc": 0.9127906976749256,
+            "recall": 0.4545454545950413,
+            "precision": 0.35714285718877553
+        },
+        "elastane/lycra/spandex": {
+            "acc": 0.9767441860466468,
+            "recall": 1.0,
+            "precision": 2.499999999375e-10
+        },
+        "gore-tex": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "satin": {
+            "acc": 0.9825581395349852,
+            "recall": 1.0,
+            "precision": 3.3333333322222223e-10
+        },
+        "velvet": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "chiffon": {
+            "acc": 0.9883720930233234,
+            "recall": 1.0,
+            "precision": 4.9999999975e-10
+        },
+        "tulle": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "organza": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "tencel": {
+            "acc": 0.9941860465116618,
+            "recall": 1.0,
+            "precision": 9.99999999e-10
+        },
+        "modal": {
+            "acc": 0.9941860465116618,
+            "recall": 1.0,
+            "precision": 9.99999999e-10
+        },
+        "shearling": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "recycled": {
+            "acc": 0.9767441860466468,
+            "recall": 1.0,
+            "precision": 0.20000000016000002
+        },
+        "water-resistent": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "organic": {
+            "acc": 0.8837209302332342,
+            "recall": 1.0,
+            "precision": 4.9999999997500004e-11
+        },
+        "knit": {
+            "acc": 0.9534883720932936,
+            "recall": 0.50000000025,
+            "precision": 0.125000000109375
+        },
+        "down feather": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "fur/faux fur": {
+            "acc": 0.9941860465116618,
+            "recall": 9.99999999e-10,
+            "precision": 1.0
+        },
+        "hemp": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "jute": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "suede": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "acrylic/polyacrylic": {
+            "acc": 0.9825581395349852,
+            "recall": 0.33333333355555556,
+            "precision": 0.50000000025
+        },
+        "viscose/rayon": {
+            "acc": 0.9767441860466468,
+            "recall": 0.6666666667037037,
+            "precision": 0.8571428571632653
+        },
+        "latex": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "pvc": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "teflon/ptfe": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "kevlar": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "neoprene": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "rubber": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "fleece": {
+            "acc": 0.9941860465116618,
+            "recall": 1.0,
+            "precision": 9.99999999e-10
+        },
+        "brocade": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "polyurethane": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "nylon/polyamide": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "ecovero": {
+            "acc": 0.9825581395349852,
+            "recall": 1.0,
+            "precision": 3.3333333322222223e-10
+        },
+        "nan": {
+            "acc": 0.918604651163264,
+            "recall": 1.0,
+            "precision": 7.142857142346939e-11
+        }
+    },
+    "pattern": {
+        "all_acc": 0.7790697674418605,
+        "solid": {
+            "acc": 0.8313953488381896,
+            "recall": 0.8956521739139508,
+            "precision": 0.8583333333345139
+        },
+        "vertical stripes": {
+            "acc": 0.9941860465116618,
+            "recall": 0.6666666667777777,
+            "precision": 1.0
+        },
+        "horizontal stripes": {
+            "acc": 0.9883720930233234,
+            "recall": 4.9999999975e-10,
+            "precision": 1.0
+        },
+        "diagonal stripes": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "sheer": {
+            "acc": 0.9883720930233234,
+            "recall": 1.0,
+            "precision": 4.9999999975e-10
+        },
+        "check": {
+            "acc": 0.9825581395349852,
+            "recall": 0.571428571489796,
+            "precision": 1.0
+        },
+        "polka dot": {
+            "acc": 0.9883720930233234,
+            "recall": 0.6666666667777777,
+            "precision": 0.6666666667777777
+        },
+        "houndstooth": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "paisley": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "argyle": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "chevron": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "floral": {
+            "acc": 0.9825581395349852,
+            "recall": 0.9333333333377778,
+            "precision": 0.8750000000078125
+        },
+        "ikat": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "damask": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "geometric": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "camouflage": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "animal print (e.g., leopard, zebra, snake)": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "toile": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "fleur-de-lis": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "jacquard": {
+            "acc": 0.9941860465116618,
+            "recall": 1.0,
+            "precision": 9.99999999e-10
+        },
+        "herringbone": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "fair isle": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "lace": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "light indigo wash": {
+            "acc": 0.9709302325583086,
+            "recall": 0.2857142858163265,
+            "precision": 1.0
+        },
+        "medium indigo wash": {
+            "acc": 0.9767441860466468,
+            "recall": 2.499999999375e-10,
+            "precision": 1.0
+        },
+        "dark indigo wash": {
+            "acc": 0.9883720930233234,
+            "recall": 4.9999999975e-10,
+            "precision": 1.0
+        },
+        "bleach indigo wash": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "plaid": {
+            "acc": 0.9883720930233234,
+            "recall": 0.50000000025,
+            "precision": 0.50000000025
+        },
+        "dusty": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "graphic": {
+            "acc": 0.9883720930233234,
+            "recall": 0.33333333355555556,
+            "precision": 1.0
+        },
+        "color block": {
+            "acc": 0.9941860465116618,
+            "recall": 0.50000000025,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 0.918604651163264,
+            "recall": 1.0,
+            "precision": 7.142857142346939e-11
+        }
+    },
+    "trends": {
+        "all_acc": 0.31976744186046513,
+        "cottagecore": {
+            "acc": 0.819767441861513,
+            "recall": 0.25000000003125,
+            "precision": 0.3157894737202216
+        },
+        "y2k": {
+            "acc": 0.9534883720932936,
+            "recall": 1.666666666388889e-10,
+            "precision": 4.9999999975e-10
+        },
+        "90s grunge": {
+            "acc": 0.9534883720932936,
+            "recall": 0.20000000016000002,
+            "precision": 0.20000000016000002
+        },
+        "regency-era influences": {
+            "acc": 0.9883720930233234,
+            "recall": 4.9999999975e-10,
+            "precision": 1.0
+        },
+        "gender-fluid": {
+            "acc": 0.7209302325597621,
+            "recall": 0.20000000016000002,
+            "precision": 0.02222222224395062
+        },
+        "futuristic fashion": {
+            "acc": 0.9941860465116618,
+            "recall": 9.99999999e-10,
+            "precision": 1.0
+        },
+        "quiet luxury": {
+            "acc": 0.6918604651180706,
+            "recall": 0.8392857142885842,
+            "precision": 0.5164835164888298
+        },
+        "tomato-girl summer": {
+            "acc": 0.9825581395349852,
+            "recall": 3.3333333322222223e-10,
+            "precision": 1.0
+        },
+        "mermaid-core": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "barbie-core": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "ballet-core": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "none": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "naked trend": {
+            "acc": 0.9767441860466468,
+            "recall": 2.499999999375e-10,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 0.5872093023279814,
+            "recall": 1.6393442622682076e-11,
+            "precision": 9.999999999000001e-11
+        }
+    },
+    "process": {
+        "all_acc": 0.23255813953488372,
+        "crochet": {
+            "acc": 0.7558139534897917,
+            "recall": 0.7692307692485207,
+            "precision": 0.20408163266930449
+        },
+        "embroidery": {
+            "acc": 0.9069767441865874,
+            "recall": 0.6666666667777777,
+            "precision": 0.11764705887543253
+        },
+        "wrinkle": {
+            "acc": 0.7732558139548067,
+            "recall": 0.5555555555802469,
+            "precision": 0.24390243904283168
+        },
+        "flocking": {
+            "acc": 0.9709302325583086,
+            "recall": 0.6666666667777777,
+            "precision": 0.33333333344444444
+        },
+        "tie dyeing": {
+            "acc": 0.7965116279081598,
+            "recall": 0.8333333333611112,
+            "precision": 0.12820512822748192
+        },
+        "splicing": {
+            "acc": 0.9709302325583086,
+            "recall": 2.499999999375e-10,
+            "precision": 9.99999999e-10
+        },
+        "laser cutting": {
+            "acc": 0.9825581395349852,
+            "recall": 1.0,
+            "precision": 3.3333333322222223e-10
+        },
+        "ripped": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "raw edge": {
+            "acc": 0.9709302325583086,
+            "recall": 4.9999999975e-10,
+            "precision": 3.3333333322222223e-10
+        },
+        "nan": {
+            "acc": 0.3662790697711263,
+            "recall": 0.09322033899073542,
+            "precision": 0.8461538461656805
+        }
+    },
+    "occasion": {
+        "all_acc": 0.4476744186046512,
+        "casual day out": {
+            "acc": 0.6686046511647175,
+            "recall": 0.8292682926850089,
+            "precision": 0.6126126126161026
+        },
+        "vacations/travel": {
+            "acc": 0.9476744186049554,
+            "recall": 1.0,
+            "precision": 0.3076923077455621
+        },
+        "weddings": {
+            "acc": 0.9825581395349852,
+            "recall": 1.0,
+            "precision": 3.3333333322222223e-10
+        },
+        "work/job interviews": {
+            "acc": 0.9825581395349852,
+            "recall": 1.0,
+            "precision": 3.3333333322222223e-10
+        },
+        "photoshoots/headshots": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "milestones (graduation/retirement/promotions parties)": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "galas/fundraisers/red carpet events": {
+            "acc": 0.9825581395349852,
+            "recall": 9.99999999e-10,
+            "precision": 4.9999999975e-10
+        },
+        "date night": {
+            "acc": 0.9476744186049554,
+            "recall": 0.33333333355555556,
+            "precision": 0.125000000109375
+        },
+        "a night out": {
+            "acc": 0.9825581395349852,
+            "recall": 9.99999999e-10,
+            "precision": 4.9999999975e-10
+        },
+        "gym/workout": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "outdoor activity": {
+            "acc": 0.959302325581632,
+            "recall": 9.99999999e-10,
+            "precision": 1.666666666388889e-10
+        },
+        "festival/concert": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "pregnancy & post-pregnancy": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "home": {
+            "acc": 0.9476744186049554,
+            "recall": 1.0,
+            "precision": 1.1111111109876544e-10
+        },
+        "sleep": {
+            "acc": 0.9941860465116618,
+            "recall": 1.0,
+            "precision": 9.99999999e-10
+        },
+        "nan": {
+            "acc": 0.9418604651166171,
+            "recall": 1.0,
+            "precision": 9.999999999000001e-11
+        }
+    },
+    "location": {
+        "all_acc": 0.5406976744186046,
+        "city/urban": {
+            "acc": 0.6046511627929962,
+            "recall": 0.6896551724164685,
+            "precision": 0.7142857142882653
+        },
+        "country": {
+            "acc": 0.9127906976749256,
+            "recall": 0.75000000003125,
+            "precision": 0.3157894737202216
+        },
+        "beach": {
+            "acc": 0.8953488372099108,
+            "recall": 1.0,
+            "precision": 0.2800000000288
+        },
+        "mountains": {
+            "acc": 0.9767441860466468,
+            "recall": 1.0,
+            "precision": 2.499999999375e-10
+        },
+        "desert": {
+            "acc": 0.9883720930233234,
+            "recall": 1.0,
+            "precision": 4.9999999975e-10
+        },
+        "nan": {
+            "acc": 0.9418604651166171,
+            "recall": 1.0,
+            "precision": 9.999999999000001e-11
+        }
+    },
+    "style": {
+        "all_acc": 0.46511627906976744,
+        "classic": {
+            "acc": 0.7906976744198215,
+            "recall": 0.8000000000026666,
+            "precision": 0.7407407407439414
+        },
+        "bohemian (boho)": {
+            "acc": 0.8837209302332342,
+            "recall": 0.6666666667222222,
+            "precision": 0.1818181818553719
+        },
+        "preppy": {
+            "acc": 0.9883720930233234,
+            "recall": 9.99999999e-10,
+            "precision": 9.99999999e-10
+        },
+        "grunge": {
+            "acc": 0.9883720930233234,
+            "recall": 4.9999999975e-10,
+            "precision": 1.0
+        },
+        "romantic": {
+            "acc": 0.9360465116282788,
+            "recall": 0.30000000007,
+            "precision": 0.42857142865306125
+        },
+        "glam": {
+            "acc": 0.9418604651166171,
+            "recall": 0.33333333355555556,
+            "precision": 0.11111111120987655
+        },
+        "trendy": {
+            "acc": 0.8488372093032044,
+            "recall": 0.4444444444753086,
+            "precision": 0.3333333333611111
+        },
+        "vintage": {
+            "acc": 0.9476744186049554,
+            "recall": 0.16666666680555556,
+            "precision": 0.20000000016000002
+        },
+        "edgy": {
+            "acc": 0.9883720930233234,
+            "recall": 1.0,
+            "precision": 4.9999999975e-10
+        },
+        "minimalist": {
+            "acc": 0.9651162790699702,
+            "recall": 4.9999999975e-10,
+            "precision": 2.499999999375e-10
+        },
+        "active": {
+            "acc": 0.9883720930233234,
+            "recall": 1.0,
+            "precision": 0.500000000125
+        },
+        "urban": {
+            "acc": 0.959302325581632,
+            "recall": 1.428571428367347e-10,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 0.9069767441865874,
+            "recall": 0.20000000016000002,
+            "precision": 0.07692307699408285
+        }
+    },
+    "season": {
+        "all_acc": 0.48255813953488375,
+        "spring": {
+            "acc": 0.9941860465116618,
+            "recall": 9.99999999e-10,
+            "precision": 1.0
+        },
+        "summer": {
+            "acc": 0.8023255813964981,
+            "recall": 0.9565217391313799,
+            "precision": 0.5789473684265928
+        },
+        "fall": {
+            "acc": 0.7325581395364387,
+            "recall": 0.7777777777860082,
+            "precision": 0.34426229509271705
+        },
+        "winter": {
+            "acc": 0.9127906976749256,
+            "recall": 0.6923076923195266,
+            "precision": 0.7200000000112
+        },
+        "nan": {
+            "acc": 0.9302325581399405,
+            "recall": 4.9999999975e-10,
+            "precision": 9.999999999000001e-11
+        }
+    },
+    "fit": {
+        "all_acc": 0.5290697674418605,
+        "regular": {
+            "acc": 0.6744186046530558,
+            "recall": 0.6666666666711111,
+            "precision": 0.6172839506220088
+        },
+        "tailored/slim": {
+            "acc": 0.8779069767448959,
+            "recall": 0.5714285714489796,
+            "precision": 0.5000000000208333
+        },
+        "skinny": {
+            "acc": 0.959302325581632,
+            "recall": 0.14285714297959184,
+            "precision": 0.50000000025
+        },
+        "boxy": {
+            "acc": 0.9767441860466468,
+            "recall": 0.500000000125,
+            "precision": 0.500000000125
+        },
+        "oversized": {
+            "acc": 0.9127906976749256,
+            "recall": 0.7272727272975207,
+            "precision": 0.40000000003
+        },
+        "relaxed": {
+            "acc": 0.7441860465131152,
+            "recall": 0.3396226415218939,
+            "precision": 0.6666666666790123
+        },
+        "nan": {
+            "acc": 0.9127906976749256,
+            "recall": 9.99999999e-10,
+            "precision": 7.142857142346939e-11
+        }
+    },
+    "event": {
+        "all_acc": 0.29069767441860467,
+        "new year": {
+            "acc": 0.860465116279881,
+            "recall": 0.6666666666888889,
+            "precision": 0.3448275862294887
+        },
+        "valentine's day": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "super bowl": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "spring break": {
+            "acc": 0.918604651163264,
+            "recall": 0.3333333334074074,
+            "precision": 0.27272727279338843
+        },
+        "easter day": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "music festival": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "summer new arrival": {
+            "acc": 0.7034883720947472,
+            "recall": 1.0,
+            "precision": 0.23880597016061483
+        },
+        "summer sale": {
+            "acc": 0.7209302325597621,
+            "recall": 2.0833333332899308e-11,
+            "precision": 1.0
+        },
+        "back to school": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "autumn new arrival": {
+            "acc": 0.7965116279081598,
+            "recall": 0.23255813955273122,
+            "precision": 0.8333333333472223
+        },
+        "halloween": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "winter new arrival": {
+            "acc": 0.8779069767448959,
+            "recall": 0.6923076923313609,
+            "precision": 0.3461538461789941
+        },
+        "thanksgiving": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "black friday": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "cyber monday": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "ski season": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "christmas": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "end of year sale": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 0.7325581395364387,
+            "recall": 0.08695652177882798,
+            "precision": 0.07407407410836762
+        }
+    }
+}

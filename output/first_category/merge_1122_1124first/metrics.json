@@ -1,0 +1,213 @@
+{
+    "first category": {
+        "all_acc": 0.8733153638814016,
+        "set": {
+            "acc": 0.9649595687332009,
+            "recall": 1.0,
+            "precision": 0.2777777777978395
+        },
+        "dresses": {
+            "acc": 0.974393530997339,
+            "recall": 0.9826086956523251,
+            "precision": 0.8692307692317752
+        },
+        "overcoat": {
+            "acc": 0.9218328840971404,
+            "recall": 0.147058823541955,
+            "precision": 1.0
+        },
+        "jumpsuit": {
+            "acc": 0.9973045822102462,
+            "recall": 0.33333333355555556,
+            "precision": 1.0
+        },
+        "bottoms": {
+            "acc": 0.9730458221024622,
+            "recall": 0.962546816479541,
+            "precision": 0.962546816479541
+        },
+        "tops": {
+            "acc": 0.9164420485176328,
+            "recall": 0.9211469534053005,
+            "precision": 0.8653198653203188
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "set": {
+        "all_acc": 0.9,
+        "skirt set": {
+            "acc": 0.90000000001,
+            "recall": 1.0,
+            "precision": 0.50000000025
+        },
+        "pants set": {
+            "acc": 0.90000000001,
+            "recall": 0.8888888889012345,
+            "precision": 1.0
+        },
+        "shorts set": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "dresses": {
+        "all_acc": 0.3008849557522124,
+        "long dresses": {
+            "acc": 0.6194690265520401,
+            "recall": 0.08695652175897921,
+            "precision": 0.80000000004
+        },
+        "maxi dresses": {
+            "acc": 0.8672566371693163,
+            "recall": 0.5555555555802469,
+            "precision": 0.5882352941418685
+        },
+        "short dresses": {
+            "acc": 0.8407079646031795,
+            "recall": 0.39285714287882656,
+            "precision": 0.9166666666736111
+        },
+        "midi dresses": {
+            "acc": 0.37168141593476384,
+            "recall": 0.90000000001,
+            "precision": 0.11392405064412754
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "overcoat": {
+        "all_acc": 0.0,
+        "jacket": {
+            "acc": 9.999999999000001e-11,
+            "recall": 1.0,
+            "precision": 9.999999999000001e-11
+        },
+        "outerwear": {
+            "acc": 9.999999999000001e-11,
+            "recall": 9.999999999000001e-11,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "jumpsuit": {
+        "all_acc": 1.0,
+        "jumpsuit": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "bottoms": {
+        "all_acc": 1.0,
+        "skirt": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "shorts": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "pants": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    },
+    "tops": {
+        "all_acc": 0.7120622568093385,
+        "brassiere": {
+            "acc": 0.9961089494163575,
+            "recall": 9.99999999e-10,
+            "precision": 1.0
+        },
+        "sweatshirt": {
+            "acc": 0.8715953307397992,
+            "recall": 0.9090909090950413,
+            "precision": 0.39215686275701656
+        },
+        "sweater": {
+            "acc": 0.9221789883271511,
+            "recall": 0.9782608695654537,
+            "precision": 0.8333333333348766
+        },
+        "tube": {
+            "acc": 0.9883268482490727,
+            "recall": 3.3333333322222223e-10,
+            "precision": 1.0
+        },
+        "camisole": {
+            "acc": 0.9766536964981453,
+            "recall": 0.14285714297959184,
+            "precision": 1.0
+        },
+        "vest": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "tank top": {
+            "acc": 0.9766536964981453,
+            "recall": 0.9444444444475308,
+            "precision": 0.7727272727376033
+        },
+        "corset": {
+            "acc": 0.9961089494163575,
+            "recall": 9.99999999e-10,
+            "precision": 1.0
+        },
+        "bodysuit": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        },
+        "tunic": {
+            "acc": 0.9961089494163575,
+            "recall": 9.99999999e-10,
+            "precision": 1.0
+        },
+        "blouse": {
+            "acc": 0.8715953307397992,
+            "recall": 0.319148936184699,
+            "precision": 0.9375000000039062
+        },
+        "t-shirt": {
+            "acc": 0.8365758754870172,
+            "recall": 0.5306122449075386,
+            "precision": 0.5777777777871606
+        },
+        "nan": {
+            "acc": 1.0,
+            "recall": 1.0,
+            "precision": 1.0
+        }
+    }
+}
